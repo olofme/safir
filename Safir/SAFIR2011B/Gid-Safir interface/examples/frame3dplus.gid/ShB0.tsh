@@ -1,0 +1,26 @@
+Shell für Betonplatte 200 mm
+* t = 200 mm
+* Heating = TemB0.txt
+
+ THICKNESS    0.20
+  MATERIAL    1
+    REBARS    4
+  MATERIAL    2
+   SECTION    0.0015
+     LEVEL    -0.065
+     ANGLE    90.0
+  MATERIAL    2
+   SECTION    0.0015
+     LEVEL    -0.065
+     ANGLE    0.0
+  MATERIAL    2
+   SECTION    0.0015
+     LEVEL    0.065
+     ANGLE    90.0
+  MATERIAL    2
+   SECTION    0.0015
+     LEVEL    0.065
+     ANGLE    0.0
+      COLD
+
+  

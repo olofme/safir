@@ -1,0 +1,1280 @@
+ SHELL:    1, SURF: 1, THICK:  1   ex: -0.000173   ey: -0.000329   exy: -0.000028
+ SHELL:    1, SURF: 1, THICK:  1   Sx:     -0.04   Sy:     -3.51   Sxy:     -0.31
+ SHELL:    1, SURF: 1, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000002
+ SHELL:    1, SURF: 1, THICK:  2   Sx:      2.60   Sy:      1.95   Sxy:     -0.02
+ SHELL:    1, SURF: 1, THICK:  3   ex: -0.000073   ey:  0.000029   exy:  0.000024
+ SHELL:    1, SURF: 1, THICK:  3   Sx:     -2.08   Sy:      0.45   Sxy:      0.30
+ SHELL:    1, SURF: 1, REBAR:  1  Strain: -0.000441  Stress:  -92.60
+ SHELL:    1, SURF: 1, REBAR:  2  Strain: -0.000087  Stress:  -18.21
+ SHELL:    1, SURF: 2, THICK:  1   ex: -0.000154   ey: -0.000299   exy: -0.000033
+ SHELL:    1, SURF: 2, THICK:  1   Sx:      0.64   Sy:     -2.57   Sxy:     -0.37
+ SHELL:    1, SURF: 2, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000001
+ SHELL:    1, SURF: 2, THICK:  2   Sx:      2.60   Sy:      1.97   Sxy:     -0.01
+ SHELL:    1, SURF: 2, THICK:  3   ex: -0.000091   ey:  0.000000   exy:  0.000031
+ SHELL:    1, SURF: 2, THICK:  3   Sx:     -2.85   Sy:     -0.56   Sxy:      0.39
+ SHELL:    1, SURF: 2, REBAR:  1  Strain: -0.000421  Stress:  -88.34
+ SHELL:    1, SURF: 2, REBAR:  2  Strain: -0.000107  Stress:  -22.52
+ SHELL:    1, SURF: 3, THICK:  1   ex: -0.000170   ey: -0.000284   exy: -0.000015
+ SHELL:    1, SURF: 3, THICK:  1   Sx:      0.27   Sy:     -2.26   Sxy:     -0.17
+ SHELL:    1, SURF: 3, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000002
+ SHELL:    1, SURF: 3, THICK:  2   Sx:      2.61   Sy:      1.95   Sxy:     -0.02
+ SHELL:    1, SURF: 3, THICK:  3   ex: -0.000074   ey: -0.000016   exy:  0.000012
+ SHELL:    1, SURF: 3, THICK:  3   Sx:     -2.42   Sy:     -0.95   Sxy:      0.15
+ SHELL:    1, SURF: 3, REBAR:  1  Strain: -0.000439  Stress:  -92.09
+ SHELL:    1, SURF: 3, REBAR:  2  Strain: -0.000089  Stress:  -18.61
+ SHELL:    1, SURF: 4, THICK:  1   ex: -0.000162   ey: -0.000280   exy: -0.000021
+ SHELL:    1, SURF: 4, THICK:  1   Sx:      0.51   Sy:     -2.10   Sxy:     -0.23
+ SHELL:    1, SURF: 4, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000001
+ SHELL:    1, SURF: 4, THICK:  2   Sx:      2.61   Sy:      1.97   Sxy:     -0.01
+ SHELL:    1, SURF: 4, THICK:  3   ex: -0.000082   ey: -0.000018   exy:  0.000019
+ SHELL:    1, SURF: 4, THICK:  3   Sx:     -2.69   Sy:     -1.09   Sxy:      0.23
+ SHELL:    1, SURF: 4, REBAR:  1  Strain: -0.000430  Stress:  -90.25
+ SHELL:    1, SURF: 4, REBAR:  2  Strain: -0.000098  Stress:  -20.51
+ SHELL:    2, SURF: 1, THICK:  1   ex: -0.000183   ey: -0.000325   exy: -0.000094
+ SHELL:    2, SURF: 1, THICK:  1   Sx:     -0.30   Sy:     -3.45   Sxy:     -1.05
+ SHELL:    2, SURF: 1, THICK:  2   ex:  0.000075   ey:  0.000047   exy: -0.000003
+ SHELL:    2, SURF: 1, THICK:  2   Sx:      2.59   Sy:      1.91   Sxy:     -0.04
+ SHELL:    2, SURF: 1, THICK:  3   ex: -0.000063   ey:  0.000023   exy:  0.000088
+ SHELL:    2, SURF: 1, THICK:  3   Sx:     -1.82   Sy:      0.32   Sxy:      1.09
+ SHELL:    2, SURF: 1, REBAR:  1  Strain: -0.000452  Stress:  -94.92
+ SHELL:    2, SURF: 1, REBAR:  2  Strain: -0.000076  Stress:  -15.96
+ SHELL:    2, SURF: 2, THICK:  1   ex: -0.000157   ey: -0.000312   exy: -0.000087
+ SHELL:    2, SURF: 2, THICK:  1   Sx:      0.49   Sy:     -2.95   Sxy:     -0.97
+ SHELL:    2, SURF: 2, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000003
+ SHELL:    2, SURF: 2, THICK:  2   Sx:      2.59   Sy:      1.94   Sxy:     -0.03
+ SHELL:    2, SURF: 2, THICK:  3   ex: -0.000089   ey:  0.000012   exy:  0.000082
+ SHELL:    2, SURF: 2, THICK:  3   Sx:     -2.70   Sy:     -0.18   Sxy:      1.02
+ SHELL:    2, SURF: 2, REBAR:  1  Strain: -0.000424  Stress:  -88.96
+ SHELL:    2, SURF: 2, REBAR:  2  Strain: -0.000105  Stress:  -21.97
+ SHELL:    2, SURF: 3, THICK:  1   ex: -0.000173   ey: -0.000353   exy: -0.000078
+ SHELL:    2, SURF: 3, THICK:  1   Sx:     -0.19   Sy:     -4.18   Sxy:     -0.87
+ SHELL:    2, SURF: 3, THICK:  2   ex:  0.000075   ey:  0.000046   exy: -0.000003
+ SHELL:    2, SURF: 3, THICK:  2   Sx:      2.60   Sy:      1.91   Sxy:     -0.03
+ SHELL:    2, SURF: 3, THICK:  3   ex: -0.000072   ey:  0.000051   exy:  0.000073
+ SHELL:    2, SURF: 3, THICK:  3   Sx:     -1.94   Sy:      1.12   Sxy:      0.91
+ SHELL:    2, SURF: 3, REBAR:  1  Strain: -0.000442  Stress:  -92.73
+ SHELL:    2, SURF: 3, REBAR:  2  Strain: -0.000086  Stress:  -18.10
+ SHELL:    2, SURF: 4, THICK:  1   ex: -0.000151   ey: -0.000318   exy: -0.000071
+ SHELL:    2, SURF: 4, THICK:  1   Sx:      0.61   Sy:     -3.11   Sxy:     -0.79
+ SHELL:    2, SURF: 4, THICK:  2   ex:  0.000075   ey:  0.000047   exy: -0.000002
+ SHELL:    2, SURF: 4, THICK:  2   Sx:      2.60   Sy:      1.94   Sxy:     -0.02
+ SHELL:    2, SURF: 4, THICK:  3   ex: -0.000094   ey:  0.000018   exy:  0.000067
+ SHELL:    2, SURF: 4, THICK:  3   Sx:     -2.83   Sy:     -0.02   Sxy:      0.84
+ SHELL:    2, SURF: 4, REBAR:  1  Strain: -0.000418  Stress:  -87.69
+ SHELL:    2, SURF: 4, REBAR:  2  Strain: -0.000110  Stress:  -23.19
+ SHELL:    3, SURF: 1, THICK:  1   ex: -0.000191   ey: -0.000326   exy: -0.000132
+ SHELL:    3, SURF: 1, THICK:  1   Sx:     -0.54   Sy:     -3.54   Sxy:     -1.47
+ SHELL:    3, SURF: 1, THICK:  2   ex:  0.000074   ey:  0.000047   exy: -0.000005
+ SHELL:    3, SURF: 1, THICK:  2   Sx:      2.59   Sy:      1.92   Sxy:     -0.05
+ SHELL:    3, SURF: 1, THICK:  3   ex: -0.000055   ey:  0.000025   exy:  0.000123
+ SHELL:    3, SURF: 1, THICK:  3   Sx:     -1.56   Sy:      0.43   Sxy:      1.54
+ SHELL:    3, SURF: 1, REBAR:  1  Strain: -0.000461  Stress:  -96.85
+ SHELL:    3, SURF: 1, REBAR:  2  Strain: -0.000067  Stress:  -14.15
+ SHELL:    3, SURF: 2, THICK:  1   ex: -0.000166   ey: -0.000305   exy: -0.000124
+ SHELL:    3, SURF: 2, THICK:  1   Sx:      0.26   Sy:     -2.82   Sxy:     -1.37
+ SHELL:    3, SURF: 2, THICK:  2   ex:  0.000074   ey:  0.000048   exy: -0.000004
+ SHELL:    3, SURF: 2, THICK:  2   Sx:      2.59   Sy:      1.95   Sxy:     -0.04
+ SHELL:    3, SURF: 2, THICK:  3   ex: -0.000080   ey:  0.000006   exy:  0.000116
+ SHELL:    3, SURF: 2, THICK:  3   Sx:     -2.46   Sy:     -0.32   Sxy:      1.45
+ SHELL:    3, SURF: 2, REBAR:  1  Strain: -0.000434  Stress:  -91.16
+ SHELL:    3, SURF: 2, REBAR:  2  Strain: -0.000095  Stress:  -19.90
+ SHELL:    3, SURF: 3, THICK:  1   ex: -0.000184   ey: -0.000330   exy: -0.000121
+ SHELL:    3, SURF: 3, THICK:  1   Sx:     -0.37   Sy:     -3.62   Sxy:     -1.35
+ SHELL:    3, SURF: 3, THICK:  2   ex:  0.000075   ey:  0.000047   exy: -0.000004
+ SHELL:    3, SURF: 3, THICK:  2   Sx:      2.59   Sy:      1.92   Sxy:     -0.05
+ SHELL:    3, SURF: 3, THICK:  3   ex: -0.000061   ey:  0.000029   exy:  0.000114
+ SHELL:    3, SURF: 3, THICK:  3   Sx:     -1.74   Sy:      0.51   Sxy:      1.42
+ SHELL:    3, SURF: 3, REBAR:  1  Strain: -0.000454  Stress:  -95.28
+ SHELL:    3, SURF: 3, REBAR:  2  Strain: -0.000075  Stress:  -15.65
+ SHELL:    3, SURF: 4, THICK:  1   ex: -0.000158   ey: -0.000319   exy: -0.000113
+ SHELL:    3, SURF: 4, THICK:  1   Sx:      0.42   Sy:     -3.15   Sxy:     -1.25
+ SHELL:    3, SURF: 4, THICK:  2   ex:  0.000074   ey:  0.000048   exy: -0.000003
+ SHELL:    3, SURF: 4, THICK:  2   Sx:      2.59   Sy:      1.94   Sxy:     -0.04
+ SHELL:    3, SURF: 4, THICK:  3   ex: -0.000088   ey:  0.000019   exy:  0.000107
+ SHELL:    3, SURF: 4, THICK:  3   Sx:     -2.64   Sy:      0.04   Sxy:      1.33
+ SHELL:    3, SURF: 4, REBAR:  1  Strain: -0.000425  Stress:  -89.20
+ SHELL:    3, SURF: 4, REBAR:  2  Strain: -0.000104  Stress:  -21.80
+ SHELL:    4, SURF: 1, THICK:  1   ex: -0.000207   ey: -0.000284   exy: -0.000185
+ SHELL:    4, SURF: 1, THICK:  1   Sx:     -0.74   Sy:     -2.45   Sxy:     -2.06
+ SHELL:    4, SURF: 1, THICK:  2   ex:  0.000074   ey:  0.000048   exy: -0.000006
+ SHELL:    4, SURF: 1, THICK:  2   Sx:      2.59   Sy:      1.95   Sxy:     -0.07
+ SHELL:    4, SURF: 1, THICK:  3   ex: -0.000039   ey: -0.000016   exy:  0.000174
+ SHELL:    4, SURF: 1, THICK:  3   Sx:     -1.32   Sy:     -0.74   Sxy:      2.17
+ SHELL:    4, SURF: 1, REBAR:  1  Strain: -0.000479  Stress: -100.51
+ SHELL:    4, SURF: 1, REBAR:  2  Strain: -0.000050  Stress:  -10.47
+ SHELL:    4, SURF: 2, THICK:  1   ex: -0.000186   ey: -0.000279   exy: -0.000168
+ SHELL:    4, SURF: 2, THICK:  1   Sx:     -0.14   Sy:     -2.21   Sxy:     -1.86
+ SHELL:    4, SURF: 2, THICK:  2   ex:  0.000074   ey:  0.000048   exy: -0.000005
+ SHELL:    4, SURF: 2, THICK:  2   Sx:      2.59   Sy:      1.97   Sxy:     -0.06
+ SHELL:    4, SURF: 2, THICK:  3   ex: -0.000060   ey: -0.000019   exy:  0.000158
+ SHELL:    4, SURF: 2, THICK:  3   Sx:     -2.00   Sy:     -0.97   Sxy:      1.98
+ SHELL:    4, SURF: 2, REBAR:  1  Strain: -0.000455  Stress:  -95.65
+ SHELL:    4, SURF: 2, REBAR:  2  Strain: -0.000073  Stress:  -15.39
+ SHELL:    4, SURF: 3, THICK:  1   ex: -0.000194   ey: -0.000325   exy: -0.000178
+ SHELL:    4, SURF: 3, THICK:  1   Sx:     -0.60   Sy:     -3.52   Sxy:     -1.98
+ SHELL:    4, SURF: 3, THICK:  2   ex:  0.000074   ey:  0.000048   exy: -0.000005
+ SHELL:    4, SURF: 3, THICK:  2   Sx:      2.59   Sy:      1.95   Sxy:     -0.06
+ SHELL:    4, SURF: 3, THICK:  3   ex: -0.000052   ey:  0.000025   exy:  0.000168
+ SHELL:    4, SURF: 3, THICK:  3   Sx:     -1.49   Sy:      0.44   Sxy:      2.09
+ SHELL:    4, SURF: 3, REBAR:  1  Strain: -0.000464  Stress:  -97.46
+ SHELL:    4, SURF: 3, REBAR:  2  Strain: -0.000065  Stress:  -13.56
+ SHELL:    4, SURF: 4, THICK:  1   ex: -0.000171   ey: -0.000305   exy: -0.000160
+ SHELL:    4, SURF: 4, THICK:  1   Sx:      0.12   Sy:     -2.84   Sxy:     -1.78
+ SHELL:    4, SURF: 4, THICK:  2   ex:  0.000074   ey:  0.000048   exy: -0.000004
+ SHELL:    4, SURF: 4, THICK:  2   Sx:      2.59   Sy:      1.96   Sxy:     -0.05
+ SHELL:    4, SURF: 4, THICK:  3   ex: -0.000075   ey:  0.000006   exy:  0.000152
+ SHELL:    4, SURF: 4, THICK:  3   Sx:     -2.30   Sy:     -0.27   Sxy:      1.90
+ SHELL:    4, SURF: 4, REBAR:  1  Strain: -0.000440  Stress:  -92.31
+ SHELL:    4, SURF: 4, REBAR:  2  Strain: -0.000089  Stress:  -18.76
+ SHELL:    5, SURF: 1, THICK:  1   ex: -0.000138   ey: -0.000286   exy: -0.000057
+ SHELL:    5, SURF: 1, THICK:  1   Sx:      1.16   Sy:     -2.13   Sxy:     -0.63
+ SHELL:    5, SURF: 1, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000002
+ SHELL:    5, SURF: 1, THICK:  2   Sx:      2.64   Sy:      1.99   Sxy:     -0.03
+ SHELL:    5, SURF: 1, THICK:  3   ex: -0.000106   ey: -0.000011   exy:  0.000052
+ SHELL:    5, SURF: 1, THICK:  3   Sx:     -3.37   Sy:     -1.02   Sxy:      0.65
+ SHELL:    5, SURF: 1, REBAR:  1  Strain: -0.000403  Stress:  -84.53
+ SHELL:    5, SURF: 1, REBAR:  2  Strain: -0.000123  Stress:  -25.85
+ SHELL:    5, SURF: 2, THICK:  1   ex: -0.000124   ey: -0.000285   exy: -0.000060
+ SHELL:    5, SURF: 2, THICK:  1   Sx:      1.53   Sy:     -2.03   Sxy:     -0.66
+ SHELL:    5, SURF: 2, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000002
+ SHELL:    5, SURF: 2, THICK:  2   Sx:      2.64   Sy:      1.99   Sxy:     -0.02
+ SHELL:    5, SURF: 2, THICK:  3   ex: -0.000119   ey: -0.000012   exy:  0.000057
+ SHELL:    5, SURF: 2, THICK:  3   Sx:     -3.80   Sy:     -1.13   Sxy:      0.71
+ SHELL:    5, SURF: 2, REBAR:  1  Strain: -0.000388  Stress:  -81.45
+ SHELL:    5, SURF: 2, REBAR:  2  Strain: -0.000138  Stress:  -28.97
+ SHELL:    5, SURF: 3, THICK:  1   ex: -0.000144   ey: -0.000277   exy: -0.000058
+ SHELL:    5, SURF: 3, THICK:  1   Sx:      1.02   Sy:     -1.93   Sxy:     -0.64
+ SHELL:    5, SURF: 3, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000002
+ SHELL:    5, SURF: 3, THICK:  2   Sx:      2.63   Sy:      1.99   Sxy:     -0.03
+ SHELL:    5, SURF: 3, THICK:  3   ex: -0.000100   ey: -0.000020   exy:  0.000053
+ SHELL:    5, SURF: 3, THICK:  3   Sx:     -3.23   Sy:     -1.24   Sxy:      0.67
+ SHELL:    5, SURF: 3, REBAR:  1  Strain: -0.000410  Stress:  -86.07
+ SHELL:    5, SURF: 3, REBAR:  2  Strain: -0.000116  Stress:  -24.44
+ SHELL:    5, SURF: 4, THICK:  1   ex: -0.000124   ey: -0.000283   exy: -0.000061
+ SHELL:    5, SURF: 4, THICK:  1   Sx:      1.55   Sy:     -1.97   Sxy:     -0.68
+ SHELL:    5, SURF: 4, THICK:  2   ex:  0.000075   ey:  0.000049   exy: -0.000002
+ SHELL:    5, SURF: 4, THICK:  2   Sx:      2.63   Sy:      1.99   Sxy:     -0.02
+ SHELL:    5, SURF: 4, THICK:  3   ex: -0.000120   ey: -0.000015   exy:  0.000057
+ SHELL:    5, SURF: 4, THICK:  3   Sx:     -3.84   Sy:     -1.20   Sxy:      0.72
+ SHELL:    5, SURF: 4, REBAR:  1  Strain: -0.000387  Stress:  -81.37
+ SHELL:    5, SURF: 4, REBAR:  2  Strain: -0.000139  Stress:  -29.18
+ SHELL:    6, SURF: 1, THICK:  1   ex: -0.000141   ey: -0.000304   exy: -0.000073
+ SHELL:    6, SURF: 1, THICK:  1   Sx:      0.96   Sy:     -2.66   Sxy:     -0.81
+ SHELL:    6, SURF: 1, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000003
+ SHELL:    6, SURF: 1, THICK:  2   Sx:      2.64   Sy:      1.97   Sxy:     -0.04
+ SHELL:    6, SURF: 1, THICK:  3   ex: -0.000102   ey:  0.000006   exy:  0.000067
+ SHELL:    6, SURF: 1, THICK:  3   Sx:     -3.14   Sy:     -0.46   Sxy:      0.84
+ SHELL:    6, SURF: 1, REBAR:  1  Strain: -0.000407  Stress:  -85.44
+ SHELL:    6, SURF: 1, REBAR:  2  Strain: -0.000119  Stress:  -24.93
+ SHELL:    6, SURF: 2, THICK:  1   ex: -0.000126   ey: -0.000293   exy: -0.000069
+ SHELL:    6, SURF: 2, THICK:  1   Sx:      1.45   Sy:     -2.25   Sxy:     -0.77
+ SHELL:    6, SURF: 2, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000002
+ SHELL:    6, SURF: 2, THICK:  2   Sx:      2.64   Sy:      1.98   Sxy:     -0.03
+ SHELL:    6, SURF: 2, THICK:  3   ex: -0.000117   ey: -0.000005   exy:  0.000065
+ SHELL:    6, SURF: 2, THICK:  3   Sx:     -3.70   Sy:     -0.90   Sxy:      0.81
+ SHELL:    6, SURF: 2, REBAR:  1  Strain: -0.000390  Stress:  -81.84
+ SHELL:    6, SURF: 2, REBAR:  2  Strain: -0.000136  Stress:  -28.57
+ SHELL:    6, SURF: 3, THICK:  1   ex: -0.000136   ey: -0.000302   exy: -0.000065
+ SHELL:    6, SURF: 3, THICK:  1   Sx:      1.11   Sy:     -2.58   Sxy:     -0.73
+ SHELL:    6, SURF: 3, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000003
+ SHELL:    6, SURF: 3, THICK:  2   Sx:      2.64   Sy:      1.97   Sxy:     -0.03
+ SHELL:    6, SURF: 3, THICK:  3   ex: -0.000107   ey:  0.000004   exy:  0.000060
+ SHELL:    6, SURF: 3, THICK:  3   Sx:     -3.31   Sy:     -0.55   Sxy:      0.75
+ SHELL:    6, SURF: 3, REBAR:  1  Strain: -0.000401  Stress:  -84.20
+ SHELL:    6, SURF: 3, REBAR:  2  Strain: -0.000124  Stress:  -26.11
+ SHELL:    6, SURF: 4, THICK:  1   ex: -0.000125   ey: -0.000293   exy: -0.000062
+ SHELL:    6, SURF: 4, THICK:  1   Sx:      1.47   Sy:     -2.25   Sxy:     -0.69
+ SHELL:    6, SURF: 4, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000002
+ SHELL:    6, SURF: 4, THICK:  2   Sx:      2.64   Sy:      1.98   Sxy:     -0.02
+ SHELL:    6, SURF: 4, THICK:  3   ex: -0.000118   ey: -0.000005   exy:  0.000058
+ SHELL:    6, SURF: 4, THICK:  3   Sx:     -3.73   Sy:     -0.90   Sxy:      0.72
+ SHELL:    6, SURF: 4, REBAR:  1  Strain: -0.000389  Stress:  -81.60
+ SHELL:    6, SURF: 4, REBAR:  2  Strain: -0.000137  Stress:  -28.77
+ SHELL:    7, SURF: 1, THICK:  1   ex: -0.000153   ey: -0.000297   exy: -0.000102
+ SHELL:    7, SURF: 1, THICK:  1   Sx:      0.69   Sy:     -2.52   Sxy:     -1.14
+ SHELL:    7, SURF: 1, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000003
+ SHELL:    7, SURF: 1, THICK:  2   Sx:      2.63   Sy:      1.97   Sxy:     -0.04
+ SHELL:    7, SURF: 1, THICK:  3   ex: -0.000091   ey: -0.000002   exy:  0.000096
+ SHELL:    7, SURF: 1, THICK:  3   Sx:     -2.86   Sy:     -0.63   Sxy:      1.20
+ SHELL:    7, SURF: 1, REBAR:  1  Strain: -0.000419  Stress:  -88.00
+ SHELL:    7, SURF: 1, REBAR:  2  Strain: -0.000107  Stress:  -22.50
+ SHELL:    7, SURF: 2, THICK:  1   ex: -0.000134   ey: -0.000290   exy: -0.000093
+ SHELL:    7, SURF: 2, THICK:  1   Sx:      1.23   Sy:     -2.23   Sxy:     -1.03
+ SHELL:    7, SURF: 2, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000003
+ SHELL:    7, SURF: 2, THICK:  2   Sx:      2.63   Sy:      1.97   Sxy:     -0.03
+ SHELL:    7, SURF: 2, THICK:  3   ex: -0.000109   ey: -0.000008   exy:  0.000088
+ SHELL:    7, SURF: 2, THICK:  3   Sx:     -3.47   Sy:     -0.94   Sxy:      1.09
+ SHELL:    7, SURF: 2, REBAR:  1  Strain: -0.000399  Stress:  -83.80
+ SHELL:    7, SURF: 2, REBAR:  2  Strain: -0.000127  Stress:  -26.74
+ SHELL:    7, SURF: 3, THICK:  1   ex: -0.000144   ey: -0.000311   exy: -0.000096
+ SHELL:    7, SURF: 3, THICK:  1   Sx:      0.85   Sy:     -2.86   Sxy:     -1.07
+ SHELL:    7, SURF: 3, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000003
+ SHELL:    7, SURF: 3, THICK:  2   Sx:      2.63   Sy:      1.97   Sxy:     -0.03
+ SHELL:    7, SURF: 3, THICK:  3   ex: -0.000099   ey:  0.000012   exy:  0.000091
+ SHELL:    7, SURF: 3, THICK:  3   Sx:     -3.03   Sy:     -0.24   Sxy:      1.13
+ SHELL:    7, SURF: 3, REBAR:  1  Strain: -0.000410  Stress:  -86.03
+ SHELL:    7, SURF: 3, REBAR:  2  Strain: -0.000116  Stress:  -24.41
+ SHELL:    7, SURF: 4, THICK:  1   ex: -0.000127   ey: -0.000299   exy: -0.000087
+ SHELL:    7, SURF: 4, THICK:  1   Sx:      1.38   Sy:     -2.43   Sxy:     -0.96
+ SHELL:    7, SURF: 4, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000002
+ SHELL:    7, SURF: 4, THICK:  2   Sx:      2.63   Sy:      1.97   Sxy:     -0.03
+ SHELL:    7, SURF: 4, THICK:  3   ex: -0.000116   ey:  0.000000   exy:  0.000082
+ SHELL:    7, SURF: 4, THICK:  3   Sx:     -3.63   Sy:     -0.72   Sxy:      1.03
+ SHELL:    7, SURF: 4, REBAR:  1  Strain: -0.000391  Stress:  -82.16
+ SHELL:    7, SURF: 4, REBAR:  2  Strain: -0.000135  Stress:  -28.32
+ SHELL:    8, SURF: 1, THICK:  1   ex: -0.000174   ey: -0.000280   exy: -0.000126
+ SHELL:    8, SURF: 1, THICK:  1   Sx:      0.18   Sy:     -2.17   Sxy:     -1.40
+ SHELL:    8, SURF: 1, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000004
+ SHELL:    8, SURF: 1, THICK:  2   Sx:      2.62   Sy:      1.98   Sxy:     -0.05
+ SHELL:    8, SURF: 1, THICK:  3   ex: -0.000070   ey: -0.000018   exy:  0.000118
+ SHELL:    8, SURF: 1, THICK:  3   Sx:     -2.31   Sy:     -1.00   Sxy:      1.47
+ SHELL:    8, SURF: 1, REBAR:  1  Strain: -0.000443  Stress:  -92.98
+ SHELL:    8, SURF: 1, REBAR:  2  Strain: -0.000084  Stress:  -17.73
+ SHELL:    8, SURF: 2, THICK:  1   ex: -0.000149   ey: -0.000278   exy: -0.000108
+ SHELL:    8, SURF: 2, THICK:  1   Sx:      0.89   Sy:     -1.97   Sxy:     -1.20
+ SHELL:    8, SURF: 2, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000003
+ SHELL:    8, SURF: 2, THICK:  2   Sx:      2.61   Sy:      1.97   Sxy:     -0.03
+ SHELL:    8, SURF: 2, THICK:  3   ex: -0.000096   ey: -0.000020   exy:  0.000103
+ SHELL:    8, SURF: 2, THICK:  3   Sx:     -3.13   Sy:     -1.23   Sxy:      1.28
+ SHELL:    8, SURF: 2, REBAR:  1  Strain: -0.000415  Stress:  -87.14
+ SHELL:    8, SURF: 2, REBAR:  2  Strain: -0.000113  Stress:  -23.64
+ SHELL:    8, SURF: 3, THICK:  1   ex: -0.000159   ey: -0.000298   exy: -0.000123
+ SHELL:    8, SURF: 3, THICK:  1   Sx:      0.52   Sy:     -2.58   Sxy:     -1.37
+ SHELL:    8, SURF: 3, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000004
+ SHELL:    8, SURF: 3, THICK:  2   Sx:      2.63   Sy:      1.98   Sxy:     -0.04
+ SHELL:    8, SURF: 3, THICK:  3   ex: -0.000086   ey:  0.000000   exy:  0.000116
+ SHELL:    8, SURF: 3, THICK:  3   Sx:     -2.67   Sy:     -0.54   Sxy:      1.46
+ SHELL:    8, SURF: 3, REBAR:  1  Strain: -0.000426  Stress:  -89.37
+ SHELL:    8, SURF: 3, REBAR:  2  Strain: -0.000101  Stress:  -21.22
+ SHELL:    8, SURF: 4, THICK:  1   ex: -0.000139   ey: -0.000291   exy: -0.000106
+ SHELL:    8, SURF: 4, THICK:  1   Sx:      1.10   Sy:     -2.29   Sxy:     -1.18
+ SHELL:    8, SURF: 4, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000002
+ SHELL:    8, SURF: 4, THICK:  2   Sx:      2.62   Sy:      1.97   Sxy:     -0.03
+ SHELL:    8, SURF: 4, THICK:  3   ex: -0.000105   ey: -0.000007   exy:  0.000101
+ SHELL:    8, SURF: 4, THICK:  3   Sx:     -3.34   Sy:     -0.88   Sxy:      1.26
+ SHELL:    8, SURF: 4, REBAR:  1  Strain: -0.000404  Stress:  -84.84
+ SHELL:    8, SURF: 4, REBAR:  2  Strain: -0.000123  Stress:  -25.81
+ SHELL:    9, SURF: 1, THICK:  1   ex: -0.000113   ey: -0.000283   exy: -0.000066
+ SHELL:    9, SURF: 1, THICK:  1   Sx:      1.84   Sy:     -1.93   Sxy:     -0.73
+ SHELL:    9, SURF: 1, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000002
+ SHELL:    9, SURF: 1, THICK:  2   Sx:      2.65   Sy:      1.99   Sxy:     -0.02
+ SHELL:    9, SURF: 1, THICK:  3   ex: -0.000129   ey: -0.000014   exy:  0.000062
+ SHELL:    9, SURF: 1, THICK:  3   Sx:     -4.13   Sy:     -1.24   Sxy:      0.77
+ SHELL:    9, SURF: 1, REBAR:  1  Strain: -0.000376  Stress:  -78.92
+ SHELL:    9, SURF: 1, REBAR:  2  Strain: -0.000149  Stress:  -31.31
+ SHELL:    9, SURF: 2, THICK:  1   ex: -0.000103   ey: -0.000284   exy: -0.000063
+ SHELL:    9, SURF: 2, THICK:  1   Sx:      2.12   Sy:     -1.89   Sxy:     -0.69
+ SHELL:    9, SURF: 2, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000001
+ SHELL:    9, SURF: 2, THICK:  2   Sx:      2.65   Sy:      1.99   Sxy:     -0.02
+ SHELL:    9, SURF: 2, THICK:  3   ex: -0.000140   ey: -0.000014   exy:  0.000060
+ SHELL:    9, SURF: 2, THICK:  3   Sx:     -4.46   Sy:     -1.30   Sxy:      0.75
+ SHELL:    9, SURF: 2, REBAR:  1  Strain: -0.000364  Stress:  -76.47
+ SHELL:    9, SURF: 2, REBAR:  2  Strain: -0.000161  Stress:  -33.79
+ SHELL:    9, SURF: 3, THICK:  1   ex: -0.000111   ey: -0.000284   exy: -0.000066
+ SHELL:    9, SURF: 3, THICK:  1   Sx:      1.89   Sy:     -1.93   Sxy:     -0.73
+ SHELL:    9, SURF: 3, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000002
+ SHELL:    9, SURF: 3, THICK:  2   Sx:      2.68   Sy:      2.00   Sxy:     -0.02
+ SHELL:    9, SURF: 3, THICK:  3   ex: -0.000130   ey: -0.000013   exy:  0.000063
+ SHELL:    9, SURF: 3, THICK:  3   Sx:     -4.13   Sy:     -1.23   Sxy:      0.78
+ SHELL:    9, SURF: 3, REBAR:  1  Strain: -0.000374  Stress:  -78.47
+ SHELL:    9, SURF: 3, REBAR:  2  Strain: -0.000150  Stress:  -31.41
+ SHELL:    9, SURF: 4, THICK:  1   ex: -0.000100   ey: -0.000286   exy: -0.000063
+ SHELL:    9, SURF: 4, THICK:  1   Sx:      2.19   Sy:     -1.91   Sxy:     -0.70
+ SHELL:    9, SURF: 4, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000001
+ SHELL:    9, SURF: 4, THICK:  2   Sx:      2.67   Sy:      1.99   Sxy:     -0.01
+ SHELL:    9, SURF: 4, THICK:  3   ex: -0.000141   ey: -0.000012   exy:  0.000061
+ SHELL:    9, SURF: 4, THICK:  3   Sx:     -4.49   Sy:     -1.27   Sxy:      0.76
+ SHELL:    9, SURF: 4, REBAR:  1  Strain: -0.000361  Stress:  -75.81
+ SHELL:    9, SURF: 4, REBAR:  2  Strain: -0.000162  Stress:  -34.11
+ SHELL:   10, SURF: 1, THICK:  1   ex: -0.000115   ey: -0.000288   exy: -0.000068
+ SHELL:   10, SURF: 1, THICK:  1   Sx:      1.77   Sy:     -2.06   Sxy:     -0.76
+ SHELL:   10, SURF: 1, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000003
+ SHELL:   10, SURF: 1, THICK:  2   Sx:      2.67   Sy:      1.99   Sxy:     -0.04
+ SHELL:   10, SURF: 1, THICK:  3   ex: -0.000126   ey: -0.000010   exy:  0.000062
+ SHELL:   10, SURF: 1, THICK:  3   Sx:     -4.01   Sy:     -1.09   Sxy:      0.78
+ SHELL:   10, SURF: 1, REBAR:  1  Strain: -0.000378  Stress:  -79.35
+ SHELL:   10, SURF: 1, REBAR:  2  Strain: -0.000146  Stress:  -30.68
+ SHELL:   10, SURF: 2, THICK:  1   ex: -0.000104   ey: -0.000286   exy: -0.000066
+ SHELL:   10, SURF: 2, THICK:  1   Sx:      2.08   Sy:     -1.94   Sxy:     -0.74
+ SHELL:   10, SURF: 2, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000003
+ SHELL:   10, SURF: 2, THICK:  2   Sx:      2.66   Sy:      1.99   Sxy:     -0.03
+ SHELL:   10, SURF: 2, THICK:  3   ex: -0.000137   ey: -0.000012   exy:  0.000061
+ SHELL:   10, SURF: 2, THICK:  3   Sx:     -4.37   Sy:     -1.25   Sxy:      0.76
+ SHELL:   10, SURF: 2, REBAR:  1  Strain: -0.000366  Stress:  -76.83
+ SHELL:   10, SURF: 2, REBAR:  2  Strain: -0.000158  Stress:  -33.21
+ SHELL:   10, SURF: 3, THICK:  1   ex: -0.000114   ey: -0.000288   exy: -0.000066
+ SHELL:   10, SURF: 3, THICK:  1   Sx:      1.79   Sy:     -2.07   Sxy:     -0.74
+ SHELL:   10, SURF: 3, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000003
+ SHELL:   10, SURF: 3, THICK:  2   Sx:      2.65   Sy:      1.99   Sxy:     -0.03
+ SHELL:   10, SURF: 3, THICK:  3   ex: -0.000128   ey: -0.000009   exy:  0.000061
+ SHELL:   10, SURF: 3, THICK:  3   Sx:     -4.07   Sy:     -1.10   Sxy:      0.77
+ SHELL:   10, SURF: 3, REBAR:  1  Strain: -0.000377  Stress:  -79.13
+ SHELL:   10, SURF: 3, REBAR:  2  Strain: -0.000148  Stress:  -31.12
+ SHELL:   10, SURF: 4, THICK:  1   ex: -0.000103   ey: -0.000287   exy: -0.000065
+ SHELL:   10, SURF: 4, THICK:  1   Sx:      2.08   Sy:     -1.98   Sxy:     -0.72
+ SHELL:   10, SURF: 4, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000002
+ SHELL:   10, SURF: 4, THICK:  2   Sx:      2.65   Sy:      1.98   Sxy:     -0.03
+ SHELL:   10, SURF: 4, THICK:  3   ex: -0.000139   ey: -0.000011   exy:  0.000060
+ SHELL:   10, SURF: 4, THICK:  3   Sx:     -4.41   Sy:     -1.21   Sxy:      0.75
+ SHELL:   10, SURF: 4, REBAR:  1  Strain: -0.000365  Stress:  -76.69
+ SHELL:   10, SURF: 4, REBAR:  2  Strain: -0.000160  Stress:  -33.57
+ SHELL:   11, SURF: 1, THICK:  1   ex: -0.000122   ey: -0.000288   exy: -0.000078
+ SHELL:   11, SURF: 1, THICK:  1   Sx:      1.59   Sy:     -2.10   Sxy:     -0.87
+ SHELL:   11, SURF: 1, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000003
+ SHELL:   11, SURF: 1, THICK:  2   Sx:      2.67   Sy:      1.99   Sxy:     -0.04
+ SHELL:   11, SURF: 1, THICK:  3   ex: -0.000119   ey: -0.000010   exy:  0.000072
+ SHELL:   11, SURF: 1, THICK:  3   Sx:     -3.79   Sy:     -1.06   Sxy:      0.90
+ SHELL:   11, SURF: 1, REBAR:  1  Strain: -0.000385  Stress:  -80.88
+ SHELL:   11, SURF: 1, REBAR:  2  Strain: -0.000138  Stress:  -29.04
+ SHELL:   11, SURF: 2, THICK:  1   ex: -0.000107   ey: -0.000285   exy: -0.000073
+ SHELL:   11, SURF: 2, THICK:  1   Sx:      2.00   Sy:     -1.93   Sxy:     -0.81
+ SHELL:   11, SURF: 2, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000002
+ SHELL:   11, SURF: 2, THICK:  2   Sx:      2.67   Sy:      1.99   Sxy:     -0.03
+ SHELL:   11, SURF: 2, THICK:  3   ex: -0.000134   ey: -0.000013   exy:  0.000068
+ SHELL:   11, SURF: 2, THICK:  3   Sx:     -4.27   Sy:     -1.23   Sxy:      0.85
+ SHELL:   11, SURF: 2, REBAR:  1  Strain: -0.000369  Stress:  -77.58
+ SHELL:   11, SURF: 2, REBAR:  2  Strain: -0.000154  Stress:  -32.41
+ SHELL:   11, SURF: 3, THICK:  1   ex: -0.000116   ey: -0.000293   exy: -0.000076
+ SHELL:   11, SURF: 3, THICK:  1   Sx:      1.70   Sy:     -2.22   Sxy:     -0.84
+ SHELL:   11, SURF: 3, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000003
+ SHELL:   11, SURF: 3, THICK:  2   Sx:      2.67   Sy:      1.99   Sxy:     -0.03
+ SHELL:   11, SURF: 3, THICK:  3   ex: -0.000125   ey: -0.000005   exy:  0.000070
+ SHELL:   11, SURF: 3, THICK:  3   Sx:     -3.93   Sy:     -0.93   Sxy:      0.88
+ SHELL:   11, SURF: 3, REBAR:  1  Strain: -0.000379  Stress:  -79.67
+ SHELL:   11, SURF: 3, REBAR:  2  Strain: -0.000144  Stress:  -30.29
+ SHELL:   11, SURF: 4, THICK:  1   ex: -0.000105   ey: -0.000289   exy: -0.000070
+ SHELL:   11, SURF: 4, THICK:  1   Sx:      2.04   Sy:     -2.03   Sxy:     -0.78
+ SHELL:   11, SURF: 4, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000002
+ SHELL:   11, SURF: 4, THICK:  2   Sx:      2.67   Sy:      1.99   Sxy:     -0.02
+ SHELL:   11, SURF: 4, THICK:  3   ex: -0.000137   ey: -0.000009   exy:  0.000066
+ SHELL:   11, SURF: 4, THICK:  3   Sx:     -4.32   Sy:     -1.13   Sxy:      0.83
+ SHELL:   11, SURF: 4, REBAR:  1  Strain: -0.000367  Stress:  -77.03
+ SHELL:   11, SURF: 4, REBAR:  2  Strain: -0.000157  Stress:  -33.00
+ SHELL:   12, SURF: 1, THICK:  1   ex: -0.000135   ey: -0.000279   exy: -0.000087
+ SHELL:   12, SURF: 1, THICK:  1   Sx:      1.27   Sy:     -1.93   Sxy:     -0.97
+ SHELL:   12, SURF: 1, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000003
+ SHELL:   12, SURF: 1, THICK:  2   Sx:      2.63   Sy:      1.99   Sxy:     -0.04
+ SHELL:   12, SURF: 1, THICK:  3   ex: -0.000109   ey: -0.000018   exy:  0.000081
+ SHELL:   12, SURF: 1, THICK:  3   Sx:     -3.51   Sy:     -1.26   Sxy:      1.02
+ SHELL:   12, SURF: 1, REBAR:  1  Strain: -0.000400  Stress:  -83.90
+ SHELL:   12, SURF: 1, REBAR:  2  Strain: -0.000127  Stress:  -26.58
+ SHELL:   12, SURF: 2, THICK:  1   ex: -0.000116   ey: -0.000280   exy: -0.000077
+ SHELL:   12, SURF: 2, THICK:  1   Sx:      1.78   Sy:     -1.84   Sxy:     -0.85
+ SHELL:   12, SURF: 2, THICK:  2   ex:  0.000075   ey:  0.000049   exy: -0.000002
+ SHELL:   12, SURF: 2, THICK:  2   Sx:      2.63   Sy:      2.00   Sxy:     -0.02
+ SHELL:   12, SURF: 2, THICK:  3   ex: -0.000128   ey: -0.000017   exy:  0.000073
+ SHELL:   12, SURF: 2, THICK:  3   Sx:     -4.10   Sy:     -1.32   Sxy:      0.92
+ SHELL:   12, SURF: 2, REBAR:  1  Strain: -0.000379  Stress:  -79.61
+ SHELL:   12, SURF: 2, REBAR:  2  Strain: -0.000147  Stress:  -30.95
+ SHELL:   12, SURF: 3, THICK:  1   ex: -0.000126   ey: -0.000290   exy: -0.000087
+ SHELL:   12, SURF: 3, THICK:  1   Sx:      1.47   Sy:     -2.16   Sxy:     -0.97
+ SHELL:   12, SURF: 3, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000003
+ SHELL:   12, SURF: 3, THICK:  2   Sx:      2.66   Sy:      1.99   Sxy:     -0.03
+ SHELL:   12, SURF: 3, THICK:  3   ex: -0.000116   ey: -0.000008   exy:  0.000082
+ SHELL:   12, SURF: 3, THICK:  3   Sx:     -3.68   Sy:     -0.98   Sxy:      1.02
+ SHELL:   12, SURF: 3, REBAR:  1  Strain: -0.000390  Stress:  -81.81
+ SHELL:   12, SURF: 3, REBAR:  2  Strain: -0.000135  Stress:  -28.28
+ SHELL:   12, SURF: 4, THICK:  1   ex: -0.000110   ey: -0.000287   exy: -0.000077
+ SHELL:   12, SURF: 4, THICK:  1   Sx:      1.91   Sy:     -2.00   Sxy:     -0.85
+ SHELL:   12, SURF: 4, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000001
+ SHELL:   12, SURF: 4, THICK:  2   Sx:      2.66   Sy:      2.00   Sxy:     -0.02
+ SHELL:   12, SURF: 4, THICK:  3   ex: -0.000132   ey: -0.000010   exy:  0.000074
+ SHELL:   12, SURF: 4, THICK:  3   Sx:     -4.19   Sy:     -1.14   Sxy:      0.92
+ SHELL:   12, SURF: 4, REBAR:  1  Strain: -0.000372  Stress:  -78.19
+ SHELL:   12, SURF: 4, REBAR:  2  Strain: -0.000152  Stress:  -31.99
+ SHELL:   13, SURF: 1, THICK:  1   ex: -0.000095   ey: -0.000284   exy: -0.000062
+ SHELL:   13, SURF: 1, THICK:  1   Sx:      2.33   Sy:     -1.85   Sxy:     -0.69
+ SHELL:   13, SURF: 1, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000002
+ SHELL:   13, SURF: 1, THICK:  2   Sx:      2.68   Sy:      1.99   Sxy:     -0.02
+ SHELL:   13, SURF: 1, THICK:  3   ex: -0.000146   ey: -0.000013   exy:  0.000058
+ SHELL:   13, SURF: 1, THICK:  3   Sx:     -4.65   Sy:     -1.33   Sxy:      0.73
+ SHELL:   13, SURF: 1, REBAR:  1  Strain: -0.000356  Stress:  -74.72
+ SHELL:   13, SURF: 1, REBAR:  2  Strain: -0.000168  Stress:  -35.18
+ SHELL:   13, SURF: 2, THICK:  1   ex: -0.000089   ey: -0.000285   exy: -0.000059
+ SHELL:   13, SURF: 2, THICK:  1   Sx:      2.48   Sy:     -1.84   Sxy:     -0.66
+ SHELL:   13, SURF: 2, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000001
+ SHELL:   13, SURF: 2, THICK:  2   Sx:      2.67   Sy:      1.99   Sxy:     -0.02
+ SHELL:   13, SURF: 2, THICK:  3   ex: -0.000152   ey: -0.000013   exy:  0.000056
+ SHELL:   13, SURF: 2, THICK:  3   Sx:     -4.83   Sy:     -1.36   Sxy:      0.71
+ SHELL:   13, SURF: 2, REBAR:  1  Strain: -0.000349  Stress:  -73.36
+ SHELL:   13, SURF: 2, REBAR:  2  Strain: -0.000174  Stress:  -36.56
+ SHELL:   13, SURF: 3, THICK:  1   ex: -0.000092   ey: -0.000286   exy: -0.000062
+ SHELL:   13, SURF: 3, THICK:  1   Sx:      2.40   Sy:     -1.89   Sxy:     -0.68
+ SHELL:   13, SURF: 3, THICK:  2   ex:  0.000078   ey:  0.000048   exy: -0.000001
+ SHELL:   13, SURF: 3, THICK:  2   Sx:      2.72   Sy:      2.00   Sxy:     -0.01
+ SHELL:   13, SURF: 3, THICK:  3   ex: -0.000146   ey: -0.000012   exy:  0.000059
+ SHELL:   13, SURF: 3, THICK:  3   Sx:     -4.64   Sy:     -1.28   Sxy:      0.74
+ SHELL:   13, SURF: 3, REBAR:  1  Strain: -0.000353  Stress:  -74.08
+ SHELL:   13, SURF: 3, REBAR:  2  Strain: -0.000168  Stress:  -35.25
+ SHELL:   13, SURF: 4, THICK:  1   ex: -0.000086   ey: -0.000287   exy: -0.000059
+ SHELL:   13, SURF: 4, THICK:  1   Sx:      2.55   Sy:     -1.87   Sxy:     -0.66
+ SHELL:   13, SURF: 4, THICK:  2   ex:  0.000078   ey:  0.000048   exy: -0.000001
+ SHELL:   13, SURF: 4, THICK:  2   Sx:      2.71   Sy:      1.99   Sxy:     -0.01
+ SHELL:   13, SURF: 4, THICK:  3   ex: -0.000152   ey: -0.000012   exy:  0.000058
+ SHELL:   13, SURF: 4, THICK:  3   Sx:     -4.83   Sy:     -1.31   Sxy:      0.72
+ SHELL:   13, SURF: 4, REBAR:  1  Strain: -0.000346  Stress:  -72.71
+ SHELL:   13, SURF: 4, REBAR:  2  Strain: -0.000174  Stress:  -36.64
+ SHELL:   14, SURF: 1, THICK:  1   ex: -0.000102   ey: -0.000284   exy: -0.000065
+ SHELL:   14, SURF: 1, THICK:  1   Sx:      2.13   Sy:     -1.90   Sxy:     -0.72
+ SHELL:   14, SURF: 1, THICK:  2   ex:  0.000074   ey:  0.000049   exy: -0.000004
+ SHELL:   14, SURF: 1, THICK:  2   Sx:      2.58   Sy:      1.98   Sxy:     -0.05
+ SHELL:   14, SURF: 1, THICK:  3   ex: -0.000145   ey: -0.000013   exy:  0.000057
+ SHELL:   14, SURF: 1, THICK:  3   Sx:     -4.61   Sy:     -1.31   Sxy:      0.71
+ SHELL:   14, SURF: 1, REBAR:  1  Strain: -0.000364  Stress:  -76.36
+ SHELL:   14, SURF: 1, REBAR:  2  Strain: -0.000166  Stress:  -34.90
+ SHELL:   14, SURF: 2, THICK:  1   ex: -0.000095   ey: -0.000284   exy: -0.000061
+ SHELL:   14, SURF: 2, THICK:  1   Sx:      2.32   Sy:     -1.85   Sxy:     -0.68
+ SHELL:   14, SURF: 2, THICK:  2   ex:  0.000074   ey:  0.000049   exy: -0.000003
+ SHELL:   14, SURF: 2, THICK:  2   Sx:      2.58   Sy:      1.98   Sxy:     -0.04
+ SHELL:   14, SURF: 2, THICK:  3   ex: -0.000153   ey: -0.000013   exy:  0.000055
+ SHELL:   14, SURF: 2, THICK:  3   Sx:     -4.85   Sy:     -1.35   Sxy:      0.68
+ SHELL:   14, SURF: 2, REBAR:  1  Strain: -0.000356  Stress:  -74.68
+ SHELL:   14, SURF: 2, REBAR:  2  Strain: -0.000174  Stress:  -36.63
+ SHELL:   14, SURF: 3, THICK:  1   ex: -0.000097   ey: -0.000286   exy: -0.000064
+ SHELL:   14, SURF: 3, THICK:  1   Sx:      2.25   Sy:     -1.92   Sxy:     -0.71
+ SHELL:   14, SURF: 3, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000003
+ SHELL:   14, SURF: 3, THICK:  2   Sx:      2.64   Sy:      1.99   Sxy:     -0.04
+ SHELL:   14, SURF: 3, THICK:  3   ex: -0.000146   ey: -0.000011   exy:  0.000058
+ SHELL:   14, SURF: 3, THICK:  3   Sx:     -4.63   Sy:     -1.27   Sxy:      0.72
+ SHELL:   14, SURF: 3, REBAR:  1  Strain: -0.000358  Stress:  -75.28
+ SHELL:   14, SURF: 3, REBAR:  2  Strain: -0.000167  Stress:  -35.11
+ SHELL:   14, SURF: 4, THICK:  1   ex: -0.000091   ey: -0.000286   exy: -0.000060
+ SHELL:   14, SURF: 4, THICK:  1   Sx:      2.42   Sy:     -1.87   Sxy:     -0.67
+ SHELL:   14, SURF: 4, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000003
+ SHELL:   14, SURF: 4, THICK:  2   Sx:      2.64   Sy:      1.99   Sxy:     -0.03
+ SHELL:   14, SURF: 4, THICK:  3   ex: -0.000152   ey: -0.000012   exy:  0.000055
+ SHELL:   14, SURF: 4, THICK:  3   Sx:     -4.83   Sy:     -1.32   Sxy:      0.69
+ SHELL:   14, SURF: 4, REBAR:  1  Strain: -0.000352  Stress:  -73.87
+ SHELL:   14, SURF: 4, REBAR:  2  Strain: -0.000174  Stress:  -36.56
+ SHELL:   15, SURF: 1, THICK:  1   ex: -0.000113   ey: -0.000284   exy: -0.000065
+ SHELL:   15, SURF: 1, THICK:  1   Sx:      1.84   Sy:     -1.94   Sxy:     -0.73
+ SHELL:   15, SURF: 1, THICK:  2   ex:  0.000069   ey:  0.000049   exy: -0.000003
+ SHELL:   15, SURF: 1, THICK:  2   Sx:      2.45   Sy:      1.97   Sxy:     -0.03
+ SHELL:   15, SURF: 1, THICK:  3   ex: -0.000144   ey: -0.000012   exy:  0.000060
+ SHELL:   15, SURF: 1, THICK:  3   Sx:     -4.57   Sy:     -1.29   Sxy:      0.75
+ SHELL:   15, SURF: 1, REBAR:  1  Strain: -0.000375  Stress:  -78.65
+ SHELL:   15, SURF: 1, REBAR:  2  Strain: -0.000164  Stress:  -34.49
+ SHELL:   15, SURF: 2, THICK:  1   ex: -0.000103   ey: -0.000283   exy: -0.000060
+ SHELL:   15, SURF: 2, THICK:  1   Sx:      2.11   Sy:     -1.87   Sxy:     -0.67
+ SHELL:   15, SURF: 2, THICK:  2   ex:  0.000069   ey:  0.000050   exy: -0.000001
+ SHELL:   15, SURF: 2, THICK:  2   Sx:      2.44   Sy:      1.98   Sxy:     -0.02
+ SHELL:   15, SURF: 2, THICK:  3   ex: -0.000154   ey: -0.000012   exy:  0.000057
+ SHELL:   15, SURF: 2, THICK:  3   Sx:     -4.88   Sy:     -1.33   Sxy:      0.72
+ SHELL:   15, SURF: 2, REBAR:  1  Strain: -0.000364  Stress:  -76.41
+ SHELL:   15, SURF: 2, REBAR:  2  Strain: -0.000175  Stress:  -36.82
+ SHELL:   15, SURF: 3, THICK:  1   ex: -0.000106   ey: -0.000287   exy: -0.000065
+ SHELL:   15, SURF: 3, THICK:  1   Sx:      2.00   Sy:     -1.98   Sxy:     -0.72
+ SHELL:   15, SURF: 3, THICK:  2   ex:  0.000072   ey:  0.000049   exy: -0.000002
+ SHELL:   15, SURF: 3, THICK:  2   Sx:      2.52   Sy:      1.98   Sxy:     -0.03
+ SHELL:   15, SURF: 3, THICK:  3   ex: -0.000145   ey: -0.000010   exy:  0.000060
+ SHELL:   15, SURF: 3, THICK:  3   Sx:     -4.59   Sy:     -1.22   Sxy:      0.75
+ SHELL:   15, SURF: 3, REBAR:  1  Strain: -0.000368  Stress:  -77.25
+ SHELL:   15, SURF: 3, REBAR:  2  Strain: -0.000166  Stress:  -34.83
+ SHELL:   15, SURF: 4, THICK:  1   ex: -0.000098   ey: -0.000285   exy: -0.000059
+ SHELL:   15, SURF: 4, THICK:  1   Sx:      2.23   Sy:     -1.89   Sxy:     -0.66
+ SHELL:   15, SURF: 4, THICK:  2   ex:  0.000072   ey:  0.000050   exy: -0.000001
+ SHELL:   15, SURF: 4, THICK:  2   Sx:      2.52   Sy:      1.99   Sxy:     -0.01
+ SHELL:   15, SURF: 4, THICK:  3   ex: -0.000153   ey: -0.000010   exy:  0.000058
+ SHELL:   15, SURF: 4, THICK:  3   Sx:     -4.86   Sy:     -1.28   Sxy:      0.72
+ SHELL:   15, SURF: 4, REBAR:  1  Strain: -0.000359  Stress:  -75.39
+ SHELL:   15, SURF: 4, REBAR:  2  Strain: -0.000175  Stress:  -36.79
+ SHELL:   16, SURF: 1, THICK:  1   ex: -0.000122   ey: -0.000281   exy: -0.000067
+ SHELL:   16, SURF: 1, THICK:  1   Sx:      1.61   Sy:     -1.90   Sxy:     -0.74
+ SHELL:   16, SURF: 1, THICK:  2   ex:  0.000067   ey:  0.000050   exy: -0.000003
+ SHELL:   16, SURF: 1, THICK:  2   Sx:      2.37   Sy:      1.97   Sxy:     -0.03
+ SHELL:   16, SURF: 1, THICK:  3   ex: -0.000140   ey: -0.000014   exy:  0.000062
+ SHELL:   16, SURF: 1, THICK:  3   Sx:     -4.45   Sy:     -1.32   Sxy:      0.77
+ SHELL:   16, SURF: 1, REBAR:  1  Strain: -0.000384  Stress:  -80.72
+ SHELL:   16, SURF: 1, REBAR:  2  Strain: -0.000160  Stress:  -33.51
+ SHELL:   16, SURF: 2, THICK:  1   ex: -0.000110   ey: -0.000281   exy: -0.000061
+ SHELL:   16, SURF: 2, THICK:  1   Sx:      1.93   Sy:     -1.85   Sxy:     -0.68
+ SHELL:   16, SURF: 2, THICK:  2   ex:  0.000067   ey:  0.000050   exy: -0.000002
+ SHELL:   16, SURF: 2, THICK:  2   Sx:      2.37   Sy:      1.99   Sxy:     -0.02
+ SHELL:   16, SURF: 2, THICK:  3   ex: -0.000152   ey: -0.000013   exy:  0.000058
+ SHELL:   16, SURF: 2, THICK:  3   Sx:     -4.83   Sy:     -1.35   Sxy:      0.73
+ SHELL:   16, SURF: 2, REBAR:  1  Strain: -0.000371  Stress:  -77.96
+ SHELL:   16, SURF: 2, REBAR:  2  Strain: -0.000173  Stress:  -36.35
+ SHELL:   16, SURF: 3, THICK:  1   ex: -0.000117   ey: -0.000285   exy: -0.000067
+ SHELL:   16, SURF: 3, THICK:  1   Sx:      1.73   Sy:     -2.00   Sxy:     -0.74
+ SHELL:   16, SURF: 3, THICK:  2   ex:  0.000068   ey:  0.000050   exy: -0.000002
+ SHELL:   16, SURF: 3, THICK:  2   Sx:      2.40   Sy:      1.98   Sxy:     -0.03
+ SHELL:   16, SURF: 3, THICK:  3   ex: -0.000143   ey: -0.000010   exy:  0.000063
+ SHELL:   16, SURF: 3, THICK:  3   Sx:     -4.52   Sy:     -1.19   Sxy:      0.78
+ SHELL:   16, SURF: 3, REBAR:  1  Strain: -0.000379  Stress:  -79.53
+ SHELL:   16, SURF: 3, REBAR:  2  Strain: -0.000163  Stress:  -34.22
+ SHELL:   16, SURF: 4, THICK:  1   ex: -0.000106   ey: -0.000284   exy: -0.000061
+ SHELL:   16, SURF: 4, THICK:  1   Sx:      2.02   Sy:     -1.91   Sxy:     -0.68
+ SHELL:   16, SURF: 4, THICK:  2   ex:  0.000068   ey:  0.000050   exy: -0.000001
+ SHELL:   16, SURF: 4, THICK:  2   Sx:      2.40   Sy:      1.99   Sxy:     -0.01
+ SHELL:   16, SURF: 4, THICK:  3   ex: -0.000154   ey: -0.000010   exy:  0.000059
+ SHELL:   16, SURF: 4, THICK:  3   Sx:     -4.86   Sy:     -1.27   Sxy:      0.74
+ SHELL:   16, SURF: 4, REBAR:  1  Strain: -0.000367  Stress:  -77.07
+ SHELL:   16, SURF: 4, REBAR:  2  Strain: -0.000175  Stress:  -36.76
+ SHELL:   17, SURF: 1, THICK:  1   ex: -0.000086   ey: -0.000285   exy: -0.000058
+ SHELL:   17, SURF: 1, THICK:  1   Sx:      2.56   Sy:     -1.84   Sxy:     -0.64
+ SHELL:   17, SURF: 1, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000002
+ SHELL:   17, SURF: 1, THICK:  2   Sx:      2.68   Sy:      1.99   Sxy:     -0.03
+ SHELL:   17, SURF: 1, THICK:  3   ex: -0.000155   ey: -0.000013   exy:  0.000054
+ SHELL:   17, SURF: 1, THICK:  3   Sx:     -4.91   Sy:     -1.36   Sxy:      0.67
+ SHELL:   17, SURF: 1, REBAR:  1  Strain: -0.000346  Stress:  -72.70
+ SHELL:   17, SURF: 1, REBAR:  2  Strain: -0.000177  Stress:  -37.17
+ SHELL:   17, SURF: 2, THICK:  1   ex: -0.000085   ey: -0.000286   exy: -0.000056
+ SHELL:   17, SURF: 2, THICK:  1   Sx:      2.59   Sy:     -1.84   Sxy:     -0.63
+ SHELL:   17, SURF: 2, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000002
+ SHELL:   17, SURF: 2, THICK:  2   Sx:      2.67   Sy:      1.98   Sxy:     -0.02
+ SHELL:   17, SURF: 2, THICK:  3   ex: -0.000156   ey: -0.000013   exy:  0.000053
+ SHELL:   17, SURF: 2, THICK:  3   Sx:     -4.95   Sy:     -1.37   Sxy:      0.66
+ SHELL:   17, SURF: 2, REBAR:  1  Strain: -0.000345  Stress:  -72.40
+ SHELL:   17, SURF: 2, REBAR:  2  Strain: -0.000179  Stress:  -37.50
+ SHELL:   17, SURF: 3, THICK:  1   ex: -0.000083   ey: -0.000287   exy: -0.000057
+ SHELL:   17, SURF: 3, THICK:  1   Sx:      2.63   Sy:     -1.86   Sxy:     -0.64
+ SHELL:   17, SURF: 3, THICK:  2   ex:  0.000079   ey:  0.000048   exy: -0.000002
+ SHELL:   17, SURF: 3, THICK:  2   Sx:      2.73   Sy:      2.00   Sxy:     -0.02
+ SHELL:   17, SURF: 3, THICK:  3   ex: -0.000154   ey: -0.000011   exy:  0.000054
+ SHELL:   17, SURF: 3, THICK:  3   Sx:     -4.88   Sy:     -1.32   Sxy:      0.68
+ SHELL:   17, SURF: 3, REBAR:  1  Strain: -0.000343  Stress:  -72.08
+ SHELL:   17, SURF: 3, REBAR:  2  Strain: -0.000176  Stress:  -37.03
+ SHELL:   17, SURF: 4, THICK:  1   ex: -0.000083   ey: -0.000287   exy: -0.000056
+ SHELL:   17, SURF: 4, THICK:  1   Sx:      2.65   Sy:     -1.85   Sxy:     -0.62
+ SHELL:   17, SURF: 4, THICK:  2   ex:  0.000079   ey:  0.000048   exy: -0.000001
+ SHELL:   17, SURF: 4, THICK:  2   Sx:      2.73   Sy:      1.99   Sxy:     -0.01
+ SHELL:   17, SURF: 4, THICK:  3   ex: -0.000155   ey: -0.000012   exy:  0.000054
+ SHELL:   17, SURF: 4, THICK:  3   Sx:     -4.91   Sy:     -1.34   Sxy:      0.67
+ SHELL:   17, SURF: 4, REBAR:  1  Strain: -0.000343  Stress:  -71.93
+ SHELL:   17, SURF: 4, REBAR:  2  Strain: -0.000177  Stress:  -37.21
+ SHELL:   18, SURF: 1, THICK:  1   ex: -0.000091   ey: -0.000284   exy: -0.000059
+ SHELL:   18, SURF: 1, THICK:  1   Sx:      2.44   Sy:     -1.84   Sxy:     -0.66
+ SHELL:   18, SURF: 1, THICK:  2   ex:  0.000074   ey:  0.000049   exy: -0.000004
+ SHELL:   18, SURF: 1, THICK:  2   Sx:      2.58   Sy:      1.99   Sxy:     -0.04
+ SHELL:   18, SURF: 1, THICK:  3   ex: -0.000156   ey: -0.000012   exy:  0.000052
+ SHELL:   18, SURF: 1, THICK:  3   Sx:     -4.96   Sy:     -1.36   Sxy:      0.65
+ SHELL:   18, SURF: 1, REBAR:  1  Strain: -0.000351  Stress:  -73.72
+ SHELL:   18, SURF: 1, REBAR:  2  Strain: -0.000178  Stress:  -37.47
+ SHELL:   18, SURF: 2, THICK:  1   ex: -0.000089   ey: -0.000285   exy: -0.000058
+ SHELL:   18, SURF: 2, THICK:  1   Sx:      2.49   Sy:     -1.84   Sxy:     -0.64
+ SHELL:   18, SURF: 2, THICK:  2   ex:  0.000074   ey:  0.000049   exy: -0.000003
+ SHELL:   18, SURF: 2, THICK:  2   Sx:      2.58   Sy:      1.98   Sxy:     -0.03
+ SHELL:   18, SURF: 2, THICK:  3   ex: -0.000159   ey: -0.000012   exy:  0.000052
+ SHELL:   18, SURF: 2, THICK:  3   Sx:     -5.04   Sy:     -1.38   Sxy:      0.66
+ SHELL:   18, SURF: 2, REBAR:  1  Strain: -0.000349  Stress:  -73.21
+ SHELL:   18, SURF: 2, REBAR:  2  Strain: -0.000181  Stress:  -38.04
+ SHELL:   18, SURF: 3, THICK:  1   ex: -0.000088   ey: -0.000285   exy: -0.000059
+ SHELL:   18, SURF: 3, THICK:  1   Sx:      2.51   Sy:     -1.84   Sxy:     -0.65
+ SHELL:   18, SURF: 3, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000003
+ SHELL:   18, SURF: 3, THICK:  2   Sx:      2.64   Sy:      1.99   Sxy:     -0.04
+ SHELL:   18, SURF: 3, THICK:  3   ex: -0.000155   ey: -0.000012   exy:  0.000053
+ SHELL:   18, SURF: 3, THICK:  3   Sx:     -4.93   Sy:     -1.34   Sxy:      0.66
+ SHELL:   18, SURF: 3, REBAR:  1  Strain: -0.000348  Stress:  -73.12
+ SHELL:   18, SURF: 3, REBAR:  2  Strain: -0.000178  Stress:  -37.29
+ SHELL:   18, SURF: 4, THICK:  1   ex: -0.000086   ey: -0.000285   exy: -0.000057
+ SHELL:   18, SURF: 4, THICK:  1   Sx:      2.55   Sy:     -1.83   Sxy:     -0.63
+ SHELL:   18, SURF: 4, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000002
+ SHELL:   18, SURF: 4, THICK:  2   Sx:      2.63   Sy:      1.99   Sxy:     -0.02
+ SHELL:   18, SURF: 4, THICK:  3   ex: -0.000157   ey: -0.000012   exy:  0.000053
+ SHELL:   18, SURF: 4, THICK:  3   Sx:     -4.99   Sy:     -1.37   Sxy:      0.66
+ SHELL:   18, SURF: 4, REBAR:  1  Strain: -0.000346  Stress:  -72.73
+ SHELL:   18, SURF: 4, REBAR:  2  Strain: -0.000180  Stress:  -37.73
+ SHELL:   19, SURF: 1, THICK:  1   ex: -0.000097   ey: -0.000283   exy: -0.000058
+ SHELL:   19, SURF: 1, THICK:  1   Sx:      2.28   Sy:     -1.84   Sxy:     -0.64
+ SHELL:   19, SURF: 1, THICK:  2   ex:  0.000070   ey:  0.000050   exy: -0.000002
+ SHELL:   19, SURF: 1, THICK:  2   Sx:      2.47   Sy:      2.00   Sxy:     -0.02
+ SHELL:   19, SURF: 1, THICK:  3   ex: -0.000158   ey: -0.000011   exy:  0.000054
+ SHELL:   19, SURF: 1, THICK:  3   Sx:     -5.01   Sy:     -1.34   Sxy:      0.68
+ SHELL:   19, SURF: 1, REBAR:  1  Strain: -0.000357  Stress:  -75.00
+ SHELL:   19, SURF: 1, REBAR:  2  Strain: -0.000180  Stress:  -37.81
+ SHELL:   19, SURF: 2, THICK:  1   ex: -0.000093   ey: -0.000284   exy: -0.000055
+ SHELL:   19, SURF: 2, THICK:  1   Sx:      2.37   Sy:     -1.84   Sxy:     -0.62
+ SHELL:   19, SURF: 2, THICK:  2   ex:  0.000070   ey:  0.000050   exy: -0.000001
+ SHELL:   19, SURF: 2, THICK:  2   Sx:      2.47   Sy:      1.99   Sxy:     -0.01
+ SHELL:   19, SURF: 2, THICK:  3   ex: -0.000162   ey: -0.000011   exy:  0.000054
+ SHELL:   19, SURF: 2, THICK:  3   Sx:     -5.12   Sy:     -1.35   Sxy:      0.68
+ SHELL:   19, SURF: 2, REBAR:  1  Strain: -0.000353  Stress:  -74.19
+ SHELL:   19, SURF: 2, REBAR:  2  Strain: -0.000184  Stress:  -38.68
+ SHELL:   19, SURF: 3, THICK:  1   ex: -0.000093   ey: -0.000285   exy: -0.000057
+ SHELL:   19, SURF: 3, THICK:  1   Sx:      2.36   Sy:     -1.85   Sxy:     -0.63
+ SHELL:   19, SURF: 3, THICK:  2   ex:  0.000072   ey:  0.000050   exy: -0.000001
+ SHELL:   19, SURF: 3, THICK:  2   Sx:      2.53   Sy:      2.01   Sxy:     -0.01
+ SHELL:   19, SURF: 3, THICK:  3   ex: -0.000157   ey: -0.000010   exy:  0.000055
+ SHELL:   19, SURF: 3, THICK:  3   Sx:     -4.98   Sy:     -1.31   Sxy:      0.69
+ SHELL:   19, SURF: 3, REBAR:  1  Strain: -0.000354  Stress:  -74.28
+ SHELL:   19, SURF: 3, REBAR:  2  Strain: -0.000180  Stress:  -37.70
+ SHELL:   19, SURF: 4, THICK:  1   ex: -0.000091   ey: -0.000284   exy: -0.000055
+ SHELL:   19, SURF: 4, THICK:  1   Sx:      2.43   Sy:     -1.83   Sxy:     -0.61
+ SHELL:   19, SURF: 4, THICK:  2   ex:  0.000072   ey:  0.000050   exy:  0.000000
+ SHELL:   19, SURF: 4, THICK:  2   Sx:      2.53   Sy:      2.00   Sxy:      0.00
+ SHELL:   19, SURF: 4, THICK:  3   ex: -0.000160   ey: -0.000011   exy:  0.000055
+ SHELL:   19, SURF: 4, THICK:  3   Sx:     -5.08   Sy:     -1.34   Sxy:      0.69
+ SHELL:   19, SURF: 4, REBAR:  1  Strain: -0.000351  Stress:  -73.67
+ SHELL:   19, SURF: 4, REBAR:  2  Strain: -0.000183  Stress:  -38.37
+ SHELL:   20, SURF: 1, THICK:  1   ex: -0.000103   ey: -0.000282   exy: -0.000058
+ SHELL:   20, SURF: 1, THICK:  1   Sx:      2.10   Sy:     -1.83   Sxy:     -0.65
+ SHELL:   20, SURF: 1, THICK:  2   ex:  0.000067   ey:  0.000051   exy: -0.000002
+ SHELL:   20, SURF: 1, THICK:  2   Sx:      2.37   Sy:      2.00   Sxy:     -0.03
+ SHELL:   20, SURF: 1, THICK:  3   ex: -0.000158   ey: -0.000011   exy:  0.000053
+ SHELL:   20, SURF: 1, THICK:  3   Sx:     -5.01   Sy:     -1.35   Sxy:      0.67
+ SHELL:   20, SURF: 1, REBAR:  1  Strain: -0.000364  Stress:  -76.47
+ SHELL:   20, SURF: 1, REBAR:  2  Strain: -0.000180  Stress:  -37.78
+ SHELL:   20, SURF: 2, THICK:  1   ex: -0.000098   ey: -0.000283   exy: -0.000056
+ SHELL:   20, SURF: 2, THICK:  1   Sx:      2.25   Sy:     -1.84   Sxy:     -0.62
+ SHELL:   20, SURF: 2, THICK:  2   ex:  0.000067   ey:  0.000051   exy: -0.000002
+ SHELL:   20, SURF: 2, THICK:  2   Sx:      2.37   Sy:      1.99   Sxy:     -0.02
+ SHELL:   20, SURF: 2, THICK:  3   ex: -0.000164   ey: -0.000010   exy:  0.000052
+ SHELL:   20, SURF: 2, THICK:  3   Sx:     -5.19   Sy:     -1.35   Sxy:      0.65
+ SHELL:   20, SURF: 2, REBAR:  1  Strain: -0.000358  Stress:  -75.18
+ SHELL:   20, SURF: 2, REBAR:  2  Strain: -0.000186  Stress:  -39.10
+ SHELL:   20, SURF: 3, THICK:  1   ex: -0.000099   ey: -0.000284   exy: -0.000058
+ SHELL:   20, SURF: 3, THICK:  1   Sx:      2.20   Sy:     -1.87   Sxy:     -0.65
+ SHELL:   20, SURF: 3, THICK:  2   ex:  0.000069   ey:  0.000051   exy: -0.000002
+ SHELL:   20, SURF: 3, THICK:  2   Sx:      2.43   Sy:      2.01   Sxy:     -0.02
+ SHELL:   20, SURF: 3, THICK:  3   ex: -0.000158   ey: -0.000010   exy:  0.000054
+ SHELL:   20, SURF: 3, THICK:  3   Sx:     -5.01   Sy:     -1.29   Sxy:      0.68
+ SHELL:   20, SURF: 3, REBAR:  1  Strain: -0.000360  Stress:  -75.57
+ SHELL:   20, SURF: 3, REBAR:  2  Strain: -0.000180  Stress:  -37.85
+ SHELL:   20, SURF: 4, THICK:  1   ex: -0.000095   ey: -0.000284   exy: -0.000056
+ SHELL:   20, SURF: 4, THICK:  1   Sx:      2.32   Sy:     -1.85   Sxy:     -0.62
+ SHELL:   20, SURF: 4, THICK:  2   ex:  0.000069   ey:  0.000050   exy: -0.000001
+ SHELL:   20, SURF: 4, THICK:  2   Sx:      2.43   Sy:      2.00   Sxy:     -0.02
+ SHELL:   20, SURF: 4, THICK:  3   ex: -0.000163   ey: -0.000010   exy:  0.000053
+ SHELL:   20, SURF: 4, THICK:  3   Sx:     -5.15   Sy:     -1.33   Sxy:      0.66
+ SHELL:   20, SURF: 4, REBAR:  1  Strain: -0.000355  Stress:  -74.59
+ SHELL:   20, SURF: 4, REBAR:  2  Strain: -0.000185  Stress:  -38.86
+ SHELL:   21, SURF: 1, THICK:  1   ex: -0.000085   ey: -0.000286   exy: -0.000057
+ SHELL:   21, SURF: 1, THICK:  1   Sx:      2.58   Sy:     -1.85   Sxy:     -0.63
+ SHELL:   21, SURF: 1, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000003
+ SHELL:   21, SURF: 1, THICK:  2   Sx:      2.69   Sy:      1.99   Sxy:     -0.04
+ SHELL:   21, SURF: 1, THICK:  3   ex: -0.000155   ey: -0.000012   exy:  0.000051
+ SHELL:   21, SURF: 1, THICK:  3   Sx:     -4.91   Sy:     -1.35   Sxy:      0.64
+ SHELL:   21, SURF: 1, REBAR:  1  Strain: -0.000345  Stress:  -72.50
+ SHELL:   21, SURF: 1, REBAR:  2  Strain: -0.000177  Stress:  -37.22
+ SHELL:   21, SURF: 2, THICK:  1   ex: -0.000089   ey: -0.000286   exy: -0.000058
+ SHELL:   21, SURF: 2, THICK:  1   Sx:      2.49   Sy:     -1.87   Sxy:     -0.64
+ SHELL:   21, SURF: 2, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000002
+ SHELL:   21, SURF: 2, THICK:  2   Sx:      2.68   Sy:      1.99   Sxy:     -0.02
+ SHELL:   21, SURF: 2, THICK:  3   ex: -0.000152   ey: -0.000012   exy:  0.000054
+ SHELL:   21, SURF: 2, THICK:  3   Sx:     -4.81   Sy:     -1.32   Sxy:      0.67
+ SHELL:   21, SURF: 2, REBAR:  1  Strain: -0.000349  Stress:  -73.28
+ SHELL:   21, SURF: 2, REBAR:  2  Strain: -0.000174  Stress:  -36.50
+ SHELL:   21, SURF: 3, THICK:  1   ex: -0.000085   ey: -0.000286   exy: -0.000056
+ SHELL:   21, SURF: 3, THICK:  1   Sx:      2.59   Sy:     -1.84   Sxy:     -0.63
+ SHELL:   21, SURF: 3, THICK:  2   ex:  0.000078   ey:  0.000048   exy: -0.000003
+ SHELL:   21, SURF: 3, THICK:  2   Sx:      2.70   Sy:      1.99   Sxy:     -0.03
+ SHELL:   21, SURF: 3, THICK:  3   ex: -0.000154   ey: -0.000012   exy:  0.000051
+ SHELL:   21, SURF: 3, THICK:  3   Sx:     -4.89   Sy:     -1.35   Sxy:      0.64
+ SHELL:   21, SURF: 3, REBAR:  1  Strain: -0.000345  Stress:  -72.45
+ SHELL:   21, SURF: 3, REBAR:  2  Strain: -0.000176  Stress:  -37.03
+ SHELL:   21, SURF: 4, THICK:  1   ex: -0.000090   ey: -0.000285   exy: -0.000057
+ SHELL:   21, SURF: 4, THICK:  1   Sx:      2.47   Sy:     -1.84   Sxy:     -0.63
+ SHELL:   21, SURF: 4, THICK:  2   ex:  0.000078   ey:  0.000048   exy: -0.000002
+ SHELL:   21, SURF: 4, THICK:  2   Sx:      2.70   Sy:      1.99   Sxy:     -0.02
+ SHELL:   21, SURF: 4, THICK:  3   ex: -0.000149   ey: -0.000013   exy:  0.000053
+ SHELL:   21, SURF: 4, THICK:  3   Sx:     -4.75   Sy:     -1.35   Sxy:      0.67
+ SHELL:   21, SURF: 4, REBAR:  1  Strain: -0.000350  Stress:  -73.56
+ SHELL:   21, SURF: 4, REBAR:  2  Strain: -0.000171  Stress:  -35.98
+ SHELL:   22, SURF: 1, THICK:  1   ex: -0.000088   ey: -0.000285   exy: -0.000057
+ SHELL:   22, SURF: 1, THICK:  1   Sx:      2.50   Sy:     -1.85   Sxy:     -0.64
+ SHELL:   22, SURF: 1, THICK:  2   ex:  0.000074   ey:  0.000049   exy: -0.000003
+ SHELL:   22, SURF: 1, THICK:  2   Sx:      2.59   Sy:      1.98   Sxy:     -0.04
+ SHELL:   22, SURF: 1, THICK:  3   ex: -0.000158   ey: -0.000012   exy:  0.000051
+ SHELL:   22, SURF: 1, THICK:  3   Sx:     -5.03   Sy:     -1.36   Sxy:      0.64
+ SHELL:   22, SURF: 1, REBAR:  1  Strain: -0.000348  Stress:  -73.13
+ SHELL:   22, SURF: 1, REBAR:  2  Strain: -0.000181  Stress:  -38.00
+ SHELL:   22, SURF: 2, THICK:  1   ex: -0.000091   ey: -0.000286   exy: -0.000056
+ SHELL:   22, SURF: 2, THICK:  1   Sx:      2.42   Sy:     -1.88   Sxy:     -0.63
+ SHELL:   22, SURF: 2, THICK:  2   ex:  0.000074   ey:  0.000049   exy: -0.000002
+ SHELL:   22, SURF: 2, THICK:  2   Sx:      2.58   Sy:      1.98   Sxy:     -0.02
+ SHELL:   22, SURF: 2, THICK:  3   ex: -0.000156   ey: -0.000011   exy:  0.000053
+ SHELL:   22, SURF: 2, THICK:  3   Sx:     -4.95   Sy:     -1.33   Sxy:      0.66
+ SHELL:   22, SURF: 2, REBAR:  1  Strain: -0.000351  Stress:  -73.77
+ SHELL:   22, SURF: 2, REBAR:  2  Strain: -0.000178  Stress:  -37.44
+ SHELL:   22, SURF: 3, THICK:  1   ex: -0.000086   ey: -0.000285   exy: -0.000057
+ SHELL:   22, SURF: 3, THICK:  1   Sx:      2.56   Sy:     -1.83   Sxy:     -0.64
+ SHELL:   22, SURF: 3, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000003
+ SHELL:   22, SURF: 3, THICK:  2   Sx:      2.66   Sy:      1.99   Sxy:     -0.03
+ SHELL:   22, SURF: 3, THICK:  3   ex: -0.000156   ey: -0.000012   exy:  0.000052
+ SHELL:   22, SURF: 3, THICK:  3   Sx:     -4.95   Sy:     -1.36   Sxy:      0.65
+ SHELL:   22, SURF: 3, REBAR:  1  Strain: -0.000346  Stress:  -72.68
+ SHELL:   22, SURF: 3, REBAR:  2  Strain: -0.000179  Stress:  -37.50
+ SHELL:   22, SURF: 4, THICK:  1   ex: -0.000089   ey: -0.000285   exy: -0.000056
+ SHELL:   22, SURF: 4, THICK:  1   Sx:      2.48   Sy:     -1.84   Sxy:     -0.62
+ SHELL:   22, SURF: 4, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000001
+ SHELL:   22, SURF: 4, THICK:  2   Sx:      2.65   Sy:      1.99   Sxy:     -0.02
+ SHELL:   22, SURF: 4, THICK:  3   ex: -0.000153   ey: -0.000012   exy:  0.000053
+ SHELL:   22, SURF: 4, THICK:  3   Sx:     -4.87   Sy:     -1.35   Sxy:      0.67
+ SHELL:   22, SURF: 4, REBAR:  1  Strain: -0.000349  Stress:  -73.38
+ SHELL:   22, SURF: 4, REBAR:  2  Strain: -0.000176  Stress:  -36.89
+ SHELL:   23, SURF: 1, THICK:  1   ex: -0.000093   ey: -0.000285   exy: -0.000055
+ SHELL:   23, SURF: 1, THICK:  1   Sx:      2.38   Sy:     -1.85   Sxy:     -0.61
+ SHELL:   23, SURF: 1, THICK:  2   ex:  0.000070   ey:  0.000050   exy: -0.000001
+ SHELL:   23, SURF: 1, THICK:  2   Sx:      2.47   Sy:      1.99   Sxy:     -0.01
+ SHELL:   23, SURF: 1, THICK:  3   ex: -0.000163   ey: -0.000010   exy:  0.000053
+ SHELL:   23, SURF: 1, THICK:  3   Sx:     -5.15   Sy:     -1.34   Sxy:      0.66
+ SHELL:   23, SURF: 1, REBAR:  1  Strain: -0.000353  Stress:  -74.03
+ SHELL:   23, SURF: 1, REBAR:  2  Strain: -0.000185  Stress:  -38.87
+ SHELL:   23, SURF: 2, THICK:  1   ex: -0.000095   ey: -0.000285   exy: -0.000054
+ SHELL:   23, SURF: 2, THICK:  1   Sx:      2.31   Sy:     -1.88   Sxy:     -0.60
+ SHELL:   23, SURF: 2, THICK:  2   ex:  0.000070   ey:  0.000050   exy:  0.000000
+ SHELL:   23, SURF: 2, THICK:  2   Sx:      2.46   Sy:      1.98   Sxy:     -0.01
+ SHELL:   23, SURF: 2, THICK:  3   ex: -0.000160   ey: -0.000010   exy:  0.000054
+ SHELL:   23, SURF: 2, THICK:  3   Sx:     -5.07   Sy:     -1.33   Sxy:      0.67
+ SHELL:   23, SURF: 2, REBAR:  1  Strain: -0.000355  Stress:  -74.63
+ SHELL:   23, SURF: 2, REBAR:  2  Strain: -0.000182  Stress:  -38.30
+ SHELL:   23, SURF: 3, THICK:  1   ex: -0.000090   ey: -0.000284   exy: -0.000055
+ SHELL:   23, SURF: 3, THICK:  1   Sx:      2.45   Sy:     -1.83   Sxy:     -0.61
+ SHELL:   23, SURF: 3, THICK:  2   ex:  0.000072   ey:  0.000050   exy:  0.000000
+ SHELL:   23, SURF: 3, THICK:  2   Sx:      2.53   Sy:      2.00   Sxy:     -0.01
+ SHELL:   23, SURF: 3, THICK:  3   ex: -0.000161   ey: -0.000011   exy:  0.000054
+ SHELL:   23, SURF: 3, THICK:  3   Sx:     -5.09   Sy:     -1.35   Sxy:      0.67
+ SHELL:   23, SURF: 3, REBAR:  1  Strain: -0.000350  Stress:  -73.56
+ SHELL:   23, SURF: 3, REBAR:  2  Strain: -0.000183  Stress:  -38.43
+ SHELL:   23, SURF: 4, THICK:  1   ex: -0.000093   ey: -0.000284   exy: -0.000054
+ SHELL:   23, SURF: 4, THICK:  1   Sx:      2.38   Sy:     -1.85   Sxy:     -0.60
+ SHELL:   23, SURF: 4, THICK:  2   ex:  0.000072   ey:  0.000049   exy:  0.000000
+ SHELL:   23, SURF: 4, THICK:  2   Sx:      2.53   Sy:      1.99   Sxy:      0.00
+ SHELL:   23, SURF: 4, THICK:  3   ex: -0.000158   ey: -0.000012   exy:  0.000054
+ SHELL:   23, SURF: 4, THICK:  3   Sx:     -5.01   Sy:     -1.35   Sxy:      0.68
+ SHELL:   23, SURF: 4, REBAR:  1  Strain: -0.000353  Stress:  -74.18
+ SHELL:   23, SURF: 4, REBAR:  2  Strain: -0.000180  Stress:  -37.85
+ SHELL:   24, SURF: 1, THICK:  1   ex: -0.000095   ey: -0.000284   exy: -0.000056
+ SHELL:   24, SURF: 1, THICK:  1   Sx:      2.30   Sy:     -1.85   Sxy:     -0.63
+ SHELL:   24, SURF: 1, THICK:  2   ex:  0.000067   ey:  0.000050   exy: -0.000003
+ SHELL:   24, SURF: 1, THICK:  2   Sx:      2.39   Sy:      1.99   Sxy:     -0.03
+ SHELL:   24, SURF: 1, THICK:  3   ex: -0.000165   ey: -0.000010   exy:  0.000051
+ SHELL:   24, SURF: 1, THICK:  3   Sx:     -5.22   Sy:     -1.34   Sxy:      0.63
+ SHELL:   24, SURF: 1, REBAR:  1  Strain: -0.000356  Stress:  -74.66
+ SHELL:   24, SURF: 1, REBAR:  2  Strain: -0.000188  Stress:  -39.40
+ SHELL:   24, SURF: 2, THICK:  1   ex: -0.000097   ey: -0.000285   exy: -0.000056
+ SHELL:   24, SURF: 2, THICK:  1   Sx:      2.26   Sy:     -1.90   Sxy:     -0.63
+ SHELL:   24, SURF: 2, THICK:  2   ex:  0.000067   ey:  0.000050   exy: -0.000003
+ SHELL:   24, SURF: 2, THICK:  2   Sx:      2.38   Sy:      1.97   Sxy:     -0.03
+ SHELL:   24, SURF: 2, THICK:  3   ex: -0.000164   ey: -0.000010   exy:  0.000051
+ SHELL:   24, SURF: 2, THICK:  3   Sx:     -5.18   Sy:     -1.33   Sxy:      0.64
+ SHELL:   24, SURF: 2, REBAR:  1  Strain: -0.000357  Stress:  -74.96
+ SHELL:   24, SURF: 2, REBAR:  2  Strain: -0.000186  Stress:  -39.11
+ SHELL:   24, SURF: 3, THICK:  1   ex: -0.000094   ey: -0.000284   exy: -0.000056
+ SHELL:   24, SURF: 3, THICK:  1   Sx:      2.35   Sy:     -1.84   Sxy:     -0.62
+ SHELL:   24, SURF: 3, THICK:  2   ex:  0.000069   ey:  0.000050   exy: -0.000002
+ SHELL:   24, SURF: 3, THICK:  2   Sx:      2.43   Sy:      2.00   Sxy:     -0.02
+ SHELL:   24, SURF: 3, THICK:  3   ex: -0.000164   ey: -0.000010   exy:  0.000052
+ SHELL:   24, SURF: 3, THICK:  3   Sx:     -5.18   Sy:     -1.34   Sxy:      0.64
+ SHELL:   24, SURF: 3, REBAR:  1  Strain: -0.000354  Stress:  -74.33
+ SHELL:   24, SURF: 3, REBAR:  2  Strain: -0.000186  Stress:  -39.10
+ SHELL:   24, SURF: 4, THICK:  1   ex: -0.000096   ey: -0.000285   exy: -0.000056
+ SHELL:   24, SURF: 4, THICK:  1   Sx:      2.28   Sy:     -1.87   Sxy:     -0.62
+ SHELL:   24, SURF: 4, THICK:  2   ex:  0.000069   ey:  0.000050   exy: -0.000002
+ SHELL:   24, SURF: 4, THICK:  2   Sx:      2.43   Sy:      1.97   Sxy:     -0.02
+ SHELL:   24, SURF: 4, THICK:  3   ex: -0.000162   ey: -0.000011   exy:  0.000052
+ SHELL:   24, SURF: 4, THICK:  3   Sx:     -5.12   Sy:     -1.36   Sxy:      0.65
+ SHELL:   24, SURF: 4, REBAR:  1  Strain: -0.000356  Stress:  -74.83
+ SHELL:   24, SURF: 4, REBAR:  2  Strain: -0.000184  Stress:  -38.61
+ SHELL:   25, SURF: 1, THICK:  1   ex: -0.000094   ey: -0.000286   exy: -0.000062
+ SHELL:   25, SURF: 1, THICK:  1   Sx:      2.35   Sy:     -1.90   Sxy:     -0.69
+ SHELL:   25, SURF: 1, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000003
+ SHELL:   25, SURF: 1, THICK:  2   Sx:      2.67   Sy:      1.99   Sxy:     -0.04
+ SHELL:   25, SURF: 1, THICK:  3   ex: -0.000147   ey: -0.000012   exy:  0.000056
+ SHELL:   25, SURF: 1, THICK:  3   Sx:     -4.68   Sy:     -1.28   Sxy:      0.70
+ SHELL:   25, SURF: 1, REBAR:  1  Strain: -0.000355  Stress:  -74.51
+ SHELL:   25, SURF: 1, REBAR:  2  Strain: -0.000169  Stress:  -35.49
+ SHELL:   25, SURF: 2, THICK:  1   ex: -0.000103   ey: -0.000287   exy: -0.000065
+ SHELL:   25, SURF: 2, THICK:  1   Sx:      2.10   Sy:     -1.97   Sxy:     -0.72
+ SHELL:   25, SURF: 2, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000002
+ SHELL:   25, SURF: 2, THICK:  2   Sx:      2.66   Sy:      1.99   Sxy:     -0.02
+ SHELL:   25, SURF: 2, THICK:  3   ex: -0.000139   ey: -0.000011   exy:  0.000062
+ SHELL:   25, SURF: 2, THICK:  3   Sx:     -4.40   Sy:     -1.21   Sxy:      0.77
+ SHELL:   25, SURF: 2, REBAR:  1  Strain: -0.000365  Stress:  -76.56
+ SHELL:   25, SURF: 2, REBAR:  2  Strain: -0.000160  Stress:  -33.51
+ SHELL:   25, SURF: 3, THICK:  1   ex: -0.000096   ey: -0.000283   exy: -0.000061
+ SHELL:   25, SURF: 3, THICK:  1   Sx:      2.30   Sy:     -1.83   Sxy:     -0.68
+ SHELL:   25, SURF: 3, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000003
+ SHELL:   25, SURF: 3, THICK:  2   Sx:      2.67   Sy:      1.99   Sxy:     -0.04
+ SHELL:   25, SURF: 3, THICK:  3   ex: -0.000145   ey: -0.000014   exy:  0.000055
+ SHELL:   25, SURF: 3, THICK:  3   Sx:     -4.62   Sy:     -1.35   Sxy:      0.69
+ SHELL:   25, SURF: 3, REBAR:  1  Strain: -0.000357  Stress:  -75.04
+ SHELL:   25, SURF: 3, REBAR:  2  Strain: -0.000166  Stress:  -34.96
+ SHELL:   25, SURF: 4, THICK:  1   ex: -0.000107   ey: -0.000282   exy: -0.000065
+ SHELL:   25, SURF: 4, THICK:  1   Sx:      2.01   Sy:     -1.86   Sxy:     -0.72
+ SHELL:   25, SURF: 4, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000002
+ SHELL:   25, SURF: 4, THICK:  2   Sx:      2.66   Sy:      1.99   Sxy:     -0.02
+ SHELL:   25, SURF: 4, THICK:  3   ex: -0.000134   ey: -0.000016   exy:  0.000061
+ SHELL:   25, SURF: 4, THICK:  3   Sx:     -4.29   Sy:     -1.33   Sxy:      0.76
+ SHELL:   25, SURF: 4, REBAR:  1  Strain: -0.000369  Stress:  -77.59
+ SHELL:   25, SURF: 4, REBAR:  2  Strain: -0.000155  Stress:  -32.48
+ SHELL:   26, SURF: 1, THICK:  1   ex: -0.000089   ey: -0.000286   exy: -0.000059
+ SHELL:   26, SURF: 1, THICK:  1   Sx:      2.47   Sy:     -1.88   Sxy:     -0.66
+ SHELL:   26, SURF: 1, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000002
+ SHELL:   26, SURF: 1, THICK:  2   Sx:      2.69   Sy:      2.00   Sxy:     -0.03
+ SHELL:   26, SURF: 1, THICK:  3   ex: -0.000151   ey: -0.000011   exy:  0.000055
+ SHELL:   26, SURF: 1, THICK:  3   Sx:     -4.78   Sy:     -1.28   Sxy:      0.69
+ SHELL:   26, SURF: 1, REBAR:  1  Strain: -0.000350  Stress:  -73.47
+ SHELL:   26, SURF: 1, REBAR:  2  Strain: -0.000173  Stress:  -36.33
+ SHELL:   26, SURF: 2, THICK:  1   ex: -0.000097   ey: -0.000288   exy: -0.000062
+ SHELL:   26, SURF: 2, THICK:  1   Sx:      2.26   Sy:     -1.96   Sxy:     -0.69
+ SHELL:   26, SURF: 2, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000001
+ SHELL:   26, SURF: 2, THICK:  2   Sx:      2.68   Sy:      1.99   Sxy:     -0.02
+ SHELL:   26, SURF: 2, THICK:  3   ex: -0.000144   ey: -0.000010   exy:  0.000060
+ SHELL:   26, SURF: 2, THICK:  3   Sx:     -4.55   Sy:     -1.21   Sxy:      0.74
+ SHELL:   26, SURF: 2, REBAR:  1  Strain: -0.000358  Stress:  -75.24
+ SHELL:   26, SURF: 2, REBAR:  2  Strain: -0.000165  Stress:  -34.61
+ SHELL:   26, SURF: 3, THICK:  1   ex: -0.000092   ey: -0.000285   exy: -0.000059
+ SHELL:   26, SURF: 3, THICK:  1   Sx:      2.40   Sy:     -1.85   Sxy:     -0.66
+ SHELL:   26, SURF: 3, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000002
+ SHELL:   26, SURF: 3, THICK:  2   Sx:      2.67   Sy:      2.00   Sxy:     -0.03
+ SHELL:   26, SURF: 3, THICK:  3   ex: -0.000149   ey: -0.000013   exy:  0.000055
+ SHELL:   26, SURF: 3, THICK:  3   Sx:     -4.73   Sy:     -1.32   Sxy:      0.69
+ SHELL:   26, SURF: 3, REBAR:  1  Strain: -0.000353  Stress:  -74.15
+ SHELL:   26, SURF: 3, REBAR:  2  Strain: -0.000171  Stress:  -35.84
+ SHELL:   26, SURF: 4, THICK:  1   ex: -0.000101   ey: -0.000285   exy: -0.000062
+ SHELL:   26, SURF: 4, THICK:  1   Sx:      2.18   Sy:     -1.91   Sxy:     -0.69
+ SHELL:   26, SURF: 4, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000001
+ SHELL:   26, SURF: 4, THICK:  2   Sx:      2.66   Sy:      1.99   Sxy:     -0.01
+ SHELL:   26, SURF: 4, THICK:  3   ex: -0.000141   ey: -0.000013   exy:  0.000060
+ SHELL:   26, SURF: 4, THICK:  3   Sx:     -4.49   Sy:     -1.28   Sxy:      0.75
+ SHELL:   26, SURF: 4, REBAR:  1  Strain: -0.000362  Stress:  -76.01
+ SHELL:   26, SURF: 4, REBAR:  2  Strain: -0.000162  Stress:  -34.03
+ SHELL:   27, SURF: 1, THICK:  1   ex: -0.000085   ey: -0.000286   exy: -0.000057
+ SHELL:   27, SURF: 1, THICK:  1   Sx:      2.59   Sy:     -1.84   Sxy:     -0.64
+ SHELL:   27, SURF: 1, THICK:  2   ex:  0.000078   ey:  0.000049   exy: -0.000001
+ SHELL:   27, SURF: 1, THICK:  2   Sx:      2.71   Sy:      2.01   Sxy:     -0.01
+ SHELL:   27, SURF: 1, THICK:  3   ex: -0.000154   ey: -0.000011   exy:  0.000055
+ SHELL:   27, SURF: 1, THICK:  3   Sx:     -4.87   Sy:     -1.30   Sxy:      0.69
+ SHELL:   27, SURF: 1, REBAR:  1  Strain: -0.000345  Stress:  -72.52
+ SHELL:   27, SURF: 1, REBAR:  2  Strain: -0.000176  Stress:  -37.00
+ SHELL:   27, SURF: 2, THICK:  1   ex: -0.000093   ey: -0.000287   exy: -0.000060
+ SHELL:   27, SURF: 2, THICK:  1   Sx:      2.38   Sy:     -1.91   Sxy:     -0.67
+ SHELL:   27, SURF: 2, THICK:  2   ex:  0.000078   ey:  0.000048   exy: -0.000001
+ SHELL:   27, SURF: 2, THICK:  2   Sx:      2.70   Sy:      1.99   Sxy:     -0.01
+ SHELL:   27, SURF: 2, THICK:  3   ex: -0.000146   ey: -0.000011   exy:  0.000058
+ SHELL:   27, SURF: 2, THICK:  3   Sx:     -4.64   Sy:     -1.26   Sxy:      0.72
+ SHELL:   27, SURF: 2, REBAR:  1  Strain: -0.000354  Stress:  -74.25
+ SHELL:   27, SURF: 2, REBAR:  2  Strain: -0.000168  Stress:  -35.27
+ SHELL:   27, SURF: 3, THICK:  1   ex: -0.000088   ey: -0.000285   exy: -0.000057
+ SHELL:   27, SURF: 3, THICK:  1   Sx:      2.52   Sy:     -1.82   Sxy:     -0.63
+ SHELL:   27, SURF: 3, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000001
+ SHELL:   27, SURF: 3, THICK:  2   Sx:      2.69   Sy:      2.01   Sxy:     -0.01
+ SHELL:   27, SURF: 3, THICK:  3   ex: -0.000152   ey: -0.000012   exy:  0.000055
+ SHELL:   27, SURF: 3, THICK:  3   Sx:     -4.83   Sy:     -1.33   Sxy:      0.69
+ SHELL:   27, SURF: 3, REBAR:  1  Strain: -0.000348  Stress:  -73.09
+ SHELL:   27, SURF: 3, REBAR:  2  Strain: -0.000175  Stress:  -36.65
+ SHELL:   27, SURF: 4, THICK:  1   ex: -0.000095   ey: -0.000285   exy: -0.000060
+ SHELL:   27, SURF: 4, THICK:  1   Sx:      2.32   Sy:     -1.88   Sxy:     -0.66
+ SHELL:   27, SURF: 4, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000001
+ SHELL:   27, SURF: 4, THICK:  2   Sx:      2.69   Sy:      1.99   Sxy:     -0.01
+ SHELL:   27, SURF: 4, THICK:  3   ex: -0.000145   ey: -0.000013   exy:  0.000058
+ SHELL:   27, SURF: 4, THICK:  3   Sx:     -4.60   Sy:     -1.30   Sxy:      0.73
+ SHELL:   27, SURF: 4, REBAR:  1  Strain: -0.000356  Stress:  -74.83
+ SHELL:   27, SURF: 4, REBAR:  2  Strain: -0.000166  Stress:  -34.90
+ SHELL:   28, SURF: 1, THICK:  1   ex: -0.000084   ey: -0.000286   exy: -0.000059
+ SHELL:   28, SURF: 1, THICK:  1   Sx:      2.61   Sy:     -1.85   Sxy:     -0.66
+ SHELL:   28, SURF: 1, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000003
+ SHELL:   28, SURF: 1, THICK:  2   Sx:      2.67   Sy:      2.01   Sxy:     -0.03
+ SHELL:   28, SURF: 1, THICK:  3   ex: -0.000157   ey: -0.000010   exy:  0.000054
+ SHELL:   28, SURF: 1, THICK:  3   Sx:     -4.98   Sy:     -1.31   Sxy:      0.67
+ SHELL:   28, SURF: 1, REBAR:  1  Strain: -0.000344  Stress:  -72.31
+ SHELL:   28, SURF: 1, REBAR:  2  Strain: -0.000180  Stress:  -37.76
+ SHELL:   28, SURF: 2, THICK:  1   ex: -0.000091   ey: -0.000287   exy: -0.000061
+ SHELL:   28, SURF: 2, THICK:  1   Sx:      2.43   Sy:     -1.90   Sxy:     -0.68
+ SHELL:   28, SURF: 2, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000002
+ SHELL:   28, SURF: 2, THICK:  2   Sx:      2.66   Sy:      1.98   Sxy:     -0.03
+ SHELL:   28, SURF: 2, THICK:  3   ex: -0.000151   ey: -0.000011   exy:  0.000056
+ SHELL:   28, SURF: 2, THICK:  3   Sx:     -4.78   Sy:     -1.30   Sxy:      0.71
+ SHELL:   28, SURF: 2, REBAR:  1  Strain: -0.000351  Stress:  -73.81
+ SHELL:   28, SURF: 2, REBAR:  2  Strain: -0.000173  Stress:  -36.29
+ SHELL:   28, SURF: 3, THICK:  1   ex: -0.000084   ey: -0.000285   exy: -0.000059
+ SHELL:   28, SURF: 3, THICK:  1   Sx:      2.62   Sy:     -1.80   Sxy:     -0.65
+ SHELL:   28, SURF: 3, THICK:  2   ex:  0.000078   ey:  0.000049   exy: -0.000002
+ SHELL:   28, SURF: 3, THICK:  2   Sx:      2.70   Sy:      2.01   Sxy:     -0.03
+ SHELL:   28, SURF: 3, THICK:  3   ex: -0.000155   ey: -0.000012   exy:  0.000054
+ SHELL:   28, SURF: 3, THICK:  3   Sx:     -4.92   Sy:     -1.35   Sxy:      0.68
+ SHELL:   28, SURF: 3, REBAR:  1  Strain: -0.000344  Stress:  -72.30
+ SHELL:   28, SURF: 3, REBAR:  2  Strain: -0.000178  Stress:  -37.28
+ SHELL:   28, SURF: 4, THICK:  1   ex: -0.000092   ey: -0.000285   exy: -0.000060
+ SHELL:   28, SURF: 4, THICK:  1   Sx:      2.42   Sy:     -1.85   Sxy:     -0.67
+ SHELL:   28, SURF: 4, THICK:  2   ex:  0.000078   ey:  0.000048   exy: -0.000002
+ SHELL:   28, SURF: 4, THICK:  2   Sx:      2.70   Sy:      1.99   Sxy:     -0.02
+ SHELL:   28, SURF: 4, THICK:  3   ex: -0.000148   ey: -0.000013   exy:  0.000057
+ SHELL:   28, SURF: 4, THICK:  3   Sx:     -4.70   Sy:     -1.34   Sxy:      0.71
+ SHELL:   28, SURF: 4, REBAR:  1  Strain: -0.000352  Stress:  -74.00
+ SHELL:   28, SURF: 4, REBAR:  2  Strain: -0.000170  Stress:  -35.60
+ SHELL:   29, SURF: 1, THICK:  1   ex: -0.000112   ey: -0.000287   exy: -0.000076
+ SHELL:   29, SURF: 1, THICK:  1   Sx:      1.86   Sy:     -2.02   Sxy:     -0.85
+ SHELL:   29, SURF: 1, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000003
+ SHELL:   29, SURF: 1, THICK:  2   Sx:      2.65   Sy:      1.99   Sxy:     -0.04
+ SHELL:   29, SURF: 1, THICK:  3   ex: -0.000131   ey: -0.000010   exy:  0.000070
+ SHELL:   29, SURF: 1, THICK:  3   Sx:     -4.15   Sy:     -1.14   Sxy:      0.88
+ SHELL:   29, SURF: 1, REBAR:  1  Strain: -0.000374  Stress:  -78.58
+ SHELL:   29, SURF: 1, REBAR:  2  Strain: -0.000151  Stress:  -31.65
+ SHELL:   29, SURF: 2, THICK:  1   ex: -0.000127   ey: -0.000290   exy: -0.000085
+ SHELL:   29, SURF: 2, THICK:  1   Sx:      1.44   Sy:     -2.18   Sxy:     -0.94
+ SHELL:   29, SURF: 2, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000002
+ SHELL:   29, SURF: 2, THICK:  2   Sx:      2.65   Sy:      1.98   Sxy:     -0.03
+ SHELL:   29, SURF: 2, THICK:  3   ex: -0.000116   ey: -0.000008   exy:  0.000081
+ SHELL:   29, SURF: 2, THICK:  3   Sx:     -3.67   Sy:     -0.98   Sxy:      1.01
+ SHELL:   29, SURF: 2, REBAR:  1  Strain: -0.000391  Stress:  -82.04
+ SHELL:   29, SURF: 2, REBAR:  2  Strain: -0.000135  Stress:  -28.25
+ SHELL:   29, SURF: 3, THICK:  1   ex: -0.000118   ey: -0.000280   exy: -0.000076
+ SHELL:   29, SURF: 3, THICK:  1   Sx:      1.73   Sy:     -1.86   Sxy:     -0.84
+ SHELL:   29, SURF: 3, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000003
+ SHELL:   29, SURF: 3, THICK:  2   Sx:      2.64   Sy:      1.99   Sxy:     -0.04
+ SHELL:   29, SURF: 3, THICK:  3   ex: -0.000126   ey: -0.000017   exy:  0.000070
+ SHELL:   29, SURF: 3, THICK:  3   Sx:     -4.03   Sy:     -1.32   Sxy:      0.87
+ SHELL:   29, SURF: 3, REBAR:  1  Strain: -0.000381  Stress:  -79.97
+ SHELL:   29, SURF: 3, REBAR:  2  Strain: -0.000145  Stress:  -30.47
+ SHELL:   29, SURF: 4, THICK:  1   ex: -0.000136   ey: -0.000279   exy: -0.000084
+ SHELL:   29, SURF: 4, THICK:  1   Sx:      1.25   Sy:     -1.93   Sxy:     -0.94
+ SHELL:   29, SURF: 4, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000002
+ SHELL:   29, SURF: 4, THICK:  2   Sx:      2.63   Sy:      1.98   Sxy:     -0.03
+ SHELL:   29, SURF: 4, THICK:  3   ex: -0.000108   ey: -0.000019   exy:  0.000080
+ SHELL:   29, SURF: 4, THICK:  3   Sx:     -3.49   Sy:     -1.26   Sxy:      1.00
+ SHELL:   29, SURF: 4, REBAR:  1  Strain: -0.000401  Stress:  -84.11
+ SHELL:   29, SURF: 4, REBAR:  2  Strain: -0.000126  Stress:  -26.39
+ SHELL:   30, SURF: 1, THICK:  1   ex: -0.000105   ey: -0.000289   exy: -0.000068
+ SHELL:   30, SURF: 1, THICK:  1   Sx:      2.04   Sy:     -2.04   Sxy:     -0.76
+ SHELL:   30, SURF: 1, THICK:  2   ex:  0.000077   ey:  0.000049   exy: -0.000003
+ SHELL:   30, SURF: 1, THICK:  2   Sx:      2.67   Sy:      1.99   Sxy:     -0.03
+ SHELL:   30, SURF: 1, THICK:  3   ex: -0.000136   ey: -0.000009   exy:  0.000063
+ SHELL:   30, SURF: 1, THICK:  3   Sx:     -4.32   Sy:     -1.12   Sxy:      0.79
+ SHELL:   30, SURF: 1, REBAR:  1  Strain: -0.000367  Stress:  -77.03
+ SHELL:   30, SURF: 1, REBAR:  2  Strain: -0.000157  Stress:  -32.97
+ SHELL:   30, SURF: 2, THICK:  1   ex: -0.000116   ey: -0.000294   exy: -0.000073
+ SHELL:   30, SURF: 2, THICK:  1   Sx:      1.70   Sy:     -2.24   Sxy:     -0.81
+ SHELL:   30, SURF: 2, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000002
+ SHELL:   30, SURF: 2, THICK:  2   Sx:      2.66   Sy:      1.98   Sxy:     -0.02
+ SHELL:   30, SURF: 2, THICK:  3   ex: -0.000125   ey: -0.000005   exy:  0.000070
+ SHELL:   30, SURF: 2, THICK:  3   Sx:     -3.94   Sy:     -0.92   Sxy:      0.87
+ SHELL:   30, SURF: 2, REBAR:  1  Strain: -0.000379  Stress:  -79.69
+ SHELL:   30, SURF: 2, REBAR:  2  Strain: -0.000145  Stress:  -30.35
+ SHELL:   30, SURF: 3, THICK:  1   ex: -0.000109   ey: -0.000286   exy: -0.000070
+ SHELL:   30, SURF: 3, THICK:  1   Sx:      1.95   Sy:     -1.96   Sxy:     -0.78
+ SHELL:   30, SURF: 3, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000003
+ SHELL:   30, SURF: 3, THICK:  2   Sx:      2.66   Sy:      1.99   Sxy:     -0.03
+ SHELL:   30, SURF: 3, THICK:  3   ex: -0.000133   ey: -0.000012   exy:  0.000065
+ SHELL:   30, SURF: 3, THICK:  3   Sx:     -4.24   Sy:     -1.21   Sxy:      0.82
+ SHELL:   30, SURF: 3, REBAR:  1  Strain: -0.000371  Stress:  -77.92
+ SHELL:   30, SURF: 3, REBAR:  2  Strain: -0.000153  Stress:  -32.21
+ SHELL:   30, SURF: 4, THICK:  1   ex: -0.000122   ey: -0.000289   exy: -0.000075
+ SHELL:   30, SURF: 4, THICK:  1   Sx:      1.56   Sy:     -2.12   Sxy:     -0.84
+ SHELL:   30, SURF: 4, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000002
+ SHELL:   30, SURF: 4, THICK:  2   Sx:      2.65   Sy:      1.98   Sxy:     -0.02
+ SHELL:   30, SURF: 4, THICK:  3   ex: -0.000120   ey: -0.000010   exy:  0.000072
+ SHELL:   30, SURF: 4, THICK:  3   Sx:     -3.80   Sy:     -1.05   Sxy:      0.90
+ SHELL:   30, SURF: 4, REBAR:  1  Strain: -0.000386  Stress:  -81.07
+ SHELL:   30, SURF: 4, REBAR:  2  Strain: -0.000139  Stress:  -29.10
+ SHELL:   31, SURF: 1, THICK:  1   ex: -0.000101   ey: -0.000288   exy: -0.000063
+ SHELL:   31, SURF: 1, THICK:  1   Sx:      2.15   Sy:     -1.98   Sxy:     -0.69
+ SHELL:   31, SURF: 1, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000002
+ SHELL:   31, SURF: 1, THICK:  2   Sx:      2.67   Sy:      1.98   Sxy:     -0.03
+ SHELL:   31, SURF: 1, THICK:  3   ex: -0.000140   ey: -0.000011   exy:  0.000058
+ SHELL:   31, SURF: 1, THICK:  3   Sx:     -4.44   Sy:     -1.20   Sxy:      0.72
+ SHELL:   31, SURF: 1, REBAR:  1  Strain: -0.000363  Stress:  -76.15
+ SHELL:   31, SURF: 1, REBAR:  2  Strain: -0.000161  Stress:  -33.78
+ SHELL:   31, SURF: 2, THICK:  1   ex: -0.000113   ey: -0.000289   exy: -0.000064
+ SHELL:   31, SURF: 2, THICK:  1   Sx:      1.83   Sy:     -2.08   Sxy:     -0.71
+ SHELL:   31, SURF: 2, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000002
+ SHELL:   31, SURF: 2, THICK:  2   Sx:      2.67   Sy:      1.98   Sxy:     -0.02
+ SHELL:   31, SURF: 2, THICK:  3   ex: -0.000129   ey: -0.000010   exy:  0.000061
+ SHELL:   31, SURF: 2, THICK:  3   Sx:     -4.08   Sy:     -1.10   Sxy:      0.76
+ SHELL:   31, SURF: 2, REBAR:  1  Strain: -0.000375  Stress:  -78.82
+ SHELL:   31, SURF: 2, REBAR:  2  Strain: -0.000148  Stress:  -31.16
+ SHELL:   31, SURF: 3, THICK:  1   ex: -0.000103   ey: -0.000286   exy: -0.000064
+ SHELL:   31, SURF: 3, THICK:  1   Sx:      2.10   Sy:     -1.95   Sxy:     -0.71
+ SHELL:   31, SURF: 3, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000002
+ SHELL:   31, SURF: 3, THICK:  2   Sx:      2.67   Sy:      1.98   Sxy:     -0.03
+ SHELL:   31, SURF: 3, THICK:  3   ex: -0.000138   ey: -0.000012   exy:  0.000059
+ SHELL:   31, SURF: 3, THICK:  3   Sx:     -4.39   Sy:     -1.24   Sxy:      0.74
+ SHELL:   31, SURF: 3, REBAR:  1  Strain: -0.000365  Stress:  -76.64
+ SHELL:   31, SURF: 3, REBAR:  2  Strain: -0.000159  Stress:  -33.32
+ SHELL:   31, SURF: 4, THICK:  1   ex: -0.000115   ey: -0.000289   exy: -0.000065
+ SHELL:   31, SURF: 4, THICK:  1   Sx:      1.78   Sy:     -2.08   Sxy:     -0.72
+ SHELL:   31, SURF: 4, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000002
+ SHELL:   31, SURF: 4, THICK:  2   Sx:      2.67   Sy:      1.98   Sxy:     -0.02
+ SHELL:   31, SURF: 4, THICK:  3   ex: -0.000127   ey: -0.000010   exy:  0.000062
+ SHELL:   31, SURF: 4, THICK:  3   Sx:     -4.02   Sy:     -1.10   Sxy:      0.78
+ SHELL:   31, SURF: 4, REBAR:  1  Strain: -0.000377  Stress:  -79.26
+ SHELL:   31, SURF: 4, REBAR:  2  Strain: -0.000146  Stress:  -30.75
+ SHELL:   32, SURF: 1, THICK:  1   ex: -0.000098   ey: -0.000286   exy: -0.000063
+ SHELL:   32, SURF: 1, THICK:  1   Sx:      2.25   Sy:     -1.92   Sxy:     -0.70
+ SHELL:   32, SURF: 1, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000003
+ SHELL:   32, SURF: 1, THICK:  2   Sx:      2.66   Sy:      1.98   Sxy:     -0.03
+ SHELL:   32, SURF: 1, THICK:  3   ex: -0.000144   ey: -0.000012   exy:  0.000058
+ SHELL:   32, SURF: 1, THICK:  3   Sx:     -4.57   Sy:     -1.27   Sxy:      0.72
+ SHELL:   32, SURF: 1, REBAR:  1  Strain: -0.000359  Stress:  -75.35
+ SHELL:   32, SURF: 1, REBAR:  2  Strain: -0.000165  Stress:  -34.69
+ SHELL:   32, SURF: 2, THICK:  1   ex: -0.000110   ey: -0.000285   exy: -0.000065
+ SHELL:   32, SURF: 2, THICK:  1   Sx:      1.91   Sy:     -1.95   Sxy:     -0.72
+ SHELL:   32, SURF: 2, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000002
+ SHELL:   32, SURF: 2, THICK:  2   Sx:      2.66   Sy:      1.98   Sxy:     -0.02
+ SHELL:   32, SURF: 2, THICK:  3   ex: -0.000131   ey: -0.000013   exy:  0.000061
+ SHELL:   32, SURF: 2, THICK:  3   Sx:     -4.19   Sy:     -1.24   Sxy:      0.77
+ SHELL:   32, SURF: 2, REBAR:  1  Strain: -0.000373  Stress:  -78.28
+ SHELL:   32, SURF: 2, REBAR:  2  Strain: -0.000152  Stress:  -31.82
+ SHELL:   32, SURF: 3, THICK:  1   ex: -0.000100   ey: -0.000285   exy: -0.000062
+ SHELL:   32, SURF: 3, THICK:  1   Sx:      2.20   Sy:     -1.88   Sxy:     -0.69
+ SHELL:   32, SURF: 3, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000003
+ SHELL:   32, SURF: 3, THICK:  2   Sx:      2.67   Sy:      1.98   Sxy:     -0.03
+ SHELL:   32, SURF: 3, THICK:  3   ex: -0.000141   ey: -0.000014   exy:  0.000057
+ SHELL:   32, SURF: 3, THICK:  3   Sx:     -4.50   Sy:     -1.31   Sxy:      0.71
+ SHELL:   32, SURF: 3, REBAR:  1  Strain: -0.000361  Stress:  -75.83
+ SHELL:   32, SURF: 3, REBAR:  2  Strain: -0.000162  Stress:  -34.11
+ SHELL:   32, SURF: 4, THICK:  1   ex: -0.000112   ey: -0.000284   exy: -0.000064
+ SHELL:   32, SURF: 4, THICK:  1   Sx:      1.88   Sy:     -1.93   Sxy:     -0.71
+ SHELL:   32, SURF: 4, THICK:  2   ex:  0.000077   ey:  0.000048   exy: -0.000002
+ SHELL:   32, SURF: 4, THICK:  2   Sx:      2.67   Sy:      1.98   Sxy:     -0.02
+ SHELL:   32, SURF: 4, THICK:  3   ex: -0.000130   ey: -0.000014   exy:  0.000061
+ SHELL:   32, SURF: 4, THICK:  3   Sx:     -4.14   Sy:     -1.26   Sxy:      0.76
+ SHELL:   32, SURF: 4, REBAR:  1  Strain: -0.000374  Stress:  -78.58
+ SHELL:   32, SURF: 4, REBAR:  2  Strain: -0.000150  Stress:  -31.42
+ SHELL:   33, SURF: 1, THICK:  1   ex: -0.000139   ey: -0.000291   exy: -0.000107
+ SHELL:   33, SURF: 1, THICK:  1   Sx:      1.09   Sy:     -2.28   Sxy:     -1.19
+ SHELL:   33, SURF: 1, THICK:  2   ex:  0.000075   ey:  0.000049   exy: -0.000004
+ SHELL:   33, SURF: 1, THICK:  2   Sx:      2.62   Sy:      1.98   Sxy:     -0.05
+ SHELL:   33, SURF: 1, THICK:  3   ex: -0.000105   ey: -0.000007   exy:  0.000099
+ SHELL:   33, SURF: 1, THICK:  3   Sx:     -3.33   Sy:     -0.86   Sxy:      1.24
+ SHELL:   33, SURF: 1, REBAR:  1  Strain: -0.000404  Stress:  -84.89
+ SHELL:   33, SURF: 1, REBAR:  2  Strain: -0.000123  Stress:  -25.76
+ SHELL:   33, SURF: 2, THICK:  1   ex: -0.000159   ey: -0.000298   exy: -0.000123
+ SHELL:   33, SURF: 2, THICK:  1   Sx:      0.51   Sy:     -2.58   Sxy:     -1.36
+ SHELL:   33, SURF: 2, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000003
+ SHELL:   33, SURF: 2, THICK:  2   Sx:      2.62   Sy:      1.97   Sxy:     -0.04
+ SHELL:   33, SURF: 2, THICK:  3   ex: -0.000086   ey:  0.000000   exy:  0.000116
+ SHELL:   33, SURF: 2, THICK:  3   Sx:     -2.68   Sy:     -0.55   Sxy:      1.45
+ SHELL:   33, SURF: 2, REBAR:  1  Strain: -0.000426  Stress:  -89.44
+ SHELL:   33, SURF: 2, REBAR:  2  Strain: -0.000101  Stress:  -21.24
+ SHELL:   33, SURF: 3, THICK:  1   ex: -0.000150   ey: -0.000277   exy: -0.000109
+ SHELL:   33, SURF: 3, THICK:  1   Sx:      0.87   Sy:     -1.96   Sxy:     -1.21
+ SHELL:   33, SURF: 3, THICK:  2   ex:  0.000075   ey:  0.000049   exy: -0.000004
+ SHELL:   33, SURF: 3, THICK:  2   Sx:      2.60   Sy:      1.98   Sxy:     -0.05
+ SHELL:   33, SURF: 3, THICK:  3   ex: -0.000096   ey: -0.000020   exy:  0.000101
+ SHELL:   33, SURF: 3, THICK:  3   Sx:     -3.12   Sy:     -1.23   Sxy:      1.26
+ SHELL:   33, SURF: 3, REBAR:  1  Strain: -0.000416  Stress:  -87.30
+ SHELL:   33, SURF: 3, REBAR:  2  Strain: -0.000112  Stress:  -23.59
+ SHELL:   33, SURF: 4, THICK:  1   ex: -0.000175   ey: -0.000280   exy: -0.000125
+ SHELL:   33, SURF: 4, THICK:  1   Sx:      0.16   Sy:     -2.18   Sxy:     -1.39
+ SHELL:   33, SURF: 4, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000004
+ SHELL:   33, SURF: 4, THICK:  2   Sx:      2.60   Sy:      1.97   Sxy:     -0.04
+ SHELL:   33, SURF: 4, THICK:  3   ex: -0.000071   ey: -0.000018   exy:  0.000118
+ SHELL:   33, SURF: 4, THICK:  3   Sx:     -2.32   Sy:     -1.00   Sxy:      1.47
+ SHELL:   33, SURF: 4, REBAR:  1  Strain: -0.000443  Stress:  -93.13
+ SHELL:   33, SURF: 4, REBAR:  2  Strain: -0.000085  Stress:  -17.80
+ SHELL:   34, SURF: 1, THICK:  1   ex: -0.000127   ey: -0.000299   exy: -0.000087
+ SHELL:   34, SURF: 1, THICK:  1   Sx:      1.38   Sy:     -2.43   Sxy:     -0.97
+ SHELL:   34, SURF: 1, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000003
+ SHELL:   34, SURF: 1, THICK:  2   Sx:      2.64   Sy:      1.97   Sxy:     -0.04
+ SHELL:   34, SURF: 1, THICK:  3   ex: -0.000116   ey:  0.000001   exy:  0.000081
+ SHELL:   34, SURF: 1, THICK:  3   Sx:     -3.62   Sy:     -0.71   Sxy:      1.01
+ SHELL:   34, SURF: 1, REBAR:  1  Strain: -0.000391  Stress:  -82.13
+ SHELL:   34, SURF: 1, REBAR:  2  Strain: -0.000135  Stress:  -28.26
+ SHELL:   34, SURF: 2, THICK:  1   ex: -0.000144   ey: -0.000311   exy: -0.000095
+ SHELL:   34, SURF: 2, THICK:  1   Sx:      0.85   Sy:     -2.87   Sxy:     -1.06
+ SHELL:   34, SURF: 2, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000002
+ SHELL:   34, SURF: 2, THICK:  2   Sx:      2.63   Sy:      1.96   Sxy:     -0.03
+ SHELL:   34, SURF: 2, THICK:  3   ex: -0.000099   ey:  0.000012   exy:  0.000091
+ SHELL:   34, SURF: 2, THICK:  3   Sx:     -3.03   Sy:     -0.25   Sxy:      1.13
+ SHELL:   34, SURF: 2, REBAR:  1  Strain: -0.000410  Stress:  -86.02
+ SHELL:   34, SURF: 2, REBAR:  2  Strain: -0.000116  Stress:  -24.41
+ SHELL:   34, SURF: 3, THICK:  1   ex: -0.000134   ey: -0.000291   exy: -0.000093
+ SHELL:   34, SURF: 3, THICK:  1   Sx:      1.22   Sy:     -2.24   Sxy:     -1.03
+ SHELL:   34, SURF: 3, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000003
+ SHELL:   34, SURF: 3, THICK:  2   Sx:      2.63   Sy:      1.97   Sxy:     -0.04
+ SHELL:   34, SURF: 3, THICK:  3   ex: -0.000109   ey: -0.000008   exy:  0.000086
+ SHELL:   34, SURF: 3, THICK:  3   Sx:     -3.46   Sy:     -0.93   Sxy:      1.08
+ SHELL:   34, SURF: 3, REBAR:  1  Strain: -0.000399  Stress:  -83.82
+ SHELL:   34, SURF: 3, REBAR:  2  Strain: -0.000127  Stress:  -26.70
+ SHELL:   34, SURF: 4, THICK:  1   ex: -0.000153   ey: -0.000297   exy: -0.000101
+ SHELL:   34, SURF: 4, THICK:  1   Sx:      0.68   Sy:     -2.53   Sxy:     -1.13
+ SHELL:   34, SURF: 4, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000003
+ SHELL:   34, SURF: 4, THICK:  2   Sx:      2.62   Sy:      1.96   Sxy:     -0.03
+ SHELL:   34, SURF: 4, THICK:  3   ex: -0.000091   ey: -0.000002   exy:  0.000096
+ SHELL:   34, SURF: 4, THICK:  3   Sx:     -2.86   Sy:     -0.63   Sxy:      1.20
+ SHELL:   34, SURF: 4, REBAR:  1  Strain: -0.000419  Stress:  -88.05
+ SHELL:   34, SURF: 4, REBAR:  2  Strain: -0.000107  Stress:  -22.52
+ SHELL:   35, SURF: 1, THICK:  1   ex: -0.000124   ey: -0.000293   exy: -0.000062
+ SHELL:   35, SURF: 1, THICK:  1   Sx:      1.48   Sy:     -2.25   Sxy:     -0.69
+ SHELL:   35, SURF: 1, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000003
+ SHELL:   35, SURF: 1, THICK:  2   Sx:      2.65   Sy:      1.98   Sxy:     -0.03
+ SHELL:   35, SURF: 1, THICK:  3   ex: -0.000118   ey: -0.000005   exy:  0.000057
+ SHELL:   35, SURF: 1, THICK:  3   Sx:     -3.73   Sy:     -0.91   Sxy:      0.71
+ SHELL:   35, SURF: 1, REBAR:  1  Strain: -0.000388  Stress:  -81.50
+ SHELL:   35, SURF: 1, REBAR:  2  Strain: -0.000137  Stress:  -28.78
+ SHELL:   35, SURF: 2, THICK:  1   ex: -0.000136   ey: -0.000303   exy: -0.000064
+ SHELL:   35, SURF: 2, THICK:  1   Sx:      1.12   Sy:     -2.59   Sxy:     -0.71
+ SHELL:   35, SURF: 2, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000002
+ SHELL:   35, SURF: 2, THICK:  2   Sx:      2.64   Sy:      1.96   Sxy:     -0.02
+ SHELL:   35, SURF: 2, THICK:  3   ex: -0.000107   ey:  0.000004   exy:  0.000061
+ SHELL:   35, SURF: 2, THICK:  3   Sx:     -3.32   Sy:     -0.56   Sxy:      0.76
+ SHELL:   35, SURF: 2, REBAR:  1  Strain: -0.000401  Stress:  -84.17
+ SHELL:   35, SURF: 2, REBAR:  2  Strain: -0.000125  Stress:  -26.15
+ SHELL:   35, SURF: 3, THICK:  1   ex: -0.000126   ey: -0.000293   exy: -0.000069
+ SHELL:   35, SURF: 3, THICK:  1   Sx:      1.45   Sy:     -2.26   Sxy:     -0.77
+ SHELL:   35, SURF: 3, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000003
+ SHELL:   35, SURF: 3, THICK:  2   Sx:      2.64   Sy:      1.98   Sxy:     -0.03
+ SHELL:   35, SURF: 3, THICK:  3   ex: -0.000117   ey: -0.000005   exy:  0.000064
+ SHELL:   35, SURF: 3, THICK:  3   Sx:     -3.70   Sy:     -0.90   Sxy:      0.80
+ SHELL:   35, SURF: 3, REBAR:  1  Strain: -0.000389  Stress:  -81.79
+ SHELL:   35, SURF: 3, REBAR:  2  Strain: -0.000136  Stress:  -28.54
+ SHELL:   35, SURF: 4, THICK:  1   ex: -0.000141   ey: -0.000305   exy: -0.000071
+ SHELL:   35, SURF: 4, THICK:  1   Sx:      0.95   Sy:     -2.67   Sxy:     -0.79
+ SHELL:   35, SURF: 4, THICK:  2   ex:  0.000076   ey:  0.000048   exy: -0.000002
+ SHELL:   35, SURF: 4, THICK:  2   Sx:      2.64   Sy:      1.96   Sxy:     -0.02
+ SHELL:   35, SURF: 4, THICK:  3   ex: -0.000102   ey:  0.000005   exy:  0.000068
+ SHELL:   35, SURF: 4, THICK:  3   Sx:     -3.14   Sy:     -0.47   Sxy:      0.85
+ SHELL:   35, SURF: 4, REBAR:  1  Strain: -0.000407  Stress:  -85.43
+ SHELL:   35, SURF: 4, REBAR:  2  Strain: -0.000119  Stress:  -24.96
+ SHELL:   36, SURF: 1, THICK:  1   ex: -0.000123   ey: -0.000283   exy: -0.000061
+ SHELL:   36, SURF: 1, THICK:  1   Sx:      1.58   Sy:     -1.97   Sxy:     -0.68
+ SHELL:   36, SURF: 1, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000003
+ SHELL:   36, SURF: 1, THICK:  2   Sx:      2.64   Sy:      1.99   Sxy:     -0.03
+ SHELL:   36, SURF: 1, THICK:  3   ex: -0.000120   ey: -0.000014   exy:  0.000056
+ SHELL:   36, SURF: 1, THICK:  3   Sx:     -3.85   Sy:     -1.20   Sxy:      0.70
+ SHELL:   36, SURF: 1, REBAR:  1  Strain: -0.000386  Stress:  -81.11
+ SHELL:   36, SURF: 1, REBAR:  2  Strain: -0.000139  Stress:  -29.27
+ SHELL:   36, SURF: 2, THICK:  1   ex: -0.000144   ey: -0.000278   exy: -0.000057
+ SHELL:   36, SURF: 2, THICK:  1   Sx:      1.03   Sy:     -1.94   Sxy:     -0.63
+ SHELL:   36, SURF: 2, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000001
+ SHELL:   36, SURF: 2, THICK:  2   Sx:      2.63   Sy:      1.98   Sxy:     -0.02
+ SHELL:   36, SURF: 2, THICK:  3   ex: -0.000100   ey: -0.000020   exy:  0.000054
+ SHELL:   36, SURF: 2, THICK:  3   Sx:     -3.24   Sy:     -1.25   Sxy:      0.68
+ SHELL:   36, SURF: 2, REBAR:  1  Strain: -0.000409  Stress:  -85.97
+ SHELL:   36, SURF: 2, REBAR:  2  Strain: -0.000117  Stress:  -24.49
+ SHELL:   36, SURF: 3, THICK:  1   ex: -0.000123   ey: -0.000285   exy: -0.000060
+ SHELL:   36, SURF: 3, THICK:  1   Sx:      1.55   Sy:     -2.03   Sxy:     -0.67
+ SHELL:   36, SURF: 3, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000002
+ SHELL:   36, SURF: 3, THICK:  2   Sx:      2.65   Sy:      1.99   Sxy:     -0.03
+ SHELL:   36, SURF: 3, THICK:  3   ex: -0.000119   ey: -0.000013   exy:  0.000055
+ SHELL:   36, SURF: 3, THICK:  3   Sx:     -3.81   Sy:     -1.14   Sxy:      0.69
+ SHELL:   36, SURF: 3, REBAR:  1  Strain: -0.000387  Stress:  -81.29
+ SHELL:   36, SURF: 3, REBAR:  2  Strain: -0.000138  Stress:  -29.01
+ SHELL:   36, SURF: 4, THICK:  1   ex: -0.000137   ey: -0.000286   exy: -0.000056
+ SHELL:   36, SURF: 4, THICK:  1   Sx:      1.17   Sy:     -2.14   Sxy:     -0.62
+ SHELL:   36, SURF: 4, THICK:  2   ex:  0.000076   ey:  0.000049   exy: -0.000001
+ SHELL:   36, SURF: 4, THICK:  2   Sx:      2.64   Sy:      1.98   Sxy:     -0.01
+ SHELL:   36, SURF: 4, THICK:  3   ex: -0.000106   ey: -0.000012   exy:  0.000053
+ SHELL:   36, SURF: 4, THICK:  3   Sx:     -3.38   Sy:     -1.02   Sxy:      0.67
+ SHELL:   36, SURF: 4, REBAR:  1  Strain: -0.000402  Stress:  -84.48
+ SHELL:   36, SURF: 4, REBAR:  2  Strain: -0.000123  Stress:  -25.90
+ SHELL:   37, SURF: 1, THICK:  1   ex: -0.000171   ey: -0.000305   exy: -0.000161
+ SHELL:   37, SURF: 1, THICK:  1   Sx:      0.12   Sy:     -2.83   Sxy:     -1.79
+ SHELL:   37, SURF: 1, THICK:  2   ex:  0.000074   ey:  0.000048   exy: -0.000005
+ SHELL:   37, SURF: 1, THICK:  2   Sx:      2.59   Sy:      1.97   Sxy:     -0.06
+ SHELL:   37, SURF: 1, THICK:  3   ex: -0.000075   ey:  0.000006   exy:  0.000151
+ SHELL:   37, SURF: 1, THICK:  3   Sx:     -2.30   Sy:     -0.27   Sxy:      1.88
+ SHELL:   37, SURF: 1, REBAR:  1  Strain: -0.000440  Stress:  -92.32
+ SHELL:   37, SURF: 1, REBAR:  2  Strain: -0.000089  Stress:  -18.75
+ SHELL:   37, SURF: 2, THICK:  1   ex: -0.000194   ey: -0.000324   exy: -0.000178
+ SHELL:   37, SURF: 2, THICK:  1   Sx:     -0.61   Sy:     -3.51   Sxy:     -1.98
+ SHELL:   37, SURF: 2, THICK:  2   ex:  0.000074   ey:  0.000048   exy: -0.000005
+ SHELL:   37, SURF: 2, THICK:  2   Sx:      2.59   Sy:      1.95   Sxy:     -0.06
+ SHELL:   37, SURF: 2, THICK:  3   ex: -0.000053   ey:  0.000025   exy:  0.000168
+ SHELL:   37, SURF: 2, THICK:  3   Sx:     -1.49   Sy:      0.45   Sxy:      2.09
+ SHELL:   37, SURF: 2, REBAR:  1  Strain: -0.000464  Stress:  -97.49
+ SHELL:   37, SURF: 2, REBAR:  2  Strain: -0.000065  Stress:  -13.59
+ SHELL:   37, SURF: 3, THICK:  1   ex: -0.000187   ey: -0.000279   exy: -0.000168
+ SHELL:   37, SURF: 3, THICK:  1   Sx:     -0.16   Sy:     -2.21   Sxy:     -1.87
+ SHELL:   37, SURF: 3, THICK:  2   ex:  0.000074   ey:  0.000048   exy: -0.000006
+ SHELL:   37, SURF: 3, THICK:  2   Sx:      2.57   Sy:      1.97   Sxy:     -0.07
+ SHELL:   37, SURF: 3, THICK:  3   ex: -0.000061   ey: -0.000019   exy:  0.000157
+ SHELL:   37, SURF: 3, THICK:  3   Sx:     -2.02   Sy:     -0.97   Sxy:      1.96
+ SHELL:   37, SURF: 3, REBAR:  1  Strain: -0.000456  Stress:  -95.81
+ SHELL:   37, SURF: 3, REBAR:  2  Strain: -0.000074  Stress:  -15.51
+ SHELL:   37, SURF: 4, THICK:  1   ex: -0.000208   ey: -0.000283   exy: -0.000185
+ SHELL:   37, SURF: 4, THICK:  1   Sx:     -0.77   Sy:     -2.44   Sxy:     -2.06
+ SHELL:   37, SURF: 4, THICK:  2   ex:  0.000074   ey:  0.000048   exy: -0.000006
+ SHELL:   37, SURF: 4, THICK:  2   Sx:      2.57   Sy:      1.95   Sxy:     -0.07
+ SHELL:   37, SURF: 4, THICK:  3   ex: -0.000040   ey: -0.000016   exy:  0.000174
+ SHELL:   37, SURF: 4, THICK:  3   Sx:     -1.34   Sy:     -0.74   Sxy:      2.17
+ SHELL:   37, SURF: 4, REBAR:  1  Strain: -0.000479  Stress: -100.69
+ SHELL:   37, SURF: 4, REBAR:  2  Strain: -0.000051  Stress:  -10.64
+ SHELL:   38, SURF: 1, THICK:  1   ex: -0.000158   ey: -0.000319   exy: -0.000114
+ SHELL:   38, SURF: 1, THICK:  1   Sx:      0.43   Sy:     -3.15   Sxy:     -1.26
+ SHELL:   38, SURF: 1, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000004
+ SHELL:   38, SURF: 1, THICK:  2   Sx:      2.60   Sy:      1.95   Sxy:     -0.05
+ SHELL:   38, SURF: 1, THICK:  3   ex: -0.000088   ey:  0.000019   exy:  0.000105
+ SHELL:   38, SURF: 1, THICK:  3   Sx:     -2.62   Sy:      0.05   Sxy:      1.32
+ SHELL:   38, SURF: 1, REBAR:  1  Strain: -0.000424  Stress:  -89.13
+ SHELL:   38, SURF: 1, REBAR:  2  Strain: -0.000103  Stress:  -21.73
+ SHELL:   38, SURF: 2, THICK:  1   ex: -0.000184   ey: -0.000330   exy: -0.000120
+ SHELL:   38, SURF: 2, THICK:  1   Sx:     -0.37   Sy:     -3.61   Sxy:     -1.34
+ SHELL:   38, SURF: 2, THICK:  2   ex:  0.000075   ey:  0.000047   exy: -0.000003
+ SHELL:   38, SURF: 2, THICK:  2   Sx:      2.59   Sy:      1.93   Sxy:     -0.04
+ SHELL:   38, SURF: 2, THICK:  3   ex: -0.000061   ey:  0.000029   exy:  0.000114
+ SHELL:   38, SURF: 2, THICK:  3   Sx:     -1.74   Sy:      0.53   Sxy:      1.43
+ SHELL:   38, SURF: 2, REBAR:  1  Strain: -0.000454  Stress:  -95.27
+ SHELL:   38, SURF: 2, REBAR:  2  Strain: -0.000075  Stress:  -15.65
+ SHELL:   38, SURF: 3, THICK:  1   ex: -0.000166   ey: -0.000305   exy: -0.000124
+ SHELL:   38, SURF: 3, THICK:  1   Sx:      0.27   Sy:     -2.82   Sxy:     -1.38
+ SHELL:   38, SURF: 3, THICK:  2   ex:  0.000074   ey:  0.000048   exy: -0.000004
+ SHELL:   38, SURF: 3, THICK:  2   Sx:      2.59   Sy:      1.95   Sxy:     -0.05
+ SHELL:   38, SURF: 3, THICK:  3   ex: -0.000080   ey:  0.000006   exy:  0.000116
+ SHELL:   38, SURF: 3, THICK:  3   Sx:     -2.45   Sy:     -0.32   Sxy:      1.44
+ SHELL:   38, SURF: 3, REBAR:  1  Strain: -0.000434  Stress:  -91.12
+ SHELL:   38, SURF: 3, REBAR:  2  Strain: -0.000095  Stress:  -19.86
+ SHELL:   38, SURF: 4, THICK:  1   ex: -0.000191   ey: -0.000326   exy: -0.000131
+ SHELL:   38, SURF: 4, THICK:  1   Sx:     -0.54   Sy:     -3.53   Sxy:     -1.46
+ SHELL:   38, SURF: 4, THICK:  2   ex:  0.000074   ey:  0.000047   exy: -0.000003
+ SHELL:   38, SURF: 4, THICK:  2   Sx:      2.58   Sy:      1.93   Sxy:     -0.04
+ SHELL:   38, SURF: 4, THICK:  3   ex: -0.000055   ey:  0.000025   exy:  0.000125
+ SHELL:   38, SURF: 4, THICK:  3   Sx:     -1.56   Sy:      0.44   Sxy:      1.56
+ SHELL:   38, SURF: 4, REBAR:  1  Strain: -0.000461  Stress:  -96.87
+ SHELL:   38, SURF: 4, REBAR:  2  Strain: -0.000067  Stress:  -14.17
+ SHELL:   39, SURF: 1, THICK:  1   ex: -0.000151   ey: -0.000318   exy: -0.000072
+ SHELL:   39, SURF: 1, THICK:  1   Sx:      0.62   Sy:     -3.10   Sxy:     -0.79
+ SHELL:   39, SURF: 1, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000003
+ SHELL:   39, SURF: 1, THICK:  2   Sx:      2.61   Sy:      1.95   Sxy:     -0.03
+ SHELL:   39, SURF: 1, THICK:  3   ex: -0.000094   ey:  0.000018   exy:  0.000066
+ SHELL:   39, SURF: 1, THICK:  3   Sx:     -2.82   Sy:     -0.01   Sxy:      0.83
+ SHELL:   39, SURF: 1, REBAR:  1  Strain: -0.000417  Stress:  -87.59
+ SHELL:   39, SURF: 1, REBAR:  2  Strain: -0.000110  Stress:  -23.12
+ SHELL:   39, SURF: 2, THICK:  1   ex: -0.000173   ey: -0.000352   exy: -0.000077
+ SHELL:   39, SURF: 2, THICK:  1   Sx:     -0.18   Sy:     -4.17   Sxy:     -0.86
+ SHELL:   39, SURF: 2, THICK:  2   ex:  0.000075   ey:  0.000047   exy: -0.000002
+ SHELL:   39, SURF: 2, THICK:  2   Sx:      2.60   Sy:      1.92   Sxy:     -0.02
+ SHELL:   39, SURF: 2, THICK:  3   ex: -0.000072   ey:  0.000051   exy:  0.000074
+ SHELL:   39, SURF: 2, THICK:  3   Sx:     -1.93   Sy:      1.13   Sxy:      0.92
+ SHELL:   39, SURF: 2, REBAR:  1  Strain: -0.000441  Stress:  -92.69
+ SHELL:   39, SURF: 2, REBAR:  2  Strain: -0.000086  Stress:  -18.07
+ SHELL:   39, SURF: 3, THICK:  1   ex: -0.000157   ey: -0.000312   exy: -0.000088
+ SHELL:   39, SURF: 3, THICK:  1   Sx:      0.50   Sy:     -2.95   Sxy:     -0.97
+ SHELL:   39, SURF: 3, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000003
+ SHELL:   39, SURF: 3, THICK:  2   Sx:      2.60   Sy:      1.95   Sxy:     -0.04
+ SHELL:   39, SURF: 3, THICK:  3   ex: -0.000089   ey:  0.000012   exy:  0.000081
+ SHELL:   39, SURF: 3, THICK:  3   Sx:     -2.69   Sy:     -0.17   Sxy:      1.01
+ SHELL:   39, SURF: 3, REBAR:  1  Strain: -0.000423  Stress:  -88.90
+ SHELL:   39, SURF: 3, REBAR:  2  Strain: -0.000104  Stress:  -21.92
+ SHELL:   39, SURF: 4, THICK:  1   ex: -0.000183   ey: -0.000324   exy: -0.000093
+ SHELL:   39, SURF: 4, THICK:  1   Sx:     -0.30   Sy:     -3.45   Sxy:     -1.04
+ SHELL:   39, SURF: 4, THICK:  2   ex:  0.000075   ey:  0.000047   exy: -0.000002
+ SHELL:   39, SURF: 4, THICK:  2   Sx:      2.59   Sy:      1.92   Sxy:     -0.03
+ SHELL:   39, SURF: 4, THICK:  3   ex: -0.000063   ey:  0.000023   exy:  0.000089
+ SHELL:   39, SURF: 4, THICK:  3   Sx:     -1.82   Sy:      0.33   Sxy:      1.11
+ SHELL:   39, SURF: 4, REBAR:  1  Strain: -0.000452  Stress:  -94.91
+ SHELL:   39, SURF: 4, REBAR:  2  Strain: -0.000076  Stress:  -15.96
+ SHELL:   40, SURF: 1, THICK:  1   ex: -0.000162   ey: -0.000280   exy: -0.000021
+ SHELL:   40, SURF: 1, THICK:  1   Sx:      0.51   Sy:     -2.10   Sxy:     -0.24
+ SHELL:   40, SURF: 1, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000002
+ SHELL:   40, SURF: 1, THICK:  2   Sx:      2.61   Sy:      1.98   Sxy:     -0.02
+ SHELL:   40, SURF: 1, THICK:  3   ex: -0.000083   ey: -0.000018   exy:  0.000018
+ SHELL:   40, SURF: 1, THICK:  3   Sx:     -2.70   Sy:     -1.08   Sxy:      0.23
+ SHELL:   40, SURF: 1, REBAR:  1  Strain: -0.000430  Stress:  -90.22
+ SHELL:   40, SURF: 1, REBAR:  2  Strain: -0.000098  Stress:  -20.55
+ SHELL:   40, SURF: 2, THICK:  1   ex: -0.000171   ey: -0.000284   exy: -0.000014
+ SHELL:   40, SURF: 2, THICK:  1   Sx:      0.26   Sy:     -2.26   Sxy:     -0.16
+ SHELL:   40, SURF: 2, THICK:  2   ex:  0.000075   ey:  0.000048   exy:  0.000000
+ SHELL:   40, SURF: 2, THICK:  2   Sx:      2.60   Sy:      1.95   Sxy:      0.00
+ SHELL:   40, SURF: 2, THICK:  3   ex: -0.000075   ey: -0.000015   exy:  0.000013
+ SHELL:   40, SURF: 2, THICK:  3   Sx:     -2.43   Sy:     -0.95   Sxy:      0.17
+ SHELL:   40, SURF: 2, REBAR:  1  Strain: -0.000439  Stress:  -92.16
+ SHELL:   40, SURF: 2, REBAR:  2  Strain: -0.000089  Stress:  -18.69
+ SHELL:   40, SURF: 3, THICK:  1   ex: -0.000154   ey: -0.000298   exy: -0.000034
+ SHELL:   40, SURF: 3, THICK:  1   Sx:      0.65   Sy:     -2.57   Sxy:     -0.37
+ SHELL:   40, SURF: 3, THICK:  2   ex:  0.000075   ey:  0.000048   exy: -0.000002
+ SHELL:   40, SURF: 3, THICK:  2   Sx:      2.61   Sy:      1.98   Sxy:     -0.02
+ SHELL:   40, SURF: 3, THICK:  3   ex: -0.000091   ey:  0.000000   exy:  0.000031
+ SHELL:   40, SURF: 3, THICK:  3   Sx:     -2.84   Sy:     -0.56   Sxy:      0.38
+ SHELL:   40, SURF: 3, REBAR:  1  Strain: -0.000420  Stress:  -88.27
+ SHELL:   40, SURF: 3, REBAR:  2  Strain: -0.000107  Stress:  -22.48
+ SHELL:   40, SURF: 4, THICK:  1   ex: -0.000173   ey: -0.000329   exy: -0.000026
+ SHELL:   40, SURF: 4, THICK:  1   Sx:     -0.04   Sy:     -3.51   Sxy:     -0.29
+ SHELL:   40, SURF: 4, THICK:  2   ex:  0.000075   ey:  0.000048   exy:  0.000000
+ SHELL:   40, SURF: 4, THICK:  2   Sx:      2.60   Sy:      1.95   Sxy:      0.00
+ SHELL:   40, SURF: 4, THICK:  3   ex: -0.000073   ey:  0.000029   exy:  0.000026
+ SHELL:   40, SURF: 4, THICK:  3   Sx:     -2.09   Sy:      0.46   Sxy:      0.32
+ SHELL:   40, SURF: 4, REBAR:  1  Strain: -0.000441  Stress:  -92.60
+ SHELL:   40, SURF: 4, REBAR:  2  Strain: -0.000087  Stress:  -18.22

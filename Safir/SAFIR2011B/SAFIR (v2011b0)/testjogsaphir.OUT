@@ -1,0 +1,2426 @@
+SOFTWARE: SAFIR                         
+VERSION : FULL COPY                     
+NUMBER  : 0094                          
+DELIVERY: 21/11/2011                    
+USER    : Olivier Vauquelin             
+          Univ. de la Méditerranée      
+          France                        
+
+
+                             *****  
+                            *SAFIR* 
+                            *2011b*  
+                             * 0 *   
+                              * *   
+                               *    
+
+
+   PROGRAM 'SAFIR'    Ver. 2011.b.0,  22-09-2011
+   ===============
+
+   By J. M. Franssen                     
+   Univ. of Liege.                       
+   tel.   int. + 32 4 366.92.65          
+   fax                366.95.34          
+   E-mail SAFIR@ULG.AC.BE   
+
+
+   DATE OF THIS RUN :  3-11-2016
+   TIME OF THIS RUN : 15:18:33
+
+
+
+                             *****  
+                            *SAFIR* 
+                            *2011b*  
+                             * 0 *   
+                              * *   
+                               *    
+
+
+    COPY OF THE DATA FILE.
+    ======================
+
+Profile: HE 100 AA      Type: HE                                                
+Fire curve: FISO - Exposed Faces:1 1 1 0                                        
+Protected with: (None) 0 mm  0 mm  0 mm;                                        
+                                                                                
+     NNODE  118                                                                 
+      NDIM    2                                                                 
+   NDOFMAX    1                                                                 
+      FROM    1   TO  118 STEP    1 NDOF    1                                   
+  END_NDOF                                                                      
+  TEMPERAT                                                                      
+      TETA       0.9                                                            
+  TINITIAL      20.0                                                            
+  MAKE.TEM                                                                      
+   NORENUM                                                                      
+testjogsaphir.tem                                                               
+      NMAT    1                                                                 
+  ELEMENTS                                                                      
+     SOLID   62                                                                 
+        NG    2                                                                 
+     NVOID    0                                                                 
+  END_ELEM                                                                      
+     NODES                                                                      
+      NODE    1    0.0455   -0.0500                                             
+      NODE    2    0.0455   -0.0460                                             
+      NODE    3    0.0455   -0.0420                                             
+      NODE    4    0.0455   -0.0380                                             
+      NODE    5    0.0455   -0.0340                                             
+      NODE    6    0.0455   -0.0300                                             
+      NODE    7    0.0455   -0.0260                                             
+      NODE    8    0.0455   -0.0220                                             
+      NODE    9    0.0455   -0.0180                                             
+      NODE   10    0.0455   -0.0140                                             
+      NODE   11    0.0455   -0.0100                                             
+      NODE   12    0.0455   -0.0021                                             
+      NODE   13    0.0455    0.0021                                             
+      NODE   14    0.0455    0.0100                                             
+      NODE   15    0.0455    0.0140                                             
+      NODE   16    0.0455    0.0180                                             
+      NODE   17    0.0455    0.0220                                             
+      NODE   18    0.0455    0.0260                                             
+      NODE   19    0.0455    0.0300                                             
+      NODE   20    0.0455    0.0340                                             
+      NODE   21    0.0455    0.0380                                             
+      NODE   22    0.0455    0.0420                                             
+      NODE   23    0.0455    0.0460                                             
+      NODE   24    0.0455    0.0500                                             
+      NODE   25    0.0400   -0.0500                                             
+      NODE   26    0.0400   -0.0460                                             
+      NODE   27    0.0400   -0.0420                                             
+      NODE   28    0.0400   -0.0380                                             
+      NODE   29    0.0400   -0.0340                                             
+      NODE   30    0.0400   -0.0300                                             
+      NODE   31    0.0400   -0.0260                                             
+      NODE   32    0.0400   -0.0220                                             
+      NODE   33    0.0400   -0.0180                                             
+      NODE   34    0.0400   -0.0140                                             
+      NODE   35    0.0400   -0.0100                                             
+      NODE   36    0.0400   -0.0021                                             
+      NODE   37    0.0400    0.0021                                             
+      NODE   38    0.0400    0.0100                                             
+      NODE   39    0.0400    0.0140                                             
+      NODE   40    0.0400    0.0180                                             
+      NODE   41    0.0400    0.0220                                             
+      NODE   42    0.0400    0.0260                                             
+      NODE   43    0.0400    0.0300                                             
+      NODE   44    0.0400    0.0340                                             
+      NODE   45    0.0400    0.0380                                             
+      NODE   46    0.0400    0.0420                                             
+      NODE   47    0.0400    0.0460                                             
+      NODE   48    0.0400    0.0500                                             
+      NODE   49    0.0321   -0.0021                                             
+      NODE   50    0.0321    0.0021                                             
+      NODE   51    0.0257   -0.0021                                             
+      NODE   52    0.0257    0.0021                                             
+      NODE   53    0.0193   -0.0021                                             
+      NODE   54    0.0193    0.0021                                             
+      NODE   55    0.0129   -0.0021                                             
+      NODE   56    0.0129    0.0021                                             
+      NODE   57    0.0064   -0.0021                                             
+      NODE   58    0.0064    0.0021                                             
+      NODE   59    0.0000   -0.0021                                             
+      NODE   60    0.0000    0.0021                                             
+      NODE   61   -0.0064   -0.0021                                             
+      NODE   62   -0.0064    0.0021                                             
+      NODE   63   -0.0129   -0.0021                                             
+      NODE   64   -0.0129    0.0021                                             
+      NODE   65   -0.0193   -0.0021                                             
+      NODE   66   -0.0193    0.0021                                             
+      NODE   67   -0.0257   -0.0021                                             
+      NODE   68   -0.0257    0.0021                                             
+      NODE   69   -0.0321   -0.0021                                             
+      NODE   70   -0.0321    0.0021                                             
+      NODE   71   -0.0400   -0.0500                                             
+      NODE   72   -0.0400   -0.0460                                             
+      NODE   73   -0.0400   -0.0420                                             
+      NODE   74   -0.0400   -0.0380                                             
+      NODE   75   -0.0400   -0.0340                                             
+      NODE   76   -0.0400   -0.0300                                             
+      NODE   77   -0.0400   -0.0260                                             
+      NODE   78   -0.0400   -0.0220                                             
+      NODE   79   -0.0400   -0.0180                                             
+      NODE   80   -0.0400   -0.0140                                             
+      NODE   81   -0.0400   -0.0100                                             
+      NODE   82   -0.0400   -0.0021                                             
+      NODE   83   -0.0400    0.0021                                             
+      NODE   84   -0.0400    0.0100                                             
+      NODE   85   -0.0400    0.0140                                             
+      NODE   86   -0.0400    0.0180                                             
+      NODE   87   -0.0400    0.0220                                             
+      NODE   88   -0.0400    0.0260                                             
+      NODE   89   -0.0400    0.0300                                             
+      NODE   90   -0.0400    0.0340                                             
+      NODE   91   -0.0400    0.0380                                             
+      NODE   92   -0.0400    0.0420                                             
+      NODE   93   -0.0400    0.0460                                             
+      NODE   94   -0.0400    0.0500                                             
+      NODE   95   -0.0455   -0.0500                                             
+      NODE   96   -0.0455   -0.0460                                             
+      NODE   97   -0.0455   -0.0420                                             
+      NODE   98   -0.0455   -0.0380                                             
+      NODE   99   -0.0455   -0.0340                                             
+      NODE  100   -0.0455   -0.0300                                             
+      NODE  101   -0.0455   -0.0260                                             
+      NODE  102   -0.0455   -0.0220                                             
+      NODE  103   -0.0455   -0.0180                                             
+      NODE  104   -0.0455   -0.0140                                             
+      NODE  105   -0.0455   -0.0100                                             
+      NODE  106   -0.0455   -0.0021                                             
+      NODE  107   -0.0455    0.0021                                             
+      NODE  108   -0.0455    0.0100                                             
+      NODE  109   -0.0455    0.0140                                             
+      NODE  110   -0.0455    0.0180                                             
+      NODE  111   -0.0455    0.0220                                             
+      NODE  112   -0.0455    0.0260                                             
+      NODE  113   -0.0455    0.0300                                             
+      NODE  114   -0.0455    0.0340                                             
+      NODE  115   -0.0455    0.0380                                             
+      NODE  116   -0.0455    0.0420                                             
+      NODE  117   -0.0455    0.0460                                             
+      NODE  118   -0.0455    0.0500                                             
+  NODELINE              0         0                                             
+     YC_ZC              0         0                                             
+ FIXATIONS                                                                      
+   END_FIX                                                                      
+NODOFSOLID                                                                      
+      ELEM    1    1   25   26    2    1   0.                                   
+      ELEM    2    2   26   27    3    1   0.                                   
+      ELEM    3    3   27   28    4    1   0.                                   
+      ELEM    4    4   28   29    5    1   0.                                   
+      ELEM    5    5   29   30    6    1   0.                                   
+      ELEM    6    6   30   31    7    1   0.                                   
+      ELEM    7    7   31   32    8    1   0.                                   
+      ELEM    8    8   32   33    9    1   0.                                   
+      ELEM    9    9   33   34   10    1   0.                                   
+      ELEM   10   10   34   35   11    1   0.                                   
+      ELEM   11   11   35   36   12    1   0.                                   
+      ELEM   12   12   36   37   13    1   0.                                   
+      ELEM   13   13   37   38   14    1   0.                                   
+      ELEM   14   14   38   39   15    1   0.                                   
+      ELEM   15   15   39   40   16    1   0.                                   
+      ELEM   16   16   40   41   17    1   0.                                   
+      ELEM   17   17   41   42   18    1   0.                                   
+      ELEM   18   18   42   43   19    1   0.                                   
+      ELEM   19   19   43   44   20    1   0.                                   
+      ELEM   20   20   44   45   21    1   0.                                   
+      ELEM   21   21   45   46   22    1   0.                                   
+      ELEM   22   22   46   47   23    1   0.                                   
+      ELEM   23   23   47   48   24    1   0.                                   
+      ELEM   24   35   49   36    0    1   0.                                   
+      ELEM   25   36   49   50   37    1   0.                                   
+      ELEM   26   37   50   38    0    1   0.                                   
+      ELEM   27   49   51   52   50    1   0.                                   
+      ELEM   28   51   53   54   52    1   0.                                   
+      ELEM   29   53   55   56   54    1   0.                                   
+      ELEM   30   55   57   58   56    1   0.                                   
+      ELEM   31   57   59   60   58    1   0.                                   
+      ELEM   32   59   61   62   60    1   0.                                   
+      ELEM   33   61   63   64   62    1   0.                                   
+      ELEM   34   63   65   66   64    1   0.                                   
+      ELEM   35   65   67   68   66    1   0.                                   
+      ELEM   36   67   69   70   68    1   0.                                   
+      ELEM   37   69   81   82    0    1   0.                                   
+      ELEM   38   69   82   83   70    1   0.                                   
+      ELEM   39   70   83   84    0    1   0.                                   
+      ELEM   40   71   95   96   72    1   0.                                   
+      ELEM   41   72   96   97   73    1   0.                                   
+      ELEM   42   73   97   98   74    1   0.                                   
+      ELEM   43   74   98   99   75    1   0.                                   
+      ELEM   44   75   99  100   76    1   0.                                   
+      ELEM   45   76  100  101   77    1   0.                                   
+      ELEM   46   77  101  102   78    1   0.                                   
+      ELEM   47   78  102  103   79    1   0.                                   
+      ELEM   48   79  103  104   80    1   0.                                   
+      ELEM   49   80  104  105   81    1   0.                                   
+      ELEM   50   81  105  106   82    1   0.                                   
+      ELEM   51   82  106  107   83    1   0.                                   
+      ELEM   52   83  107  108   84    1   0.                                   
+      ELEM   53   84  108  109   85    1   0.                                   
+      ELEM   54   85  109  110   86    1   0.                                   
+      ELEM   55   86  110  111   87    1   0.                                   
+      ELEM   56   87  111  112   88    1   0.                                   
+      ELEM   57   88  112  113   89    1   0.                                   
+      ELEM   58   89  113  114   90    1   0.                                   
+      ELEM   59   90  114  115   91    1   0.                                   
+      ELEM   60   91  115  116   92    1   0.                                   
+      ELEM   61   92  116  117   93    1   0.                                   
+      ELEM   62   93  117  118   94    1   0.                                   
+  FRONTIER                                                                      
+    F    1      FISO          NO          NO          NO                        
+    F    1          NO      FISO          NO          NO                        
+    F    2          NO      FISO          NO          NO                        
+    F    3          NO      FISO          NO          NO                        
+    F    4          NO      FISO          NO          NO                        
+    F    5          NO      FISO          NO          NO                        
+    F    6          NO      FISO          NO          NO                        
+    F    7          NO      FISO          NO          NO                        
+    F    8          NO      FISO          NO          NO                        
+    F    9          NO      FISO          NO          NO                        
+    F   10          NO      FISO          NO          NO                        
+    F   24      FISO          NO          NO          NO                        
+    F   27      FISO          NO          NO          NO                        
+    F   28      FISO          NO          NO          NO                        
+    F   29      FISO          NO          NO          NO                        
+    F   30      FISO          NO          NO          NO                        
+    F   31      FISO          NO          NO          NO                        
+    F   32      FISO          NO          NO          NO                        
+    F   33      FISO          NO          NO          NO                        
+    F   34      FISO          NO          NO          NO                        
+    F   35      FISO          NO          NO          NO                        
+    F   36      FISO          NO          NO          NO                        
+    F   37      FISO          NO          NO          NO                        
+    F   40          NO          NO          NO      FISO                        
+    F   41          NO          NO          NO      FISO                        
+    F   42          NO          NO          NO      FISO                        
+    F   43          NO          NO          NO      FISO                        
+    F   44          NO          NO          NO      FISO                        
+    F   45          NO          NO          NO      FISO                        
+    F   46          NO          NO          NO      FISO                        
+    F   47          NO          NO          NO      FISO                        
+    F   48          NO          NO          NO      FISO                        
+    F   49          NO          NO          NO      FISO                        
+    F   40      FISO          NO          NO          NO                        
+    F   40          NO      FISO          NO          NO                        
+    F   41          NO      FISO          NO          NO                        
+    F   42          NO      FISO          NO          NO                        
+    F   43          NO      FISO          NO          NO                        
+    F   44          NO      FISO          NO          NO                        
+    F   45          NO      FISO          NO          NO                        
+    F   46          NO      FISO          NO          NO                        
+    F   47          NO      FISO          NO          NO                        
+    F   48          NO      FISO          NO          NO                        
+    F   49          NO      FISO          NO          NO                        
+    F   50          NO      FISO          NO          NO                        
+    F   51          NO      FISO          NO          NO                        
+    F   52          NO      FISO          NO          NO                        
+    F   53          NO      FISO          NO          NO                        
+    F   54          NO      FISO          NO          NO                        
+    F   55          NO      FISO          NO          NO                        
+    F   56          NO      FISO          NO          NO                        
+    F   57          NO      FISO          NO          NO                        
+    F   58          NO      FISO          NO          NO                        
+    F   59          NO      FISO          NO          NO                        
+    F   60          NO      FISO          NO          NO                        
+    F   61          NO      FISO          NO          NO                        
+    F   62          NO      FISO          NO          NO                        
+    F   23          NO          NO      FISO          NO                        
+    F   23          NO      FISO          NO          NO                        
+    F   22          NO      FISO          NO          NO                        
+    F   21          NO      FISO          NO          NO                        
+    F   20          NO      FISO          NO          NO                        
+    F   19          NO      FISO          NO          NO                        
+    F   18          NO      FISO          NO          NO                        
+    F   17          NO      FISO          NO          NO                        
+    F   16          NO      FISO          NO          NO                        
+    F   15          NO      FISO          NO          NO                        
+    F   14          NO      FISO          NO          NO                        
+    F   26          NO      FISO          NO          NO                        
+    F   27          NO          NO      FISO          NO                        
+    F   28          NO          NO      FISO          NO                        
+    F   29          NO          NO      FISO          NO                        
+    F   30          NO          NO      FISO          NO                        
+    F   31          NO          NO      FISO          NO                        
+    F   32          NO          NO      FISO          NO                        
+    F   33          NO          NO      FISO          NO                        
+    F   34          NO          NO      FISO          NO                        
+    F   35          NO          NO      FISO          NO                        
+    F   36          NO          NO      FISO          NO                        
+    F   39          NO          NO      FISO          NO                        
+    F   53          NO          NO          NO      FISO                        
+    F   54          NO          NO          NO      FISO                        
+    F   55          NO          NO          NO      FISO                        
+    F   56          NO          NO          NO      FISO                        
+    F   57          NO          NO          NO      FISO                        
+    F   58          NO          NO          NO      FISO                        
+    F   59          NO          NO          NO      FISO                        
+    F   60          NO          NO          NO      FISO                        
+    F   61          NO          NO          NO      FISO                        
+    F   62          NO          NO          NO      FISO                        
+    F   62          NO          NO      FISO          NO                        
+ END_FRONT                                                                      
+  SYMMETRY                                                                      
+   END_SYM                                                                      
+ PRECISION     1.E-3                                                            
+ MATERIALS                                                                      
+  STEELEC3                                                                      
+                 25.        9.      0.50                                        
+      TIME                                                                      
+                 12.     2400.                                                  
+  END_TIME                                                                      
+IMPRESSION                                                                      
+ TIMEPRINT                                                                      
+                 60.     2400.                                                  
+END_TIMEPR                                                                      
+                                                                                
+
+
+                             *****  
+                            *SAFIR* 
+                            *2011b*  
+                             * 0 *   
+                              * *   
+                               *    
+
+
+     DESCRIPTION OF THE PROBLEM.
+     ===========================
+
+Profile: HE 100 AA      Type: HE                                                
+Fire curve: FISO - Exposed Faces:1 1 1 0                                        
+Protected with: (None) 0 mm  0 mm  0 mm;                                        
+                                                                                
+     DATA USED IN THE DIMENSIONS OF THE ARRAY.
+     =========================================
+
+ - THERE ARE   118 NODES.
+
+ - THERE ARE 2 GLOBAL AXES.
+
+ - THE MAXIMUM # OF D.O.F. PER NODE IS  1
+
+ - THE NUMBER OF D.O.F. FOR EACH NODE ARE AS FOLLOWS.
+
+     1 1     2 1     3 1     4 1     5 1     6 1     7 1     8 1     9 1    10 1
+    11 1    12 1    13 1    14 1    15 1    16 1    17 1    18 1    19 1    20 1
+    21 1    22 1    23 1    24 1    25 1    26 1    27 1    28 1    29 1    30 1
+    31 1    32 1    33 1    34 1    35 1    36 1    37 1    38 1    39 1    40 1
+    41 1    42 1    43 1    44 1    45 1    46 1    47 1    48 1    49 1    50 1
+    51 1    52 1    53 1    54 1    55 1    56 1    57 1    58 1    59 1    60 1
+    61 1    62 1    63 1    64 1    65 1    66 1    67 1    68 1    69 1    70 1
+    71 1    72 1    73 1    74 1    75 1    76 1    77 1    78 1    79 1    80 1
+    81 1    82 1    83 1    84 1    85 1    86 1    87 1    88 1    89 1    90 1
+    91 1    92 1    93 1    94 1    95 1    96 1    97 1    98 1    99 1   100 1
+   101 1   102 1   103 1   104 1   105 1   106 1   107 1   108 1   109 1   110 1
+   111 1   112 1   113 1   114 1   115 1   116 1   117 1   118 1
+
+ - 1 CORE(S) OF THE COMPUTER WILL BE USED.
+
+ - TETA = 0.900
+
+ - INITIAL TEMPERATURE =   20.
+
+     DESCRIPTION OF THE STRUCTURE.
+     =============================
+
+ - THERE ARE   118 NODES.
+
+ - THERE ARE  1 DIFFERENT MATERIALS.
+
+ - THERE ARE 0 INTERNAL VOIDS IN THE STRUCTURE.
+
+ - THERE ARE   62 SOLID ELEMENTS.
+   EACH OF THEM HAS 2 INTEGRATION POINTS IN EACH DIRECTION.
+
+ - LENGTH OF THE VECTOR OF REAL*8 :   4800000
+   UTILIZED LENGTH                :      1485
+
+ - LENGTH OF THE VECTOR OF INT.*4 :   2520000
+   UTILIZED LENGTH                :      1749
+
+
+ POSITION OF THE NODES.
+ ----------------------
+
+           NODE   y COORD.   z COORD.
+     NODE     1    0.0455   -0.0500
+     NODE     2    0.0455   -0.0460
+     NODE     3    0.0455   -0.0420
+     NODE     4    0.0455   -0.0380
+     NODE     5    0.0455   -0.0340
+     NODE     6    0.0455   -0.0300
+     NODE     7    0.0455   -0.0260
+     NODE     8    0.0455   -0.0220
+     NODE     9    0.0455   -0.0180
+     NODE    10    0.0455   -0.0140
+     NODE    11    0.0455   -0.0100
+     NODE    12    0.0455   -0.0021
+     NODE    13    0.0455    0.0021
+     NODE    14    0.0455    0.0100
+     NODE    15    0.0455    0.0140
+     NODE    16    0.0455    0.0180
+     NODE    17    0.0455    0.0220
+     NODE    18    0.0455    0.0260
+     NODE    19    0.0455    0.0300
+     NODE    20    0.0455    0.0340
+     NODE    21    0.0455    0.0380
+     NODE    22    0.0455    0.0420
+     NODE    23    0.0455    0.0460
+     NODE    24    0.0455    0.0500
+     NODE    25    0.0400   -0.0500
+     NODE    26    0.0400   -0.0460
+     NODE    27    0.0400   -0.0420
+     NODE    28    0.0400   -0.0380
+     NODE    29    0.0400   -0.0340
+     NODE    30    0.0400   -0.0300
+     NODE    31    0.0400   -0.0260
+     NODE    32    0.0400   -0.0220
+     NODE    33    0.0400   -0.0180
+     NODE    34    0.0400   -0.0140
+     NODE    35    0.0400   -0.0100
+     NODE    36    0.0400   -0.0021
+     NODE    37    0.0400    0.0021
+     NODE    38    0.0400    0.0100
+     NODE    39    0.0400    0.0140
+     NODE    40    0.0400    0.0180
+     NODE    41    0.0400    0.0220
+     NODE    42    0.0400    0.0260
+     NODE    43    0.0400    0.0300
+     NODE    44    0.0400    0.0340
+     NODE    45    0.0400    0.0380
+     NODE    46    0.0400    0.0420
+     NODE    47    0.0400    0.0460
+     NODE    48    0.0400    0.0500
+     NODE    49    0.0321   -0.0021
+     NODE    50    0.0321    0.0021
+     NODE    51    0.0257   -0.0021
+     NODE    52    0.0257    0.0021
+     NODE    53    0.0193   -0.0021
+     NODE    54    0.0193    0.0021
+     NODE    55    0.0129   -0.0021
+     NODE    56    0.0129    0.0021
+     NODE    57    0.0064   -0.0021
+     NODE    58    0.0064    0.0021
+     NODE    59    0.0000   -0.0021
+     NODE    60    0.0000    0.0021
+     NODE    61   -0.0064   -0.0021
+     NODE    62   -0.0064    0.0021
+     NODE    63   -0.0129   -0.0021
+     NODE    64   -0.0129    0.0021
+     NODE    65   -0.0193   -0.0021
+     NODE    66   -0.0193    0.0021
+     NODE    67   -0.0257   -0.0021
+     NODE    68   -0.0257    0.0021
+     NODE    69   -0.0321   -0.0021
+     NODE    70   -0.0321    0.0021
+     NODE    71   -0.0400   -0.0500
+     NODE    72   -0.0400   -0.0460
+     NODE    73   -0.0400   -0.0420
+     NODE    74   -0.0400   -0.0380
+     NODE    75   -0.0400   -0.0340
+     NODE    76   -0.0400   -0.0300
+     NODE    77   -0.0400   -0.0260
+     NODE    78   -0.0400   -0.0220
+     NODE    79   -0.0400   -0.0180
+     NODE    80   -0.0400   -0.0140
+     NODE    81   -0.0400   -0.0100
+     NODE    82   -0.0400   -0.0021
+     NODE    83   -0.0400    0.0021
+     NODE    84   -0.0400    0.0100
+     NODE    85   -0.0400    0.0140
+     NODE    86   -0.0400    0.0180
+     NODE    87   -0.0400    0.0220
+     NODE    88   -0.0400    0.0260
+     NODE    89   -0.0400    0.0300
+     NODE    90   -0.0400    0.0340
+     NODE    91   -0.0400    0.0380
+     NODE    92   -0.0400    0.0420
+     NODE    93   -0.0400    0.0460
+     NODE    94   -0.0400    0.0500
+     NODE    95   -0.0455   -0.0500
+     NODE    96   -0.0455   -0.0460
+     NODE    97   -0.0455   -0.0420
+     NODE    98   -0.0455   -0.0380
+     NODE    99   -0.0455   -0.0340
+     NODE   100   -0.0455   -0.0300
+     NODE   101   -0.0455   -0.0260
+     NODE   102   -0.0455   -0.0220
+     NODE   103   -0.0455   -0.0180
+     NODE   104   -0.0455   -0.0140
+     NODE   105   -0.0455   -0.0100
+     NODE   106   -0.0455   -0.0021
+     NODE   107   -0.0455    0.0021
+     NODE   108   -0.0455    0.0100
+     NODE   109   -0.0455    0.0140
+     NODE   110   -0.0455    0.0180
+     NODE   111   -0.0455    0.0220
+     NODE   112   -0.0455    0.0260
+     NODE   113   -0.0455    0.0300
+     NODE   114   -0.0455    0.0340
+     NODE   115   -0.0455    0.0380
+     NODE   116   -0.0455    0.0420
+     NODE   117   -0.0455    0.0460
+     NODE   118   -0.0455    0.0500
+
+ LOCAL COORDINATES OF THE NODE LINE:
+   Yo =       0.000
+   Zo =       0.000
+
+ LOCAL COORDINATES OF THE TORSION CENTER:
+   Yc =       0.000
+   Zc =       0.000
+
+ THERE ARE   118 UNRESOLVED D.O.F.
+       AND     0 IMPOSED    D.O.F.
+
+ NODE   DOF
+     1      1            
+     2      2            
+     3      3            
+     4      4            
+     5      5            
+     6      6            
+     7      7            
+     8      8            
+     9      9            
+    10     10            
+    11     11            
+    12     12            
+    13     13            
+    14     14            
+    15     15            
+    16     16            
+    17     17            
+    18     18            
+    19     19            
+    20     20            
+    21     21            
+    22     22            
+    23     23            
+    24     24            
+    25     25            
+    26     26            
+    27     27            
+    28     28            
+    29     29            
+    30     30            
+    31     31            
+    32     32            
+    33     33            
+    34     34            
+    35     35            
+    36     36            
+    37     37            
+    38     38            
+    39     39            
+    40     40            
+    41     41            
+    42     42            
+    43     43            
+    44     44            
+    45     45            
+    46     46            
+    47     47            
+    48     48            
+    49     49            
+    50     50            
+    51     51            
+    52     52            
+    53     53            
+    54     54            
+    55     55            
+    56     56            
+    57     57            
+    58     58            
+    59     59            
+    60     60            
+    61     61            
+    62     62            
+    63     63            
+    64     64            
+    65     65            
+    66     66            
+    67     67            
+    68     68            
+    69     69            
+    70     70            
+    71     71            
+    72     72            
+    73     73            
+    74     74            
+    75     75            
+    76     76            
+    77     77            
+    78     78            
+    79     79            
+    80     80            
+    81     81            
+    82     82            
+    83     83            
+    84     84            
+    85     85            
+    86     86            
+    87     87            
+    88     88            
+    89     89            
+    90     90            
+    91     91            
+    92     92            
+    93     93            
+    94     94            
+    95     95            
+    96     96            
+    97     97            
+    98     98            
+    99     99            
+   100    100            
+   101    101            
+   102    102            
+   103    103            
+   104    104            
+   105    105            
+   106    106            
+   107    107            
+   108    108            
+   109    109            
+   110    110            
+   111    111            
+   112    112            
+   113    113            
+   114    114            
+   115    115            
+   116    116            
+   117    117            
+   118    118            
+
+ SOLID ELEMENTS BEFORE ANY "NEW_MAT" COMMAND.
+ --------------------------------------------
+            EL.  NODES                MAT.  EPSr.
+      ELEM    1    1   25   26    2    1  0.0000E+00
+      ELEM    2    2   26   27    3    1  0.0000E+00
+      ELEM    3    3   27   28    4    1  0.0000E+00
+      ELEM    4    4   28   29    5    1  0.0000E+00
+      ELEM    5    5   29   30    6    1  0.0000E+00
+      ELEM    6    6   30   31    7    1  0.0000E+00
+      ELEM    7    7   31   32    8    1  0.0000E+00
+      ELEM    8    8   32   33    9    1  0.0000E+00
+      ELEM    9    9   33   34   10    1  0.0000E+00
+      ELEM   10   10   34   35   11    1  0.0000E+00
+      ELEM   11   11   35   36   12    1  0.0000E+00
+      ELEM   12   12   36   37   13    1  0.0000E+00
+      ELEM   13   13   37   38   14    1  0.0000E+00
+      ELEM   14   14   38   39   15    1  0.0000E+00
+      ELEM   15   15   39   40   16    1  0.0000E+00
+      ELEM   16   16   40   41   17    1  0.0000E+00
+      ELEM   17   17   41   42   18    1  0.0000E+00
+      ELEM   18   18   42   43   19    1  0.0000E+00
+      ELEM   19   19   43   44   20    1  0.0000E+00
+      ELEM   20   20   44   45   21    1  0.0000E+00
+      ELEM   21   21   45   46   22    1  0.0000E+00
+      ELEM   22   22   46   47   23    1  0.0000E+00
+      ELEM   23   23   47   48   24    1  0.0000E+00
+      ELEM   24   35   49   36    0    1  0.0000E+00
+      ELEM   25   36   49   50   37    1  0.0000E+00
+      ELEM   26   37   50   38    0    1  0.0000E+00
+      ELEM   27   49   51   52   50    1  0.0000E+00
+      ELEM   28   51   53   54   52    1  0.0000E+00
+      ELEM   29   53   55   56   54    1  0.0000E+00
+      ELEM   30   55   57   58   56    1  0.0000E+00
+      ELEM   31   57   59   60   58    1  0.0000E+00
+      ELEM   32   59   61   62   60    1  0.0000E+00
+      ELEM   33   61   63   64   62    1  0.0000E+00
+      ELEM   34   63   65   66   64    1  0.0000E+00
+      ELEM   35   65   67   68   66    1  0.0000E+00
+      ELEM   36   67   69   70   68    1  0.0000E+00
+      ELEM   37   69   81   82    0    1  0.0000E+00
+      ELEM   38   69   82   83   70    1  0.0000E+00
+      ELEM   39   70   83   84    0    1  0.0000E+00
+      ELEM   40   71   95   96   72    1  0.0000E+00
+      ELEM   41   72   96   97   73    1  0.0000E+00
+      ELEM   42   73   97   98   74    1  0.0000E+00
+      ELEM   43   74   98   99   75    1  0.0000E+00
+      ELEM   44   75   99  100   76    1  0.0000E+00
+      ELEM   45   76  100  101   77    1  0.0000E+00
+      ELEM   46   77  101  102   78    1  0.0000E+00
+      ELEM   47   78  102  103   79    1  0.0000E+00
+      ELEM   48   79  103  104   80    1  0.0000E+00
+      ELEM   49   80  104  105   81    1  0.0000E+00
+      ELEM   50   81  105  106   82    1  0.0000E+00
+      ELEM   51   82  106  107   83    1  0.0000E+00
+      ELEM   52   83  107  108   84    1  0.0000E+00
+      ELEM   53   84  108  109   85    1  0.0000E+00
+      ELEM   54   85  109  110   86    1  0.0000E+00
+      ELEM   55   86  110  111   87    1  0.0000E+00
+      ELEM   56   87  111  112   88    1  0.0000E+00
+      ELEM   57   88  112  113   89    1  0.0000E+00
+      ELEM   58   89  113  114   90    1  0.0000E+00
+      ELEM   59   90  114  115   91    1  0.0000E+00
+      ELEM   60   91  115  116   92    1  0.0000E+00
+      ELEM   61   92  116  117   93    1  0.0000E+00
+      ELEM   62   93  117  118   94    1  0.0000E+00
+
+ SOLID ELEMENTS.
+ ---------------
+            EL.  NODES                MAT.  EPSr.
+      ELEM    1    1   25   26    2    1  0.0000E+00
+      ELEM    2    2   26   27    3    1  0.0000E+00
+      ELEM    3    3   27   28    4    1  0.0000E+00
+      ELEM    4    4   28   29    5    1  0.0000E+00
+      ELEM    5    5   29   30    6    1  0.0000E+00
+      ELEM    6    6   30   31    7    1  0.0000E+00
+      ELEM    7    7   31   32    8    1  0.0000E+00
+      ELEM    8    8   32   33    9    1  0.0000E+00
+      ELEM    9    9   33   34   10    1  0.0000E+00
+      ELEM   10   10   34   35   11    1  0.0000E+00
+      ELEM   11   11   35   36   12    1  0.0000E+00
+      ELEM   12   12   36   37   13    1  0.0000E+00
+      ELEM   13   13   37   38   14    1  0.0000E+00
+      ELEM   14   14   38   39   15    1  0.0000E+00
+      ELEM   15   15   39   40   16    1  0.0000E+00
+      ELEM   16   16   40   41   17    1  0.0000E+00
+      ELEM   17   17   41   42   18    1  0.0000E+00
+      ELEM   18   18   42   43   19    1  0.0000E+00
+      ELEM   19   19   43   44   20    1  0.0000E+00
+      ELEM   20   20   44   45   21    1  0.0000E+00
+      ELEM   21   21   45   46   22    1  0.0000E+00
+      ELEM   22   22   46   47   23    1  0.0000E+00
+      ELEM   23   23   47   48   24    1  0.0000E+00
+      ELEM   24   35   49   36    0    1  0.0000E+00
+      ELEM   25   36   49   50   37    1  0.0000E+00
+      ELEM   26   37   50   38    0    1  0.0000E+00
+      ELEM   27   49   51   52   50    1  0.0000E+00
+      ELEM   28   51   53   54   52    1  0.0000E+00
+      ELEM   29   53   55   56   54    1  0.0000E+00
+      ELEM   30   55   57   58   56    1  0.0000E+00
+      ELEM   31   57   59   60   58    1  0.0000E+00
+      ELEM   32   59   61   62   60    1  0.0000E+00
+      ELEM   33   61   63   64   62    1  0.0000E+00
+      ELEM   34   63   65   66   64    1  0.0000E+00
+      ELEM   35   65   67   68   66    1  0.0000E+00
+      ELEM   36   67   69   70   68    1  0.0000E+00
+      ELEM   37   69   81   82    0    1  0.0000E+00
+      ELEM   38   69   82   83   70    1  0.0000E+00
+      ELEM   39   70   83   84    0    1  0.0000E+00
+      ELEM   40   71   95   96   72    1  0.0000E+00
+      ELEM   41   72   96   97   73    1  0.0000E+00
+      ELEM   42   73   97   98   74    1  0.0000E+00
+      ELEM   43   74   98   99   75    1  0.0000E+00
+      ELEM   44   75   99  100   76    1  0.0000E+00
+      ELEM   45   76  100  101   77    1  0.0000E+00
+      ELEM   46   77  101  102   78    1  0.0000E+00
+      ELEM   47   78  102  103   79    1  0.0000E+00
+      ELEM   48   79  103  104   80    1  0.0000E+00
+      ELEM   49   80  104  105   81    1  0.0000E+00
+      ELEM   50   81  105  106   82    1  0.0000E+00
+      ELEM   51   82  106  107   83    1  0.0000E+00
+      ELEM   52   83  107  108   84    1  0.0000E+00
+      ELEM   53   84  108  109   85    1  0.0000E+00
+      ELEM   54   85  109  110   86    1  0.0000E+00
+      ELEM   55   86  110  111   87    1  0.0000E+00
+      ELEM   56   87  111  112   88    1  0.0000E+00
+      ELEM   57   88  112  113   89    1  0.0000E+00
+      ELEM   58   89  113  114   90    1  0.0000E+00
+      ELEM   59   90  114  115   91    1  0.0000E+00
+      ELEM   60   91  115  116   92    1  0.0000E+00
+      ELEM   61   92  116  117   93    1  0.0000E+00
+      ELEM   62   93  117  118   94    1  0.0000E+00
+
+ FRONTIERS FOR THE TEMPERATURE CALCULATION.
+ ELEM.  FRONTIER 1  FRONTIER 2  FRONTIER 3  FRONTIER 4
+     1  FISO        FISO                              
+     2              FISO                              
+     3              FISO                              
+     4              FISO                              
+     5              FISO                              
+     6              FISO                              
+     7              FISO                              
+     8              FISO                              
+     9              FISO                              
+    10              FISO                              
+    14              FISO                              
+    15              FISO                              
+    16              FISO                              
+    17              FISO                              
+    18              FISO                              
+    19              FISO                              
+    20              FISO                              
+    21              FISO                              
+    22              FISO                              
+    23              FISO        FISO                  
+    24  FISO                                          
+    26              FISO                              
+    27  FISO                    FISO                  
+    28  FISO                    FISO                  
+    29  FISO                    FISO                  
+    30  FISO                    FISO                  
+    31  FISO                    FISO                  
+    32  FISO                    FISO                  
+    33  FISO                    FISO                  
+    34  FISO                    FISO                  
+    35  FISO                    FISO                  
+    36  FISO                    FISO                  
+    37  FISO                                          
+    39                          FISO                  
+    40  FISO        FISO                    FISO      
+    41              FISO                    FISO      
+    42              FISO                    FISO      
+    43              FISO                    FISO      
+    44              FISO                    FISO      
+    45              FISO                    FISO      
+    46              FISO                    FISO      
+    47              FISO                    FISO      
+    48              FISO                    FISO      
+    49              FISO                    FISO      
+    50              FISO                              
+    51              FISO                              
+    52              FISO                              
+    53              FISO                    FISO      
+    54              FISO                    FISO      
+    55              FISO                    FISO      
+    56              FISO                    FISO      
+    57              FISO                    FISO      
+    58              FISO                    FISO      
+    59              FISO                    FISO      
+    60              FISO                    FISO      
+    61              FISO                    FISO      
+    62              FISO        FISO        FISO      
+
+ WITH THE NODE NUMBERS AS DEFINED IN THE INPUT DATA,
+   THE LENGTH OF THE SKYLINE VECTOR       IS      1489
+ -------------------------------------------------
+
+ - THE PRECISION IN THE CALCULATIONS IS : 0.10E-02
+
+  MATERIALS.
+  ----------
+
+
+    1 STEELEC3  
+      This material is STEEL from ENV, either 1992-1-2 or 1993-1-2.
+        CONVECTION COEFF. ON HOT  SURF.  :25.000
+        CONVECTION COEFF. ON COLD SURF.  : 9.000
+        RELATIVE EMISSIVITY              : 0.500
+ 
+ The sparsity of the matrix is:      0.0588
+
+
+ THE NUMBER OF INTEGRATION POINTS IN THE STRUCTURE IS :
+         244 for uniaxial laws,
+           0 for 2D laws.
+
+
+
+                             *****  
+                            *SAFIR* 
+                            *     *  
+                             *   *   
+                              * *   
+                               *    
+
+
+
+ TIME=     60.0000 SECONDS   OR   1 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =    60.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1   50.7     2   49.9     3   49.2     4   48.6     5   48.2
+     6   47.8     7   47.5     8   47.3     9   47.1    10   47.1
+    11   47.2    12   47.4    13   47.4    14   47.2    15   47.1
+    16   47.1    17   47.3    18   47.5    19   47.8    20   48.2
+    21   48.6    22   49.2    23   49.9    24   50.7    25   51.3
+    26   50.5    27   49.8    28   49.2    29   48.8    30   48.4
+    31   48.1    32   47.9    33   47.7    34   47.7    35   47.8
+    36   48.2    37   48.2    38   47.8    39   47.7    40   47.7
+    41   47.9    42   48.1    43   48.4    44   48.8    45   49.2
+    46   49.8    47   50.5    48   51.3    49   51.9    50   51.9
+    51   58.8    52   58.8    53   63.8    54   63.8    55   67.4
+    56   67.4    57   69.9    58   69.9    59   71.2    60   71.2
+    61   71.5    62   71.5    63   71.0    64   71.0    65   69.5
+    66   69.5    67   67.1    68   67.1    69   63.7    70   63.7
+    71   71.3    72   70.5    73   69.7    74   69.0    75   68.3
+    76   67.5    77   66.8    78   66.0    79   65.2    80   64.3
+    81   63.1    82   62.1    83   62.1    84   63.1    85   64.3
+    86   65.2    87   66.0    88   66.8    89   67.5    90   68.3
+    91   69.0    92   69.7    93   70.5    94   71.3    95   71.3
+    96   70.5    97   69.7    98   69.0    99   68.3   100   67.5
+   101   66.8   102   66.0   103   65.2   104   64.3   105   63.5
+   106   62.5   107   62.5   108   63.5   109   64.3   110   65.2
+   111   66.0   112   66.8   113   67.5   114   68.3   115   69.0
+   116   69.7   117   70.5   118   71.3
+
+ TIME=    120.0000 SECONDS   OR   2 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   120.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  100.1     2   99.0     3   98.0     4   97.2     5   96.6
+     6   96.2     7   95.9     8   95.8     9   95.9    10   96.1
+    11   96.5    12   97.1    13   97.1    14   96.5    15   96.1
+    16   95.9    17   95.8    18   95.9    19   96.2    20   96.6
+    21   97.2    22   98.0    23   99.0    24  100.1    25  100.9
+    26   99.8    27   98.9    28   98.1    29   97.5    30   97.0
+    31   96.8    32   96.7    33   96.7    34   96.9    35   97.4
+    36   98.5    37   98.5    38   97.4    39   96.9    40   96.7
+    41   96.7    42   96.8    43   97.0    44   97.5    45   98.1
+    46   98.9    47   99.8    48  100.9    49  104.7    50  104.7
+    51  116.6    52  116.6    53  125.9    54  125.9    55  133.0
+    56  133.0    57  138.1    58  138.1    59  141.4    60  141.4
+    61  143.0    62  143.0    63  143.0    64  143.0    65  141.5
+    66  141.5    67  138.5    68  138.5    69  134.0    70  134.0
+    71  146.1    72  145.0    73  143.9    74  142.7    75  141.6
+    76  140.4    77  139.2    78  138.0    79  136.6    80  135.2
+    81  133.4    82  131.9    83  131.9    84  133.4    85  135.2
+    86  136.6    87  138.0    88  139.2    89  140.4    90  141.6
+    91  142.7    92  143.9    93  145.0    94  146.1    95  146.1
+    96  145.0    97  143.9    98  142.7    99  141.6   100  140.4
+   101  139.2   102  138.0   103  136.6   104  135.2   105  134.0
+   106  132.5   107  132.5   108  134.0   109  135.2   110  136.6
+   111  138.0   112  139.2   113  140.4   114  141.6   115  142.7
+   116  143.9   117  145.0   118  146.1
+
+ TIME=    180.0000 SECONDS   OR   3 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   180.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  157.6     2  156.3     3  155.2     4  154.3     5  153.7
+     6  153.2     7  153.0     8  153.0     9  153.3    10  153.7
+    11  154.4    12  155.4    13  155.4    14  154.4    15  153.7
+    16  153.3    17  153.0    18  153.0    19  153.2    20  153.7
+    21  154.3    22  155.2    23  156.3    24  157.6    25  158.6
+    26  157.3    27  156.2    28  155.3    29  154.7    30  154.2
+    31  154.0    32  154.0    33  154.3    34  154.8    35  155.5
+    36  157.2    37  157.2    38  155.5    39  154.8    40  154.3
+    41  154.0    42  154.0    43  154.2    44  154.7    45  155.3
+    46  156.2    47  157.3    48  158.6    49  165.1    50  165.1
+    51  180.5    52  180.5    53  193.0    54  193.0    55  202.8
+    56  202.8    57  210.1    58  210.1    59  215.1    60  215.1
+    61  218.1    62  218.1    63  219.0    64  219.0    65  218.1
+    66  218.1    67  215.3    68  215.3    69  210.6    70  210.6
+    71  225.9    72  224.6    73  223.3    74  221.9    75  220.5
+    76  219.1    77  217.6    78  216.0    79  214.4    80  212.6
+    81  210.4    82  208.5    83  208.5    84  210.4    85  212.6
+    86  214.4    87  216.0    88  217.6    89  219.1    90  220.5
+    91  221.9    92  223.3    93  224.6    94  225.9    95  225.9
+    96  224.6    97  223.3    98  221.9    99  220.5   100  219.1
+   101  217.6   102  216.0   103  214.4   104  212.6   105  211.1
+   106  209.3   107  209.3   108  211.1   109  212.6   110  214.4
+   111  216.0   112  217.6   113  219.1   114  220.5   115  221.9
+   116  223.3   117  224.6   118  225.9
+
+ TIME=    240.0000 SECONDS   OR   4 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   240.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  218.5     2  217.0     3  215.8     4  214.8     5  214.2
+     6  213.7     7  213.6     8  213.7     9  214.1    10  214.7
+    11  215.5    12  216.8    13  216.8    14  215.5    15  214.7
+    16  214.1    17  213.7    18  213.6    19  213.7    20  214.2
+    21  214.8    22  215.8    23  217.0    24  218.5    25  219.6
+    26  218.1    27  216.9    28  216.0    29  215.3    30  214.9
+    31  214.7    32  214.8    33  215.2    34  215.8    35  216.8
+    36  218.8    37  218.8    38  216.8    39  215.8    40  215.2
+    41  214.8    42  214.7    43  214.9    44  215.3    45  216.0
+    46  216.9    47  218.1    48  219.6    49  227.9    50  227.9
+    51  245.9    52  245.9    53  260.6    54  260.6    55  272.2
+    56  272.2    57  281.3    58  281.3    59  287.6    60  287.6
+    61  291.7    62  291.7    63  293.5    64  293.5    65  293.2
+    66  293.2    67  290.9    68  290.9    69  286.5    70  286.5
+    71  303.8    72  302.4    73  301.0    74  299.5    75  298.0
+    76  296.4    77  294.7    78  293.0    79  291.1    80  289.2
+    81  286.6    82  284.5    83  284.5    84  286.6    85  289.2
+    86  291.1    87  293.0    88  294.7    89  296.4    90  298.0
+    91  299.5    92  301.0    93  302.4    94  303.8    95  303.8
+    96  302.4    97  301.0    98  299.5    99  298.0   100  296.4
+   101  294.7   102  293.0   103  291.1   104  289.2   105  287.4
+   106  285.3   107  285.3   108  287.4   109  289.2   110  291.1
+   111  293.0   112  294.7   113  296.4   114  298.0   115  299.5
+   116  301.0   117  302.4   118  303.8
+
+ TIME=    300.0000 SECONDS   OR   5 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   300.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  279.6     2  278.0     3  276.7     4  275.7     5  275.0
+     6  274.6     7  274.5     8  274.6     9  275.1    10  275.8
+    11  276.7    12  278.2    13  278.2    14  276.7    15  275.8
+    16  275.1    17  274.6    18  274.5    19  274.6    20  275.0
+    21  275.7    22  276.7    23  278.0    24  279.6    25  280.8
+    26  279.2    27  277.9    28  276.9    29  276.2    30  275.8
+    31  275.7    32  275.9    33  276.3    34  277.0    35  278.2
+    36  280.4    37  280.4    38  278.2    39  277.0    40  276.3
+    41  275.9    42  275.7    43  275.8    44  276.2    45  276.9
+    46  277.9    47  279.2    48  280.8    49  290.2    50  290.2
+    51  309.7    52  309.7    53  325.7    54  325.7    55  338.5
+    56  338.5    57  348.5    58  348.5    59  355.7    60  355.7
+    61  360.5    62  360.5    63  363.1    64  363.1    65  363.4
+    66  363.4    67  361.5    68  361.5    69  357.5    70  357.5
+    71  375.7    72  374.3    73  372.8    74  371.3    75  369.8
+    76  368.1    77  366.4    78  364.6    79  362.7    80  360.6
+    81  358.0    82  355.7    83  355.7    84  358.0    85  360.6
+    86  362.7    87  364.6    88  366.4    89  368.1    90  369.8
+    91  371.3    92  372.8    93  374.3    94  375.7    95  375.7
+    96  374.3    97  372.8    98  371.3    99  369.8   100  368.1
+   101  366.4   102  364.6   103  362.7   104  360.6   105  358.8
+   106  356.6   107  356.6   108  358.8   109  360.6   110  362.7
+   111  364.6   112  366.4   113  368.1   114  369.8   115  371.3
+   116  372.8   117  374.3   118  375.7
+
+ TIME=    360.0000 SECONDS   OR   6 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   360.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  338.7     2  337.1     3  335.8     4  334.7     5  334.0
+     6  333.6     7  333.5     8  333.6     9  334.1    10  334.9
+    11  335.8    12  337.3    13  337.3    14  335.8    15  334.9
+    16  334.1    17  333.6    18  333.5    19  333.6    20  334.0
+    21  334.7    22  335.8    23  337.1    24  338.7    25  340.0
+    26  338.3    27  337.0    28  336.0    29  335.3    30  334.8
+    31  334.7    32  334.9    33  335.4    34  336.1    35  337.3
+    36  339.6    37  339.6    38  337.3    39  336.1    40  335.4
+    41  334.9    42  334.7    43  334.8    44  335.3    45  336.0
+    46  337.0    47  338.3    48  340.0    49  349.7    50  349.7
+    51  369.7    52  369.7    53  386.2    54  386.2    55  399.4
+    56  399.4    57  409.8    58  409.8    59  417.4    60  417.4
+    61  422.5    62  422.5    63  425.5    64  425.5    65  426.1
+    66  426.1    67  424.7    68  424.7    69  421.2    70  421.2
+    71  439.2    72  437.8    73  436.4    74  435.0    75  433.4
+    76  431.8    77  430.2    78  428.4    79  426.5    80  424.4
+    81  421.8    82  419.5    83  419.5    84  421.8    85  424.4
+    86  426.5    87  428.4    88  430.2    89  431.8    90  433.4
+    91  435.0    92  436.4    93  437.8    94  439.2    95  439.2
+    96  437.8    97  436.4    98  435.0    99  433.4   100  431.8
+   101  430.2   102  428.4   103  426.5   104  424.4   105  422.6
+   106  420.4   107  420.4   108  422.6   109  424.4   110  426.5
+   111  428.4   112  430.2   113  431.8   114  433.4   115  435.0
+   116  436.4   117  437.8   118  439.2
+
+ TIME=    420.0000 SECONDS   OR   7 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   420.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  394.2     2  392.5     3  391.2     4  390.1     5  389.4
+     6  388.9     7  388.8     8  388.9     9  389.4    10  390.1
+    11  391.0    12  392.5    13  392.5    14  391.0    15  390.1
+    16  389.4    17  388.9    18  388.8    19  388.9    20  389.4
+    21  390.1    22  391.2    23  392.5    24  394.2    25  395.4
+    26  393.7    27  392.4    28  391.4    29  390.6    30  390.2
+    31  390.1    32  390.2    33  390.6    34  391.4    35  392.5
+    36  394.7    37  394.7    38  392.5    39  391.4    40  390.6
+    41  390.2    42  390.1    43  390.2    44  390.6    45  391.4
+    46  392.4    47  393.7    48  395.4    49  404.8    50  404.8
+    51  424.6    52  424.6    53  440.8    54  440.8    55  453.8
+    56  453.8    57  464.0    58  464.0    59  471.5    60  471.5
+    61  476.7    62  476.7    63  479.7    64  479.7    65  480.6
+    66  480.6    67  479.5    68  479.5    69  476.3    70  476.3
+    71  493.4    72  492.1    73  490.8    74  489.4    75  488.0
+    76  486.5    77  484.9    78  483.3    79  481.5    80  479.5
+    81  477.0    82  474.8    83  474.8    84  477.0    85  479.5
+    86  481.5    87  483.3    88  484.9    89  486.5    90  488.0
+    91  489.4    92  490.8    93  492.1    94  493.4    95  493.4
+    96  492.1    97  490.8    98  489.4    99  488.0   100  486.5
+   101  484.9   102  483.3   103  481.5   104  479.5   105  477.8
+   106  475.7   107  475.7   108  477.8   109  479.5   110  481.5
+   111  483.3   112  484.9   113  486.5   114  488.0   115  489.4
+   116  490.8   117  492.1   118  493.4
+
+ TIME=    480.0000 SECONDS   OR   8 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   480.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  444.7     2  443.1     3  441.8     4  440.7     5  440.0
+     6  439.5     7  439.3     8  439.4     9  439.8    10  440.5
+    11  441.3    12  442.6    13  442.6    14  441.3    15  440.5
+    16  439.8    17  439.4    18  439.3    19  439.5    20  440.0
+    21  440.7    22  441.8    23  443.1    24  444.7    25  446.0
+    26  444.3    27  443.0    28  442.0    29  441.2    30  440.8
+    31  440.6    32  440.7    33  441.1    34  441.7    35  442.8
+    36  444.8    37  444.8    38  442.8    39  441.7    40  441.1
+    41  440.7    42  440.6    43  440.8    44  441.2    45  442.0
+    46  443.0    47  444.3    48  446.0    49  454.5    50  454.5
+    51  473.5    52  473.5    53  488.9    54  488.9    55  501.2
+    56  501.2    57  510.9    58  510.9    59  518.0    60  518.0
+    61  522.9    62  522.9    63  525.8    64  525.8    65  526.8
+    66  526.8    67  525.9    68  525.9    69  523.0    70  523.0
+    71  538.7    72  537.5    73  536.3    74  535.1    75  533.8
+    76  532.5    77  531.0    78  529.5    79  527.8    80  526.1
+    81  523.7    82  521.7    83  521.7    84  523.7    85  526.1
+    86  527.8    87  529.5    88  531.0    89  532.5    90  533.8
+    91  535.1    92  536.3    93  537.5    94  538.7    95  538.7
+    96  537.5    97  536.3    98  535.1    99  533.8   100  532.5
+   101  531.0   102  529.5   103  527.8   104  526.0   105  524.5
+   106  522.5   107  522.5   108  524.5   109  526.0   110  527.8
+   111  529.5   112  531.0   113  532.5   114  533.8   115  535.1
+   116  536.3   117  537.5   118  538.7
+
+ TIME=    540.0000 SECONDS   OR   9 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   540.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  489.9     2  488.3     3  487.0     4  486.0     5  485.2
+     6  484.8     7  484.5     8  484.6     9  484.9    10  485.5
+    11  486.2    12  487.4    13  487.4    14  486.2    15  485.5
+    16  484.9    17  484.6    18  484.5    19  484.8    20  485.2
+    21  486.0    22  487.0    23  488.3    24  489.9    25  491.1
+    26  489.5    27  488.2    28  487.2    29  486.4    30  486.0
+    31  485.8    32  485.8    33  486.1    34  486.7    35  487.6
+    36  489.4    37  489.4    38  487.6    39  486.7    40  486.1
+    41  485.8    42  485.8    43  486.0    44  486.4    45  487.2
+    46  488.2    47  489.5    48  491.1    49  498.6    50  498.6
+    51  516.4    52  516.4    53  530.7    54  530.7    55  542.1
+    56  542.1    57  551.0    58  551.0    59  557.5    60  557.5
+    61  562.0    62  562.0    63  564.7    64  564.7    65  565.6
+    66  565.6    67  564.8    68  564.8    69  562.2    70  562.2
+    71  576.3    72  575.2    73  574.2    74  573.1    75  571.9
+    76  570.7    77  569.4    78  568.0    79  566.6    80  564.9
+    81  562.9    82  561.0    83  561.0    84  562.9    85  564.9
+    86  566.6    87  568.0    88  569.4    89  570.7    90  571.9
+    91  573.1    92  574.2    93  575.2    94  576.3    95  576.3
+    96  575.2    97  574.2    98  573.1    99  571.9   100  570.7
+   101  569.4   102  568.0   103  566.6   104  564.9   105  563.5
+   106  561.7   107  561.7   108  563.5   109  564.9   110  566.6
+   111  568.0   112  569.4   113  570.7   114  571.9   115  573.1
+   116  574.2   117  575.2   118  576.3
+
+ TIME=    600.0000 SECONDS   OR  10 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   600.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  529.7     2  528.1     3  526.9     4  525.9     5  525.2
+     6  524.7     7  524.4     8  524.4     9  524.6    10  525.1
+    11  525.7    12  526.8    13  526.8    14  525.7    15  525.1
+    16  524.6    17  524.4    18  524.4    19  524.7    20  525.2
+    21  525.9    22  526.9    23  528.1    24  529.7    25  530.8
+    26  529.3    27  528.0    28  527.0    29  526.3    30  525.8
+    31  525.6    32  525.6    33  525.8    34  526.3    35  527.0
+    36  528.7    37  528.7    38  527.0    39  526.3    40  525.8
+    41  525.6    42  525.6    43  525.8    44  526.3    45  527.0
+    46  528.0    47  529.3    48  530.8    49  537.2    50  537.2
+    51  553.6    52  553.6    53  566.7    54  566.7    55  577.0
+    56  577.0    57  585.1    58  585.1    59  590.9    60  590.9
+    61  594.9    62  594.9    63  597.3    64  597.3    65  598.1
+    66  598.1    67  597.3    68  597.3    69  595.0    70  595.0
+    71  607.5    72  606.6    73  605.6    74  604.7    75  603.6
+    76  602.6    77  601.4    78  600.2    79  598.9    80  597.4
+    81  595.6    82  593.9    83  593.9    84  595.6    85  597.4
+    86  598.9    87  600.2    88  601.4    89  602.6    90  603.6
+    91  604.7    92  605.6    93  606.6    94  607.5    95  607.5
+    96  606.6    97  605.6    98  604.7    99  603.6   100  602.6
+   101  601.4   102  600.2   103  598.9   104  597.4   105  596.2
+   106  594.6   107  594.6   108  596.2   109  597.4   110  598.9
+   111  600.2   112  601.4   113  602.6   114  603.6   115  604.7
+   116  605.6   117  606.6   118  607.5
+
+ TIME=    660.0000 SECONDS   OR  11 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   660.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  564.4     2  562.9     3  561.7     4  560.8     5  560.1
+     6  559.6     7  559.3     8  559.2     9  559.4    10  559.8
+    11  560.3    12  561.2    13  561.2    14  560.3    15  559.8
+    16  559.4    17  559.2    18  559.3    19  559.6    20  560.1
+    21  560.8    22  561.7    23  562.9    24  564.4    25  565.5
+    26  564.0    27  562.8    28  561.9    29  561.2    30  560.7
+    31  560.4    32  560.3    33  560.5    34  560.9    35  561.5
+    36  562.9    37  562.9    38  561.5    39  560.9    40  560.5
+    41  560.3    42  560.4    43  560.7    44  561.2    45  561.9
+    46  562.8    47  564.0    48  565.5    49  570.8    50  570.8
+    51  585.8    52  585.8    53  597.7    54  597.7    55  607.0
+    56  607.0    57  614.2    58  614.2    59  619.4    60  619.4
+    61  622.9    62  622.9    63  625.0    64  625.0    65  625.6
+    66  625.6    67  624.9    68  624.9    69  622.8    70  622.8
+    71  633.9    72  633.0    73  632.2    74  631.3    75  630.4
+    76  629.4    77  628.4    78  627.4    79  626.2    80  624.9
+    81  623.2    82  621.7    83  621.7    84  623.2    85  624.9
+    86  626.2    87  627.4    88  628.4    89  629.4    90  630.4
+    91  631.3    92  632.2    93  633.0    94  633.9    95  633.9
+    96  633.0    97  632.2    98  631.3    99  630.4   100  629.4
+   101  628.4   102  627.4   103  626.2   104  624.9   105  623.8
+   106  622.3   107  622.3   108  623.8   109  624.9   110  626.2
+   111  627.4   112  628.4   113  629.4   114  630.4   115  631.3
+   116  632.2   117  633.0   118  633.9
+
+ TIME=    720.0000 SECONDS   OR  12 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   720.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  594.6     2  593.2     3  592.1     4  591.2     5  590.5
+     6  590.0     7  589.7     8  589.6     9  589.7    10  590.0
+    11  590.4    12  591.2    13  591.2    14  590.4    15  590.0
+    16  589.7    17  589.6    18  589.7    19  590.0    20  590.5
+    21  591.2    22  592.1    23  593.2    24  594.6    25  595.6
+    26  594.3    27  593.1    28  592.2    29  591.5    30  591.0
+    31  590.7    32  590.7    33  590.8    34  591.0    35  591.6
+    36  592.8    37  592.8    38  591.6    39  591.0    40  590.8
+    41  590.7    42  590.7    43  591.0    44  591.5    45  592.2
+    46  593.1    47  594.3    48  595.6    49  600.0    50  600.0
+    51  613.7    52  613.7    53  624.4    54  624.4    55  632.8
+    56  632.8    57  639.2    58  639.2    59  643.7    60  643.7
+    61  646.8    62  646.8    63  648.6    64  648.6    65  649.1
+    66  649.1    67  648.4    68  648.4    69  646.4    70  646.4
+    71  656.2    72  655.4    73  654.7    74  653.9    75  653.1
+    76  652.3    77  651.4    78  650.4    79  649.4    80  648.3
+    81  646.8    82  645.4    83  645.4    84  646.8    85  648.3
+    86  649.4    87  650.4    88  651.4    89  652.3    90  653.1
+    91  653.9    92  654.7    93  655.4    94  656.2    95  656.2
+    96  655.4    97  654.7    98  653.9    99  653.1   100  652.3
+   101  651.4   102  650.4   103  649.4   104  648.3   105  647.3
+   106  646.0   107  646.0   108  647.3   109  648.3   110  649.4
+   111  650.4   112  651.4   113  652.3   114  653.1   115  653.9
+   116  654.7   117  655.4   118  656.2
+
+ TIME=    780.0000 SECONDS   OR  13 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   780.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  621.0     2  619.7     3  618.7     4  617.8     5  617.1
+     6  616.6     7  616.3     8  616.2     9  616.3    10  616.5
+    11  616.8    12  617.5    13  617.5    14  616.8    15  616.5
+    16  616.3    17  616.2    18  616.3    19  616.6    20  617.1
+    21  617.8    22  618.7    23  619.7    24  621.0    25  622.0
+    26  620.7    27  619.6    28  618.8    29  618.1    30  617.6
+    31  617.3    32  617.2    33  617.2    34  617.5    35  617.9
+    36  619.0    37  619.0    38  617.9    39  617.5    40  617.2
+    41  617.2    42  617.3    43  617.6    44  618.1    45  618.8
+    46  619.6    47  620.7    48  622.0    49  625.6    50  625.6
+    51  637.9    52  637.9    53  647.6    54  647.6    55  655.0
+    56  655.0    57  660.6    58  660.6    59  664.6    60  664.6
+    61  667.3    62  667.3    63  668.8    64  668.8    65  669.2
+    66  669.2    67  668.4    68  668.4    69  666.6    70  666.6
+    71  675.1    72  674.4    73  673.8    74  673.1    75  672.4
+    76  671.7    77  670.9    78  670.1    79  669.2    80  668.2
+    81  666.8    82  665.6    83  665.6    84  666.8    85  668.2
+    86  669.2    87  670.1    88  670.9    89  671.7    90  672.4
+    91  673.1    92  673.8    93  674.4    94  675.1    95  675.1
+    96  674.4    97  673.8    98  673.1    99  672.4   100  671.7
+   101  670.9   102  670.1   103  669.2   104  668.2   105  667.3
+   106  666.1   107  666.1   108  667.3   109  668.2   110  669.2
+   111  670.1   112  670.9   113  671.7   114  672.4   115  673.1
+   116  673.8   117  674.4   118  675.1
+
+ TIME=    840.0000 SECONDS   OR  14 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   840.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  644.3     2  643.1     3  642.1     4  641.2     5  640.6
+     6  640.1     7  639.8     8  639.7     9  639.7    10  639.8
+    11  640.1    12  640.6    13  640.6    14  640.1    15  639.8
+    16  639.7    17  639.7    18  639.8    19  640.1    20  640.6
+    21  641.2    22  642.1    23  643.1    24  644.3    25  645.1
+    26  644.0    27  643.0    28  642.1    29  641.5    30  641.0
+    31  640.7    32  640.6    33  640.6    34  640.7    35  641.1
+    36  642.0    37  642.0    38  641.1    39  640.7    40  640.6
+    41  640.6    42  640.7    43  641.0    44  641.5    45  642.1
+    46  643.0    47  644.0    48  645.1    49  648.0    50  648.0
+    51  659.1    52  659.1    53  667.7    54  667.7    55  674.2
+    56  674.2    57  679.1    58  679.1    59  682.5    60  682.5
+    61  684.8    62  684.8    63  686.0    64  686.0    65  686.3
+    66  686.3    67  685.5    68  685.5    69  683.7    70  683.7
+    71  691.3    72  690.6    73  690.0    74  689.4    75  688.8
+    76  688.2    77  687.5    78  686.8    79  686.0    80  685.1
+    81  683.9    82  682.8    83  682.8    84  683.9    85  685.1
+    86  686.0    87  686.8    88  687.5    89  688.2    90  688.8
+    91  689.4    92  690.0    93  690.6    94  691.3    95  691.3
+    96  690.6    97  690.0    98  689.4    99  688.8   100  688.2
+   101  687.5   102  686.8   103  686.0   104  685.1   105  684.3
+   106  683.3   107  683.3   108  684.3   109  685.1   110  686.0
+   111  686.8   112  687.5   113  688.2   114  688.8   115  689.4
+   116  690.0   117  690.6   118  691.3
+
+ TIME=    900.0000 SECONDS   OR  15 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   900.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  664.6     2  663.5     3  662.5     4  661.8     5  661.1
+     6  660.7     7  660.4     8  660.2     9  660.2    10  660.3
+    11  660.5    12  660.9    13  660.9    14  660.5    15  660.3
+    16  660.2    17  660.2    18  660.4    19  660.7    20  661.1
+    21  661.8    22  662.5    23  663.5    24  664.6    25  665.4
+    26  664.3    27  663.4    28  662.6    29  662.0    30  661.5
+    31  661.2    32  661.1    33  661.0    34  661.1    35  661.4
+    36  662.1    37  662.1    38  661.4    39  661.1    40  661.0
+    41  661.1    42  661.2    43  661.5    44  662.0    45  662.6
+    46  663.4    47  664.3    48  665.4    49  667.6    50  667.6
+    51  677.5    52  677.5    53  685.1    54  685.1    55  690.8
+    56  690.8    57  695.0    58  695.0    59  697.9    60  697.9
+    61  699.8    62  699.8    63  700.8    64  700.8    65  700.8
+    66  700.8    67  700.0    68  700.0    69  698.3    70  698.3
+    71  705.0    72  704.4    73  703.8    74  703.3    75  702.8
+    76  702.2    77  701.6    78  700.9    79  700.2    80  699.4
+    81  698.4    82  697.4    83  697.4    84  698.4    85  699.4
+    86  700.2    87  700.9    88  701.6    89  702.2    90  702.8
+    91  703.3    92  703.8    93  704.4    94  705.0    95  705.0
+    96  704.4    97  703.8    98  703.3    99  702.8   100  702.2
+   101  701.6   102  700.9   103  700.2   104  699.4   105  698.7
+   106  697.8   107  697.8   108  698.7   109  699.4   110  700.2
+   111  700.9   112  701.6   113  702.2   114  702.8   115  703.3
+   116  703.8   117  704.4   118  705.0
+
+ TIME=    960.0000 SECONDS   OR  16 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   960.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  682.2     2  681.2     3  680.3     4  679.6     5  679.0
+     6  678.5     7  678.2     8  678.0     9  677.9    10  678.0
+    11  678.1    12  678.5    13  678.5    14  678.1    15  678.0
+    16  677.9    17  678.0    18  678.2    19  678.5    20  679.0
+    21  679.6    22  680.3    23  681.2    24  682.2    25  683.0
+    26  682.0    27  681.1    28  680.4    29  679.8    30  679.3
+    31  679.0    32  678.8    33  678.8    34  678.8    35  679.0
+    36  679.6    37  679.6    38  679.0    39  678.8    40  678.8
+    41  678.8    42  679.0    43  679.3    44  679.8    45  680.4
+    46  681.1    47  682.0    48  683.0    49  684.5    50  684.5
+    51  693.4    52  693.4    53  700.1    54  700.1    55  705.0
+    56  705.0    57  708.6    58  708.6    59  711.0    60  711.0
+    61  712.5    62  712.5    63  713.2    64  713.2    65  713.2
+    66  713.2    67  712.3    68  712.3    69  710.5    70  710.5
+    71  716.5    72  716.0    73  715.4    74  715.0    75  714.5
+    76  714.0    77  713.4    78  712.9    79  712.2    80  711.5
+    81  710.6    82  709.6    83  709.6    84  710.6    85  711.5
+    86  712.2    87  712.9    88  713.4    89  714.0    90  714.5
+    91  715.0    92  715.4    93  716.0    94  716.5    95  716.5
+    96  716.0    97  715.4    98  715.0    99  714.5   100  714.0
+   101  713.4   102  712.9   103  712.2   104  711.5   105  710.9
+   106  710.1   107  710.1   108  710.9   109  711.5   110  712.2
+   111  712.9   112  713.4   113  714.0   114  714.5   115  715.0
+   116  715.4   117  716.0   118  716.5
+
+ TIME=   1020.0000 SECONDS   OR  17 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1020.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  697.4     2  696.4     3  695.6     4  694.9     5  694.3
+     6  693.9     7  693.6     8  693.4     9  693.2    10  693.2
+    11  693.3    12  693.6    13  693.6    14  693.3    15  693.2
+    16  693.2    17  693.4    18  693.6    19  693.9    20  694.3
+    21  694.9    22  695.6    23  696.4    24  697.4    25  698.1
+    26  697.2    27  696.3    28  695.6    29  695.1    30  694.7
+    31  694.3    32  694.1    33  694.0    34  694.0    35  694.1
+    36  694.6    37  694.6    38  694.1    39  694.0    40  694.0
+    41  694.1    42  694.3    43  694.7    44  695.1    45  695.6
+    46  696.3    47  697.2    48  698.1    49  699.0    50  699.0
+    51  707.0    52  707.0    53  712.7    54  712.7    55  716.9
+    56  716.9    57  719.9    58  719.9    59  721.8    60  721.8
+    61  723.0    62  723.0    63  723.5    64  723.5    65  723.3
+    66  723.3    67  722.4    68  722.4    69  720.6    70  720.6
+    71  725.9    72  725.3    73  724.8    74  724.4    75  724.0
+    76  723.5    77  723.1    78  722.6    79  722.0    80  721.4
+    81  720.5    82  719.6    83  719.6    84  720.5    85  721.4
+    86  722.0    87  722.6    88  723.1    89  723.5    90  724.0
+    91  724.4    92  724.8    93  725.3    94  725.9    95  725.9
+    96  725.3    97  724.8    98  724.4    99  724.0   100  723.5
+   101  723.1   102  722.6   103  722.0   104  721.4   105  720.8
+   106  720.1   107  720.1   108  720.8   109  721.4   110  722.0
+   111  722.6   112  723.1   113  723.5   114  724.0   115  724.4
+   116  724.8   117  725.3   118  725.9
+
+ TIME=   1080.0000 SECONDS   OR  18 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1080.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  710.3     2  709.3     3  708.5     4  707.8     5  707.3
+     6  706.9     7  706.6     8  706.3     9  706.2    10  706.1
+    11  706.1    12  706.3    13  706.3    14  706.1    15  706.1
+    16  706.2    17  706.3    18  706.6    19  706.9    20  707.3
+    21  707.8    22  708.5    23  709.3    24  710.3    25  711.0
+    26  710.0    27  709.2    28  708.6    29  708.0    30  707.6
+    31  707.3    32  707.1    33  706.9    34  706.9    35  706.9
+    36  707.2    37  707.2    38  706.9    39  706.9    40  706.9
+    41  707.1    42  707.3    43  707.6    44  708.0    45  708.6
+    46  709.2    47  710.0    48  711.0    49  711.2    50  711.2
+    51  718.2    52  718.2    53  723.1    54  723.1    55  726.4
+    56  726.4    57  728.7    58  728.7    59  730.1    60  730.1
+    61  730.9    62  730.9    63  731.1    64  731.1    65  730.9
+    66  730.9    67  730.0    68  730.0    69  728.3    70  728.3
+    71  732.7    72  732.1    73  731.7    74  731.3    75  731.0
+    76  730.6    77  730.3    78  729.9    79  729.5    80  729.0
+    81  728.2    82  727.3    83  727.3    84  728.2    85  729.0
+    86  729.5    87  729.9    88  730.3    89  730.6    90  731.0
+    91  731.3    92  731.7    93  732.1    94  732.7    95  732.7
+    96  732.1    97  731.7    98  731.3    99  731.0   100  730.6
+   101  730.3   102  729.9   103  729.5   104  728.9   105  728.4
+   106  727.8   107  727.8   108  728.4   109  728.9   110  729.5
+   111  729.9   112  730.3   113  730.6   114  731.0   115  731.3
+   116  731.7   117  732.1   118  732.7
+
+ TIME=   1140.0000 SECONDS   OR  19 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1140.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  720.8     2  719.9     3  719.1     4  718.5     5  717.9
+     6  717.5     7  717.2     8  717.0     9  716.8    10  716.7
+    11  716.6    12  716.6    13  716.6    14  716.6    15  716.7
+    16  716.8    17  717.0    18  717.2    19  717.5    20  717.9
+    21  718.5    22  719.1    23  719.9    24  720.8    25  721.5
+    26  720.6    27  719.8    28  719.2    29  718.7    30  718.3
+    31  717.9    32  717.7    33  717.5    34  717.4    35  717.3
+    36  717.4    37  717.4    38  717.3    39  717.4    40  717.5
+    41  717.7    42  717.9    43  718.3    44  718.7    45  719.2
+    46  719.8    47  720.6    48  721.5    49  721.1    50  721.1
+    51  727.0    52  727.0    53  730.8    54  730.8    55  733.1
+    56  733.1    57  734.5    58  734.5    59  735.3    60  735.3
+    61  735.7    62  735.7    63  735.9    64  735.9    65  735.6
+    66  735.6    67  734.9    68  734.9    69  733.4    70  733.4
+    71  737.1    72  736.4    73  735.9    74  735.6    75  735.3
+    76  735.1    77  734.9    78  734.6    79  734.3    80  734.0
+    81  733.3    82  732.4    83  732.4    84  733.3    85  734.0
+    86  734.3    87  734.6    88  734.9    89  735.1    90  735.3
+    91  735.6    92  735.9    93  736.4    94  737.1    95  737.1
+    96  736.4    97  735.9    98  735.6    99  735.3   100  735.1
+   101  734.9   102  734.6   103  734.3   104  734.0   105  733.6
+   106  733.0   107  733.0   108  733.6   109  734.0   110  734.3
+   111  734.6   112  734.9   113  735.1   114  735.3   115  735.6
+   116  735.9   117  736.4   118  737.1
+
+ TIME=   1200.0000 SECONDS   OR  20 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1200.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  728.9     2  727.9     3  727.2     4  726.6     5  726.1
+     6  725.8     7  725.4     8  725.2     9  725.0    10  724.8
+    11  724.7    12  724.6    13  724.6    14  724.7    15  724.8
+    16  725.0    17  725.2    18  725.4    19  725.8    20  726.1
+    21  726.6    22  727.2    23  727.9    24  728.9    25  729.6
+    26  728.7    27  727.9    28  727.3    29  726.9    30  726.5
+    31  726.2    32  725.9    33  725.7    34  725.6    35  725.4
+    36  725.3    37  725.3    38  725.4    39  725.6    40  725.7
+    41  725.9    42  726.2    43  726.5    44  726.9    45  727.3
+    46  727.9    47  728.7    48  729.6    49  728.5    50  728.5
+    51  733.1    52  733.1    53  735.9    54  735.9    55  738.2
+    56  738.2    57  740.1    58  740.1    59  741.4    60  741.4
+    61  742.1    62  742.1    63  742.1    64  742.1    65  741.4
+    66  741.4    67  739.9    68  739.9    69  737.1    70  737.1
+    71  743.5    72  742.8    73  742.0    74  741.4    75  740.7
+    76  740.2    77  739.6    78  739.1    79  738.5    80  737.8
+    81  736.8    82  735.7    83  735.7    84  736.8    85  737.8
+    86  738.5    87  739.1    88  739.6    89  740.2    90  740.7
+    91  741.4    92  742.0    93  742.8    94  743.5    95  743.5
+    96  742.8    97  742.0    98  741.4    99  740.7   100  740.2
+   101  739.6   102  739.1   103  738.5   104  737.8   105  737.2
+   106  736.3   107  736.3   108  737.2   109  737.8   110  738.5
+   111  739.1   112  739.6   113  740.2   114  740.7   115  741.4
+   116  742.0   117  742.8   118  743.5
+
+ TIME=   1260.0000 SECONDS   OR  21 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1260.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  734.3     2  733.3     3  732.7     4  732.2     5  731.8
+     6  731.5     7  731.2     8  731.0     9  730.8    10  730.6
+    11  730.4    12  730.1    13  730.1    14  730.4    15  730.6
+    16  730.8    17  731.0    18  731.2    19  731.5    20  731.8
+    21  732.2    22  732.7    23  733.3    24  734.3    25  735.0
+    26  734.1    27  733.4    28  732.9    29  732.6    30  732.2
+    31  732.0    32  731.8    33  731.6    34  731.3    35  731.1
+    36  730.8    37  730.8    38  731.1    39  731.3    40  731.6
+    41  731.8    42  732.0    43  732.2    44  732.6    45  732.9
+    46  733.4    47  734.1    48  735.0    49  733.8    50  733.8
+    51  739.1    52  739.1    53  743.6    54  743.6    55  747.1
+    56  747.1    57  749.7    58  749.7    59  751.2    60  751.2
+    61  751.9    62  751.9    63  751.6    64  751.6    65  750.2
+    66  750.2    67  747.7    68  747.7    69  743.8    70  743.8
+    71  753.1    72  752.4    73  751.6    74  750.8    75  749.9
+    76  749.1    77  748.1    78  747.1    79  746.1    80  744.9
+    81  743.3    82  742.0    83  742.0    84  743.3    85  744.9
+    86  746.1    87  747.1    88  748.1    89  749.1    90  749.9
+    91  750.8    92  751.6    93  752.4    94  753.1    95  753.1
+    96  752.4    97  751.6    98  750.8    99  749.9   100  749.1
+   101  748.1   102  747.1   103  746.1   104  744.9   105  743.8
+   106  742.5   107  742.5   108  743.8   109  744.9   110  746.1
+   111  747.1   112  748.1   113  749.1   114  749.9   115  750.8
+   116  751.6   117  752.4   118  753.1
+
+ TIME=   1320.0000 SECONDS   OR  22 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1320.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  738.3     2  737.2     3  736.3     4  735.6     5  735.2
+     6  734.9     7  734.7     8  734.5     9  734.4    10  734.2
+    11  734.0    12  733.9    13  733.9    14  734.0    15  734.2
+    16  734.4    17  734.5    18  734.7    19  734.9    20  735.2
+    21  735.6    22  736.3    23  737.2    24  738.3    25  739.1
+    26  738.0    27  737.2    28  736.5    29  736.1    30  735.8
+    31  735.5    32  735.4    33  735.2    34  735.0    35  734.7
+    36  734.7    37  734.7    38  734.7    39  735.0    40  735.2
+    41  735.4    42  735.5    43  735.8    44  736.1    45  736.5
+    46  737.2    47  738.0    48  739.1    49  739.1    50  739.1
+    51  747.6    52  747.6    53  753.8    54  753.8    55  758.2
+    56  758.2    57  761.1    58  761.1    59  762.7    60  762.7
+    61  763.3    62  763.3    63  762.8    64  762.8    65  761.3
+    66  761.3    67  758.7    68  758.7    69  754.8    70  754.8
+    71  764.6    72  763.9    73  763.2    74  762.4    75  761.5
+    76  760.6    77  759.5    78  758.4    79  757.3    80  756.0
+    81  754.4    82  753.2    83  753.2    84  754.4    85  756.0
+    86  757.3    87  758.4    88  759.5    89  760.6    90  761.5
+    91  762.4    92  763.2    93  763.9    94  764.6    95  764.6
+    96  763.9    97  763.2    98  762.4    99  761.5   100  760.6
+   101  759.5   102  758.4   103  757.3   104  756.0   105  754.9
+   106  753.6   107  753.6   108  754.9   109  756.0   110  757.3
+   111  758.4   112  759.5   113  760.6   114  761.5   115  762.4
+   116  763.2   117  763.9   118  764.6
+
+ TIME=   1380.0000 SECONDS   OR  23 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1380.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  744.1     2  742.9     3  741.8     4  740.8     5  740.0
+     6  739.3     7  738.7     8  738.3     9  738.0    10  737.8
+    11  737.8    12  738.0    13  738.0    14  737.8    15  737.8
+    16  738.0    17  738.3    18  738.7    19  739.3    20  740.0
+    21  740.8    22  741.8    23  742.9    24  744.1    25  745.0
+    26  743.8    27  742.7    28  741.7    29  740.9    30  740.2
+    31  739.6    32  739.2    33  738.9    34  738.7    35  738.7
+    36  739.5    37  739.5    38  738.7    39  738.7    40  738.9
+    41  739.2    42  739.6    43  740.2    44  740.9    45  741.7
+    46  742.7    47  743.8    48  745.0    49  745.4    50  745.4
+    51  755.8    52  755.8    53  763.3    54  763.3    55  768.5
+    56  768.5    57  772.0    58  772.0    59  774.0    60  774.0
+    61  774.8    62  774.8    63  774.6    64  774.6    65  773.4
+    66  773.4    67  771.3    68  771.3    69  768.2    70  768.2
+    71  776.5    72  775.9    73  775.2    74  774.5    75  773.8
+    76  773.0    77  772.2    78  771.3    79  770.3    80  769.3
+    81  767.9    82  766.9    83  766.9    84  767.9    85  769.3
+    86  770.3    87  771.3    88  772.2    89  773.0    90  773.8
+    91  774.5    92  775.2    93  775.9    94  776.5    95  776.5
+    96  775.9    97  775.2    98  774.5    99  773.8   100  773.0
+   101  772.2   102  771.3   103  770.3   104  769.2   105  768.4
+   106  767.3   107  767.3   108  768.4   109  769.2   110  770.3
+   111  771.3   112  772.2   113  773.0   114  773.8   115  774.5
+   116  775.2   117  775.9   118  776.5
+
+ TIME=   1440.0000 SECONDS   OR  24 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1440.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  752.2     2  751.0     3  749.8     4  748.8     5  747.8
+     6  746.9     7  746.2     8  745.7     9  745.4    10  745.4
+    11  745.5    12  746.0    13  746.0    14  745.5    15  745.4
+    16  745.4    17  745.7    18  746.2    19  746.9    20  747.8
+    21  748.8    22  749.8    23  751.0    24  752.2    25  753.0
+    26  751.8    27  750.7    28  749.6    29  748.7    30  747.8
+    31  747.2    32  746.7    33  746.4    34  746.3    35  746.5
+    36  747.4    37  747.4    38  746.5    39  746.3    40  746.4
+    41  746.7    42  747.2    43  747.8    44  748.7    45  749.6
+    46  750.7    47  751.8    48  753.0    49  753.5    50  753.5
+    51  764.3    52  764.3    53  772.3    54  772.3    55  777.9
+    56  777.9    57  781.8    58  781.8    59  784.1    60  784.1
+    61  785.4    62  785.4    63  785.6    64  785.6    65  785.0
+    66  785.0    67  783.6    68  783.6    69  781.3    70  781.3
+    71  787.7    72  787.2    73  786.7    74  786.2    75  785.6
+    76  785.0    77  784.4    78  783.7    79  782.9    80  782.1
+    81  781.1    82  780.2    83  780.2    84  781.1    85  782.1
+    86  782.9    87  783.7    88  784.4    89  785.0    90  785.6
+    91  786.2    92  786.7    93  787.2    94  787.7    95  787.7
+    96  787.2    97  786.7    98  786.2    99  785.6   100  785.0
+   101  784.4   102  783.7   103  782.9   104  782.1   105  781.4
+   106  780.6   107  780.6   108  781.4   109  782.1   110  782.9
+   111  783.7   112  784.4   113  785.0   114  785.6   115  786.2
+   116  786.7   117  787.2   118  787.7
+
+ TIME=   1500.0000 SECONDS   OR  25 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1500.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  762.5     2  761.4     3  760.3     4  759.3     5  758.5
+     6  757.8     7  757.2     8  756.8     9  756.6    10  756.6
+    11  756.7    12  757.1    13  757.1    14  756.7    15  756.6
+    16  756.6    17  756.8    18  757.2    19  757.8    20  758.5
+    21  759.3    22  760.3    23  761.4    24  762.5    25  763.3
+    26  762.2    27  761.1    28  760.2    29  759.3    30  758.6
+    31  758.1    32  757.7    33  757.5    34  757.4    35  757.6
+    36  758.4    37  758.4    38  757.6    39  757.4    40  757.5
+    41  757.7    42  758.1    43  758.6    44  759.3    45  760.2
+    46  761.1    47  762.2    48  763.3    49  764.0    50  764.0
+    51  774.1    52  774.1    53  781.7    54  781.7    55  787.1
+    56  787.1    57  791.0    58  791.0    59  793.5    60  793.5
+    61  794.9    62  794.9    63  795.5    64  795.5    65  795.3
+    66  795.3    67  794.4    68  794.4    69  792.8    70  792.8
+    71  797.9    72  797.5    73  797.1    74  796.6    75  796.2
+    76  795.8    77  795.3    78  794.7    79  794.2    80  793.5
+    81  792.7    82  792.0    83  792.0    84  792.7    85  793.5
+    86  794.2    87  794.7    88  795.3    89  795.8    90  796.2
+    91  796.6    92  797.1    93  797.5    94  797.9    95  797.9
+    96  797.5    97  797.1    98  796.6    99  796.2   100  795.8
+   101  795.3   102  794.7   103  794.2   104  793.5   105  793.0
+   106  792.3   107  792.3   108  793.0   109  793.5   110  794.2
+   111  794.7   112  795.3   113  795.8   114  796.2   115  796.6
+   116  797.1   117  797.5   118  797.9
+
+ TIME=   1560.0000 SECONDS   OR  26 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1560.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  774.4     2  773.4     3  772.4     4  771.6     5  771.0
+     6  770.4     7  770.0     8  769.7     9  769.5    10  769.5
+    11  769.6    12  769.9    13  769.9    14  769.6    15  769.5
+    16  769.5    17  769.7    18  770.0    19  770.4    20  771.0
+    21  771.6    22  772.4    23  773.4    24  774.4    25  775.1
+    26  774.1    27  773.2    28  772.4    29  771.7    30  771.2
+    31  770.7    32  770.5    33  770.3    34  770.3    35  770.4
+    36  771.1    37  771.1    38  770.4    39  770.3    40  770.3
+    41  770.5    42  770.7    43  771.2    44  771.7    45  772.4
+    46  773.2    47  774.1    48  775.1    49  776.0    50  776.0
+    51  784.9    52  784.9    53  791.5    54  791.5    55  796.4
+    56  796.4    57  799.9    58  799.9    59  802.2    60  802.2
+    61  803.6    62  803.6    63  804.4    64  804.4    65  804.4
+    66  804.4    67  803.9    68  803.9    69  802.7    70  802.7
+    71  806.8    72  806.5    73  806.2    74  805.8    75  805.5
+    76  805.1    77  804.7    78  804.3    79  803.9    80  803.4
+    81  802.7    82  802.1    83  802.1    84  802.7    85  803.4
+    86  803.9    87  804.3    88  804.7    89  805.1    90  805.5
+    91  805.8    92  806.2    93  806.5    94  806.8    95  806.8
+    96  806.5    97  806.2    98  805.8    99  805.5   100  805.1
+   101  804.7   102  804.3   103  803.9   104  803.4   105  802.9
+   106  802.3   107  802.3   108  802.9   109  803.4   110  803.9
+   111  804.3   112  804.7   113  805.1   114  805.5   115  805.8
+   116  806.2   117  806.5   118  806.8
+
+ TIME=   1620.0000 SECONDS   OR  27 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1620.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  786.6     2  785.7     3  785.0     4  784.3     5  783.7
+     6  783.3     7  782.9     8  782.7     9  782.5    10  782.5
+    11  782.6    12  782.9    13  782.9    14  782.6    15  782.5
+    16  782.5    17  782.7    18  782.9    19  783.3    20  783.7
+    21  784.3    22  785.0    23  785.7    24  786.6    25  787.3
+    26  786.4    27  785.6    28  785.0    29  784.4    30  783.9
+    31  783.6    32  783.4    33  783.2    34  783.2    35  783.3
+    36  783.8    37  783.8    38  783.3    39  783.2    40  783.2
+    41  783.4    42  783.6    43  783.9    44  784.4    45  785.0
+    46  785.6    47  786.4    48  787.3    49  788.1    50  788.1
+    51  795.6    52  795.6    53  801.3    54  801.3    55  805.4
+    56  805.4    57  808.4    58  808.4    59  810.4    60  810.4
+    61  811.7    62  811.7    63  812.4    64  812.4    65  812.5
+    66  812.5    67  812.1    68  812.1    69  811.2    70  811.2
+    71  814.7    72  814.4    73  814.1    74  813.9    75  813.6
+    76  813.3    77  813.0    78  812.6    79  812.3    80  811.8
+    81  811.3    82  810.7    83  810.7    84  811.3    85  811.8
+    86  812.3    87  812.6    88  813.0    89  813.3    90  813.6
+    91  813.9    92  814.1    93  814.4    94  814.7    95  814.7
+    96  814.4    97  814.1    98  813.9    99  813.6   100  813.3
+   101  813.0   102  812.6   103  812.3   104  811.8   105  811.5
+   106  811.0   107  811.0   108  811.5   109  811.8   110  812.3
+   111  812.6   112  813.0   113  813.3   114  813.6   115  813.9
+   116  814.1   117  814.4   118  814.7
+
+ TIME=   1680.0000 SECONDS   OR  28 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1680.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  798.3     2  797.5     3  796.9     4  796.3     5  795.8
+     6  795.4     7  795.1     8  794.9     9  794.8    10  794.8
+    11  794.8    12  795.0    13  795.0    14  794.8    15  794.8
+    16  794.8    17  794.9    18  795.1    19  795.4    20  795.8
+    21  796.3    22  796.9    23  797.5    24  798.3    25  798.9
+    26  798.1    27  797.4    28  796.9    29  796.4    30  796.0
+    31  795.7    32  795.5    33  795.4    34  795.4    35  795.4
+    36  795.8    37  795.8    38  795.4    39  795.4    40  795.4
+    41  795.5    42  795.7    43  796.0    44  796.4    45  796.9
+    46  797.4    47  798.1    48  798.9    49  799.4    50  799.4
+    51  805.8    52  805.8    53  810.5    54  810.5    55  813.9
+    56  813.9    57  816.4    58  816.4    59  818.1    60  818.1
+    61  819.1    62  819.1    63  819.7    64  819.7    65  819.8
+    66  819.8    67  819.5    68  819.5    69  818.8    70  818.8
+    71  821.7    72  821.5    73  821.2    74  821.0    75  820.8
+    76  820.5    77  820.3    78  820.0    79  819.7    80  819.3
+    81  818.8    82  818.4    83  818.4    84  818.8    85  819.3
+    86  819.7    87  820.0    88  820.3    89  820.5    90  820.8
+    91  821.0    92  821.2    93  821.5    94  821.7    95  821.7
+    96  821.5    97  821.2    98  821.0    99  820.8   100  820.5
+   101  820.3   102  820.0   103  819.7   104  819.3   105  819.0
+   106  818.6   107  818.6   108  819.0   109  819.3   110  819.7
+   111  820.0   112  820.3   113  820.5   114  820.8   115  821.0
+   116  821.2   117  821.5   118  821.7
+
+ TIME=   1740.0000 SECONDS   OR  29 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1740.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  808.9     2  808.2     3  807.7     4  807.2     5  806.8
+     6  806.4     7  806.2     8  806.0     9  805.9    10  805.8
+    11  805.9    12  806.0    13  806.0    14  805.9    15  805.8
+    16  805.9    17  806.0    18  806.2    19  806.4    20  806.8
+    21  807.2    22  807.7    23  808.2    24  808.9    25  809.4
+    26  808.7    27  808.2    28  807.7    29  807.3    30  806.9
+    31  806.7    32  806.5    33  806.4    34  806.4    35  806.4
+    36  806.7    37  806.7    38  806.4    39  806.4    40  806.4
+    41  806.5    42  806.7    43  806.9    44  807.3    45  807.7
+    46  808.2    47  808.7    48  809.4    49  809.7    50  809.7
+    51  815.0    52  815.0    53  818.9    54  818.9    55  821.7
+    56  821.7    57  823.8    58  823.8    59  825.1    60  825.1
+    61  826.0    62  826.0    63  826.5    64  826.5    65  826.5
+    66  826.5    67  826.3    68  826.3    69  825.6    70  825.6
+    71  828.1    72  827.9    73  827.7    74  827.5    75  827.3
+    76  827.1    77  826.8    78  826.6    79  826.3    80  826.0
+    81  825.6    82  825.2    83  825.2    84  825.6    85  826.0
+    86  826.3    87  826.6    88  826.8    89  827.1    90  827.3
+    91  827.5    92  827.7    93  827.9    94  828.1    95  828.1
+    96  827.9    97  827.7    98  827.5    99  827.3   100  827.1
+   101  826.8   102  826.6   103  826.3   104  826.0   105  825.7
+   106  825.4   107  825.4   108  825.7   109  826.0   110  826.3
+   111  826.6   112  826.8   113  827.1   114  827.3   115  827.5
+   116  827.7   117  827.9   118  828.1
+
+ TIME=   1800.0000 SECONDS   OR  30 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1800.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  818.3     2  817.8     3  817.3     4  816.9     5  816.5
+     6  816.2     7  816.0     8  815.8     9  815.7    10  815.7
+    11  815.7    12  815.8    13  815.8    14  815.7    15  815.7
+    16  815.7    17  815.8    18  816.0    19  816.2    20  816.5
+    21  816.9    22  817.3    23  817.8    24  818.3    25  818.8
+    26  818.2    27  817.7    28  817.3    29  816.9    30  816.7
+    31  816.4    32  816.3    33  816.2    34  816.1    35  816.1
+    36  816.4    37  816.4    38  816.1    39  816.1    40  816.2
+    41  816.3    42  816.4    43  816.7    44  816.9    45  817.3
+    46  817.7    47  818.2    48  818.8    49  818.9    50  818.9
+    51  823.4    52  823.4    53  826.6    54  826.6    55  828.9
+    56  828.9    57  830.6    58  830.6    59  831.7    60  831.7
+    61  832.4    62  832.4    63  832.7    64  832.7    65  832.7
+    66  832.7    67  832.4    68  832.4    69  831.8    70  831.8
+    71  834.0    72  833.8    73  833.6    74  833.5    75  833.3
+    76  833.1    77  832.9    78  832.7    79  832.4    80  832.2
+    81  831.8    82  831.4    83  831.4    84  831.8    85  832.2
+    86  832.4    87  832.7    88  832.9    89  833.1    90  833.3
+    91  833.5    92  833.6    93  833.8    94  834.0    95  834.0
+    96  833.8    97  833.6    98  833.5    99  833.3   100  833.1
+   101  832.9   102  832.7   103  832.4   104  832.2   105  831.9
+   106  831.6   107  831.6   108  831.9   109  832.2   110  832.4
+   111  832.7   112  832.9   113  833.1   114  833.3   115  833.5
+   116  833.6   117  833.8   118  834.0
+
+ TIME=   1860.0000 SECONDS   OR  31 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1860.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  826.7     2  826.2     3  825.8     4  825.4     5  825.1
+     6  824.9     7  824.7     8  824.5     9  824.4    10  824.4
+    11  824.4    12  824.4    13  824.4    14  824.4    15  824.4
+    16  824.4    17  824.5    18  824.7    19  824.9    20  825.1
+    21  825.4    22  825.8    23  826.2    24  826.7    25  827.1
+    26  826.6    27  826.2    28  825.8    29  825.5    30  825.3
+    31  825.1    32  824.9    33  824.8    34  824.8    35  824.8
+    36  824.9    37  824.9    38  824.8    39  824.8    40  824.8
+    41  824.9    42  825.1    43  825.3    44  825.5    45  825.8
+    46  826.2    47  826.6    48  827.1    49  827.1    50  827.1
+    51  830.8    52  830.8    53  833.5    54  833.5    55  835.5
+    56  835.5    57  836.8    58  836.8    59  837.7    60  837.7
+    61  838.3    62  838.3    63  838.5    64  838.5    65  838.5
+    66  838.5    67  838.2    68  838.2    69  837.6    70  837.6
+    71  839.6    72  839.4    73  839.2    74  839.1    75  838.9
+    76  838.7    77  838.6    78  838.4    79  838.1    80  837.9
+    81  837.6    82  837.2    83  837.2    84  837.6    85  837.9
+    86  838.1    87  838.4    88  838.6    89  838.7    90  838.9
+    91  839.1    92  839.2    93  839.4    94  839.6    95  839.6
+    96  839.4    97  839.2    98  839.1    99  838.9   100  838.7
+   101  838.6   102  838.4   103  838.1   104  837.9   105  837.7
+   106  837.4   107  837.4   108  837.7   109  837.9   110  838.1
+   111  838.4   112  838.6   113  838.7   114  838.9   115  839.1
+   116  839.2   117  839.4   118  839.6
+
+ TIME=   1920.0000 SECONDS   OR  32 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1920.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  834.2     2  833.8     3  833.4     4  833.1     5  832.8
+     6  832.6     7  832.4     8  832.3     9  832.2    10  832.1
+    11  832.1    12  832.1    13  832.1    14  832.1    15  832.1
+    16  832.2    17  832.3    18  832.4    19  832.6    20  832.8
+    21  833.1    22  833.4    23  833.8    24  834.2    25  834.5
+    26  834.1    27  833.7    28  833.4    29  833.1    30  832.9
+    31  832.7    32  832.6    33  832.5    34  832.5    35  832.4
+    36  832.6    37  832.6    38  832.4    39  832.5    40  832.5
+    41  832.6    42  832.7    43  832.9    44  833.1    45  833.4
+    46  833.7    47  834.1    48  834.5    49  834.4    50  834.4
+    51  837.6    52  837.6    53  839.9    54  839.9    55  841.5
+    56  841.5    57  842.7    58  842.7    59  843.4    60  843.4
+    61  843.8    62  843.8    63  844.0    64  844.0    65  844.0
+    66  844.0    67  843.6    68  843.6    69  843.0    70  843.0
+    71  844.8    72  844.7    73  844.5    74  844.4    75  844.2
+    76  844.1    77  843.9    78  843.7    79  843.5    80  843.3
+    81  843.0    82  842.7    83  842.7    84  843.0    85  843.3
+    86  843.5    87  843.7    88  843.9    89  844.1    90  844.2
+    91  844.4    92  844.5    93  844.7    94  844.8    95  844.8
+    96  844.7    97  844.5    98  844.4    99  844.2   100  844.1
+   101  843.9   102  843.7   103  843.5   104  843.3   105  843.1
+   106  842.8   107  842.8   108  843.1   109  843.3   110  843.5
+   111  843.7   112  843.9   113  844.1   114  844.2   115  844.4
+   116  844.5   117  844.7   118  844.8
+
+ TIME=   1980.0000 SECONDS   OR  33 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  1980.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  840.9     2  840.5     3  840.2     4  839.9     5  839.7
+     6  839.5     7  839.3     8  839.2     9  839.1    10  839.0
+    11  839.0    12  839.0    13  839.0    14  839.0    15  839.0
+    16  839.1    17  839.2    18  839.3    19  839.5    20  839.7
+    21  839.9    22  840.2    23  840.5    24  840.9    25  841.2
+    26  840.8    27  840.5    28  840.2    29  840.0    30  839.8
+    31  839.6    32  839.5    33  839.4    34  839.3    35  839.3
+    36  839.4    37  839.4    38  839.3    39  839.3    40  839.4
+    41  839.5    42  839.6    43  839.8    44  840.0    45  840.2
+    46  840.5    47  840.8    48  841.2    49  841.0    50  841.0
+    51  843.8    52  843.8    53  845.8    54  845.8    55  847.2
+    56  847.2    57  848.1    58  848.1    59  848.7    60  848.7
+    61  849.1    62  849.1    63  849.2    64  849.2    65  849.1
+    66  849.1    67  848.8    68  848.8    69  848.2    70  848.2
+    71  849.9    72  849.7    73  849.6    74  849.4    75  849.3
+    76  849.1    77  849.0    78  848.8    79  848.7    80  848.4
+    81  848.2    82  847.9    83  847.9    84  848.2    85  848.4
+    86  848.7    87  848.8    88  849.0    89  849.1    90  849.3
+    91  849.4    92  849.6    93  849.7    94  849.9    95  849.9
+    96  849.7    97  849.6    98  849.4    99  849.3   100  849.1
+   101  849.0   102  848.8   103  848.7   104  848.4   105  848.3
+   106  848.0   107  848.0   108  848.3   109  848.4   110  848.7
+   111  848.8   112  849.0   113  849.1   114  849.3   115  849.4
+   116  849.6   117  849.7   118  849.9
+
+ TIME=   2040.0000 SECONDS   OR  34 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  2040.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  847.0     2  846.7     3  846.4     4  846.1     5  845.9
+     6  845.7     7  845.6     8  845.4     9  845.4    10  845.3
+    11  845.3    12  845.3    13  845.3    14  845.3    15  845.3
+    16  845.4    17  845.4    18  845.6    19  845.7    20  845.9
+    21  846.1    22  846.4    23  846.7    24  847.0    25  847.3
+    26  846.9    27  846.6    28  846.4    29  846.2    30  846.0
+    31  845.8    32  845.7    33  845.6    34  845.6    35  845.5
+    36  845.6    37  845.6    38  845.5    39  845.6    40  845.6
+    41  845.7    42  845.8    43  846.0    44  846.2    45  846.4
+    46  846.6    47  846.9    48  847.3    49  847.1    50  847.1
+    51  849.5    52  849.5    53  851.3    54  851.3    55  852.5
+    56  852.5    57  853.3    58  853.3    59  853.8    60  853.8
+    61  854.1    62  854.1    63  854.2    64  854.2    65  854.1
+    66  854.1    67  853.7    68  853.7    69  853.1    70  853.1
+    71  854.7    72  854.5    73  854.4    74  854.3    75  854.1
+    76  854.0    77  853.9    78  853.7    79  853.6    80  853.4
+    81  853.1    82  852.8    83  852.8    84  853.1    85  853.4
+    86  853.6    87  853.7    88  853.9    89  854.0    90  854.1
+    91  854.3    92  854.4    93  854.5    94  854.7    95  854.7
+    96  854.5    97  854.4    98  854.3    99  854.1   100  854.0
+   101  853.9   102  853.7   103  853.6   104  853.4   105  853.2
+   106  853.0   107  853.0   108  853.2   109  853.4   110  853.6
+   111  853.7   112  853.9   113  854.0   114  854.1   115  854.3
+   116  854.4   117  854.5   118  854.7
+
+ TIME=   2100.0000 SECONDS   OR  35 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  2100.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  852.6     2  852.3     3  852.0     4  851.8     5  851.6
+     6  851.4     7  851.3     8  851.2     9  851.1    10  851.1
+    11  851.0    12  851.0    13  851.0    14  851.0    15  851.1
+    16  851.1    17  851.2    18  851.3    19  851.4    20  851.6
+    21  851.8    22  852.0    23  852.3    24  852.6    25  852.8
+    26  852.5    27  852.3    28  852.0    29  851.8    30  851.7
+    31  851.6    32  851.4    33  851.4    34  851.3    35  851.3
+    36  851.3    37  851.3    38  851.3    39  851.3    40  851.4
+    41  851.4    42  851.6    43  851.7    44  851.8    45  852.0
+    46  852.3    47  852.5    48  852.8    49  852.6    50  852.6
+    51  854.9    52  854.9    53  856.4    54  856.4    55  857.5
+    56  857.5    57  858.2    58  858.2    59  858.6    60  858.6
+    61  858.9    62  858.9    63  858.9    64  858.9    65  858.8
+    66  858.8    67  858.5    68  858.5    69  857.9    70  857.9
+    71  859.3    72  859.2    73  859.1    74  858.9    75  858.8
+    76  858.7    77  858.6    78  858.4    79  858.3    80  858.1
+    81  857.8    82  857.6    83  857.6    84  857.8    85  858.1
+    86  858.3    87  858.4    88  858.6    89  858.7    90  858.8
+    91  858.9    92  859.1    93  859.2    94  859.3    95  859.3
+    96  859.2    97  859.1    98  858.9    99  858.8   100  858.7
+   101  858.6   102  858.4   103  858.3   104  858.1   105  857.9
+   106  857.7   107  857.7   108  857.9   109  858.1   110  858.3
+   111  858.4   112  858.6   113  858.7   114  858.8   115  858.9
+   116  859.1   117  859.2   118  859.3
+
+ TIME=   2160.0000 SECONDS   OR  36 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  2160.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  857.9     2  857.6     3  857.3     4  857.1     5  856.9
+     6  856.8     7  856.6     8  856.5     9  856.4    10  856.4
+    11  856.4    12  856.4    13  856.4    14  856.4    15  856.4
+    16  856.4    17  856.5    18  856.6    19  856.8    20  856.9
+    21  857.1    22  857.3    23  857.6    24  857.9    25  858.1
+    26  857.8    27  857.5    28  857.3    29  857.1    30  857.0
+    31  856.9    32  856.8    33  856.7    34  856.6    35  856.6
+    36  856.6    37  856.6    38  856.6    39  856.6    40  856.7
+    41  856.8    42  856.9    43  857.0    44  857.1    45  857.3
+    46  857.5    47  857.8    48  858.1    49  857.8    50  857.8
+    51  859.9    52  859.9    53  861.2    54  861.2    55  862.2
+    56  862.2    57  862.8    58  862.8    59  863.2    60  863.2
+    61  863.4    62  863.4    63  863.5    64  863.5    65  863.3
+    66  863.3    67  863.0    68  863.0    69  862.4    70  862.4
+    71  863.8    72  863.7    73  863.6    74  863.4    75  863.3
+    76  863.2    77  863.1    78  863.0    79  862.8    80  862.6
+    81  862.4    82  862.2    83  862.2    84  862.4    85  862.6
+    86  862.8    87  863.0    88  863.1    89  863.2    90  863.3
+    91  863.4    92  863.6    93  863.7    94  863.8    95  863.8
+    96  863.7    97  863.6    98  863.4    99  863.3   100  863.2
+   101  863.1   102  863.0   103  862.8   104  862.6   105  862.5
+   106  862.3   107  862.3   108  862.5   109  862.6   110  862.8
+   111  863.0   112  863.1   113  863.2   114  863.3   115  863.4
+   116  863.6   117  863.7   118  863.8
+
+ TIME=   2220.0000 SECONDS   OR  37 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  2220.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  862.8     2  862.5     3  862.3     4  862.1     5  861.9
+     6  861.7     7  861.6     8  861.5     9  861.5    10  861.4
+    11  861.4    12  861.4    13  861.4    14  861.4    15  861.4
+    16  861.5    17  861.5    18  861.6    19  861.7    20  861.9
+    21  862.1    22  862.3    23  862.5    24  862.8    25  863.0
+    26  862.7    27  862.5    28  862.3    29  862.1    30  862.0
+    31  861.8    32  861.7    33  861.7    34  861.6    35  861.6
+    36  861.6    37  861.6    38  861.6    39  861.6    40  861.7
+    41  861.7    42  861.8    43  862.0    44  862.1    45  862.3
+    46  862.5    47  862.7    48  863.0    49  862.7    50  862.7
+    51  864.6    52  864.6    53  865.9    54  865.9    55  866.7
+    56  866.7    57  867.3    58  867.3    59  867.7    60  867.7
+    61  867.9    62  867.9    63  867.9    64  867.9    65  867.7
+    66  867.7    67  867.4    68  867.4    69  866.9    70  866.9
+    71  868.2    72  868.0    73  867.9    74  867.8    75  867.7
+    76  867.6    77  867.5    78  867.3    79  867.2    80  867.0
+    81  866.8    82  866.6    83  866.6    84  866.8    85  867.0
+    86  867.2    87  867.3    88  867.5    89  867.6    90  867.7
+    91  867.8    92  867.9    93  868.0    94  868.2    95  868.2
+    96  868.0    97  867.9    98  867.8    99  867.7   100  867.6
+   101  867.5   102  867.3   103  867.2   104  867.0   105  866.9
+   106  866.7   107  866.7   108  866.9   109  867.0   110  867.2
+   111  867.3   112  867.5   113  867.6   114  867.7   115  867.8
+   116  867.9   117  868.0   118  868.2
+
+ TIME=   2280.0000 SECONDS   OR  38 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  2280.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  867.4     2  867.2     3  867.0     4  866.8     5  866.6
+     6  866.5     7  866.4     8  866.3     9  866.2    10  866.1
+    11  866.1    12  866.1    13  866.1    14  866.1    15  866.1
+    16  866.2    17  866.3    18  866.4    19  866.5    20  866.6
+    21  866.8    22  867.0    23  867.2    24  867.4    25  867.6
+    26  867.4    27  867.1    28  867.0    29  866.8    30  866.7
+    31  866.6    32  866.5    33  866.4    34  866.3    35  866.3
+    36  866.3    37  866.3    38  866.3    39  866.3    40  866.4
+    41  866.5    42  866.6    43  866.7    44  866.8    45  867.0
+    46  867.1    47  867.4    48  867.6    49  867.4    50  867.4
+    51  869.1    52  869.1    53  870.3    54  870.3    55  871.1
+    56  871.1    57  871.6    58  871.6    59  872.0    60  872.0
+    61  872.1    62  872.1    63  872.1    64  872.1    65  872.0
+    66  872.0    67  871.7    68  871.7    69  871.1    70  871.1
+    71  872.4    72  872.3    73  872.1    74  872.0    75  871.9
+    76  871.8    77  871.7    78  871.6    79  871.5    80  871.3
+    81  871.1    82  870.9    83  870.9    84  871.1    85  871.3
+    86  871.5    87  871.6    88  871.7    89  871.8    90  871.9
+    91  872.0    92  872.1    93  872.3    94  872.4    95  872.4
+    96  872.3    97  872.1    98  872.0    99  871.9   100  871.8
+   101  871.7   102  871.6   103  871.5   104  871.3   105  871.2
+   106  871.0   107  871.0   108  871.2   109  871.3   110  871.5
+   111  871.6   112  871.7   113  871.8   114  871.9   115  872.0
+   116  872.1   117  872.3   118  872.4
+
+ TIME=   2340.0000 SECONDS   OR  39 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  2340.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  871.9     2  871.6     3  871.4     4  871.2     5  871.1
+     6  871.0     7  870.9     8  870.8     9  870.7    10  870.6
+    11  870.6    12  870.6    13  870.6    14  870.6    15  870.6
+    16  870.7    17  870.8    18  870.9    19  871.0    20  871.1
+    21  871.2    22  871.4    23  871.6    24  871.9    25  872.1
+    26  871.8    27  871.6    28  871.4    29  871.3    30  871.2
+    31  871.1    32  871.0    33  870.9    34  870.8    35  870.8
+    36  870.8    37  870.8    38  870.8    39  870.8    40  870.9
+    41  871.0    42  871.1    43  871.2    44  871.3    45  871.4
+    46  871.6    47  871.8    48  872.1    49  871.8    50  871.8
+    51  873.4    52  873.4    53  874.6    54  874.6    55  875.3
+    56  875.3    57  875.8    58  875.8    59  876.1    60  876.1
+    61  876.2    62  876.2    63  876.2    64  876.2    65  876.1
+    66  876.1    67  875.8    68  875.8    69  875.3    70  875.3
+    71  876.5    72  876.3    73  876.2    74  876.1    75  876.0
+    76  875.9    77  875.8    78  875.7    79  875.6    80  875.4
+    81  875.2    82  875.0    83  875.0    84  875.2    85  875.4
+    86  875.6    87  875.7    88  875.8    89  875.9    90  876.0
+    91  876.1    92  876.2    93  876.3    94  876.5    95  876.5
+    96  876.3    97  876.2    98  876.1    99  876.0   100  875.9
+   101  875.8   102  875.7   103  875.6   104  875.4   105  875.3
+   106  875.1   107  875.1   108  875.3   109  875.4   110  875.6
+   111  875.7   112  875.8   113  875.9   114  876.0   115  876.1
+   116  876.2   117  876.3   118  876.5
+
+ TIME=   2400.0000 SECONDS   OR  40 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  2400.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  876.1     2  875.9     3  875.7     4  875.5     5  875.4
+     6  875.3     7  875.2     8  875.1     9  875.0    10  875.0
+    11  874.9    12  874.9    13  874.9    14  874.9    15  875.0
+    16  875.0    17  875.1    18  875.2    19  875.3    20  875.4
+    21  875.5    22  875.7    23  875.9    24  876.1    25  876.3
+    26  876.1    27  875.9    28  875.7    29  875.6    30  875.5
+    31  875.4    32  875.3    33  875.2    34  875.2    35  875.1
+    36  875.1    37  875.1    38  875.1    39  875.2    40  875.2
+    41  875.3    42  875.4    43  875.5    44  875.6    45  875.7
+    46  875.9    47  876.1    48  876.3    49  876.1    50  876.1
+    51  877.6    52  877.6    53  878.7    54  878.7    55  879.4
+    56  879.4    57  879.8    58  879.8    59  880.1    60  880.1
+    61  880.2    62  880.2    63  880.2    64  880.2    65  880.1
+    66  880.1    67  879.8    68  879.8    69  879.3    70  879.3
+    71  880.4    72  880.3    73  880.2    74  880.1    75  880.0
+    76  879.9    77  879.8    78  879.7    79  879.6    80  879.4
+    81  879.2    82  879.0    83  879.0    84  879.2    85  879.4
+    86  879.6    87  879.7    88  879.8    89  879.9    90  880.0
+    91  880.1    92  880.2    93  880.3    94  880.4    95  880.4
+    96  880.3    97  880.2    98  880.1    99  880.0   100  879.9
+   101  879.8   102  879.7   103  879.6   104  879.4   105  879.3
+   106  879.1   107  879.1   108  879.3   109  879.4   110  879.6
+   111  879.7   112  879.8   113  879.9   114  880.0   115  880.1
+   116  880.2   117  880.3   118  880.4
+
+ THE FINAL TIME HAS BEEN REACHED.
+ --------------------------------
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =  2400.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.  NODE  TEMP.
+     1  876.2     2  876.0     3  875.8     4  875.6     5  875.5
+     6  875.4     7  875.3     8  875.2     9  875.1    10  875.1
+    11  875.0    12  875.0    13  875.0    14  875.0    15  875.1
+    16  875.1    17  875.2    18  875.3    19  875.4    20  875.5
+    21  875.6    22  875.8    23  876.0    24  876.2    25  876.4
+    26  876.2    27  876.0    28  875.8    29  875.7    30  875.6
+    31  875.5    32  875.4    33  875.3    34  875.2    35  875.2
+    36  875.2    37  875.2    38  875.2    39  875.2    40  875.3
+    41  875.4    42  875.5    43  875.6    44  875.7    45  875.8
+    46  876.0    47  876.2    48  876.4    49  876.2    50  876.2
+    51  877.7    52  877.7    53  878.8    54  878.8    55  879.5
+    56  879.5    57  879.9    58  879.9    59  880.2    60  880.2
+    61  880.3    62  880.3    63  880.3    64  880.3    65  880.2
+    66  880.2    67  879.9    68  879.9    69  879.4    70  879.4
+    71  880.5    72  880.4    73  880.3    74  880.2    75  880.1
+    76  880.0    77  879.9    78  879.8    79  879.7    80  879.5
+    81  879.3    82  879.1    83  879.1    84  879.3    85  879.5
+    86  879.7    87  879.8    88  879.9    89  880.0    90  880.1
+    91  880.2    92  880.3    93  880.4    94  880.5    95  880.5
+    96  880.4    97  880.3    98  880.2    99  880.1   100  880.0
+   101  879.9   102  879.8   103  879.7   104  879.5   105  879.4
+   106  879.2   107  879.2   108  879.4   109  879.5   110  879.7
+   111  879.8   112  879.9   113  880.0   114  880.1   115  880.2
+   116  880.3   117  880.4   118  880.5
+
+   DATE OF THIS RUN :  3-11-2016
+   ENDTIME OF THIS RUN : 15:18:33
+   DURATION OF THE CALCULATION :  0: 0: 0
+
+
+ THE STIFFNESS MATRIX HAS BEEN TRIANGULARISED   405 TIMES.

@@ -1,0 +1,16 @@
+Safir_Shell_Temperature_Analysis
+Mesh_from_GID-Mesher
+
+ THICKNESS    0.400
+  MATERIAL    1
+    REBARS    2
+  MATERIAL    2
+   SECTION    0.002
+     LEVEL    -0.16
+     ANGLE    0
+  MATERIAL    2
+   SECTION    0.02
+     LEVEL    0.16
+     ANGLE    0
+
+

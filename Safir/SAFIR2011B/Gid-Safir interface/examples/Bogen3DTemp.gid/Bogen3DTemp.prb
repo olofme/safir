@@ -1,0 +1,25 @@
+PROBLEM DATA
+QUESTION: Title_1
+VALUE: Safir_Thermal_3D-Analysis
+QUESTION: Title_2
+VALUE: Mesh_from_GID-Mesher
+QUESTION: Renumber#CB#(NORENUM,RENUM,RENUMPERM,RENUMGEO,READRENUM)
+VALUE: RENUMGEO
+QUESTION: TETA
+VALUE: 0.9
+HELP: Parameter for the time integration, 0 < TETA = 1 (0.90 recommended).
+QUESTION: TINITIAL
+VALUE: 20.0
+HELP: Temperature in the structure at time t = 0, normally taken as 20oC
+QUESTION: TIMESTEP
+VALUE: 12
+HELP: Time step in seconds.
+QUESTION: UPTIME
+VALUE: 120
+HELP: End time for calculation.
+QUESTION: TIMEPRINT
+VALUE: 60
+HELP: Output results time.  Results written if Mod (TIME, TIMEPRINT) = 0, that is, if TIME is a product of TIMEPRINT.
+END PROBLEM DATA
+INTERVAL DATA
+END INTERVAL DATA

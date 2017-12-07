@@ -1,0 +1,19 @@
+BeginZE C:\work\fem\safir2007\TestProblems\3dStatic_Examples\frame3DHinge.gid\frame3DHinge.vv
+   x -7.84313 14.7328
+   y 9.72753 -2.40898
+   z -13.0283 4.86697
+   e 6.06218
+   v 0.451845 -0.00106675 0.00075642
+   r -0.892095
+   m 0.999997 0.000385583 0.00258686 0 -0.00231361 0.591671 0.806176 0 -0.00121972 -0.80618 0.59167 0 0 0 0 1
+   c 3.50004 3.99916 4.08065
+   pd 0
+   pno 0
+   pfo 0
+   pf 4
+   pv 0
+   NowUse 0
+   DrawingType 0
+   LightVector 4.22365 -15.7377 149.007 0
+EndZE C:\work\fem\safir2007\TestProblems\3dStatic_Examples\frame3DHinge.gid\frame3DHinge.vv
+

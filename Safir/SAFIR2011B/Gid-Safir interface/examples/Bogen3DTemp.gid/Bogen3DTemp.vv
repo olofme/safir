@@ -1,0 +1,19 @@
+BeginZE C:\work\fem\safir2007\TestProblems\3dTherm_Examples\Bogen3DTemp.gid\Bogen3DTemp.vv
+   x -0.812343 0.811359
+   y 0.686109 -0.186773
+   z -2.72308 2.47308
+   e 0.866025
+   v 0.231813 0.0973286 -0.0505442
+   r 0.966558
+   m 0.975945 0.142832 0.164714 0 -0.0525838 0.887416 -0.45796 0 -0.211581 0.438283 0.87358 0 0 0 0 1
+   c 0 0.25 0.125
+   pd 0
+   pno 0
+   pfo 0
+   pf 4
+   pv 0
+   NowUse 1
+   DrawingType 0
+   LightVector 4.22365 -15.7377 149.007 0
+EndZE C:\work\fem\safir2007\TestProblems\3dTherm_Examples\Bogen3DTemp.gid\Bogen3DTemp.vv
+

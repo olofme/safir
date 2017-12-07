@@ -1,0 +1,580 @@
+
+*******************************************
+Testperiod will expire in 37 days.
+*******************************************
+
+Nr. of local axes = 9
+Number of nodes with disconnect_Id, iSame = 4
+Number of beams with disconnect_Id, idis = 4
+Number of shells with disconnect_Id, idiss = 0
+GiD-BeamNr = 1, SAFIR-BeamNr = 1
+GiD-BeamNr = 2, SAFIR-BeamNr = 2
+GiD-BeamNr = 3, SAFIR-BeamNr = 3
+GiD-BeamNr = 4, SAFIR-BeamNr = 4
+GiD-BeamNr = 5, SAFIR-BeamNr = 5
+GiD-BeamNr = 6, SAFIR-BeamNr = 6
+GiD-BeamNr = 7, SAFIR-BeamNr = 7
+GiD-BeamNr = 8, SAFIR-BeamNr = 8
+GiD-BeamNr = 9, SAFIR-BeamNr = 9
+GiD-BeamNr = 10, SAFIR-BeamNr = 10
+GiD-BeamNr = 11, SAFIR-BeamNr = 11
+GiD-BeamNr = 12, SAFIR-BeamNr = 12
+GiD-BeamNr = 13, SAFIR-BeamNr = 13
+GiD-BeamNr = 14, SAFIR-BeamNr = 14
+GiD-BeamNr = 15, SAFIR-BeamNr = 15
+GiD-BeamNr = 16, SAFIR-BeamNr = 16
+GiD-BeamNr = 17, SAFIR-BeamNr = 17
+GiD-BeamNr = 18, SAFIR-BeamNr = 18
+GiD-BeamNr = 19, SAFIR-BeamNr = 19
+GiD-BeamNr = 20, SAFIR-BeamNr = 20
+GiD-BeamNr = 21, SAFIR-BeamNr = 21
+GiD-BeamNr = 22, SAFIR-BeamNr = 22
+GiD-BeamNr = 23, SAFIR-BeamNr = 23
+GiD-BeamNr = 24, SAFIR-BeamNr = 24
+GiD-BeamNr = 25, SAFIR-BeamNr = 25
+GiD-BeamNr = 26, SAFIR-BeamNr = 26
+GiD-BeamNr = 27, SAFIR-BeamNr = 27
+GiD-BeamNr = 28, SAFIR-BeamNr = 28 
+ SAFIR version 2007 is running.
+ Please type "FILENAME" of "FILENAME.IN" :   SAFIR is allocating memory
+  SAFIR is in subroutine DONNEE
+  START OF RENUMBERING OF THE EQUATIONS
+              BY THE GEOMETRICAL METHOD.
+  nnodepart =            1
+  the length of the skyline is reduced to        4172
+
+ AFTER GEOMETRICAL PROGRESSION,
+   THE LENGTH OF THE SKYLINE IS      4172.
+ ----------------------------------------------
+  SAFIR has finished subroutine DONNEE
+
+ time =     12.00000 sec.
+
+ time =     24.00000 sec.
+
+ time =     36.00000 sec.
+
+ time =     48.00000 sec.
+
+ time =     60.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.99104
+ 
+
+ time =     72.00000 sec.
+
+ time =     84.00000 sec.
+
+ time =     96.00000 sec.
+
+ time =    108.00000 sec.
+
+ time =    120.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.99136
+ 
+
+ time =    132.00000 sec.
+
+ time =    144.00000 sec.
+
+ time =    156.00000 sec.
+
+ time =    168.00000 sec.
+
+ time =    180.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.99187
+ 
+
+ time =    192.00000 sec.
+
+ time =    204.00000 sec.
+
+ time =    216.00000 sec.
+
+ time =    228.00000 sec.
+
+ time =    240.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.99258
+ 
+
+ time =    252.00000 sec.
+
+ time =    264.00000 sec.
+
+ time =    276.00000 sec.
+
+ time =    288.00000 sec.
+
+ time =    300.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.99341
+ 
+
+ time =    312.00000 sec.
+
+ time =    324.00000 sec.
+
+ time =    336.00000 sec.
+
+ time =    348.00000 sec.
+
+ time =    360.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.99438
+ 
+
+ time =    372.00000 sec.
+
+ time =    384.00000 sec.
+
+ time =    396.00000 sec.
+
+ time =    408.00000 sec.
+
+ time =    420.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.99224
+ 
+
+ time =    432.00000 sec.
+
+ time =    444.00000 sec.
+
+ time =    456.00000 sec.
+
+ time =    468.00000 sec.
+
+ time =    480.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.98605
+ 
+
+ time =    492.00000 sec.
+
+ time =    504.00000 sec.
+
+ time =    516.00000 sec.
+
+ time =    528.00000 sec.
+
+ time =    540.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.97844
+ 
+
+ time =    552.00000 sec.
+
+ time =    564.00000 sec.
+
+ time =    576.00000 sec.
+
+ time =    588.00000 sec.
+
+ time =    600.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.96920
+ 
+
+ time =    612.00000 sec.
+
+ time =    624.00000 sec.
+
+ time =    636.00000 sec.
+
+ time =    648.00000 sec.
+
+ time =    660.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.95832
+ 
+
+ time =    672.00000 sec.
+
+ time =    684.00000 sec.
+
+ time =    696.00000 sec.
+
+ time =    708.00000 sec.
+
+ time =    720.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.94331
+ 
+
+ time =    732.00000 sec.
+
+ time =    744.00000 sec.
+
+ time =    756.00000 sec.
+
+ time =    768.00000 sec.
+
+ time =    780.00000 sec.
+ ITER = 3, RELATIVE EIGEN VALUE =  0.92194
+ 
+
+ time =    792.00000 sec.
+
+ time =    804.00000 sec.
+
+ time =    816.00000 sec.
+
+ time =    828.00000 sec.
+
+ time =    840.00000 sec.
+ ITER = 3, RELATIVE EIGEN VALUE =  0.89969
+ 
+
+ time =    852.00000 sec.
+
+ time =    864.00000 sec.
+
+ time =    876.00000 sec.
+
+ time =    888.00000 sec.
+
+ time =    900.00000 sec.
+ ITER = 3, RELATIVE EIGEN VALUE =  0.87457
+ 
+
+ time =    912.00000 sec.
+
+ time =    924.00000 sec.
+
+ time =    936.00000 sec.
+
+ time =    948.00000 sec.
+
+ time =    960.00000 sec.
+ ITER = 3, RELATIVE EIGEN VALUE =  0.82576
+ 
+
+ time =    972.00000 sec.
+
+ time =    984.00000 sec.
+
+ time =    996.00000 sec.
+
+ time =   1008.00000 sec.
+
+ time =   1020.00000 sec.
+ ITER = 4, RELATIVE EIGEN VALUE =  0.75123
+ 
+
+ time =   1032.00000 sec.
+
+ time =   1044.00000 sec.
+
+ time =   1056.00000 sec.
+
+ time =   1068.00000 sec.
+
+ time =   1080.00000 sec.
+ ITER = 4, RELATIVE EIGEN VALUE =  0.66709
+ 
+
+ time =   1092.00000 sec.
+
+ time =   1104.00000 sec.
+
+ time =   1116.00000 sec.
+
+ time =   1128.00000 sec.
+
+ time =   1140.00000 sec.
+ ITER = 4, RELATIVE EIGEN VALUE =  0.56755
+ 
+
+ time =   1152.00000 sec.
+
+ time =   1164.00000 sec.
+
+ time =   1176.00000 sec.
+
+ time =   1188.00000 sec.
+
+ time =   1200.00000 sec.
+ ITER = 4, RELATIVE EIGEN VALUE =  0.45839
+ 
+
+ time =   1212.00000 sec.
+
+ time =   1224.00000 sec.
+
+ time =   1236.00000 sec.
+
+ time =   1248.00000 sec.
+
+ time =   1260.00000 sec.
+ ITER = 4, RELATIVE EIGEN VALUE =  0.37807
+ 
+
+ time =   1272.00000 sec.
+
+ time =   1284.00000 sec.
+
+ time =   1296.00000 sec.
+
+ time =   1308.00000 sec.
+
+ time =   1320.00000 sec.
+ ITER = 4, RELATIVE EIGEN VALUE =  0.33914
+ 
+
+ time =   1332.00000 sec.
+
+ time =   1344.00000 sec.
+
+ time =   1356.00000 sec.
+
+ time =   1368.00000 sec.
+
+ time =   1380.00000 sec.
+ ITER = 4, RELATIVE EIGEN VALUE =  0.32558
+ 
+
+ time =   1392.00000 sec.
+
+ time =   1404.00000 sec.
+
+ time =   1416.00000 sec.
+
+ time =   1428.00000 sec.
+
+ time =   1440.00000 sec.
+ ITER = 4, RELATIVE EIGEN VALUE =  0.32430
+ 
+
+ time =   1452.00000 sec.
+
+ time =   1464.00000 sec.
+
+ time =   1476.00000 sec.
+
+ time =   1488.00000 sec.
+
+ time =   1500.00000 sec.
+ ITER = 3, RELATIVE EIGEN VALUE =  0.32847
+ 
+
+ time =   1512.00000 sec.
+
+ time =   1524.00000 sec.
+
+ time =   1536.00000 sec.
+
+ time =   1548.00000 sec.
+
+ time =   1560.00000 sec.
+ ITER = 3, RELATIVE EIGEN VALUE =  0.33716
+ 
+
+ time =   1572.00000 sec.
+
+ time =   1584.00000 sec.
+
+ time =   1596.00000 sec.
+
+ time =   1608.00000 sec.
+
+ time =   1620.00000 sec.
+ ITER = 3, RELATIVE EIGEN VALUE =  0.34805
+ 
+
+ time =   1632.00000 sec.
+
+ time =   1644.00000 sec.
+
+ time =   1656.00000 sec.
+
+ time =   1668.00000 sec.
+
+ time =   1680.00000 sec.
+ ITER = 3, RELATIVE EIGEN VALUE =  0.35386
+ 
+
+ time =   1692.00000 sec.
+
+ time =   1704.00000 sec.
+
+ time =   1716.00000 sec.
+
+ time =   1728.00000 sec.
+
+ time =   1740.00000 sec.
+ ITER = 3, RELATIVE EIGEN VALUE =  0.35832
+ 
+
+ time =   1752.00000 sec.
+
+ time =   1764.00000 sec.
+
+ time =   1776.00000 sec.
+
+ time =   1788.00000 sec.
+
+ time =   1800.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.36112
+ 
+
+ time =   1812.00000 sec.
+
+ time =   1824.00000 sec.
+
+ time =   1836.00000 sec.
+
+ time =   1848.00000 sec.
+
+ time =   1860.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.36428
+ 
+
+ time =   1872.00000 sec.
+
+ time =   1884.00000 sec.
+
+ time =   1896.00000 sec.
+
+ time =   1908.00000 sec.
+
+ time =   1920.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.36911
+ 
+
+ time =   1932.00000 sec.
+
+ time =   1944.00000 sec.
+
+ time =   1956.00000 sec.
+
+ time =   1968.00000 sec.
+
+ time =   1980.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.42702
+ 
+
+ time =   1992.00000 sec.
+
+ time =   2004.00000 sec.
+
+ time =   2016.00000 sec.
+
+ time =   2028.00000 sec.
+
+ time =   2040.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.84354
+ 
+
+ time =   2052.00000 sec.
+
+ time =   2064.00000 sec.
+
+ time =   2076.00000 sec.
+
+ time =   2088.00000 sec.
+
+ time =   2100.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.85856
+ 
+
+ time =   2112.00000 sec.
+
+ time =   2124.00000 sec.
+
+ time =   2136.00000 sec.
+
+ time =   2148.00000 sec.
+
+ time =   2160.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.86533
+ 
+
+ time =   2172.00000 sec.
+
+ time =   2184.00000 sec.
+
+ time =   2196.00000 sec.
+
+ time =   2208.00000 sec.
+
+ time =   2220.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.87084
+ 
+
+ time =   2232.00000 sec.
+
+ time =   2244.00000 sec.
+
+ time =   2256.00000 sec.
+
+ time =   2268.00000 sec.
+
+ time =   2280.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.87539
+ 
+
+ time =   2292.00000 sec.
+
+ time =   2304.00000 sec.
+
+ time =   2316.00000 sec.
+
+ time =   2328.00000 sec.
+
+ time =   2340.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.88530
+ 
+
+ time =   2352.00000 sec.
+
+ time =   2364.00000 sec.
+
+ time =   2376.00000 sec.
+
+ time =   2388.00000 sec.
+
+ time =   2400.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.90884
+ 
+
+ THE STIFFNESS MATRIX HAS BEEN TRIANGULARISED   526 TIMES.
+"STRUCTURAL3DRES.exe creates Postprocessor-File for GID"
+
+Projekt:frame3DHinge
+Opened: frame3DHinge.flavia.msh
+nNodes = 66, nBeam = 28, nShell = 0, nTruss = 0
+number of integration points for beams, NG = 3
+Cosed frame3DHinge.flavia.msh
+PRINTMN found
+Opened: frame3DHinge.flavia.res
+Generating output for GiD-PP :    TIME =    60.00000
+Generating output for GiD-PP :    TIME =   120.00000
+Generating output for GiD-PP :    TIME =   180.00000
+Generating output for GiD-PP :    TIME =   240.00000
+Generating output for GiD-PP :    TIME =   300.00000
+Generating output for GiD-PP :    TIME =   360.00000
+Generating output for GiD-PP :    TIME =   420.00000
+Generating output for GiD-PP :    TIME =   480.00000
+Generating output for GiD-PP :    TIME =   540.00000
+Generating output for GiD-PP :    TIME =   600.00000
+Generating output for GiD-PP :    TIME =   660.00000
+Generating output for GiD-PP :    TIME =   720.00000
+Generating output for GiD-PP :    TIME =   780.00000
+Generating output for GiD-PP :    TIME =   840.00000
+Generating output for GiD-PP :    TIME =   900.00000
+Generating output for GiD-PP :    TIME =   960.00000
+Generating output for GiD-PP :    TIME =  1020.00000
+Generating output for GiD-PP :    TIME =  1080.00000
+Generating output for GiD-PP :    TIME =  1140.00000
+Generating output for GiD-PP :    TIME =  1200.00000
+Generating output for GiD-PP :    TIME =  1260.00000
+Generating output for GiD-PP :    TIME =  1320.00000
+Generating output for GiD-PP :    TIME =  1380.00000
+Generating output for GiD-PP :    TIME =  1440.00000
+Generating output for GiD-PP :    TIME =  1500.00000
+Generating output for GiD-PP :    TIME =  1560.00000
+Generating output for GiD-PP :    TIME =  1620.00000
+Generating output for GiD-PP :    TIME =  1680.00000
+Generating output for GiD-PP :    TIME =  1740.00000
+Generating output for GiD-PP :    TIME =  1800.00000
+Generating output for GiD-PP :    TIME =  1860.00000
+Generating output for GiD-PP :    TIME =  1920.00000
+Generating output for GiD-PP :    TIME =  1980.00000
+Generating output for GiD-PP :    TIME =  2040.00000
+Generating output for GiD-PP :    TIME =  2100.00000
+Generating output for GiD-PP :    TIME =  2160.00000
+Generating output for GiD-PP :    TIME =  2220.00000
+Generating output for GiD-PP :    TIME =  2280.00000
+Generating output for GiD-PP :    TIME =  2340.00000
+Generating output for GiD-PP :    TIME =  2400.00000

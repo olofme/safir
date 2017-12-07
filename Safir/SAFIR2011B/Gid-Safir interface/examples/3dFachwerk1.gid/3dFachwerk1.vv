@@ -1,0 +1,19 @@
+BeginZE C:\work\fem\safir2007\GiD2SAFIR2007\examples\3dFachwerk1.gid\3dFachwerk1.vv
+   x -7.45594 19.4419
+   y 8.41516 -4.82918
+   z -32.4269 29.9269
+   e 10.3923
+   v -0.389015 -0.124217 -0.249966
+   r -0.877926
+   m 0.844174 -0.342259 0.412588 0 0.535549 0.572368 -0.620953 0 -0.0236259 0.745153 0.666475 0 0 0 0 1
+   c 6 1.8 1.25
+   pd 0
+   pno 0
+   pfo 0
+   pf 4
+   pv 0
+   NowUse 0
+   DrawingType 0
+   LightVector 4.22365 -15.7377 149.007 0
+EndZE C:\work\fem\safir2007\GiD2SAFIR2007\examples\3dFachwerk1.gid\3dFachwerk1.vv
+

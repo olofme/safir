@@ -1,0 +1,82 @@
+A simple frame
+Input file for SAFIR2011
+Frame analysed in a DYNAMIC mode
+Note: the NODELOAD is supposed to represent the effect of the wind and no M_NODE is thus associated to it.
+
+     NNODE   61
+      NDIM    2
+   NDDLMAX    3
+      FROM    1   TO   61 STEP    2 NDDL    3
+      FROM    2   TO   60 STEP    2 NDDL    1
+END_NDDL
+   DYNAMIC    PURE_NR
+     NLOAD    1
+   OBLIQUE    0
+  COMEBACK    0.0001
+      NMAT    3
+  ELEMENTS
+      BEAM   30    2
+        NG    2
+    NFIBER  242
+END_ELEM
+     NODES
+      NODE    1   0.00000   0.00000
+     GNODE   21   0.00000   3.00000    1
+     GNODE   41   5.00000   3.00000    1
+     GNODE   61   5.00000   0.00000    1
+ FIXATIONS
+     BLOCK    1             F0        F0        NO
+     BLOCK   61             F0        F0        NO
+END_FIX
+ NODOFBEAM
+sect_axial.tem
+ TRANSLATE    1    2
+ TRANSLATE    2    3
+END_TRANS
+heb200.tem
+ TRANSLATE    1    1
+END_TRANS
+ELEM     1    1    2    3    1
+GELEM   10   19   20   21    1    2
+ELEM    11   21   22   23    2
+GELEM   20   39   40   41    2    2
+ELEM    21   41   42   43    1
+GELEM   30   59   60   61    1    2
+ PRECISION     1.E-3
+     LOADS
+  FUNCTION     FLOAD
+  NODELOAD        21     3000.   0.    0.
+ DISTRBEAM         1        0.     -613.
+GDISTRBEAM        10        0.     -613.    1
+ DISTRBEAM        11        0.   -14000.
+GDISTRBEAM        20        0.   -14000.    1
+ DISTRBEAM        21        0.     -613.
+GDISTRBEAM        30        0.     -613.    1
+  END_LOAD   
+      MASS
+    M_BEAM        11      1400.    1.		! Mass corresponding to the live load and dead weight of the beam
+   GM_BEAM        20      1400.    1.     1
+    M_BEAM         1      61.3     1.		! Mass corresponding to the dead weight of the columns
+   GM_BEAM        10      61.3     1.     1
+    M_BEAM        21      61.3     1.		! Mass corresponding to the dead weight of the columns
+   GM_BEAM        30      61.3     1.     1
+  END_MASS
+ MATERIALS
+STEELEC3EN
+    210.E9       0.3   355.0E6       1200.     0.
+SILCONC_EN
+                 0.2    25.0E6        0.0E6    0.
+STEELEC2EN
+    210.E9       0.3   500.0E6       1200.     0.
+      TIME
+               0.8224  2400.   13.1584  
+END_TIME
+LARGEDISPL
+     EPSTH
+IMPRESSION
+ TIMEPRINT       
+               0.0001	2400.
+END_TIMEPR
+   PRINTMN
+PRINTREACT
+PRNSIGMABM    15   2

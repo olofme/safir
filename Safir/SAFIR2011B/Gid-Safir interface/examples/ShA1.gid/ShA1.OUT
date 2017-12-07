@@ -1,0 +1,417 @@
+
+
+                             *****  
+                            *SAFIR* 
+                            *2004x *  
+                             *   *   
+                              * *   
+                               *    
+
+
+   PROGRAM 'SAFIR'    Ver. 2004x ,  13-06-2007
+   ===============
+
+   By J. M. Franssen                     
+   Univ. of Liege.                       
+   tel.   int. + 32 4 366.92.65          
+   fax                366.95.34          
+   E-mail JM.FRANSSEN@ULG.AC.BE   
+
+
+   DATE OF THIS RUN : 22-11-2007
+   TIME OF THIS RUN :  9:37:23
+
+
+
+                             *****  
+                            *SAFIR* 
+                            *2004x *  
+                             *   *   
+                              * *   
+                               *    
+
+
+    COPY OF THE DATA FILE.
+    ======================
+
+Safir_Shell_Temperature_Analysis                                                
+Mesh_from_GID-Mesher                                                            
+                                                                                
+     NNODE    14                                                                
+      NDIM    2                                                                 
+   NDDLMAX    1                                                                 
+      FROM    1   TO    14 STEP    1 NDDL    1                                  
+  END_NDDL                                                                      
+  TEMPERAT                                                                      
+      TETA        0.9                                                           
+  TINITIAL       20.0                                                           
+MAKE.TSH                                                                        
+   NORENUM                                                                      
+      NMAT 1                                                                    
+  ELEMENTS                                                                      
+     SOLID    6                                                                 
+        NG    2                                                                 
+     NVOID    0                                                                 
+  END_ELEM                                                                      
+     NODES                                                                      
+      NODE    1    -0.2000     0.0000                                           
+      NODE    2    -0.1333     0.0000                                           
+      NODE    3    -0.0667     0.0000                                           
+      NODE    4     0.0000     0.0000                                           
+      NODE    5     0.0667     0.0000                                           
+      NODE    6     0.1333     0.0000                                           
+      NODE    7     0.2000     0.0000                                           
+      NODE    8    -0.2000     0.5000                                           
+      NODE    9    -0.1333     0.5000                                           
+      NODE   10    -0.0667     0.5000                                           
+      NODE   11     0.0000     0.5000                                           
+      NODE   12     0.0667     0.5000                                           
+      NODE   13     0.1333     0.5000                                           
+      NODE   14     0.2000     0.5000                                           
+ FIXATIONS                                                                      
+   END_FIX                                                                      
+NODOFSOLID                                                                      
+      ELEM     1     8    9    2    1     1     0.                              
+      ELEM     2     9   10    3    2     1     0.                              
+      ELEM     3    10   11    4    3     1     0.                              
+      ELEM     4    11   12    5    4     1     0.                              
+      ELEM     5    12   13    6    5     1     0.                              
+      ELEM     6    13   14    7    6     1     0.                              
+  FRONTIER                                                                      
+   F     1 NO NO NO FISO                                                        
+   F     6 NO F20 NO NO                                                         
+ END_FRONT                                                                      
+  SYMMETRY                                                                      
+   END_SYM                                                                      
+ PRECISION     1.E-3                                                            
+ MATERIALS                                                                      
+SILCONC_EN                                                                      
+          2400. 0 25 9 0.56 0.5                                                 
+      TIME                                                                      
+        15        600                                                           
+  END_TIME                                                                      
+IMPRESSION                                                                      
+ TIMEPRINT                                                                      
+        60        600                                                           
+END_TIMEPR                                                                      
+
+
+                             *****  
+                            *SAFIR* 
+                            *2004x *  
+                             *   *   
+                              * *   
+                               *    
+
+
+     DESCRIPTION OF THE PROBLEM.
+     ===========================
+
+Safir_Shell_Temperature_Analysis                                                
+Mesh_from_GID-Mesher                                                            
+                                                                                
+     DATA USED IN THE DIMENSIONS OF THE ARRAY.
+     =========================================
+
+ - THERE ARE   14 NODES.
+
+ - THERE ARE 2 GLOBAL AXES.
+
+ - THE MAXIMUM # OF D.O.F. PER NODE IS  1
+
+ - THE NUMBER OF D.O.F. FOR EACH NODE ARE AS FOLLOWS.
+
+    1 1    2 1    3 1    4 1    5 1    6 1    7 1    8 1    9 1   10 1
+   11 1   12 1   13 1   14 1
+
+ - TETA = 0.900
+
+ - INITIAL TEMPERATURE =   20.
+
+     DESCRIPTION OF THE STRUCTURE.
+     =============================
+
+ - THERE ARE   14 NODES.
+
+ - THERE ARE  1 DIFFERENT MATERIALS.
+
+ - THERE ARE 0 INTERNAL VOIDS IN THE STRUCTURE.
+
+ - THERE ARE    6 SOLID ELEMENTS.
+   EACH OF THEM HAS 2 INTEGRATION POINTS IN EACH DIRECTION.
+
+ - LENGTH OF THE VECTOR OF REAL*8 :  26800000
+   UTILIZED LENGTH                :       223
+
+ - LENGTH OF THE VECTOR OF INT.*4 :   1200000
+   UTILIZED LENGTH                :       307
+
+
+ POSITION OF THE NODES.
+ ----------------------
+
+           NODE   y COORD.   z COORD.
+     NODE     1   -0.2000    0.0000
+     NODE     2   -0.1333    0.0000
+     NODE     3   -0.0667    0.0000
+     NODE     4    0.0000    0.0000
+     NODE     5    0.0667    0.0000
+     NODE     6    0.1333    0.0000
+     NODE     7    0.2000    0.0000
+     NODE     8   -0.2000    0.5000
+     NODE     9   -0.1333    0.5000
+     NODE    10   -0.0667    0.5000
+     NODE    11    0.0000    0.5000
+     NODE    12    0.0667    0.5000
+     NODE    13    0.1333    0.5000
+     NODE    14    0.2000    0.5000
+
+ THERE ARE   14 UNRESOLVED D.O.F.
+       AND    0 IMPOSED    D.O.F.
+
+ NODE   DOF
+    1     1            
+    2     2            
+    3     3            
+    4     4            
+    5     5            
+    6     6            
+    7     7            
+    8     8            
+    9     9            
+   10    10            
+   11    11            
+   12    12            
+   13    13            
+   14    14            
+
+ SOLID ELEMENTS BEFORE ANY "NEW_MAT" COMMAND.
+ --------------------------------------------
+            EL.  NODES                MAT.  EPSr.
+      ELEM    1    8    9    2    1    1  0.0000E+00
+      ELEM    2    9   10    3    2    1  0.0000E+00
+      ELEM    3   10   11    4    3    1  0.0000E+00
+      ELEM    4   11   12    5    4    1  0.0000E+00
+      ELEM    5   12   13    6    5    1  0.0000E+00
+      ELEM    6   13   14    7    6    1  0.0000E+00
+
+ SOLID ELEMENTS.
+ ---------------
+            EL.  NODES                MAT.  EPSr.
+      ELEM    1    8    9    2    1    1  0.0000E+00
+      ELEM    2    9   10    3    2    1  0.0000E+00
+      ELEM    3   10   11    4    3    1  0.0000E+00
+      ELEM    4   11   12    5    4    1  0.0000E+00
+      ELEM    5   12   13    6    5    1  0.0000E+00
+      ELEM    6   13   14    7    6    1  0.0000E+00
+
+ FRONTIERS FOR THE TEMPERATURE CALCULATION.
+ ELEM.  FRONTIER 1  FRONTIER 2  FRONTIER 3  FRONTIER 4
+     1                                      FISO      
+     6              F20                               
+
+ WITH THE NODE NUMBERS AS DEFINED IN THE INPUT DATA,
+   THE LENGTH OF THE SKYLINE VECTOR       IS        75
+ -------------------------------------------------
+
+ - THE PRECISION IN THE CALCULATIONS IS : 0.10E-02
+
+  MATERIALS.
+  ----------
+
+
+    1 SILCONC_EN
+      This material is CONCRETE, from EN1992-1-2.
+        SPECIFIC MASS                    :  2400.000 kg/m³
+        WATER CONTENT                    :     0.000 kg/m³
+        CONVECTION COEFF. ON HOT  SURF.  :    25.000 W/m²K
+        CONVECTION COEFF. ON COLD SURF.  :     9.000 W/m²K
+        RELATIVE EMISSIVITY              :     0.560
+        PARAMETER FOR THERM. CONDUCTIVITY:     0.500
+          Note: 0.0 = lower bound, 1.0 = upper bound
+
+
+ THE NUMBER OF INTEGRATION POINTS IN THE STRUCTURE IS :
+          24 for uniaxial laws,
+           0 for 2D laws.
+
+
+
+                             *****  
+                            *SAFIR* 
+                            *2004x *  
+                             *   *   
+                              * *   
+                               *    
+
+
+
+ TIME=     60.0000 SECONDS   OR   1 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =    60.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+ NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.
+    1  32.4    2  16.9    3  20.8    4  19.8    5  20.1
+    6  20.0    7  20.0    8  32.4    9  16.9   10  20.8
+   11  19.8   12  20.1   13  20.0   14  20.0
+
+ TIME=    120.0000 SECONDS   OR   2 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   120.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+ NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.
+    1  53.8    2  11.8    3  22.0    4  19.5    5  20.1
+    6  20.0    7  20.0    8  53.8    9  11.8   10  22.0
+   11  19.5   12  20.1   13  20.0   14  20.0
+
+ TIME=    180.0000 SECONDS   OR   3 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   180.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+ NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.
+    1  80.0    2   6.1    3  23.2    4  19.3    5  20.2
+    6  20.0    7  20.0    8  80.0    9   6.1   10  23.2
+   11  19.3   12  20.2   13  20.0   14  20.0
+
+ TIME=    240.0000 SECONDS   OR   4 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   240.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+ NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.
+    1 109.2    2   0.2    3  24.3    4  19.1    5  20.2
+    6  20.0    7  20.0    8 109.2    9   0.2   10  24.3
+   11  19.1   12  20.2   13  20.0   14  20.0
+
+ TIME=    300.0000 SECONDS   OR   5 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   300.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+ NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.
+    1 140.3    2  -5.5    3  25.2    4  18.9    5  20.2
+    6  20.0    7  20.0    8 140.3    9  -5.5   10  25.2
+   11  18.9   12  20.2   13  20.0   14  20.0
+
+ TIME=    360.0000 SECONDS   OR   6 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   360.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+ NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.
+    1 172.0    2 -10.7    3  25.9    4  18.9    5  20.2
+    6  20.0    7  20.0    8 172.0    9 -10.7   10  25.9
+   11  18.9   12  20.2   13  20.0   14  20.0
+
+ TIME=    420.0000 SECONDS   OR   7 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   420.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+ NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.
+    1 203.8    2 -15.5    3  26.4    4  18.9    5  20.2
+    6  20.0    7  20.0    8 203.8    9 -15.5   10  26.4
+   11  18.9   12  20.2   13  20.0   14  20.0
+
+ TIME=    480.0000 SECONDS   OR   8 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   480.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+ NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.
+    1 235.3    2 -19.7    3  26.6    4  19.0    5  20.1
+    6  20.0    7  20.0    8 235.3    9 -19.7   10  26.6
+   11  19.0   12  20.1   13  20.0   14  20.0
+
+ TIME=    540.0000 SECONDS   OR   9 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   540.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+ NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.
+    1 266.4    2 -23.3    3  26.6    4  19.2    5  20.1
+    6  20.0    7  20.0    8 266.4    9 -23.3   10  26.6
+   11  19.2   12  20.1   13  20.0   14  20.0
+
+ TIME=    600.0000 SECONDS   OR  10 MIN.  0 SEC.
+ ===========================================
+
+
+ CONVERGENCE HAS BEEN OBTAINED.
+ =============================
+    TIME =   600.00000
+
+
+ TOTAL TEMPERATURES.
+ --------------------
+ NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.  NODE TEMP.
+    1 297.0    2 -26.3    3  26.4    4  19.3    5  20.0
+    6  20.0    7  20.0    8 297.0    9 -26.3   10  26.4
+   11  19.3   12  20.0   13  20.0   14  20.0
+
+ THE FINAL TIME HAS BEEN REACHED.
+ --------------------------------
+
+   DATE OF THIS RUN : 22-11-2007
+   ENDTIME OF THIS RUN :  9:37:23
+   DURATION OF THE CALCULATION :  0: 0: 0
+
+
+ THE STIFFNESS MATRIX HAS BEEN TRIANGULARISED    80 TIMES.

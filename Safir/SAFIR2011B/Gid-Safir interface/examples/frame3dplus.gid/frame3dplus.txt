@@ -1,0 +1,160 @@
+
+Structural3dfix converts .dat-file to .in-file
+
+Nr. of local axes = 9
+Number of nodes with disconnect_Id, iSame = 16
+Number of beams with disconnect_Id, idis = 0
+Number of shells with disconnect_Id, idiss = 120
+**** WARNING: Element 137 , N1 = 132, N2 = 139, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 138 , N1 = 139, N2 = 148, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 139 , N1 = 148, N2 = 153, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 140 , N1 = 153, N2 = 158, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 141 , N1 = 158, N2 = 162, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 142 , N1 = 162, N2 = 167, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 155 , N1 = 97, N2 = 98, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 156 , N1 = 98, N2 = 102, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 157 , N1 = 102, N2 = 107, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 158 , N1 = 107, N2 = 113, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 159 , N1 = 113, N2 = 120, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 160 , N1 = 120, N2 = 132, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 169 , N1 = 97, N2 = 80, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 170 , N1 = 80, N2 = 64, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 171 , N1 = 64, N2 = 52, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 172 , N1 = 52, N2 = 41, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 173 , N1 = 41, N2 = 30, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 174 , N1 = 30, N2 = 22, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 175 , N1 = 22, N2 = 14, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 176 , N1 = 14, N2 = 9, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 177 , N1 = 9, N2 = 6, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 178 , N1 = 6, N2 = 5, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 184 , N1 = 132, N2 = 116, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 185 , N1 = 116, N2 = 100, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 186 , N1 = 100, N2 = 87, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 187 , N1 = 87, N2 = 75, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 188 , N1 = 75, N2 = 65, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 194 , N1 = 65, N2 = 59, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 195 , N1 = 59, N2 = 51, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 196 , N1 = 51, N2 = 48, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 197 , N1 = 48, N2 = 45, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 198 , N1 = 45, N2 = 44, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+NODOFSHELL gefunden
+GiD-ShellNr = 1, SAFIR-ShellNr = 1
+GiD-ShellNr = 2, SAFIR-ShellNr = 2
+GiD-ShellNr = 3, SAFIR-ShellNr = 3
+GiD-ShellNr = 4, SAFIR-ShellNr = 4
+GiD-ShellNr = 5, SAFIR-ShellNr = 5
+GiD-ShellNr = 6, SAFIR-ShellNr = 6
+GiD-ShellNr = 7, SAFIR-ShellNr = 7
+GiD-ShellNr = 8, SAFIR-ShellNr = 8
+GiD-ShellNr = 9, SAFIR-ShellNr = 9
+GiD-ShellNr = 10, SAFIR-ShellNr = 10
+GiD-ShellNr = 11, SAFIR-ShellNr = 11
+GiD-ShellNr = 12, SAFIR-ShellNr = 12
+GiD-ShellNr = 13, SAFIR-ShellNr = 13
+GiD-ShellNr = 14, SAFIR-ShellNr = 14
+GiD-ShellNr = 15, SAFIR-ShellNr = 15
+GiD-ShellNr = 16, SAFIR-ShellNr = 16
+GiD-ShellNr = 17, SAFIR-ShellNr = 17
+GiD-ShellNr = 18, SAFIR-ShellNr = 18
+GiD-ShellNr = 19, SAFIR-ShellNr = 19
+GiD-ShellNr = 20, SAFIR-ShellNr = 20
+GiD-ShellNr = 21, SAFIR-ShellNr = 21
+GiD-ShellNr = 22, SAFIR-ShellNr = 22
+GiD-ShellNr = 23, SAFIR-ShellNr = 23
+GiD-ShellNr = 24, SAFIR-ShellNr = 24
+GiD-ShellNr = 25, SAFIR-ShellNr = 25
+GiD-ShellNr = 26, SAFIR-ShellNr = 26
+GiD-ShellNr = 27, SAFIR-ShellNr = 27
+GiD-ShellNr = 28, SAFIR-ShellNr = 28
+GiD-ShellNr = 29, SAFIR-ShellNr = 29
+GiD-ShellNr = 30, SAFIR-ShellNr = 30
+GiD-ShellNr = 31, SAFIR-ShellNr = 31
+GiD-ShellNr = 32, SAFIR-ShellNr = 32
+GiD-ShellNr = 33, SAFIR-ShellNr = 33
+GiD-ShellNr = 34, SAFIR-ShellNr = 34
+GiD-ShellNr = 35, SAFIR-ShellNr = 35
+GiD-ShellNr = 36, SAFIR-ShellNr = 36
+GiD-ShellNr = 37, SAFIR-ShellNr = 37
+GiD-ShellNr = 38, SAFIR-ShellNr = 38
+GiD-ShellNr = 39, SAFIR-ShellNr = 39
+GiD-ShellNr = 40, SAFIR-ShellNr = 40
+GiD-ShellNr = 41, SAFIR-ShellNr = 41
+GiD-ShellNr = 42, SAFIR-ShellNr = 42
+GiD-ShellNr = 43, SAFIR-ShellNr = 43
+GiD-ShellNr = 44, SAFIR-ShellNr = 44
+GiD-ShellNr = 45, SAFIR-ShellNr = 45
+GiD-ShellNr = 46, SAFIR-ShellNr = 46
+GiD-ShellNr = 47, SAFIR-ShellNr = 47
+GiD-ShellNr = 48, SAFIR-ShellNr = 48
+GiD-ShellNr = 49, SAFIR-ShellNr = 49
+GiD-ShellNr = 50, SAFIR-ShellNr = 50
+GiD-ShellNr = 51, SAFIR-ShellNr = 51
+GiD-ShellNr = 52, SAFIR-ShellNr = 52
+GiD-ShellNr = 53, SAFIR-ShellNr = 53
+GiD-ShellNr = 54, SAFIR-ShellNr = 54
+GiD-ShellNr = 55, SAFIR-ShellNr = 55
+GiD-ShellNr = 56, SAFIR-ShellNr = 56
+GiD-ShellNr = 57, SAFIR-ShellNr = 57
+GiD-ShellNr = 58, SAFIR-ShellNr = 58
+GiD-ShellNr = 59, SAFIR-ShellNr = 59
+GiD-ShellNr = 60, SAFIR-ShellNr = 60
+GiD-ShellNr = 61, SAFIR-ShellNr = 61
+GiD-ShellNr = 62, SAFIR-ShellNr = 62
+GiD-ShellNr = 63, SAFIR-ShellNr = 63
+GiD-ShellNr = 64, SAFIR-ShellNr = 64
+GiD-ShellNr = 65, SAFIR-ShellNr = 65
+GiD-ShellNr = 66, SAFIR-ShellNr = 66
+GiD-ShellNr = 67, SAFIR-ShellNr = 67
+GiD-ShellNr = 68, SAFIR-ShellNr = 68
+GiD-ShellNr = 69, SAFIR-ShellNr = 69
+GiD-ShellNr = 70, SAFIR-ShellNr = 70
+GiD-ShellNr = 71, SAFIR-ShellNr = 71
+GiD-ShellNr = 72, SAFIR-ShellNr = 72
+GiD-ShellNr = 73, SAFIR-ShellNr = 73
+GiD-ShellNr = 74, SAFIR-ShellNr = 74
+GiD-ShellNr = 75, SAFIR-ShellNr = 75
+GiD-ShellNr = 76, SAFIR-ShellNr = 76
+GiD-ShellNr = 77, SAFIR-ShellNr = 77
+GiD-ShellNr = 78, SAFIR-ShellNr = 78
+GiD-ShellNr = 79, SAFIR-ShellNr = 79
+GiD-ShellNr = 80, SAFIR-ShellNr = 80
+GiD-ShellNr = 81, SAFIR-ShellNr = 81
+GiD-ShellNr = 82, SAFIR-ShellNr = 82
+GiD-ShellNr = 83, SAFIR-ShellNr = 83
+GiD-ShellNr = 84, SAFIR-ShellNr = 84
+GiD-ShellNr = 85, SAFIR-ShellNr = 85
+GiD-ShellNr = 86, SAFIR-ShellNr = 86
+GiD-ShellNr = 87, SAFIR-ShellNr = 87
+GiD-ShellNr = 88, SAFIR-ShellNr = 88
+GiD-ShellNr = 89, SAFIR-ShellNr = 89
+GiD-ShellNr = 90, SAFIR-ShellNr = 90
+GiD-ShellNr = 91, SAFIR-ShellNr = 91
+GiD-ShellNr = 92, SAFIR-ShellNr = 92
+GiD-ShellNr = 93, SAFIR-ShellNr = 93
+GiD-ShellNr = 94, SAFIR-ShellNr = 94
+GiD-ShellNr = 95, SAFIR-ShellNr = 95
+GiD-ShellNr = 96, SAFIR-ShellNr = 96
+GiD-ShellNr = 97, SAFIR-ShellNr = 97
+GiD-ShellNr = 98, SAFIR-ShellNr = 98
+GiD-ShellNr = 99, SAFIR-ShellNr = 99
+GiD-ShellNr = 100, SAFIR-ShellNr = 100
+GiD-ShellNr = 101, SAFIR-ShellNr = 101
+GiD-ShellNr = 102, SAFIR-ShellNr = 102
+GiD-ShellNr = 103, SAFIR-ShellNr = 103
+GiD-ShellNr = 104, SAFIR-ShellNr = 104
+GiD-ShellNr = 105, SAFIR-ShellNr = 105
+GiD-ShellNr = 106, SAFIR-ShellNr = 106
+GiD-ShellNr = 107, SAFIR-ShellNr = 107
+GiD-ShellNr = 108, SAFIR-ShellNr = 108
+GiD-ShellNr = 109, SAFIR-ShellNr = 109
+GiD-ShellNr = 110, SAFIR-ShellNr = 110
+GiD-ShellNr = 111, SAFIR-ShellNr = 111
+GiD-ShellNr = 112, SAFIR-ShellNr = 112
+GiD-ShellNr = 113, SAFIR-ShellNr = 113
+GiD-ShellNr = 114, SAFIR-ShellNr = 114
+GiD-ShellNr = 115, SAFIR-ShellNr = 115
+GiD-ShellNr = 116, SAFIR-ShellNr = 116
+GiD-ShellNr = 117, SAFIR-ShellNr = 117
+GiD-ShellNr = 118, SAFIR-ShellNr = 118
+GiD-ShellNr = 119, SAFIR-ShellNr = 119
+GiD-ShellNr = 120, SAFIR-ShellNr = 120

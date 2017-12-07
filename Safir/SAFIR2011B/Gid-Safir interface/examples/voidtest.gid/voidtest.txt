@@ -1,0 +1,113 @@
+GiD started Data-converter .DAT to .IN 
+Thermal2dfix read 151 nodes
+Thermal2dfix read 227 soids, nTria = 227, NQuad = 0
+Checking for voids
+VOID 1
+Number of faces in void = 12
+VOID 2
+Number of faces in void = 15
+Number of Voids = 2
+ivMax = 15
+voidtest.flavia.msh created
+Safir started .tem-run, IN-file voidtest  
+ SAFIR version 2004x is running.
+ Please type "FILENAME" of "FILENAME.IN" :   SAFIR is allocating memory
+  SAFIR is in subroutine DONNEE
+  VOID N.            1
+    I =            1
+    I =            2
+    I =            3
+    I =            4
+    I =            5
+    I =            6
+    I =            7
+    I =            8
+    I =            9
+    I =           10
+    I =           11
+    I =           12
+  VOID N.            2
+    I =            1
+    I =            2
+    I =            3
+    I =            4
+    I =            5
+    I =            6
+    I =            7
+    I =            8
+    I =            9
+    I =           10
+    I =           11
+    I =           12
+    I =           13
+    I =           14
+    I =           15
+ 
+  PROPVOID is finished
+  SAFIR has finished subroutine DONNEE
+
+ time =     12.00000 sec.
+
+ time =     24.00000 sec.
+
+ time =     36.00000 sec.
+
+ time =     48.00000 sec.
+
+ time =     60.00000 sec.
+
+ time =     72.00000 sec.
+
+ time =     84.00000 sec.
+
+ time =     96.00000 sec.
+
+ time =    108.00000 sec.
+
+ time =    120.00000 sec.
+
+ time =    132.00000 sec.
+
+ time =    144.00000 sec.
+
+ time =    156.00000 sec.
+
+ time =    168.00000 sec.
+
+ time =    180.00000 sec.
+
+ time =    192.00000 sec.
+
+ time =    204.00000 sec.
+
+ time =    216.00000 sec.
+
+ time =    228.00000 sec.
+
+ time =    240.00000 sec.
+
+ THE STIFFNESS MATRIX HAS BEEN TRIANGULARISED    41 TIMES.
+Safir finished .tem-run 
+nNode = 151
+Pos: 1
+Generating output for GiD-PP,Pos: 1 /     TIME =    12.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =    24.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =    36.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =    48.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =    60.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =    72.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =    84.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =    96.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   108.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   120.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   132.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   144.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   156.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   168.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   180.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   192.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   204.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   216.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   228.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   240.00000
+Postprocessor Data generated 

@@ -1,0 +1,83 @@
+A column with a 1 cm sinusoidal initial imperfection (L/400), loaded with no excentricity 
+   see NODELINE file sect_axial
+   see NODELOAD in this file
+An axial spring is added at mid level of the column by a truss element representing a flexible support
+   The stiffness of the spring is EA/L = 2100.E6 x 100.E-6 / 1 = 0.21E6 N/m 
+Input file for SAFIR2011
+                                                                                
+     NNODE   22
+      NDIM    2                                                                 
+   NDDLMAX    3                                                                 
+      FROM    1   TO   21 STEP    2 NDDL    3                                   
+      FROM    2   TO   20 STEP    2 NDDL    1                                   
+      FROM   22   TO   22 STEP    1 NDDL    2
+END_NDDL                                                                                
+    STATIC   PURE_NR                                                                   
+     NLOAD    1                                                                 
+   OBLIQUE    0                                                                 
+  COMEBACK        1.                                                            
+      NMAT    3                                                                 
+  ELEMENTS                                                                      
+      BEAM   10    1                                                            
+        NG    2                                                                 
+    NFIBER  242 
+     TRUSS    1    1                                                                
+END_ELEM                                                                                
+     NODES                                                                      
+      NODE    1   0.00000   0.00000
+     GNODE    3   0.00309   0.40000    1
+     GNODE    5   0.00588   0.80000    1
+     GNODE    7   0.00809   1.20000    1
+     GNODE    9   0.00951   1.60000    1
+     GNODE   11   0.01000   2.00000    1
+     GNODE   13   0.00951   2.40000    1
+     GNODE   15   0.00809   2.80000    1
+     GNODE   17   0.00588   3.20000    1
+     GNODE   19   0.00309   3.60000    1                                        
+     GNODE   21   0.00000   4.00000    1
+      NODE   22  -1.00000   2.00000                                        
+ FIXATIONS                                                                      
+     BLOCK    1             F0        F0         NO
+     BLOCK   21             F0        NO         NO
+     BLOCK   22             F0        F0
+END_FIX
+ NODOFBEAM                                                                      
+sect_axial.tem                                                                      
+ TRANSLATE    1    1                                                            
+ TRANSLATE    2    2 
+END_TRANS                                                                                
+ELEM     1    1    2    3    1                                                       
+GELEM   10   19   20   21    1    2                                                  
+NODOFTRUSS				! TRUSS finite elements
+   bar.tem   100.E-6   0.   3		! (10mm)², no initial stress, material # 3
+      ELEM     1   11   22    1		! truss element 1, from node 11 to node 22 geometric? property 1.
+ PRECISION      0.001
+     LOADS                                                                      
+  FUNCTION     FLOAD
+ DISTRBEAM         1        0.    -2250.		
+GDISTRBEAM        10        0.    -2250.    1               
+  NODELOAD        21        0.  -1500000.       0.
+  END_LOAD                                                                               
+ MATERIALS                     
+SILCONC_EN                                                 
+                 0.2     25.E6          0.     0.
+STEELEC3EN                                                                      
+    210.E9       0.3   500.0E6       1200.     0.
+   ELASTIC    
+      2100.E6    0.3     
+      TIME                                                                      
+                  5.       20.                                                  
+                 12.       32.                                                  
+                 16.     3600.                                                  
+   ENDTIME                                                                      
+     EPSTH                                                                      
+    OUTPUT                                                                      
+ TIMEPRINT     
+            1.    3600.
+END_TIMEPR
+   PRINTMN                                                                      
+PRINTREACT                                                                      
+PRNEPSMBM    5    2
+PRNSIGMABM   5    2
+PRINTET      5    2                 
+

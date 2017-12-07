@@ -1,0 +1,32 @@
+HASEMI FIRE
+This case is academic.
+This represents a FAST fire (during 300 sec) and a rate of heat release density of 1 MW/m²
+
+     NFIRE    1
+
+  FIRE_POS   2.0   8.    2.0
+    HEIGHT   3.
+    
+  DIAMETER
+         0.    0.
+        75.    1.128
+       150.    2.257
+       225.    3.385
+       300.    4.514
+       600.    4.514
+      1200.    4.514
+      7200.    0.
+  END_DIAM
+  
+       RHR
+        0.     0.
+       75.     1.E6
+       150.    4.E6
+       225.    9.E6
+       300.   16.E6
+       600.   16.E6
+       1200.   0.
+       7200.   0.
+   END_RHR
+
+      

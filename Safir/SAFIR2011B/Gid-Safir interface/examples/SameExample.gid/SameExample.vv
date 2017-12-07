@@ -1,0 +1,19 @@
+BeginZE C:\work\fem\safir2007\GiD2SAFIR2007\examples\SameExample.gid\SameExample.vv
+   x -2.57543 26.5307
+   y 9.34687 -4.8916
+   z -62.3538 62.3538
+   e 20.7846
+   v 0 0 0
+   r 1
+   m 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+   c 12 2.25 0
+   pd 0
+   pno 0
+   pfo 0
+   pf 4
+   pv 0
+   NowUse 0
+   DrawingType 0
+   LightVector 4.22365 -15.7377 149.007 0
+EndZE C:\work\fem\safir2007\GiD2SAFIR2007\examples\SameExample.gid\SameExample.vv
+

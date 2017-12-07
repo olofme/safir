@@ -1,0 +1,89 @@
+GiD started Data-converter .DAT to .IN 
+Automatic torsion analysis will be performed
+Thermal2dfix read 504 nodes
+Thermal2dfix read 917 soids, nTria = 917, NQuad = 0
+Checking for voids
+Number of Voids = 0
+ivMax = 0
+CompSec.flavia.msh created
+Safir started .tem-run, IN-file CompSec  
+ SAFIR version 2004x is running.
+ Please type "FILENAME" of "FILENAME.IN" :   SAFIR is allocating memory
+  SAFIR is in subroutine DONNEE
+  START OF RENUMBERING OF THE EQUATIONS
+              BY THE GEOMETRICAL METHOD.
+
+ AFTER GEOMETRICAL PROGRESSION,
+   THE LENGTH OF THE SKYLINE IS     12366.
+ ----------------------------------------------
+  SAFIR has finished subroutine DONNEE
+
+ time =     15.00000 sec.
+
+ time =     30.00000 sec.
+
+ time =     45.00000 sec.
+
+ time =     60.00000 sec.
+
+ time =     75.00000 sec.
+
+ time =     90.00000 sec.
+
+ time =    105.00000 sec.
+
+ time =    120.00000 sec.
+
+ time =    135.00000 sec.
+
+ time =    150.00000 sec.
+
+ time =    165.00000 sec.
+
+ time =    180.00000 sec.
+
+ time =    195.00000 sec.
+
+ time =    210.00000 sec.
+
+ time =    225.00000 sec.
+
+ time =    240.00000 sec.
+
+ time =    255.00000 sec.
+
+ time =    270.00000 sec.
+
+ time =    285.00000 sec.
+
+ time =    300.00000 sec.
+
+ THE STIFFNESS MATRIX HAS BEEN TRIANGULARISED    41 TIMES.
+Safir finished .tem-run Safir started .tor-run, IN-file CompSec-1  
+ SAFIR version 2004x is running.
+ Please type "FILENAME" of "FILENAME.IN" :   SAFIR is allocating memory
+  SAFIR is in subroutine DONNEE
+  START OF RENUMBERING OF THE EQUATIONS
+              BY THE GEOMETRICAL METHOD.
+
+ AFTER GEOMETRICAL PROGRESSION,
+   THE LENGTH OF THE SKYLINE IS     12366.
+ ----------------------------------------------
+  SAFIR has finished subroutine DONNEE
+ According to the principle of virtual works,
+     GJ= 0.386375E+08
+
+
+ THE STIFFNESS MATRIX HAS BEEN TRIANGULARISED     1 TIMES.
+Safir finished .tor-run 
+
+Warping function iserted into .tem-file: CompSec.TEM
+
+nNode = 504
+Pos: 1
+Generating output for GiD-PP,Pos: 1 /     TIME =    60.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   120.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   180.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   240.00000
+Generating output for GiD-PP,Pos: 1 /     TIME =   300.00000
+Postprocessor Data generated 

@@ -1,0 +1,1343 @@
+
+Structural3dfix converts .dat-file to .in-file
+
+NODOFSHELL gefunden
+GiD-ShellNr = 1, SAFIR-ShellNr = 1
+GiD-ShellNr = 2, SAFIR-ShellNr = 2
+GiD-ShellNr = 3, SAFIR-ShellNr = 3
+GiD-ShellNr = 4, SAFIR-ShellNr = 4
+GiD-ShellNr = 5, SAFIR-ShellNr = 5
+GiD-ShellNr = 6, SAFIR-ShellNr = 6
+GiD-ShellNr = 7, SAFIR-ShellNr = 7
+GiD-ShellNr = 8, SAFIR-ShellNr = 8
+GiD-ShellNr = 9, SAFIR-ShellNr = 9
+GiD-ShellNr = 10, SAFIR-ShellNr = 10
+GiD-ShellNr = 11, SAFIR-ShellNr = 11
+GiD-ShellNr = 12, SAFIR-ShellNr = 12
+GiD-ShellNr = 13, SAFIR-ShellNr = 13
+GiD-ShellNr = 14, SAFIR-ShellNr = 14
+GiD-ShellNr = 15, SAFIR-ShellNr = 15
+GiD-ShellNr = 16, SAFIR-ShellNr = 16
+GiD-ShellNr = 17, SAFIR-ShellNr = 17
+GiD-ShellNr = 18, SAFIR-ShellNr = 18
+GiD-ShellNr = 19, SAFIR-ShellNr = 19
+GiD-ShellNr = 20, SAFIR-ShellNr = 20
+GiD-ShellNr = 21, SAFIR-ShellNr = 21
+GiD-ShellNr = 22, SAFIR-ShellNr = 22
+GiD-ShellNr = 23, SAFIR-ShellNr = 23
+GiD-ShellNr = 24, SAFIR-ShellNr = 24
+GiD-ShellNr = 25, SAFIR-ShellNr = 25
+GiD-ShellNr = 26, SAFIR-ShellNr = 26
+GiD-ShellNr = 27, SAFIR-ShellNr = 27
+GiD-ShellNr = 28, SAFIR-ShellNr = 28
+GiD-ShellNr = 29, SAFIR-ShellNr = 29
+GiD-ShellNr = 30, SAFIR-ShellNr = 30
+GiD-ShellNr = 31, SAFIR-ShellNr = 31
+GiD-ShellNr = 32, SAFIR-ShellNr = 32
+GiD-ShellNr = 33, SAFIR-ShellNr = 33
+GiD-ShellNr = 34, SAFIR-ShellNr = 34
+GiD-ShellNr = 35, SAFIR-ShellNr = 35
+GiD-ShellNr = 36, SAFIR-ShellNr = 36
+GiD-ShellNr = 37, SAFIR-ShellNr = 37
+GiD-ShellNr = 38, SAFIR-ShellNr = 38
+GiD-ShellNr = 39, SAFIR-ShellNr = 39
+GiD-ShellNr = 40, SAFIR-ShellNr = 40
+GiD-ShellNr = 41, SAFIR-ShellNr = 41
+GiD-ShellNr = 42, SAFIR-ShellNr = 42
+GiD-ShellNr = 43, SAFIR-ShellNr = 43
+GiD-ShellNr = 44, SAFIR-ShellNr = 44
+GiD-ShellNr = 45, SAFIR-ShellNr = 45
+GiD-ShellNr = 46, SAFIR-ShellNr = 46
+GiD-ShellNr = 47, SAFIR-ShellNr = 47
+GiD-ShellNr = 48, SAFIR-ShellNr = 48
+GiD-ShellNr = 49, SAFIR-ShellNr = 49
+GiD-ShellNr = 50, SAFIR-ShellNr = 50
+GiD-ShellNr = 51, SAFIR-ShellNr = 51
+GiD-ShellNr = 52, SAFIR-ShellNr = 52
+GiD-ShellNr = 53, SAFIR-ShellNr = 53
+GiD-ShellNr = 54, SAFIR-ShellNr = 54
+GiD-ShellNr = 55, SAFIR-ShellNr = 55
+GiD-ShellNr = 56, SAFIR-ShellNr = 56
+GiD-ShellNr = 57, SAFIR-ShellNr = 57
+GiD-ShellNr = 58, SAFIR-ShellNr = 58
+GiD-ShellNr = 59, SAFIR-ShellNr = 59
+GiD-ShellNr = 60, SAFIR-ShellNr = 60
+GiD-ShellNr = 61, SAFIR-ShellNr = 61
+GiD-ShellNr = 62, SAFIR-ShellNr = 62
+GiD-ShellNr = 63, SAFIR-ShellNr = 63
+GiD-ShellNr = 64, SAFIR-ShellNr = 64
+GiD-ShellNr = 65, SAFIR-ShellNr = 65
+GiD-ShellNr = 66, SAFIR-ShellNr = 66
+GiD-ShellNr = 67, SAFIR-ShellNr = 67
+GiD-ShellNr = 68, SAFIR-ShellNr = 68
+GiD-ShellNr = 69, SAFIR-ShellNr = 69
+GiD-ShellNr = 70, SAFIR-ShellNr = 70
+GiD-ShellNr = 71, SAFIR-ShellNr = 71
+GiD-ShellNr = 72, SAFIR-ShellNr = 72
+GiD-ShellNr = 73, SAFIR-ShellNr = 73
+GiD-ShellNr = 74, SAFIR-ShellNr = 74
+GiD-ShellNr = 75, SAFIR-ShellNr = 75
+GiD-ShellNr = 76, SAFIR-ShellNr = 76
+GiD-ShellNr = 77, SAFIR-ShellNr = 77
+GiD-ShellNr = 78, SAFIR-ShellNr = 78
+GiD-ShellNr = 79, SAFIR-ShellNr = 79
+GiD-ShellNr = 80, SAFIR-ShellNr = 80
+GiD-ShellNr = 81, SAFIR-ShellNr = 81
+GiD-ShellNr = 82, SAFIR-ShellNr = 82
+GiD-ShellNr = 83, SAFIR-ShellNr = 83
+GiD-ShellNr = 84, SAFIR-ShellNr = 84
+GiD-ShellNr = 85, SAFIR-ShellNr = 85
+GiD-ShellNr = 86, SAFIR-ShellNr = 86
+GiD-ShellNr = 87, SAFIR-ShellNr = 87
+GiD-ShellNr = 88, SAFIR-ShellNr = 88
+GiD-ShellNr = 89, SAFIR-ShellNr = 89
+GiD-ShellNr = 90, SAFIR-ShellNr = 90
+GiD-ShellNr = 91, SAFIR-ShellNr = 91
+GiD-ShellNr = 92, SAFIR-ShellNr = 92
+GiD-ShellNr = 93, SAFIR-ShellNr = 93
+GiD-ShellNr = 94, SAFIR-ShellNr = 94
+GiD-ShellNr = 95, SAFIR-ShellNr = 95
+GiD-ShellNr = 96, SAFIR-ShellNr = 96
+GiD-ShellNr = 97, SAFIR-ShellNr = 97
+GiD-ShellNr = 98, SAFIR-ShellNr = 98
+GiD-ShellNr = 99, SAFIR-ShellNr = 99
+GiD-ShellNr = 100, SAFIR-ShellNr = 100
+GiD-ShellNr = 101, SAFIR-ShellNr = 101
+GiD-ShellNr = 102, SAFIR-ShellNr = 102
+GiD-ShellNr = 103, SAFIR-ShellNr = 103
+GiD-ShellNr = 104, SAFIR-ShellNr = 104
+GiD-ShellNr = 105, SAFIR-ShellNr = 105
+GiD-ShellNr = 106, SAFIR-ShellNr = 106
+GiD-ShellNr = 107, SAFIR-ShellNr = 107
+GiD-ShellNr = 108, SAFIR-ShellNr = 108
+GiD-ShellNr = 109, SAFIR-ShellNr = 109
+GiD-ShellNr = 110, SAFIR-ShellNr = 110
+GiD-ShellNr = 111, SAFIR-ShellNr = 111
+GiD-ShellNr = 112, SAFIR-ShellNr = 112
+GiD-ShellNr = 113, SAFIR-ShellNr = 113
+GiD-ShellNr = 114, SAFIR-ShellNr = 114
+GiD-ShellNr = 115, SAFIR-ShellNr = 115
+GiD-ShellNr = 116, SAFIR-ShellNr = 116
+GiD-ShellNr = 117, SAFIR-ShellNr = 117
+GiD-ShellNr = 118, SAFIR-ShellNr = 118
+GiD-ShellNr = 119, SAFIR-ShellNr = 119
+GiD-ShellNr = 120, SAFIR-ShellNr = 120
+GiD-ShellNr = 121, SAFIR-ShellNr = 121
+GiD-ShellNr = 122, SAFIR-ShellNr = 122
+GiD-ShellNr = 123, SAFIR-ShellNr = 123
+GiD-ShellNr = 124, SAFIR-ShellNr = 124
+GiD-ShellNr = 125, SAFIR-ShellNr = 125
+GiD-ShellNr = 126, SAFIR-ShellNr = 126
+GiD-ShellNr = 127, SAFIR-ShellNr = 127
+GiD-ShellNr = 128, SAFIR-ShellNr = 128
+GiD-ShellNr = 129, SAFIR-ShellNr = 129
+GiD-ShellNr = 130, SAFIR-ShellNr = 130
+GiD-ShellNr = 131, SAFIR-ShellNr = 131
+GiD-ShellNr = 132, SAFIR-ShellNr = 132
+GiD-ShellNr = 133, SAFIR-ShellNr = 133
+GiD-ShellNr = 134, SAFIR-ShellNr = 134
+GiD-ShellNr = 135, SAFIR-ShellNr = 135
+GiD-ShellNr = 136, SAFIR-ShellNr = 136
+GiD-ShellNr = 137, SAFIR-ShellNr = 137
+GiD-ShellNr = 138, SAFIR-ShellNr = 138
+GiD-ShellNr = 139, SAFIR-ShellNr = 139
+GiD-ShellNr = 140, SAFIR-ShellNr = 140
+GiD-ShellNr = 141, SAFIR-ShellNr = 141
+GiD-ShellNr = 142, SAFIR-ShellNr = 142
+GiD-ShellNr = 143, SAFIR-ShellNr = 143
+GiD-ShellNr = 144, SAFIR-ShellNr = 144
+GiD-ShellNr = 145, SAFIR-ShellNr = 145
+GiD-ShellNr = 146, SAFIR-ShellNr = 146
+GiD-ShellNr = 147, SAFIR-ShellNr = 147
+GiD-ShellNr = 148, SAFIR-ShellNr = 148
+GiD-ShellNr = 149, SAFIR-ShellNr = 149
+GiD-ShellNr = 150, SAFIR-ShellNr = 150
+GiD-ShellNr = 151, SAFIR-ShellNr = 151
+GiD-ShellNr = 152, SAFIR-ShellNr = 152
+GiD-ShellNr = 153, SAFIR-ShellNr = 153
+GiD-ShellNr = 154, SAFIR-ShellNr = 154
+GiD-ShellNr = 155, SAFIR-ShellNr = 155
+GiD-ShellNr = 156, SAFIR-ShellNr = 156
+GiD-ShellNr = 157, SAFIR-ShellNr = 157
+GiD-ShellNr = 158, SAFIR-ShellNr = 158
+GiD-ShellNr = 159, SAFIR-ShellNr = 159
+GiD-ShellNr = 160, SAFIR-ShellNr = 160
+GiD-ShellNr = 161, SAFIR-ShellNr = 161
+GiD-ShellNr = 162, SAFIR-ShellNr = 162
+GiD-ShellNr = 163, SAFIR-ShellNr = 163
+GiD-ShellNr = 164, SAFIR-ShellNr = 164
+GiD-ShellNr = 165, SAFIR-ShellNr = 165
+GiD-ShellNr = 166, SAFIR-ShellNr = 166
+GiD-ShellNr = 167, SAFIR-ShellNr = 167
+GiD-ShellNr = 168, SAFIR-ShellNr = 168
+GiD-ShellNr = 169, SAFIR-ShellNr = 169
+GiD-ShellNr = 170, SAFIR-ShellNr = 170
+GiD-ShellNr = 171, SAFIR-ShellNr = 171
+GiD-ShellNr = 172, SAFIR-ShellNr = 172
+GiD-ShellNr = 173, SAFIR-ShellNr = 173
+GiD-ShellNr = 174, SAFIR-ShellNr = 174
+GiD-ShellNr = 175, SAFIR-ShellNr = 175
+GiD-ShellNr = 176, SAFIR-ShellNr = 176
+GiD-ShellNr = 177, SAFIR-ShellNr = 177
+GiD-ShellNr = 178, SAFIR-ShellNr = 178
+GiD-ShellNr = 179, SAFIR-ShellNr = 179
+GiD-ShellNr = 180, SAFIR-ShellNr = 180
+GiD-ShellNr = 181, SAFIR-ShellNr = 181
+GiD-ShellNr = 182, SAFIR-ShellNr = 182
+GiD-ShellNr = 183, SAFIR-ShellNr = 183
+GiD-ShellNr = 184, SAFIR-ShellNr = 184
+GiD-ShellNr = 185, SAFIR-ShellNr = 185
+GiD-ShellNr = 186, SAFIR-ShellNr = 186
+GiD-ShellNr = 187, SAFIR-ShellNr = 187
+GiD-ShellNr = 188, SAFIR-ShellNr = 188
+GiD-ShellNr = 189, SAFIR-ShellNr = 189
+GiD-ShellNr = 190, SAFIR-ShellNr = 190
+GiD-ShellNr = 191, SAFIR-ShellNr = 191
+GiD-ShellNr = 192, SAFIR-ShellNr = 192
+GiD-ShellNr = 193, SAFIR-ShellNr = 193
+GiD-ShellNr = 194, SAFIR-ShellNr = 194
+GiD-ShellNr = 195, SAFIR-ShellNr = 195
+GiD-ShellNr = 196, SAFIR-ShellNr = 196
+GiD-ShellNr = 197, SAFIR-ShellNr = 197
+GiD-ShellNr = 198, SAFIR-ShellNr = 198
+GiD-ShellNr = 199, SAFIR-ShellNr = 199
+GiD-ShellNr = 200, SAFIR-ShellNr = 200
+GiD-ShellNr = 201, SAFIR-ShellNr = 201
+GiD-ShellNr = 202, SAFIR-ShellNr = 202
+GiD-ShellNr = 203, SAFIR-ShellNr = 203
+GiD-ShellNr = 204, SAFIR-ShellNr = 204
+GiD-ShellNr = 205, SAFIR-ShellNr = 205
+GiD-ShellNr = 206, SAFIR-ShellNr = 206
+GiD-ShellNr = 207, SAFIR-ShellNr = 207
+GiD-ShellNr = 208, SAFIR-ShellNr = 208
+GiD-ShellNr = 209, SAFIR-ShellNr = 209
+GiD-ShellNr = 210, SAFIR-ShellNr = 210
+GiD-ShellNr = 211, SAFIR-ShellNr = 211
+GiD-ShellNr = 212, SAFIR-ShellNr = 212
+GiD-ShellNr = 213, SAFIR-ShellNr = 213
+GiD-ShellNr = 214, SAFIR-ShellNr = 214
+GiD-ShellNr = 215, SAFIR-ShellNr = 215
+GiD-ShellNr = 216, SAFIR-ShellNr = 216
+GiD-ShellNr = 217, SAFIR-ShellNr = 217
+GiD-ShellNr = 218, SAFIR-ShellNr = 218
+GiD-ShellNr = 219, SAFIR-ShellNr = 219
+GiD-ShellNr = 220, SAFIR-ShellNr = 220
+GiD-ShellNr = 221, SAFIR-ShellNr = 221
+GiD-ShellNr = 222, SAFIR-ShellNr = 222
+GiD-ShellNr = 223, SAFIR-ShellNr = 223
+GiD-ShellNr = 224, SAFIR-ShellNr = 224
+GiD-ShellNr = 225, SAFIR-ShellNr = 225
+GiD-ShellNr = 226, SAFIR-ShellNr = 226
+GiD-ShellNr = 227, SAFIR-ShellNr = 227
+GiD-ShellNr = 228, SAFIR-ShellNr = 228
+GiD-ShellNr = 229, SAFIR-ShellNr = 229
+GiD-ShellNr = 230, SAFIR-ShellNr = 230
+GiD-ShellNr = 231, SAFIR-ShellNr = 231
+GiD-ShellNr = 232, SAFIR-ShellNr = 232
+GiD-ShellNr = 233, SAFIR-ShellNr = 233
+GiD-ShellNr = 234, SAFIR-ShellNr = 234
+GiD-ShellNr = 235, SAFIR-ShellNr = 235
+GiD-ShellNr = 236, SAFIR-ShellNr = 236
+GiD-ShellNr = 237, SAFIR-ShellNr = 237
+GiD-ShellNr = 238, SAFIR-ShellNr = 238
+GiD-ShellNr = 239, SAFIR-ShellNr = 239
+GiD-ShellNr = 240, SAFIR-ShellNr = 240
+GiD-ShellNr = 241, SAFIR-ShellNr = 241
+GiD-ShellNr = 242, SAFIR-ShellNr = 242
+GiD-ShellNr = 243, SAFIR-ShellNr = 243
+GiD-ShellNr = 244, SAFIR-ShellNr = 244
+GiD-ShellNr = 245, SAFIR-ShellNr = 245
+GiD-ShellNr = 246, SAFIR-ShellNr = 246
+GiD-ShellNr = 247, SAFIR-ShellNr = 247
+GiD-ShellNr = 248, SAFIR-ShellNr = 248
+GiD-ShellNr = 249, SAFIR-ShellNr = 249
+GiD-ShellNr = 250, SAFIR-ShellNr = 250
+GiD-ShellNr = 251, SAFIR-ShellNr = 251
+GiD-ShellNr = 252, SAFIR-ShellNr = 252
+GiD-ShellNr = 253, SAFIR-ShellNr = 253
+GiD-ShellNr = 254, SAFIR-ShellNr = 254
+GiD-ShellNr = 255, SAFIR-ShellNr = 255
+GiD-ShellNr = 256, SAFIR-ShellNr = 256
+GiD-ShellNr = 257, SAFIR-ShellNr = 257
+GiD-ShellNr = 258, SAFIR-ShellNr = 258
+GiD-ShellNr = 259, SAFIR-ShellNr = 259
+GiD-ShellNr = 260, SAFIR-ShellNr = 260
+GiD-ShellNr = 261, SAFIR-ShellNr = 261
+GiD-ShellNr = 262, SAFIR-ShellNr = 262
+GiD-ShellNr = 263, SAFIR-ShellNr = 263
+GiD-ShellNr = 264, SAFIR-ShellNr = 264
+GiD-ShellNr = 265, SAFIR-ShellNr = 265
+GiD-ShellNr = 266, SAFIR-ShellNr = 266
+GiD-ShellNr = 267, SAFIR-ShellNr = 267
+GiD-ShellNr = 268, SAFIR-ShellNr = 268
+GiD-ShellNr = 269, SAFIR-ShellNr = 269
+GiD-ShellNr = 270, SAFIR-ShellNr = 270
+GiD-ShellNr = 271, SAFIR-ShellNr = 271
+GiD-ShellNr = 272, SAFIR-ShellNr = 272
+GiD-ShellNr = 273, SAFIR-ShellNr = 273
+GiD-ShellNr = 274, SAFIR-ShellNr = 274
+GiD-ShellNr = 275, SAFIR-ShellNr = 275
+GiD-ShellNr = 276, SAFIR-ShellNr = 276
+GiD-ShellNr = 277, SAFIR-ShellNr = 277
+GiD-ShellNr = 278, SAFIR-ShellNr = 278
+GiD-ShellNr = 279, SAFIR-ShellNr = 279
+GiD-ShellNr = 280, SAFIR-ShellNr = 280
+GiD-ShellNr = 281, SAFIR-ShellNr = 281
+GiD-ShellNr = 282, SAFIR-ShellNr = 282
+GiD-ShellNr = 283, SAFIR-ShellNr = 283
+GiD-ShellNr = 284, SAFIR-ShellNr = 284
+GiD-ShellNr = 285, SAFIR-ShellNr = 285
+GiD-ShellNr = 286, SAFIR-ShellNr = 286
+GiD-ShellNr = 287, SAFIR-ShellNr = 287
+GiD-ShellNr = 288, SAFIR-ShellNr = 288
+GiD-ShellNr = 289, SAFIR-ShellNr = 289
+GiD-ShellNr = 290, SAFIR-ShellNr = 290
+GiD-ShellNr = 291, SAFIR-ShellNr = 291
+GiD-ShellNr = 292, SAFIR-ShellNr = 292
+GiD-ShellNr = 293, SAFIR-ShellNr = 293
+GiD-ShellNr = 294, SAFIR-ShellNr = 294
+GiD-ShellNr = 295, SAFIR-ShellNr = 295
+GiD-ShellNr = 296, SAFIR-ShellNr = 296
+GiD-ShellNr = 297, SAFIR-ShellNr = 297
+GiD-ShellNr = 298, SAFIR-ShellNr = 298
+GiD-ShellNr = 299, SAFIR-ShellNr = 299
+GiD-ShellNr = 300, SAFIR-ShellNr = 300
+GiD-ShellNr = 301, SAFIR-ShellNr = 301
+GiD-ShellNr = 302, SAFIR-ShellNr = 302
+GiD-ShellNr = 303, SAFIR-ShellNr = 303
+GiD-ShellNr = 304, SAFIR-ShellNr = 304
+GiD-ShellNr = 305, SAFIR-ShellNr = 305
+GiD-ShellNr = 306, SAFIR-ShellNr = 306
+GiD-ShellNr = 307, SAFIR-ShellNr = 307
+GiD-ShellNr = 308, SAFIR-ShellNr = 308
+GiD-ShellNr = 309, SAFIR-ShellNr = 309
+GiD-ShellNr = 310, SAFIR-ShellNr = 310
+GiD-ShellNr = 311, SAFIR-ShellNr = 311
+GiD-ShellNr = 312, SAFIR-ShellNr = 312
+GiD-ShellNr = 313, SAFIR-ShellNr = 313
+GiD-ShellNr = 314, SAFIR-ShellNr = 314
+GiD-ShellNr = 315, SAFIR-ShellNr = 315
+GiD-ShellNr = 316, SAFIR-ShellNr = 316
+GiD-ShellNr = 317, SAFIR-ShellNr = 317
+GiD-ShellNr = 318, SAFIR-ShellNr = 318
+GiD-ShellNr = 319, SAFIR-ShellNr = 319
+GiD-ShellNr = 320, SAFIR-ShellNr = 320
+GiD-ShellNr = 321, SAFIR-ShellNr = 321
+GiD-ShellNr = 322, SAFIR-ShellNr = 322
+GiD-ShellNr = 323, SAFIR-ShellNr = 323
+GiD-ShellNr = 324, SAFIR-ShellNr = 324
+GiD-ShellNr = 325, SAFIR-ShellNr = 325
+GiD-ShellNr = 326, SAFIR-ShellNr = 326
+GiD-ShellNr = 327, SAFIR-ShellNr = 327
+GiD-ShellNr = 328, SAFIR-ShellNr = 328
+GiD-ShellNr = 329, SAFIR-ShellNr = 329
+GiD-ShellNr = 330, SAFIR-ShellNr = 330
+GiD-ShellNr = 331, SAFIR-ShellNr = 331
+GiD-ShellNr = 332, SAFIR-ShellNr = 332
+GiD-ShellNr = 333, SAFIR-ShellNr = 333
+GiD-ShellNr = 334, SAFIR-ShellNr = 334
+GiD-ShellNr = 335, SAFIR-ShellNr = 335
+GiD-ShellNr = 336, SAFIR-ShellNr = 336
+GiD-ShellNr = 337, SAFIR-ShellNr = 337
+GiD-ShellNr = 338, SAFIR-ShellNr = 338
+GiD-ShellNr = 339, SAFIR-ShellNr = 339
+GiD-ShellNr = 340, SAFIR-ShellNr = 340
+GiD-ShellNr = 341, SAFIR-ShellNr = 341
+GiD-ShellNr = 342, SAFIR-ShellNr = 342
+GiD-ShellNr = 343, SAFIR-ShellNr = 343
+GiD-ShellNr = 344, SAFIR-ShellNr = 344
+GiD-ShellNr = 345, SAFIR-ShellNr = 345
+GiD-ShellNr = 346, SAFIR-ShellNr = 346
+GiD-ShellNr = 347, SAFIR-ShellNr = 347
+GiD-ShellNr = 348, SAFIR-ShellNr = 348
+GiD-ShellNr = 349, SAFIR-ShellNr = 349
+GiD-ShellNr = 350, SAFIR-ShellNr = 350
+GiD-ShellNr = 351, SAFIR-ShellNr = 351
+GiD-ShellNr = 352, SAFIR-ShellNr = 352
+GiD-ShellNr = 353, SAFIR-ShellNr = 353
+GiD-ShellNr = 354, SAFIR-ShellNr = 354
+GiD-ShellNr = 355, SAFIR-ShellNr = 355
+GiD-ShellNr = 356, SAFIR-ShellNr = 356
+GiD-ShellNr = 357, SAFIR-ShellNr = 357
+GiD-ShellNr = 358, SAFIR-ShellNr = 358
+GiD-ShellNr = 359, SAFIR-ShellNr = 359
+GiD-ShellNr = 360, SAFIR-ShellNr = 360
+GiD-ShellNr = 361, SAFIR-ShellNr = 361
+GiD-ShellNr = 362, SAFIR-ShellNr = 362
+GiD-ShellNr = 363, SAFIR-ShellNr = 363
+GiD-ShellNr = 364, SAFIR-ShellNr = 364
+GiD-ShellNr = 365, SAFIR-ShellNr = 365
+GiD-ShellNr = 366, SAFIR-ShellNr = 366
+GiD-ShellNr = 367, SAFIR-ShellNr = 367
+GiD-ShellNr = 368, SAFIR-ShellNr = 368
+GiD-ShellNr = 369, SAFIR-ShellNr = 369
+GiD-ShellNr = 370, SAFIR-ShellNr = 370
+GiD-ShellNr = 371, SAFIR-ShellNr = 371
+GiD-ShellNr = 372, SAFIR-ShellNr = 372
+GiD-ShellNr = 373, SAFIR-ShellNr = 373
+GiD-ShellNr = 374, SAFIR-ShellNr = 374
+GiD-ShellNr = 375, SAFIR-ShellNr = 375
+GiD-ShellNr = 376, SAFIR-ShellNr = 376
+GiD-ShellNr = 377, SAFIR-ShellNr = 377
+GiD-ShellNr = 378, SAFIR-ShellNr = 378
+GiD-ShellNr = 379, SAFIR-ShellNr = 379
+GiD-ShellNr = 380, SAFIR-ShellNr = 380
+GiD-ShellNr = 381, SAFIR-ShellNr = 381
+GiD-ShellNr = 382, SAFIR-ShellNr = 382
+GiD-ShellNr = 383, SAFIR-ShellNr = 383
+GiD-ShellNr = 384, SAFIR-ShellNr = 384
+GiD-ShellNr = 385, SAFIR-ShellNr = 385
+GiD-ShellNr = 386, SAFIR-ShellNr = 386
+GiD-ShellNr = 387, SAFIR-ShellNr = 387
+GiD-ShellNr = 388, SAFIR-ShellNr = 388
+GiD-ShellNr = 389, SAFIR-ShellNr = 389
+GiD-ShellNr = 390, SAFIR-ShellNr = 390
+GiD-ShellNr = 391, SAFIR-ShellNr = 391
+GiD-ShellNr = 392, SAFIR-ShellNr = 392
+GiD-ShellNr = 393, SAFIR-ShellNr = 393
+GiD-ShellNr = 394, SAFIR-ShellNr = 394
+GiD-ShellNr = 395, SAFIR-ShellNr = 395
+GiD-ShellNr = 396, SAFIR-ShellNr = 396
+GiD-ShellNr = 397, SAFIR-ShellNr = 397
+GiD-ShellNr = 398, SAFIR-ShellNr = 398
+GiD-ShellNr = 399, SAFIR-ShellNr = 399
+GiD-ShellNr = 400, SAFIR-ShellNr = 400
+GiD-ShellNr = 401, SAFIR-ShellNr = 401
+GiD-ShellNr = 402, SAFIR-ShellNr = 402
+GiD-ShellNr = 403, SAFIR-ShellNr = 403
+GiD-ShellNr = 404, SAFIR-ShellNr = 404
+GiD-ShellNr = 405, SAFIR-ShellNr = 405
+GiD-ShellNr = 406, SAFIR-ShellNr = 406
+GiD-ShellNr = 407, SAFIR-ShellNr = 407
+GiD-ShellNr = 408, SAFIR-ShellNr = 408
+GiD-ShellNr = 409, SAFIR-ShellNr = 409
+GiD-ShellNr = 410, SAFIR-ShellNr = 410
+GiD-ShellNr = 411, SAFIR-ShellNr = 411
+GiD-ShellNr = 412, SAFIR-ShellNr = 412
+GiD-ShellNr = 413, SAFIR-ShellNr = 413
+GiD-ShellNr = 414, SAFIR-ShellNr = 414
+GiD-ShellNr = 415, SAFIR-ShellNr = 415
+GiD-ShellNr = 416, SAFIR-ShellNr = 416
+GiD-ShellNr = 417, SAFIR-ShellNr = 417
+GiD-ShellNr = 418, SAFIR-ShellNr = 418
+GiD-ShellNr = 419, SAFIR-ShellNr = 419
+GiD-ShellNr = 420, SAFIR-ShellNr = 420
+GiD-ShellNr = 421, SAFIR-ShellNr = 421
+GiD-ShellNr = 422, SAFIR-ShellNr = 422
+GiD-ShellNr = 423, SAFIR-ShellNr = 423
+GiD-ShellNr = 424, SAFIR-ShellNr = 424
+GiD-ShellNr = 425, SAFIR-ShellNr = 425
+GiD-ShellNr = 426, SAFIR-ShellNr = 426
+GiD-ShellNr = 427, SAFIR-ShellNr = 427
+GiD-ShellNr = 428, SAFIR-ShellNr = 428
+GiD-ShellNr = 429, SAFIR-ShellNr = 429
+GiD-ShellNr = 430, SAFIR-ShellNr = 430
+GiD-ShellNr = 431, SAFIR-ShellNr = 431
+GiD-ShellNr = 432, SAFIR-ShellNr = 432
+GiD-ShellNr = 433, SAFIR-ShellNr = 433
+GiD-ShellNr = 434, SAFIR-ShellNr = 434
+GiD-ShellNr = 435, SAFIR-ShellNr = 435
+GiD-ShellNr = 436, SAFIR-ShellNr = 436
+GiD-ShellNr = 437, SAFIR-ShellNr = 437
+GiD-ShellNr = 438, SAFIR-ShellNr = 438
+GiD-ShellNr = 439, SAFIR-ShellNr = 439
+GiD-ShellNr = 440, SAFIR-ShellNr = 440
+GiD-ShellNr = 441, SAFIR-ShellNr = 441
+GiD-ShellNr = 442, SAFIR-ShellNr = 442
+GiD-ShellNr = 443, SAFIR-ShellNr = 443
+GiD-ShellNr = 444, SAFIR-ShellNr = 444
+GiD-ShellNr = 445, SAFIR-ShellNr = 445
+GiD-ShellNr = 446, SAFIR-ShellNr = 446
+GiD-ShellNr = 447, SAFIR-ShellNr = 447
+GiD-ShellNr = 448, SAFIR-ShellNr = 448
+GiD-ShellNr = 449, SAFIR-ShellNr = 449
+GiD-ShellNr = 450, SAFIR-ShellNr = 450
+GiD-ShellNr = 451, SAFIR-ShellNr = 451
+GiD-ShellNr = 452, SAFIR-ShellNr = 452
+GiD-ShellNr = 453, SAFIR-ShellNr = 453
+GiD-ShellNr = 454, SAFIR-ShellNr = 454
+GiD-ShellNr = 455, SAFIR-ShellNr = 455
+GiD-ShellNr = 456, SAFIR-ShellNr = 456
+GiD-ShellNr = 457, SAFIR-ShellNr = 457
+GiD-ShellNr = 458, SAFIR-ShellNr = 458
+GiD-ShellNr = 459, SAFIR-ShellNr = 459
+GiD-ShellNr = 460, SAFIR-ShellNr = 460
+GiD-ShellNr = 461, SAFIR-ShellNr = 461
+GiD-ShellNr = 462, SAFIR-ShellNr = 462
+GiD-ShellNr = 463, SAFIR-ShellNr = 463
+GiD-ShellNr = 464, SAFIR-ShellNr = 464
+GiD-ShellNr = 465, SAFIR-ShellNr = 465
+GiD-ShellNr = 466, SAFIR-ShellNr = 466
+GiD-ShellNr = 467, SAFIR-ShellNr = 467
+GiD-ShellNr = 468, SAFIR-ShellNr = 468
+GiD-ShellNr = 469, SAFIR-ShellNr = 469
+GiD-ShellNr = 470, SAFIR-ShellNr = 470
+GiD-ShellNr = 471, SAFIR-ShellNr = 471
+GiD-ShellNr = 472, SAFIR-ShellNr = 472
+GiD-ShellNr = 473, SAFIR-ShellNr = 473
+GiD-ShellNr = 474, SAFIR-ShellNr = 474
+GiD-ShellNr = 475, SAFIR-ShellNr = 475
+GiD-ShellNr = 476, SAFIR-ShellNr = 476
+GiD-ShellNr = 477, SAFIR-ShellNr = 477
+GiD-ShellNr = 478, SAFIR-ShellNr = 478
+GiD-ShellNr = 479, SAFIR-ShellNr = 479
+GiD-ShellNr = 480, SAFIR-ShellNr = 480
+GiD-ShellNr = 481, SAFIR-ShellNr = 481
+GiD-ShellNr = 482, SAFIR-ShellNr = 482
+GiD-ShellNr = 483, SAFIR-ShellNr = 483
+GiD-ShellNr = 484, SAFIR-ShellNr = 484
+GiD-ShellNr = 485, SAFIR-ShellNr = 485
+GiD-ShellNr = 486, SAFIR-ShellNr = 486
+GiD-ShellNr = 487, SAFIR-ShellNr = 487
+GiD-ShellNr = 488, SAFIR-ShellNr = 488
+GiD-ShellNr = 489, SAFIR-ShellNr = 489
+GiD-ShellNr = 490, SAFIR-ShellNr = 490
+GiD-ShellNr = 491, SAFIR-ShellNr = 491
+GiD-ShellNr = 492, SAFIR-ShellNr = 492
+GiD-ShellNr = 493, SAFIR-ShellNr = 493
+GiD-ShellNr = 494, SAFIR-ShellNr = 494
+GiD-ShellNr = 495, SAFIR-ShellNr = 495
+GiD-ShellNr = 496, SAFIR-ShellNr = 496
+GiD-ShellNr = 497, SAFIR-ShellNr = 497
+GiD-ShellNr = 498, SAFIR-ShellNr = 498
+GiD-ShellNr = 499, SAFIR-ShellNr = 499
+GiD-ShellNr = 500, SAFIR-ShellNr = 500
+GiD-ShellNr = 501, SAFIR-ShellNr = 501
+GiD-ShellNr = 502, SAFIR-ShellNr = 502
+GiD-ShellNr = 503, SAFIR-ShellNr = 503
+GiD-ShellNr = 504, SAFIR-ShellNr = 504
+GiD-ShellNr = 505, SAFIR-ShellNr = 505
+GiD-ShellNr = 506, SAFIR-ShellNr = 506
+GiD-ShellNr = 507, SAFIR-ShellNr = 507
+GiD-ShellNr = 508, SAFIR-ShellNr = 508
+GiD-ShellNr = 509, SAFIR-ShellNr = 509
+GiD-ShellNr = 510, SAFIR-ShellNr = 510
+GiD-ShellNr = 511, SAFIR-ShellNr = 511
+GiD-ShellNr = 512, SAFIR-ShellNr = 512
+GiD-ShellNr = 513, SAFIR-ShellNr = 513
+GiD-ShellNr = 514, SAFIR-ShellNr = 514
+GiD-ShellNr = 515, SAFIR-ShellNr = 515
+GiD-ShellNr = 516, SAFIR-ShellNr = 516
+GiD-ShellNr = 517, SAFIR-ShellNr = 517
+GiD-ShellNr = 518, SAFIR-ShellNr = 518
+GiD-ShellNr = 519, SAFIR-ShellNr = 519
+GiD-ShellNr = 520, SAFIR-ShellNr = 520
+GiD-ShellNr = 521, SAFIR-ShellNr = 521
+GiD-ShellNr = 522, SAFIR-ShellNr = 522
+GiD-ShellNr = 523, SAFIR-ShellNr = 523
+GiD-ShellNr = 524, SAFIR-ShellNr = 524
+GiD-ShellNr = 525, SAFIR-ShellNr = 525
+GiD-ShellNr = 526, SAFIR-ShellNr = 526
+GiD-ShellNr = 527, SAFIR-ShellNr = 527
+GiD-ShellNr = 528, SAFIR-ShellNr = 528
+GiD-ShellNr = 529, SAFIR-ShellNr = 529
+GiD-ShellNr = 530, SAFIR-ShellNr = 530
+GiD-ShellNr = 531, SAFIR-ShellNr = 531
+GiD-ShellNr = 532, SAFIR-ShellNr = 532
+GiD-ShellNr = 533, SAFIR-ShellNr = 533
+GiD-ShellNr = 534, SAFIR-ShellNr = 534
+GiD-ShellNr = 535, SAFIR-ShellNr = 535
+GiD-ShellNr = 536, SAFIR-ShellNr = 536
+GiD-ShellNr = 537, SAFIR-ShellNr = 537
+GiD-ShellNr = 538, SAFIR-ShellNr = 538
+GiD-ShellNr = 539, SAFIR-ShellNr = 539
+GiD-ShellNr = 540, SAFIR-ShellNr = 540
+GiD-ShellNr = 541, SAFIR-ShellNr = 541
+GiD-ShellNr = 542, SAFIR-ShellNr = 542
+GiD-ShellNr = 543, SAFIR-ShellNr = 543
+GiD-ShellNr = 544, SAFIR-ShellNr = 544
+GiD-ShellNr = 545, SAFIR-ShellNr = 545
+GiD-ShellNr = 546, SAFIR-ShellNr = 546
+GiD-ShellNr = 547, SAFIR-ShellNr = 547
+GiD-ShellNr = 548, SAFIR-ShellNr = 548
+GiD-ShellNr = 549, SAFIR-ShellNr = 549
+GiD-ShellNr = 550, SAFIR-ShellNr = 550
+GiD-ShellNr = 551, SAFIR-ShellNr = 551
+GiD-ShellNr = 552, SAFIR-ShellNr = 552 
+ SAFIR version 2004x is running.
+ Please type "FILENAME" of "FILENAME.IN" :   SAFIR is allocating memory
+  SAFIR is in subroutine DONNEE
+  START OF RENUMBERING OF THE EQUATIONS
+              BY THE GEOMETRICAL METHOD.
+  nnodepart =            1
+  the length of the skyline is reduced to      411060
+
+ AFTER GEOMETRICAL PROGRESSION,
+   THE LENGTH OF THE SKYLINE IS    411060.
+ ----------------------------------------------
+  SAFIR has finished subroutine DONNEE
+
+ time =     15.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.000E+00
+ Criterium of convergence  :1.000000
+  Going in TRCHOL for Eigen Value
+  Going in TRCHOL
+  Going out of TRCHOL
+  Going out of TRCHOL for Eigen Value
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.833E+03
+ Norme of the total energy : 0.833E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.647E+01
+ Norme of the total energy : 0.839E+03
+ Criterium of convergence  :0.007704
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.110E-02
+ Norme of the total energy : 0.839E+03
+ Criterium of convergence  :0.000001
+
+ time =     30.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.839E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.699E+01
+ Norme of the total energy : 0.846E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.171E-03
+ Norme of the total energy : 0.846E+03
+ Criterium of convergence  :0.000000
+
+ time =     45.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.846E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.699E+01
+ Norme of the total energy : 0.853E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.170E-03
+ Norme of the total energy : 0.853E+03
+ Criterium of convergence  :0.000000
+
+ time =     60.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.853E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.699E+01
+ Norme of the total energy : 0.860E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.170E-03
+ Norme of the total energy : 0.860E+03
+ Criterium of convergence  :0.000000
+ ITER = 2, RELATIVE EIGEN VALUE =  0.97842
+ 
+
+ time =     75.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.860E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.192E+02
+ Norme of the total energy : 0.880E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.139E-02
+ Norme of the total energy : 0.880E+03
+ Criterium of convergence  :0.000002
+
+ time =     90.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.880E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.193E+02
+ Norme of the total energy : 0.899E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.139E-02
+ Norme of the total energy : 0.899E+03
+ Criterium of convergence  :0.000002
+
+ time =    105.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.899E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.193E+02
+ Norme of the total energy : 0.918E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.138E-02
+ Norme of the total energy : 0.918E+03
+ Criterium of convergence  :0.000002
+
+ time =    120.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.918E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.193E+02
+ Norme of the total energy : 0.937E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.138E-02
+ Norme of the total energy : 0.937E+03
+ Criterium of convergence  :0.000001
+ ITER = 2, RELATIVE EIGEN VALUE =  0.97553
+ 
+
+ time =    135.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.937E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.318E+02
+ Norme of the total energy : 0.969E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.389E-02
+ Norme of the total energy : 0.969E+03
+ Criterium of convergence  :0.000004
+
+ time =    150.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.969E+03
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.319E+02
+ Norme of the total energy : 0.100E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.388E-02
+ Norme of the total energy : 0.100E+04
+ Criterium of convergence  :0.000004
+
+ time =    165.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.100E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.319E+02
+ Norme of the total energy : 0.103E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.387E-02
+ Norme of the total energy : 0.103E+04
+ Criterium of convergence  :0.000004
+
+ time =    180.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.103E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.320E+02
+ Norme of the total energy : 0.107E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.387E-02
+ Norme of the total energy : 0.107E+04
+ Criterium of convergence  :0.000004
+ ITER = 2, RELATIVE EIGEN VALUE =  0.97045
+ 
+
+ time =    195.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.107E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.451E+02
+ Norme of the total energy : 0.111E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.792E-02
+ Norme of the total energy : 0.111E+04
+ Criterium of convergence  :0.000007
+
+ time =    210.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.111E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.452E+02
+ Norme of the total energy : 0.116E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.791E-02
+ Norme of the total energy : 0.116E+04
+ Criterium of convergence  :0.000007
+
+ time =    225.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.116E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.453E+02
+ Norme of the total energy : 0.120E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.791E-02
+ Norme of the total energy : 0.120E+04
+ Criterium of convergence  :0.000007
+
+ time =    240.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.120E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.454E+02
+ Norme of the total energy : 0.125E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.790E-02
+ Norme of the total energy : 0.125E+04
+ Criterium of convergence  :0.000006
+ ITER = 2, RELATIVE EIGEN VALUE =  0.96224
+ 
+
+ time =    255.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.125E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.594E+02
+ Norme of the total energy : 0.131E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.139E-01
+ Norme of the total energy : 0.131E+04
+ Criterium of convergence  :0.000011
+
+ time =    270.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.131E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.596E+02
+ Norme of the total energy : 0.137E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.139E-01
+ Norme of the total energy : 0.137E+04
+ Criterium of convergence  :0.000010
+
+ time =    285.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.137E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.598E+02
+ Norme of the total energy : 0.143E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.139E-01
+ Norme of the total energy : 0.143E+04
+ Criterium of convergence  :0.000010
+
+ time =    300.00000 sec.
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.000E+00
+ Norme of the total energy : 0.143E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.600E+02
+ Norme of the total energy : 0.149E+04
+ Criterium of convergence  :1.000000
+  Going in TRCHOL
+  Going out of TRCHOL
+   Going in BSCHOL
+   Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+  Going in BSCHOL for Eigen Value
+  Going out of BSCHOL
+   Going in SHELL elements
+
+ Norme of the incr. energy : 0.139E-01
+ Norme of the total energy : 0.149E+04
+ Criterium of convergence  :0.000009
+ ITER = 2, RELATIVE EIGEN VALUE =  0.94908
+ 
+
+ THE STIFFNESS MATRIX HAS BEEN TRIANGULARISED    41 TIMES.
+"STRUCTURAL3DRES.exe creates Postprocessor-File for GID"
+
+Projekt:ShellMember
+Opened: ShellMember.flavia.msh
+nNodes = 602, nBeam = 0, nShell = 552, nTruss = 0
+number of integration points for beams, NG = 2
+Cosed ShellMember.flavia.msh
+PRINTSHELL found
+PRNNXSHELL found
+PRNMXSHELL found
+Opened: ShellMember.flavia.res
+
+Opened: ShellMember.str
+Generating output for GiD-PP :    TIME =    60.00000
+Generating output for GiD-PP :    TIME =   120.00000
+Generating output for GiD-PP :    TIME =   180.00000
+Generating output for GiD-PP :    TIME =   240.00000
+Generating output for GiD-PP :    TIME =   300.00000

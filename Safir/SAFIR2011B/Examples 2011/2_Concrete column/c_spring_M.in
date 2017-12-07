@@ -1,0 +1,100 @@
+A column with a 1 cm sinusoidal initial imperfection (L/400), loaded with no excentricity 
+   see NODELINE file sect_axial
+   see NODELOAD in this file
+An rotational spring is added at the bottom support of the column by a beam element.
+   The stiffness of the spring is 3EI/L = 3 X 0.21E10 X 0.16E-3 / 0.5
+                                        = 2.019E6
+   Note: 2 nodes and a master-slave relationsip have been put at the bottom support
+   	 in order to allow quick disconnection of the spring. 
+Input file for SAFIR2011
+                                                                                
+     NNODE   24
+      NDIM    2
+                                                                       
+   NDOFMAX    3
+EVERY_NODE                                  3
+      FROM    2   TO   20 STEP    2 NDDL    1
+      FROM   23   TO   23 STEP    1 NDDL    1                                   
+  END_NDOF                                                                                
+
+    STATIC   PURE_NR                                                                   
+     NLOAD    1                                                                 
+   OBLIQUE    0                                                                 
+  COMEBACK        1.                                                            
+
+      NMAT    3                                                                 
+
+  ELEMENTS                                                                      
+      BEAM   11    2
+        NG    2                                                                 
+    NFIBER  242 
+  END_ELEM                                                                                
+
+     NODES                                                                      
+      NODE    1   0.00000   0.00000
+     GNODE    3   0.00309   0.40000    1
+     GNODE    5   0.00588   0.80000    1
+     GNODE    7   0.00809   1.20000    1
+     GNODE    9   0.00951   1.60000    1
+     GNODE   11   0.01000   2.00000    1
+     GNODE   13   0.00951   2.40000    1
+     GNODE   15   0.00809   2.80000    1
+     GNODE   17   0.00588   3.20000    1
+     GNODE   19   0.00309   3.60000    1                                        
+     GNODE   21   0.00000   4.00000    1
+      NODE   22   0.00000   0.00000
+     GNODE   24   0.50000   0.00000
+
+ FIXATIONS                                                                      
+     BLOCK    1             F0        F0         NO
+     BLOCK   21             F0        NO         NO
+     BLOCK   24             NO        F0         NO
+      SAME   22     1      YES       YES        YES
+   END_FIX
+
+ NODOFBEAM                                                                      
+sect_axial.tem                                                                      
+ TRANSLATE    1    1                                                            
+ TRANSLATE    2    2 
+END_TRANS                                          
+spring.tem
+ TRANSLATE    1    3
+END_TRANS                                      
+ELEM     1    1    2    3    1                                                       
+GELEM   10   19   20   21    1    2                                                  
+ELEM    11   22   23   24    2
+
+ PRECISION      0.001
+
+     LOADS                                                                      
+  FUNCTION     F1
+ DISTRBEAM         1        0.    -2250.		
+GDISTRBEAM        10        0.    -2250.    1               
+  NODELOAD        21        0.  -1500000.       0.
+  END_LOAD
+
+ MATERIALS                     
+SILCONC_EN                                                 
+                 0.2     25.E6          0.     0.
+STEELEC3EN                                                                      
+    210.E9       0.3   500.0E6       1200.     0.
+   ELASTIC    
+      2100.E6    0.3     
+
+      TIME 
+      		  1.        1.
+      		 16.     3600.                                                                     
+   ENDTIME                                                                      
+
+     EPSTH                                                                      
+
+    OUTPUT                                                                      
+ TIMEPRINT     
+            1.    3600.
+END_TIMEPR
+   PRINTMN                                                                      
+PRINTREACT                                                                      
+PRNEPSMBM    5    2
+PRNSIGMABM   5    2
+PRINTET      5    2                 
+

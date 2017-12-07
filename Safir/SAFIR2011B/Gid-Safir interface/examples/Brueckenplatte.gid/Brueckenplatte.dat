@@ -1,0 +1,351 @@
+InputFile created with GiD-SAFIR_2007 Interface
+Safir_Static_3D_Analysis
+Mesh_from_GID-Mesher
+
+     NNODE    55
+      NDIM    3
+   NDDLMAX    6
+EVERY_NODE    6
+  END_NDDL
+    STATIC   APPR_NR
+     NLOAD    1
+   OBLIQUE    0 
+  COMEBACK 0.5
+NORENUM
+      NMAT    2
+  ELEMENTS
+     SHELL     40     2
+   NGTHICK    3
+    NGAREA    2
+   NREBARS    2 
+  END_ELEM
+     NODES
+      NODE     1 1.000000000e+01 6.000000000e+00 0.000000000e+00
+      NODE     2 1.000000000e+01 5.250000000e+00 0.000000000e+00
+      NODE     3 9.000000000e+00 5.700000000e+00 0.000000000e+00
+      NODE     4 9.000000000e+00 4.950000000e+00 0.000000000e+00
+      NODE     5 1.000000000e+01 4.500000000e+00 0.000000000e+00
+      NODE     6 9.000000000e+00 4.200000000e+00 0.000000000e+00
+      NODE     7 8.000000000e+00 5.400000000e+00 0.000000000e+00
+      NODE     8 1.000000000e+01 3.750000000e+00 0.000000000e+00
+      NODE     9 8.000000000e+00 4.650000000e+00 0.000000000e+00
+      NODE    10 9.000000000e+00 3.450000000e+00 0.000000000e+00
+      NODE    11 8.000000000e+00 3.900000000e+00 0.000000000e+00
+      NODE    12 1.000000000e+01 3.000000000e+00 0.000000000e+00
+      NODE    13 7.000000000e+00 5.100000000e+00 0.000000000e+00
+      NODE    14 7.000000000e+00 4.350000000e+00 0.000000000e+00
+      NODE    15 9.000000000e+00 2.700000000e+00 0.000000000e+00
+      NODE    16 8.000000000e+00 3.150000000e+00 0.000000000e+00
+      NODE    17 7.000000000e+00 3.600000000e+00 0.000000000e+00
+      NODE    18 8.000000000e+00 2.400000000e+00 0.000000000e+00
+      NODE    19 6.000000000e+00 4.800000000e+00 0.000000000e+00
+      NODE    20 7.000000000e+00 2.850000000e+00 0.000000000e+00
+      NODE    21 6.000000000e+00 4.050000000e+00 0.000000000e+00
+      NODE    22 6.000000000e+00 3.300000000e+00 0.000000000e+00
+      NODE    23 7.000000000e+00 2.100000000e+00 0.000000000e+00
+      NODE    24 5.000000000e+00 4.500000000e+00 0.000000000e+00
+      NODE    25 6.000000000e+00 2.550000000e+00 0.000000000e+00
+      NODE    26 5.000000000e+00 3.750000000e+00 0.000000000e+00
+      NODE    27 6.000000000e+00 1.800000000e+00 0.000000000e+00
+      NODE    28 5.000000000e+00 3.000000000e+00 0.000000000e+00
+      NODE    29 5.000000000e+00 2.250000000e+00 0.000000000e+00
+      NODE    30 4.000000000e+00 4.200000000e+00 0.000000000e+00
+      NODE    31 4.000000000e+00 3.450000000e+00 0.000000000e+00
+      NODE    32 5.000000000e+00 1.500000000e+00 0.000000000e+00
+      NODE    33 4.000000000e+00 2.700000000e+00 0.000000000e+00
+      NODE    34 4.000000000e+00 1.950000000e+00 0.000000000e+00
+      NODE    35 3.000000000e+00 3.900000000e+00 0.000000000e+00
+      NODE    36 3.000000000e+00 3.150000000e+00 0.000000000e+00
+      NODE    37 4.000000000e+00 1.200000000e+00 0.000000000e+00
+      NODE    38 3.000000000e+00 2.400000000e+00 0.000000000e+00
+      NODE    39 3.000000000e+00 1.650000000e+00 0.000000000e+00
+      NODE    40 2.000000000e+00 3.600000000e+00 0.000000000e+00
+      NODE    41 2.000000000e+00 2.850000000e+00 0.000000000e+00
+      NODE    42 3.000000000e+00 9.000000000e-01 0.000000000e+00
+      NODE    43 2.000000000e+00 2.100000000e+00 0.000000000e+00
+      NODE    44 2.000000000e+00 1.350000000e+00 0.000000000e+00
+      NODE    45 1.000000000e+00 3.300000000e+00 0.000000000e+00
+      NODE    46 1.000000000e+00 2.550000000e+00 0.000000000e+00
+      NODE    47 2.000000000e+00 6.000000000e-01 0.000000000e+00
+      NODE    48 1.000000000e+00 1.800000000e+00 0.000000000e+00
+      NODE    49 1.000000000e+00 1.050000000e+00 0.000000000e+00
+      NODE    50 0.000000000e+00 3.000000000e+00 0.000000000e+00
+      NODE    51 1.000000000e+00 3.000000000e-01 0.000000000e+00
+      NODE    52 0.000000000e+00 2.250000000e+00 0.000000000e+00
+      NODE    53 0.000000000e+00 1.500000000e+00 0.000000000e+00
+      NODE    54 0.000000000e+00 7.500000000e-01 0.000000000e+00
+      NODE    55 0.000000000e+00 0.000000000e+00 0.000000000e+00
+ FIXATIONS
+     BLOCK     1   NO   NO   F0   NO   NO   F0   NO
+     BLOCK     2   NO   NO   F0   NO   NO   F0   NO
+     BLOCK     5   NO   NO   F0   NO   NO   F0   NO
+     BLOCK     8   NO   NO   F0   NO   NO   F0   NO
+     BLOCK    12   NO   NO   F0   NO   NO   F0   NO
+     BLOCK    50   F0   NO   F0   NO   NO   F0   NO
+     BLOCK    52   F0   NO   F0   NO   NO   F0   NO
+     BLOCK    53   F0   F0   F0   NO   NO   F0   NO
+     BLOCK    54   F0   NO   F0   NO   NO   F0   NO
+     BLOCK    55   F0   NO   F0   NO   NO   F0   NO
+   END_FIX
+NODOFSHELL
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha2.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha2.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha2.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha2.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha2.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha2.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+Sha1.tsh
+2
+ TRANSLATE    1    1
+ TRANSLATE    2    2
+     ELEM     1    52    46    45    50 Sha1.tsh
+     ELEM     2    53    48    46    52 Sha1.tsh
+     ELEM     3    54    49    48    53 Sha1.tsh
+     ELEM     4    55    51    49    54 Sha1.tsh
+     ELEM     5    46    41    40    45 Sha1.tsh
+     ELEM     6    48    43    41    46 Sha1.tsh
+     ELEM     7    49    44    43    48 Sha1.tsh
+     ELEM     8    51    47    44    49 Sha1.tsh
+     ELEM     9    41    36    35    40 Sha1.tsh
+     ELEM    10    43    38    36    41 Sha1.tsh
+     ELEM    11    44    39    38    43 Sha1.tsh
+     ELEM    12    47    42    39    44 Sha1.tsh
+     ELEM    13    36    31    30    35 Sha1.tsh
+     ELEM    14    38    33    31    36 Sha1.tsh
+     ELEM    15    39    34    33    38 Sha2.tsh
+     ELEM    16    42    37    34    39 Sha2.tsh
+     ELEM    17    31    26    24    30 Sha1.tsh
+     ELEM    18    33    28    26    31 Sha1.tsh
+     ELEM    19    34    29    28    33 Sha2.tsh
+     ELEM    20    37    32    29    34 Sha2.tsh
+     ELEM    21    26    21    19    24 Sha1.tsh
+     ELEM    22    28    22    21    26 Sha1.tsh
+     ELEM    23    29    25    22    28 Sha2.tsh
+     ELEM    24    32    27    25    29 Sha2.tsh
+     ELEM    25    21    14    13    19 Sha1.tsh
+     ELEM    26    22    17    14    21 Sha1.tsh
+     ELEM    27    25    20    17    22 Sha1.tsh
+     ELEM    28    27    23    20    25 Sha1.tsh
+     ELEM    29    14     9     7    13 Sha1.tsh
+     ELEM    30    17    11     9    14 Sha1.tsh
+     ELEM    31    20    16    11    17 Sha1.tsh
+     ELEM    32    23    18    16    20 Sha1.tsh
+     ELEM    33     9     4     3     7 Sha1.tsh
+     ELEM    34    11     6     4     9 Sha1.tsh
+     ELEM    35    16    10     6    11 Sha1.tsh
+     ELEM    36    18    15    10    16 Sha1.tsh
+     ELEM    37     4     2     1     3 Sha1.tsh
+     ELEM    38     6     5     2     4 Sha1.tsh
+     ELEM    39    10     8     5     6 Sha1.tsh
+     ELEM    40    15    12     8    10 Sha1.tsh
+PRECISION 1.0e-4 
+     LOADS
+  FUNCTION        F1
+   DISTRSH      1  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH      2  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH      3  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH      4  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH      5  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH      6  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH      7  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH      8  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH      9  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     10  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     11  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     12  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     13  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     14  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     15  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     16  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     17  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     18  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     19  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     20  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     21  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     22  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     23  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     24  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     25  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     26  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     27  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     28  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     29  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     30  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     31  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     32  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     33  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     34  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     35  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     36  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     37  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     38  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     39  0.00e+00  0.00e+00 -1.00e+04
+   DISTRSH     40  0.00e+00  0.00e+00 -1.00e+04
+  END_LOAD
+ MATERIALS
+SILCONC2D
+            2.00e-01   5.00e+07   5.00e+07   0.0
+STEELEC2
+           2.10e+11   3.00e-01   5.00e+08   1200.  0.
+      TIME
+      15.0      300.0
+   ENDTIME
+     EPSTH
+IMPRESSION
+ TIMEPRINT
+      60.0      300.0
+END_TIMEPR
+PRINTREACT
+PRINTSHELL
+PRNNXSHELL
+PRNMXSHELL

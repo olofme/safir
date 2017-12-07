@@ -1,0 +1,19 @@
+BeginZE C:\work\fem\safir2007\GiD2SAFIR2007\examples\ShellMember.gid\ShellMember.vv
+   x -1.41831 7.40779
+   y 2.15356 -2.16409
+   z -16.0885 15.0885
+   e 5.19615
+   v 0.491448 0.229384 0.0896765
+   r 0.835356
+   m 0.878682 0.075637 0.471378 0 0.375284 0.500874 -0.779927 0 -0.295092 0.862209 0.411724 0 0 0 0 1
+   c 3 0 0.5
+   pd 0
+   pno 0
+   pfo 0
+   pf 4
+   pv 0
+   NowUse 1
+   DrawingType 0
+   LightVector 4.22365 -15.7377 149.007 0
+EndZE C:\work\fem\safir2007\GiD2SAFIR2007\examples\ShellMember.gid\ShellMember.vv
+

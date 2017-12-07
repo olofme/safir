@@ -1,0 +1,283 @@
+Bâtiment complet
+                                                                                
+     NNODE 1077
+      NDIM    3                                                                 
+   NDDLMAX    7
+EVERY_NODE    7
+      FROM    2   TO   60 STEP    2 NDDL    1
+      FROM   63   TO  121 STEP    2 NDDL    1
+      FROM  124   TO  182 STEP    2 NDDL    1
+      FROM  185   TO  243 STEP    2 NDDL    1
+      FROM  246   TO  304 STEP    2 NDDL    1
+      FROM  307   TO  345 STEP    2 NDDL    1
+      FROM  348   TO  386 STEP    2 NDDL    1
+      FROM  389   TO  427 STEP    2 NDDL    1
+      FROM  430   TO  468 STEP    2 NDDL    1
+      FROM  471   TO  509 STEP    2 NDDL    1
+      FROM  512   TO  550 STEP    2 NDDL    1
+      FROM  553   TO  591 STEP    2 NDDL    1
+      FROM  594   TO  632 STEP    2 NDDL    1
+      FROM  635   TO  673 STEP    2 NDDL    1
+      FROM  676   TO  714 STEP    2 NDDL    1
+      FROM  717   TO  755 STEP    2 NDDL    1
+      FROM  758   TO  776 STEP    2 NDDL    1
+      FROM  779   TO  797 STEP    2 NDDL    1
+      FROM  800   TO  818 STEP    2 NDDL    1
+      FROM  821   TO  839 STEP    2 NDDL    1
+      FROM  842   TO  860 STEP    2 NDDL    1
+      FROM  863   TO  881 STEP    2 NDDL    1
+      FROM  884   TO  902 STEP    2 NDDL    1
+      FROM  905   TO  923 STEP    2 NDDL    1
+      FROM  926   TO  944 STEP    2 NDDL    1
+      FROM  947   TO  965 STEP    2 NDDL    1
+      FROM  968   TO  986 STEP    2 NDDL    1
+      FROM  989   TO 1007 STEP    2 NDDL    1
+      FROM 1010   TO 1028 STEP    2 NDDL    1
+      FROM 1031   TO 1049 STEP    2 NDDL    1
+      FROM 1052   TO 1070 STEP    2 NDDL    1
+      FROM 1072   TO 1077 STEP    1 NDDL    0
+                                 
+END_NDDL
+   DYNAMIC    PURE_NR
+   DAMPING    0.0                                                       
+     NLOAD    1                                                                 
+   OBLIQUE    0                                                                 
+  COMEBACK    0.0001                                                         
+     NORENUM    
+      NMAT    1                                                                 
+  ELEMENTS                                                                      
+      BEAM  520    2
+        NG    2                                                                 
+    NFIBER  464                                                              
+END_ELEM                                                                                
+     NODES
+  NODE	  1	0.	0     0.  	! COLUMNS
+ GNODE	 61	0.	0    15.   1
+REPEAT   61     6.      0.    0.   2
+  NODE  184     0.     12.    0.
+ GNODE  244     0.     12.   15.   1
+REPEAT   61    12.      0.    0.   1 
+  NODE  306     0.     24.    0.
+ GNODE  346     0.     24.   10.   1
+REPEAT   41     6.      0.    0.   2
+  NODE  429     0.      0.    5.	! BEAMS // X
+ GNODE  469    12.      0.    5.   1
+REPEAT   41     0.      0.    5.   2
+REPEAT  123     0.     12.    0.   1
+  NODE  675     0.     24.    5.
+ GNODE  715    12.     24.    5.   1
+REPEAT   41     0.      0.    5.   1
+  NODE  757     0.      0.    5.	! BEAMS // Y
+ GNODE  777     0.     12.    5.   1
+REPEAT   21     0.     12.    0.   1
+REPEAT   42     6.      0.    0.   2
+REPEAT  126     0.      0.    5.   1
+  NODE 1009     0.      0.   15.
+ GNODE 1029     0.     12.   15.   1
+REPEAT   21     6.      0.    0.   2
+  NODE 1072    13.      0.   16.
+ GNODE 1074    13.     24.   16.   1
+  NODE 1075     0.     25.   16.
+ GNODE 1077    12.     25.   16.   1
+
+ FIXATIONS                                                                      
+     BLOCK    1      F0    F0    F0     NO    NO    F0    F0
+     BLOCK   62      F0    F0    F0     NO    NO    F0    F0
+     BLOCK  123      F0    F0    F0     NO    NO    F0    F0
+     BLOCK  184      F0    F0    F0     NO    NO    F0    F0
+     BLOCK  245      F0    F0    F0     NO    NO    F0    F0
+     BLOCK  306      F0    F0    F0     NO    NO    F0    F0
+     BLOCK  347      F0    F0    F0     NO    NO    F0    F0
+     BLOCK  388      F0    F0    F0     NO    NO    F0    F0
+     BLOCK  265      F0    F0    NO     NO    NO    NO    NO
+     BLOCK  285      F0    F0    NO     NO    NO    NO    NO
+     BLOCK  305      F0    F0    NO     NO    NO    NO    NO
+     BLOCK  204      NO    F0    NO     NO    NO    NO    NO
+     BLOCK  224      NO    F0    NO     NO    NO    NO    NO
+     BLOCK  244      NO    F0    NO     NO    NO    NO    NO
+      SAME  429   21 YES   YES   YES   YES   YES   YES    NO
+      SAME  757   21 YES   YES   YES    NO   YES    NO    NO
+      SAME  470   41 YES   YES   YES   YES   YES   YES    NO
+      SAME  883   41 YES   YES   YES    NO   YES    NO    NO
+      SAME  511   61 YES   YES   YES   YES   YES   YES    NO
+      SAME 1009   61 YES   YES   YES    NO   YES    NO    NO
+      SAME  449   82 YES   YES   YES   YES   YES   YES    NO
+      SAME  799   82 YES   YES   YES    NO   YES    NO    NO
+      SAME  490  102 YES   YES   YES   YES   YES   YES    NO
+      SAME  925  102 YES   YES   YES    NO   YES    NO    NO
+      SAME  531  122 YES   YES   YES   YES   YES   YES    NO
+      SAME 1030  122 YES   YES   YES    NO   YES    NO    NO
+      SAME  469  143 YES   YES   YES   YES   YES   YES    NO
+      SAME  841  143 YES   YES   YES    NO   YES    NO    NO
+      SAME  510  163 YES   YES   YES   YES   YES   YES    NO
+      SAME  967  163 YES   YES   YES    NO   YES    NO    NO
+      SAME  551  183 YES   YES   YES   YES   YES   YES    NO
+      SAME 1051  183 YES   YES   YES    NO   YES    NO    NO
+      SAME  777  204 YES   YES   YES    NO   YES    NO    NO
+      SAME  778  204 YES   YES   YES    NO   YES    NO    NO
+      SAME  552  204 YES   YES   YES   YES   YES   YES    NO
+      SAME  903  224 YES   YES   YES    NO   YES    NO    NO
+      SAME  904  224 YES   YES   YES    NO   YES    NO    NO
+      SAME  593  224 YES   YES   YES   YES   YES   YES    NO
+      SAME 1029  244 YES   YES   YES    NO   YES    NO    NO
+      SAME  634  244 YES   YES   YES   YES   YES   YES    NO
+      SAME  819  572 YES   YES   YES   YES   YES   YES    NO
+      SAME  820  572 YES   YES   YES   YES   YES   YES    NO 
+      SAME  945  613 YES   YES   YES    NO   YES    NO    NO
+      SAME  946  613 YES   YES   YES    NO   YES    NO    NO 
+      SAME 1050  654 YES   YES   YES    NO   YES    NO    NO
+      SAME  861  265 YES   YES   YES    NO   YES    NO    NO
+      SAME  862  265 YES   YES   YES    NO   YES    NO    NO
+      SAME  592  265 YES   YES   YES   YES   YES   YES    NO
+      SAME  987  285 YES   YES   YES    NO   YES    NO    NO
+      SAME  988  285 YES   YES   YES    NO   YES    NO    NO
+      SAME  633  285 YES   YES   YES   YES   YES   YES    NO
+      SAME 1071  305 YES   YES   YES    NO   YES    NO    NO
+      SAME  674  305 YES   YES   YES   YES   YES   YES    NO
+      SAME  798  326 YES   YES   YES    NO   YES    NO    NO
+      SAME  675  326 YES   YES   YES   YES   YES   YES    NO
+      SAME  924  346 YES   YES   YES    NO   YES    NO    NO
+      SAME  716  346 YES   YES   YES   YES   YES   YES    NO
+      SAME  695  367 YES   YES   YES   YES   YES   YES    NO
+      SAME  840  367 YES   YES   YES    NO   YES    NO    NO
+      SAME  736  387 YES   YES   YES   YES   YES   YES    NO
+      SAME  966  387 YES   YES   YES    NO   YES    NO    NO
+      SAME  882  408 YES   YES   YES    NO   YES    NO    NO
+      SAME  715  408 YES   YES   YES   YES   YES   YES    NO
+      SAME 1008  428 YES   YES   YES    NO   YES    NO    NO
+      SAME  756  428 YES   YES   YES   YES   YES   YES    NO
+
+   END_FIX
+ NODOFBEAM                                                                      
+  b0001_1.tem                                                                      
+ TRANSLATE    1    1   
+ END_TRANS                                                                         
+  hea260COLD.tem                                                                      
+ TRANSLATE    1    1   
+ END_TRANS                                                                         
+  ELEM	 1	 1	 2	 3    1072   1		! COLUMNS	
+ GELEM  10      19      20      21    1072   1  2
+  ELEM  11      21      22      23    1072   2
+ GELEM	30	59	60	61    1072   2	2
+  ELEM	31	62	63	64    1072   1
+ GELEM  40      80      81      82    1072   1  2
+  ELEM  41      82      83      84    1072   2		
+ GELEM	60     120     121     122    1072   2	2
+  ELEM	61     123     124     125    1072   1
+ GELEM  70     141     142     143    1072   1  2
+  ELEM  71     143     144     145    1072   2		
+ GELEM	90     180     181     182    1072   2	2
+  ELEM  91     184     185     186    1073   1
+ GELEM 100     202     203     204    1073   1  2
+  ELEM 101     204     205     206    1073   2
+ GELEM 120     242     243     244    1073   2  2
+  ELEM 121     245     246     247    1073   1
+ GELEM 130     263     264     265    1073   1  2
+  ELEM 131     265     266     267    1073   2
+ GELEM 150     303     304     305    1073   2  2
+  ELEM 151     306     307     308    1074   1
+ GELEM 160     324     325     326    1074   1  2
+  ELEM 161     326     327     328    1074   2
+ GELEM 170     344     345     346    1074   2  2
+  ELEM 171     347     348     349    1074   1
+ GELEM 180     365     366     367    1074   1  2
+  ELEM 181     367     368     369    1074   2
+ GELEM 190     385     386     387    1074   2  2
+  ELEM 191     388     389     390    1074   1
+ GELEM 200     406     407     408    1074   1  2
+  ELEM 201     408     409     410    1074   1
+ GELEM 210     426     427     428    1074   2  2
+  ELEM 211     429     430     431    1072   1		! BEAMS // X
+ GELEM 230     467     468     469    1072   1  2
+  ELEM 231     470     471     472    1072   2
+ GELEM 250     508     509     510    1072   2  2
+  ELEM 251     511     512     513    1072   2
+ GELEM 270     549     550     551    1072   2  2
+  ELEM 271     552     553     554    1073   1
+ GELEM 290     590     591     592    1073   1  2
+  ELEM 291     593     594     595    1073   2
+ GELEM 310     631     632     633    1073   2  2
+  ELEM 311     634     635     636    1073   2
+ GELEM 330     631     632     633    1073   2  2
+  ELEM 331     675     676     677    1074   1
+ GELEM 350     713     714     715    1074   1  2
+  ELEM 351     716     717     718    1074   2
+ GELEM 370     754     755     756    1074   2  2
+  ELEM 371     757     758     759    1075   1		! BEAMS // Y
+ GELEM 380     775     776     777    1075   1  2
+  ELEM 381     778     779     780    1075   1
+ GELEM 390     796     797     798    1075   1  2
+  ELEM 391     799     800     801    1076   1
+ GELEM 400     817     818     819    1076   1  2
+  ELEM 401     820     821     822    1076   1
+ GELEM 410     838     839     840    1076   1  2
+  ELEM 411     841     842     843    1077   1
+ GELEM 420     859     860     861    1077   1  2
+  ELEM 421     862     863     864    1077   1
+ GELEM 430     880     881     882    1077   1  2
+  ELEM 431     883     884     885    1075   2
+ GELEM 440     901     902     903    1075   2  2
+  ELEM 441     904     905     906    1075   2
+ GELEM 450     922     923     924    1075   2  2
+  ELEM 451     925     926     927    1076   2
+ GELEM 460     943     944     945    1076   2  2
+  ELEM 461     946     947     948    1076   2
+ GELEM 470     964     965     966    1076   2  2
+  ELEM 471     967     968     969    1077   2
+ GELEM 480     985     986     987    1077   2  2
+  ELEM 481     988     989     990    1077   2
+ GELEM 490    1006    1007    1008    1077   2  2
+  ELEM 491    1009    1010    1011    1075   2
+ GELEM 500    1027    1028    1029    1075   2  2
+  ELEM 501    1030    1031    1032    1076   2
+ GELEM 510    1048    1049    1050    1076   2  2
+  ELEM 511    1051    1052    1053    1077   2
+ GELEM 520    1069    1070    1071    1077   2  2
+
+ PRECISION     1.E-3                                                            
+     LOADS                                                                      
+  FUNCTION     FLOAD
+ DISTRBEAM      1       0.  0.  -2050.
+GDISTRBEAM    520       0.  0.  -2050.     1
+
+ DISTRBEAM    371       0.  0.  -3000.      
+GDISTRBEAM    390       0.  0.  -3000.     1
+ DISTRBEAM    391       0.  0.  -10000.      
+GDISTRBEAM    410       0.  0.  -10000.    1
+ DISTRBEAM    411       0.  0.  -3000.      
+GDISTRBEAM    430       0.  0.  -3000.     1
+                                 
+ DISTRBEAM    431       0.  0.  -3000.      
+GDISTRBEAM    450       0.  0.  -3000.     1
+ DISTRBEAM    451       0.  0.  -10000.     
+GDISTRBEAM    470       0.  0.  -10000.    1
+ DISTRBEAM    471       0.  0.  -3000.      
+GDISTRBEAM    490       0.  0.  -3000.     1
+                                 
+ DISTRBEAM    491       0.  0.  -3000.      
+GDISTRBEAM    500       0.  0.  -3000.     1
+ DISTRBEAM    501       0.  0.  -10000.     
+GDISTRBEAM    510       0.  0.  -10000.    1
+ DISTRBEAM    511       0.  0.  -3000.      
+GDISTRBEAM    520       0.  0.  -3000.     1
+ END_LOAD 
+
+MASS
+  M_BEAM    1      205.    1.1
+ GM_BEAM  520      205.    1.1     1 
+  M_BEAM  371      500.    1.1
+ GM_BEAM  520      500.    1.1     1   
+ END_MASS
+ MATERIALS                     
+  STEELEC3EN
+    210.E9       0.3      355.0E6   1200.   0.
+    
+      TIME                                                                      
+               4.096    3600.     16.384
+   ENDTIME
+     EPSTH                                                                      
+IMPRESSION
+ TIMEPRINT       
+               .01  3600.
+END_TIMEPR
+   PRINTMN

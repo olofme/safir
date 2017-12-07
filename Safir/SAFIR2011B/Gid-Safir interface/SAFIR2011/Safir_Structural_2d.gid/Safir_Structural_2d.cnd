@@ -1,0 +1,130 @@
+BOOK: Constraints
+NUMBER: 1 CONDITION: Point-Constraints
+CONDTYPE: over points
+CONDMESHTYPE: over nodes
+QUESTION: Local-Axes#LA#(-GLOBAL-)
+VALUE: -GLOBAL-
+QUESTION: X-Constraint:#CB#(1,0)
+VALUE: 1
+QUESTION: Y-Constraint:#CB#(1,0)
+VALUE: 1
+QUESTION: ROTZ.Constraint:#CB#(1,0)
+VALUE: 0
+END CONDITION
+NUMBER: 2 CONDITION: Oblique_Support
+CONDTYPE: over points
+CONDMESHTYPE: over nodes
+QUESTION: Delta-X
+VALUE: 0.0
+HELP: Delta-X coordinate for second point of oblique line
+QUESTION: Delta-Y
+VALUE: 0.0
+HELP: Delta-Y coordinate for second point of oblique line
+END CONDITION
+BOOK: Connections
+NUMBER: 3 CONDITION: Point_Disconnect_degrees
+CONDTYPE: over points
+CANREPEAT: yes
+HELP: To disconnect some degrees in one point, select the degrees to disconnect and give an Identifier. Then, assign the same identifier using condition 'Disconnect_Id' to all the beam elements that must form a rigid group disconnected from the node.\nExample: if the rotation is marked in one node with identifier 'Id1', and the same identifier 'Id1' is assigned to several beam elements that are conected this node then, these beams will be rigid between them and will rotate freely related to the rest beam
+QUESTION: Identifier
+VALUE: Id1
+TKWIDGET: DisconnectConditions::ComunicateWithGiD
+STATE: HIDDEN
+QUESTION: Disconnect_x_displacement#CB#(1,0)
+VALUE: 0
+QUESTION: Disconnect_y_displacement#CB#(1,0)
+VALUE: 0
+QUESTION: Disconnect_z_rotation#CB#(1,0)
+VALUE: 0
+END CONDITION
+NUMBER: 4 CONDITION: Line_Disconnect_Id
+CONDTYPE: over lines
+CONDMESHTYPE: over body elements
+CANREPEAT: yes
+HELP: This condition is used to identify beams ir order to disconnect degrees in some nodes. Must be used related to condition 'Disconnect_degrees'. Check the help on that condition for details.
+QUESTION: Identifier
+VALUE: Id1
+TKWIDGET: DisconnectConditions::ComunicateWithGiD
+STATE: HIDDEN
+END CONDITION
+BOOK: Loads
+NUMBER: 5 CONDITION: Point-Load
+CONDTYPE: over points
+CONDMESHTYPE: over nodes
+QUESTION: X-Force
+VALUE: 0.0
+QUESTION: Y-Force
+VALUE: 0.0
+QUESTION: Z-Moment
+VALUE: 0.0
+END CONDITION
+NUMBER: 6 CONDITION: Beam-Load
+CONDTYPE: over lines
+CONDMESHTYPE: over body elements
+QUESTION: X_preassure
+VALUE: 0.0
+QUESTION: Y_preassure
+VALUE: 0.0
+END CONDITION
+BOOK: Properties
+NUMBER: 7 CONDITION: BEAM_Cross_Section
+CONDTYPE: over lines
+CONDMESHTYPE: over body elements
+QUESTION: File-Name
+VALUE: safir.tem
+HELP: Enter the file name of the .tem file for this beam cross section.
+QUESTION: Number_of_materials#CB#(1,2,3,4)
+VALUE: 1
+HELP: Select the number of materials in this .tem file
+DEPENDENCIES: (1, SET, Mat2_Global_Nr, #CURRENT#, SET, Mat3_Global_Nr, #CURRENT#, SET, Mat4_Global_Nr, #CURRENT#)
+DEPENDENCIES: (2, RESTORE, Mat1_Global_Nr, #CURRENT#, RESTORE, Mat2_Global_Nr, #CURRENT#, SET, Mat3_Global_Nr, #CURRENT#, SET, Mat4_Global_Nr, #CURRENT#)
+DEPENDENCIES: (3, RESTORE, Mat1_Global_Nr, #CURRENT#, RESTORE, Mat2_Global_Nr, #CURRENT#, RESTORE, Mat3_Global_Nr, #CURRENT#, SET, Mat4_Global_Nr, #CURRENT#)
+DEPENDENCIES: (4, RESTORE, Mat1_Global_Nr, #CURRENT#, RESTORE, Mat2_Global_Nr, #CURRENT#, RESTORE, Mat3_Global_Nr, #CURRENT#, RESTORE, Mat4_Global_Nr, #CURRENT#)
+QUESTION: Mat1_Global_Nr
+VALUE: 1
+HELP: Enter the global material number for the 1. material in this .tem file.
+QUESTION: Mat2_Global_Nr
+VALUE: 2
+HELP: Enter the global material number for the 2. material in this .tem file.
+STATE: DISABLED
+QUESTION: Mat3_Global_Nr
+VALUE: 3
+HELP: Enter the global material number for the 3. material in this .tem file.
+STATE: DISABLED
+QUESTION: Mat4_Global_Nr
+VALUE: 4
+HELP: Enter the global material number for the 4. material in this .tem file.
+STATE: DISABLED
+END CONDITION
+NUMBER: 8 CONDITION: TRUSS_Cross_Section
+CONDTYPE: over lines
+CONDMESHTYPE: over body elements
+QUESTION: Temperature_File-Name
+VALUE: temp.txt
+QUESTION: Area
+VALUE: 0.0
+QUESTION: Residual_stess
+VALUE: 0.0
+QUESTION: Global_material_number
+VALUE: 0
+END CONDITION
+BOOK: Mass for Dynamic Calculation
+NUMBER: 9 CONDITION: Mass_on_Node
+CONDTYPE: over points
+CONDMESHTYPE: over nodes
+QUESTION: Mass_1
+Help: Mass linked to degree of freedom 1
+VALUE: 0.0
+QUESTION: Mass_2
+Help: Mass linked to degree of freedom 2
+VALUE: 0.0
+END CONDITION
+NUMBER: 10 CONDITION: Mass_on_Beam
+CONDTYPE: over lines
+CONDMESHTYPE: over body elements
+QUESTION: Distributed-Beam-Mass
+Help: Uniformly distributed mass applied on the beam element(kg/m) 
+VALUE: 0.0
+END CONDITION
+
+

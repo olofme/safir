@@ -1,0 +1,28 @@
+NUMBER: 1 MATERIAL: STEEL
+HELP: Steel according Eurocode 3
+ QUESTION: MaterialType#CB#(STEELEC3,STEELEC3DC,STEELEC2,PSTEELA16)
+ VALUE: STEELEC3
+ QUESTION: Convection_Coeff_hot
+ VALUE: 25
+ QUESTION: Convection_Coeff_cold
+ VALUE: 4
+ QUESTION: Relative_Emission
+ VALUE: 0.7
+END MATERIAL
+NUMBER: 2 MATERIAL: CONCRETE
+ QUESTION: MaterialType#CB#(SILCONC_EN,CALCONC_EN)
+ VALUE: SILCONC_EN
+ QUESTION: Specific_mass
+ VALUE: 2400.
+ QUESTION: Moisture_content
+ VALUE: 46
+ QUESTION: Convection_Coeff_hot
+ VALUE: 25
+ QUESTION: Convection_Coeff_cold
+ VALUE: 4
+ QUESTION: Relative_Emission
+ VALUE: 0.7
+ QUESTION: Parameter_of_thermal_conductivity
+ VALUE: 0.5
+END MATERIAL
+

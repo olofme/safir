@@ -1,0 +1,66 @@
+A one storey one bay steel frame
+
+     NNODE   61
+      NDIM    2
+   NDDLMAX    3
+      FROM    1   TO   61 STEP    2 NDDL    3
+      FROM    2   TO   60 STEP    2 NDDL    1
+END_NDDL
+    DYNAMIC  PURE_NR
+     NLOAD    1
+   OBLIQUE    0
+  COMEBACK     0.001
+   NORENUM
+      NMAT    1
+  ELEMENTS
+      BEAM   30    1
+        NG    2
+    NFIBER   94
+END_ELEM
+     NODES
+      NODE    1   0.00000   0.00000
+     GNODE   21   0.00000   5.00000    1
+     GNODE   31   6.00000   7.00000    1
+     GNODE   41  12.00000   5.00000    1
+     GNODE   61  12.00000   0.00000    1
+ FIXATIONS
+     BLOCK    1             F0        F0        NO
+     BLOCK   61             F0        F0        NO
+END_FIX
+ NODOFBEAM							! BEAM finite elements
+H_SECTION.tem
+ TRANSLATE    1    1
+END_TRANS
+ELEM     1    1    2    3    1
+GELEM   30   59   60   61    1    2
+PRECISION     1.E-3
+     LOADS
+  FUNCTION        F1
+ DISTRBEAM         1        0.   -613.				! DEAD WEIGHT OF THE H SECTION
+GDISTRBEAM        30        0.   -613.    1
+ DISTRBEAM        11        0.  -1500.				! DEAD WEIGHT OF THE ROOF
+GDISTRBEAM        20        0.  -1500.    1
+ DISTRBEAM         1      400.      0.				! WIND LOAD
+GDISTRBEAM        10      400.      0.    1
+ DISTRBEAM        21      250.      0.				! WIND LOAD
+GDISTRBEAM        30      250.      0.    1
+END_LOAD
+MASS
+    M_BEAM         1      1400.    1.		
+   GM_BEAM        30      1400.    1.     1
+END_MASS
+ MATERIALS
+STEELEC3EN
+    210.E9       0.3   355.0E6       1200.     0.
+      TIME
+     0.1    7200.0   25.6
+END_TIME
+LARGEDISPL
+     EPSTH
+IMPRESSION
+ TIMEPRINT   
+            10.   7200.
+END_TIMEPR            
+   PRINTMN
+PRINTREACT
+

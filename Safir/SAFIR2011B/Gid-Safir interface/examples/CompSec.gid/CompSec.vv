@@ -1,0 +1,19 @@
+BeginZE C:\work\fem\safir2007\GiD2SAFIR2007\examples\CompSec.gid\CompSec.vv
+   x -0.742256 0.742256
+   y 0.365483 -0.365483
+   z -0.924915 0.924915
+   e 0.308305
+   v 0 0 0
+   r 1
+   m 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+   c 0 0 0
+   pd 0
+   pno 0
+   pfo 0
+   pf 4
+   pv 0
+   NowUse 0
+   DrawingType 0
+   LightVector 4.22365 -15.7377 149.007 0
+EndZE C:\work\fem\safir2007\GiD2SAFIR2007\examples\CompSec.gid\CompSec.vv
+

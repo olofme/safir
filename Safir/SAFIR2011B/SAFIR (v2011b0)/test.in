@@ -1,0 +1,314 @@
+Profile: HE 100 AA      Type: HE
+Fire curve: FISO - Exposed Faces:1 1 1 0
+Protected with: (None) 0 mm  0 mm  0 mm;
+
+     NNODE  118
+      NDIM    2
+   NDOFMAX    1
+      FROM    1   TO  118 STEP    1 NDOF    1
+  END_NDOF
+  TEMPERAT
+      TETA       0.9
+  TINITIAL      20.0
+  MAKE.TEM
+   NORENUM
+test.tem
+      NMAT    1
+  ELEMENTS
+     SOLID   62
+        NG    2
+     NVOID    0
+  END_ELEM
+     NODES
+      NODE    1    0.0455   -0.0500
+      NODE    2    0.0455   -0.0460
+      NODE    3    0.0455   -0.0420
+      NODE    4    0.0455   -0.0380
+      NODE    5    0.0455   -0.0340
+      NODE    6    0.0455   -0.0300
+      NODE    7    0.0455   -0.0260
+      NODE    8    0.0455   -0.0220
+      NODE    9    0.0455   -0.0180
+      NODE   10    0.0455   -0.0140
+      NODE   11    0.0455   -0.0100
+      NODE   12    0.0455   -0.0021
+      NODE   13    0.0455    0.0021
+      NODE   14    0.0455    0.0100
+      NODE   15    0.0455    0.0140
+      NODE   16    0.0455    0.0180
+      NODE   17    0.0455    0.0220
+      NODE   18    0.0455    0.0260
+      NODE   19    0.0455    0.0300
+      NODE   20    0.0455    0.0340
+      NODE   21    0.0455    0.0380
+      NODE   22    0.0455    0.0420
+      NODE   23    0.0455    0.0460
+      NODE   24    0.0455    0.0500
+      NODE   25    0.0400   -0.0500
+      NODE   26    0.0400   -0.0460
+      NODE   27    0.0400   -0.0420
+      NODE   28    0.0400   -0.0380
+      NODE   29    0.0400   -0.0340
+      NODE   30    0.0400   -0.0300
+      NODE   31    0.0400   -0.0260
+      NODE   32    0.0400   -0.0220
+      NODE   33    0.0400   -0.0180
+      NODE   34    0.0400   -0.0140
+      NODE   35    0.0400   -0.0100
+      NODE   36    0.0400   -0.0021
+      NODE   37    0.0400    0.0021
+      NODE   38    0.0400    0.0100
+      NODE   39    0.0400    0.0140
+      NODE   40    0.0400    0.0180
+      NODE   41    0.0400    0.0220
+      NODE   42    0.0400    0.0260
+      NODE   43    0.0400    0.0300
+      NODE   44    0.0400    0.0340
+      NODE   45    0.0400    0.0380
+      NODE   46    0.0400    0.0420
+      NODE   47    0.0400    0.0460
+      NODE   48    0.0400    0.0500
+      NODE   49    0.0321   -0.0021
+      NODE   50    0.0321    0.0021
+      NODE   51    0.0257   -0.0021
+      NODE   52    0.0257    0.0021
+      NODE   53    0.0193   -0.0021
+      NODE   54    0.0193    0.0021
+      NODE   55    0.0129   -0.0021
+      NODE   56    0.0129    0.0021
+      NODE   57    0.0064   -0.0021
+      NODE   58    0.0064    0.0021
+      NODE   59    0.0000   -0.0021
+      NODE   60    0.0000    0.0021
+      NODE   61   -0.0064   -0.0021
+      NODE   62   -0.0064    0.0021
+      NODE   63   -0.0129   -0.0021
+      NODE   64   -0.0129    0.0021
+      NODE   65   -0.0193   -0.0021
+      NODE   66   -0.0193    0.0021
+      NODE   67   -0.0257   -0.0021
+      NODE   68   -0.0257    0.0021
+      NODE   69   -0.0321   -0.0021
+      NODE   70   -0.0321    0.0021
+      NODE   71   -0.0400   -0.0500
+      NODE   72   -0.0400   -0.0460
+      NODE   73   -0.0400   -0.0420
+      NODE   74   -0.0400   -0.0380
+      NODE   75   -0.0400   -0.0340
+      NODE   76   -0.0400   -0.0300
+      NODE   77   -0.0400   -0.0260
+      NODE   78   -0.0400   -0.0220
+      NODE   79   -0.0400   -0.0180
+      NODE   80   -0.0400   -0.0140
+      NODE   81   -0.0400   -0.0100
+      NODE   82   -0.0400   -0.0021
+      NODE   83   -0.0400    0.0021
+      NODE   84   -0.0400    0.0100
+      NODE   85   -0.0400    0.0140
+      NODE   86   -0.0400    0.0180
+      NODE   87   -0.0400    0.0220
+      NODE   88   -0.0400    0.0260
+      NODE   89   -0.0400    0.0300
+      NODE   90   -0.0400    0.0340
+      NODE   91   -0.0400    0.0380
+      NODE   92   -0.0400    0.0420
+      NODE   93   -0.0400    0.0460
+      NODE   94   -0.0400    0.0500
+      NODE   95   -0.0455   -0.0500
+      NODE   96   -0.0455   -0.0460
+      NODE   97   -0.0455   -0.0420
+      NODE   98   -0.0455   -0.0380
+      NODE   99   -0.0455   -0.0340
+      NODE  100   -0.0455   -0.0300
+      NODE  101   -0.0455   -0.0260
+      NODE  102   -0.0455   -0.0220
+      NODE  103   -0.0455   -0.0180
+      NODE  104   -0.0455   -0.0140
+      NODE  105   -0.0455   -0.0100
+      NODE  106   -0.0455   -0.0021
+      NODE  107   -0.0455    0.0021
+      NODE  108   -0.0455    0.0100
+      NODE  109   -0.0455    0.0140
+      NODE  110   -0.0455    0.0180
+      NODE  111   -0.0455    0.0220
+      NODE  112   -0.0455    0.0260
+      NODE  113   -0.0455    0.0300
+      NODE  114   -0.0455    0.0340
+      NODE  115   -0.0455    0.0380
+      NODE  116   -0.0455    0.0420
+      NODE  117   -0.0455    0.0460
+      NODE  118   -0.0455    0.0500
+  NODELINE              0         0
+     YC_ZC              0         0
+ FIXATIONS
+   END_FIX
+NODOFSOLID
+      ELEM    1    1   25   26    2    1   0.
+      ELEM    2    2   26   27    3    1   0.
+      ELEM    3    3   27   28    4    1   0.
+      ELEM    4    4   28   29    5    1   0.
+      ELEM    5    5   29   30    6    1   0.
+      ELEM    6    6   30   31    7    1   0.
+      ELEM    7    7   31   32    8    1   0.
+      ELEM    8    8   32   33    9    1   0.
+      ELEM    9    9   33   34   10    1   0.
+      ELEM   10   10   34   35   11    1   0.
+      ELEM   11   11   35   36   12    1   0.
+      ELEM   12   12   36   37   13    1   0.
+      ELEM   13   13   37   38   14    1   0.
+      ELEM   14   14   38   39   15    1   0.
+      ELEM   15   15   39   40   16    1   0.
+      ELEM   16   16   40   41   17    1   0.
+      ELEM   17   17   41   42   18    1   0.
+      ELEM   18   18   42   43   19    1   0.
+      ELEM   19   19   43   44   20    1   0.
+      ELEM   20   20   44   45   21    1   0.
+      ELEM   21   21   45   46   22    1   0.
+      ELEM   22   22   46   47   23    1   0.
+      ELEM   23   23   47   48   24    1   0.
+      ELEM   24   35   49   36    0    1   0.
+      ELEM   25   36   49   50   37    1   0.
+      ELEM   26   37   50   38    0    1   0.
+      ELEM   27   49   51   52   50    1   0.
+      ELEM   28   51   53   54   52    1   0.
+      ELEM   29   53   55   56   54    1   0.
+      ELEM   30   55   57   58   56    1   0.
+      ELEM   31   57   59   60   58    1   0.
+      ELEM   32   59   61   62   60    1   0.
+      ELEM   33   61   63   64   62    1   0.
+      ELEM   34   63   65   66   64    1   0.
+      ELEM   35   65   67   68   66    1   0.
+      ELEM   36   67   69   70   68    1   0.
+      ELEM   37   69   81   82    0    1   0.
+      ELEM   38   69   82   83   70    1   0.
+      ELEM   39   70   83   84    0    1   0.
+      ELEM   40   71   95   96   72    1   0.
+      ELEM   41   72   96   97   73    1   0.
+      ELEM   42   73   97   98   74    1   0.
+      ELEM   43   74   98   99   75    1   0.
+      ELEM   44   75   99  100   76    1   0.
+      ELEM   45   76  100  101   77    1   0.
+      ELEM   46   77  101  102   78    1   0.
+      ELEM   47   78  102  103   79    1   0.
+      ELEM   48   79  103  104   80    1   0.
+      ELEM   49   80  104  105   81    1   0.
+      ELEM   50   81  105  106   82    1   0.
+      ELEM   51   82  106  107   83    1   0.
+      ELEM   52   83  107  108   84    1   0.
+      ELEM   53   84  108  109   85    1   0.
+      ELEM   54   85  109  110   86    1   0.
+      ELEM   55   86  110  111   87    1   0.
+      ELEM   56   87  111  112   88    1   0.
+      ELEM   57   88  112  113   89    1   0.
+      ELEM   58   89  113  114   90    1   0.
+      ELEM   59   90  114  115   91    1   0.
+      ELEM   60   91  115  116   92    1   0.
+      ELEM   61   92  116  117   93    1   0.
+      ELEM   62   93  117  118   94    1   0.
+  FRONTIER
+    F    1      FISO          NO          NO          NO
+    F    1          NO      FISO          NO          NO
+    F    2          NO      FISO          NO          NO
+    F    3          NO      FISO          NO          NO
+    F    4          NO      FISO          NO          NO
+    F    5          NO      FISO          NO          NO
+    F    6          NO      FISO          NO          NO
+    F    7          NO      FISO          NO          NO
+    F    8          NO      FISO          NO          NO
+    F    9          NO      FISO          NO          NO
+    F   10          NO      FISO          NO          NO
+    F   24      FISO          NO          NO          NO
+    F   27      FISO          NO          NO          NO
+    F   28      FISO          NO          NO          NO
+    F   29      FISO          NO          NO          NO
+    F   30      FISO          NO          NO          NO
+    F   31      FISO          NO          NO          NO
+    F   32      FISO          NO          NO          NO
+    F   33      FISO          NO          NO          NO
+    F   34      FISO          NO          NO          NO
+    F   35      FISO          NO          NO          NO
+    F   36      FISO          NO          NO          NO
+    F   37      FISO          NO          NO          NO
+    F   40          NO          NO          NO      FISO
+    F   41          NO          NO          NO      FISO
+    F   42          NO          NO          NO      FISO
+    F   43          NO          NO          NO      FISO
+    F   44          NO          NO          NO      FISO
+    F   45          NO          NO          NO      FISO
+    F   46          NO          NO          NO      FISO
+    F   47          NO          NO          NO      FISO
+    F   48          NO          NO          NO      FISO
+    F   49          NO          NO          NO      FISO
+    F   40      FISO          NO          NO          NO
+    F   40          NO      FISO          NO          NO
+    F   41          NO      FISO          NO          NO
+    F   42          NO      FISO          NO          NO
+    F   43          NO      FISO          NO          NO
+    F   44          NO      FISO          NO          NO
+    F   45          NO      FISO          NO          NO
+    F   46          NO      FISO          NO          NO
+    F   47          NO      FISO          NO          NO
+    F   48          NO      FISO          NO          NO
+    F   49          NO      FISO          NO          NO
+    F   50          NO      FISO          NO          NO
+    F   51          NO      FISO          NO          NO
+    F   52          NO      FISO          NO          NO
+    F   53          NO      FISO          NO          NO
+    F   54          NO      FISO          NO          NO
+    F   55          NO      FISO          NO          NO
+    F   56          NO      FISO          NO          NO
+    F   57          NO      FISO          NO          NO
+    F   58          NO      FISO          NO          NO
+    F   59          NO      FISO          NO          NO
+    F   60          NO      FISO          NO          NO
+    F   61          NO      FISO          NO          NO
+    F   62          NO      FISO          NO          NO
+    F   23          NO          NO      FISO          NO
+    F   23          NO      FISO          NO          NO
+    F   22          NO      FISO          NO          NO
+    F   21          NO      FISO          NO          NO
+    F   20          NO      FISO          NO          NO
+    F   19          NO      FISO          NO          NO
+    F   18          NO      FISO          NO          NO
+    F   17          NO      FISO          NO          NO
+    F   16          NO      FISO          NO          NO
+    F   15          NO      FISO          NO          NO
+    F   14          NO      FISO          NO          NO
+    F   26          NO      FISO          NO          NO
+    F   27          NO          NO      FISO          NO
+    F   28          NO          NO      FISO          NO
+    F   29          NO          NO      FISO          NO
+    F   30          NO          NO      FISO          NO
+    F   31          NO          NO      FISO          NO
+    F   32          NO          NO      FISO          NO
+    F   33          NO          NO      FISO          NO
+    F   34          NO          NO      FISO          NO
+    F   35          NO          NO      FISO          NO
+    F   36          NO          NO      FISO          NO
+    F   39          NO          NO      FISO          NO
+    F   53          NO          NO          NO      FISO
+    F   54          NO          NO          NO      FISO
+    F   55          NO          NO          NO      FISO
+    F   56          NO          NO          NO      FISO
+    F   57          NO          NO          NO      FISO
+    F   58          NO          NO          NO      FISO
+    F   59          NO          NO          NO      FISO
+    F   60          NO          NO          NO      FISO
+    F   61          NO          NO          NO      FISO
+    F   62          NO          NO          NO      FISO
+    F   62          NO          NO      FISO          NO
+ END_FRONT
+  SYMMETRY
+   END_SYM
+ PRECISION     1.E-3
+ MATERIALS
+  STEELEC3
+                 25.        9.      0.50
+      TIME
+                 12.     2400.
+  END_TIME
+IMPRESSION
+ TIMEPRINT
+                 60.     2400.
+END_TIMEPR
+

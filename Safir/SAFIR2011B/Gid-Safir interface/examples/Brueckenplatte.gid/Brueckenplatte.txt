@@ -1,0 +1,118 @@
+
+Structural3dfix converts .dat-file to .in-file
+
+NODOFSHELL gefunden
+GiD-ShellNr = 1, SAFIR-ShellNr = 1
+GiD-ShellNr = 2, SAFIR-ShellNr = 2
+GiD-ShellNr = 3, SAFIR-ShellNr = 3
+GiD-ShellNr = 4, SAFIR-ShellNr = 4
+GiD-ShellNr = 5, SAFIR-ShellNr = 5
+GiD-ShellNr = 6, SAFIR-ShellNr = 6
+GiD-ShellNr = 7, SAFIR-ShellNr = 7
+GiD-ShellNr = 8, SAFIR-ShellNr = 8
+GiD-ShellNr = 9, SAFIR-ShellNr = 9
+GiD-ShellNr = 10, SAFIR-ShellNr = 10
+GiD-ShellNr = 11, SAFIR-ShellNr = 11
+GiD-ShellNr = 12, SAFIR-ShellNr = 12
+GiD-ShellNr = 13, SAFIR-ShellNr = 13
+GiD-ShellNr = 14, SAFIR-ShellNr = 14
+GiD-ShellNr = 15, SAFIR-ShellNr = 15
+GiD-ShellNr = 16, SAFIR-ShellNr = 16
+GiD-ShellNr = 17, SAFIR-ShellNr = 17
+GiD-ShellNr = 18, SAFIR-ShellNr = 18
+GiD-ShellNr = 19, SAFIR-ShellNr = 19
+GiD-ShellNr = 20, SAFIR-ShellNr = 20
+GiD-ShellNr = 21, SAFIR-ShellNr = 21
+GiD-ShellNr = 22, SAFIR-ShellNr = 22
+GiD-ShellNr = 23, SAFIR-ShellNr = 23
+GiD-ShellNr = 24, SAFIR-ShellNr = 24
+GiD-ShellNr = 25, SAFIR-ShellNr = 25
+GiD-ShellNr = 26, SAFIR-ShellNr = 26
+GiD-ShellNr = 27, SAFIR-ShellNr = 27
+GiD-ShellNr = 28, SAFIR-ShellNr = 28
+GiD-ShellNr = 29, SAFIR-ShellNr = 29
+GiD-ShellNr = 30, SAFIR-ShellNr = 30
+GiD-ShellNr = 31, SAFIR-ShellNr = 31
+GiD-ShellNr = 32, SAFIR-ShellNr = 32
+GiD-ShellNr = 33, SAFIR-ShellNr = 33
+GiD-ShellNr = 34, SAFIR-ShellNr = 34
+GiD-ShellNr = 35, SAFIR-ShellNr = 35
+GiD-ShellNr = 36, SAFIR-ShellNr = 36
+GiD-ShellNr = 37, SAFIR-ShellNr = 37
+GiD-ShellNr = 38, SAFIR-ShellNr = 38
+GiD-ShellNr = 39, SAFIR-ShellNr = 39
+GiD-ShellNr = 40, SAFIR-ShellNr = 40 
+ SAFIR version 2004x is running.
+ Please type "FILENAME" of "FILENAME.IN" :   SAFIR is allocating memory
+  SAFIR is in subroutine DONNEE
+  SAFIR has finished subroutine DONNEE
+
+ time =     15.00000 sec.
+
+ time =     30.00000 sec.
+
+ time =     45.00000 sec.
+
+ time =     60.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  1.12056
+ 
+
+ time =     75.00000 sec.
+
+ time =     90.00000 sec.
+
+ time =    105.00000 sec.
+
+ time =    120.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  1.11219
+ 
+
+ time =    135.00000 sec.
+
+ time =    150.00000 sec.
+
+ time =    165.00000 sec.
+
+ time =    180.00000 sec.
+ ITER = 3, RELATIVE EIGEN VALUE =  1.09996
+ 
+
+ time =    195.00000 sec.
+
+ time =    210.00000 sec.
+
+ time =    225.00000 sec.
+
+ time =    240.00000 sec.
+ ITER = 3, RELATIVE EIGEN VALUE =  1.08581
+ 
+
+ time =    255.00000 sec.
+
+ time =    270.00000 sec.
+
+ time =    285.00000 sec.
+
+ time =    300.00000 sec.
+ ITER = 3, RELATIVE EIGEN VALUE =  1.07037
+ 
+
+ THE STIFFNESS MATRIX HAS BEEN TRIANGULARISED    55 TIMES.
+"STRUCTURAL3DRES.exe creates Postprocessor-File for GID"
+
+Projekt:Brueckenplatte
+Opened: Brueckenplatte.flavia.msh
+nNodes = 55, nBeam = 0, nShell = 40, nTruss = 0
+number of integration points for beams, NG = 2
+Cosed Brueckenplatte.flavia.msh
+PRINTSHELL found
+PRNNXSHELL found
+PRNMXSHELL found
+Opened: Brueckenplatte.flavia.res
+
+Opened: Brueckenplatte.str
+Generating output for GiD-PP :    TIME =    60.00000
+Generating output for GiD-PP :    TIME =   120.00000
+Generating output for GiD-PP :    TIME =   180.00000
+Generating output for GiD-PP :    TIME =   240.00000
+Generating output for GiD-PP :    TIME =   300.00000

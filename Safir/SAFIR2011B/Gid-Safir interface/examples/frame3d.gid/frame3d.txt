@@ -1,0 +1,132 @@
+
+Structural3dfix converts .dat-file to .in-file
+
+Nr. of local axes = 9
+Number of nodes with disconnect_Id, iSame = 0
+Number of beams with disconnect_Id, idis = 0
+Number of shells with disconnect_Id, idiss = 0
+**** WARNING: Element 18 , N1 = 60, N2 = 63, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 19 , N1 = 63, N2 = 68, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 20 , N1 = 68, N2 = 71, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 21 , N1 = 71, N2 = 74, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 22 , N1 = 74, N2 = 77, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 23 , N1 = 77, N2 = 83, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 39 , N1 = 42, N2 = 43, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 40 , N1 = 43, N2 = 45, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 41 , N1 = 45, N2 = 47, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 42 , N1 = 47, N2 = 50, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 43 , N1 = 50, N2 = 54, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 44 , N1 = 54, N2 = 60, Center of local axes system(2) not on beam axes, dist = 8.000000 !
+**** WARNING: Element 55 , N1 = 42, N2 = 37, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 56 , N1 = 37, N2 = 30, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 57 , N1 = 30, N2 = 27, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 58 , N1 = 27, N2 = 22, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 59 , N1 = 22, N2 = 19, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 60 , N1 = 19, N2 = 15, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 61 , N1 = 15, N2 = 11, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 62 , N1 = 11, N2 = 9, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 63 , N1 = 9, N2 = 7, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 64 , N1 = 7, N2 = 6, Center of local axes system(1) not on beam axes, dist = 10.000000 !
+**** WARNING: Element 70 , N1 = 60, N2 = 52, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 71 , N1 = 52, N2 = 44, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 72 , N1 = 44, N2 = 40, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 73 , N1 = 40, N2 = 34, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 74 , N1 = 34, N2 = 31, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 80 , N1 = 31, N2 = 29, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 81 , N1 = 29, N2 = 26, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 82 , N1 = 26, N2 = 25, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 83 , N1 = 25, N2 = 24, Center of local axes system(1) not on beam axes, dist = 5.000000 !
+**** WARNING: Element 84 , N1 = 24, N2 = 23, Center of local axes system(1) not on beam axes, dist = 5.000000 ! 
+ SAFIR version 2004x is running.
+ Please type "FILENAME" of "FILENAME.IN" :   SAFIR is allocating memory
+  SAFIR is in subroutine DONNEE
+  UNIT          16 HAS BEEN CLOSED
+  UNIT          20 HAS BEEN CLOSED
+  START OF RENUMBERING OF THE EQUATIONS
+              BY THE GEOMETRICAL METHOD.
+  nnodepart =            1
+  the length of the skyline is reduced to       15521
+
+ AFTER GEOMETRICAL PROGRESSION,
+   THE LENGTH OF THE SKYLINE IS     15521.
+ ----------------------------------------------
+  SAFIR has finished subroutine DONNEE
+
+ time =     12.00000 sec.
+
+ time =     24.00000 sec.
+
+ time =     36.00000 sec.
+
+ time =     48.00000 sec.
+
+ time =     60.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.98739
+ 
+
+ time =     72.00000 sec.
+
+ time =     84.00000 sec.
+
+ time =     96.00000 sec.
+
+ time =    108.00000 sec.
+
+ time =    120.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.98743
+ 
+
+ time =    132.00000 sec.
+
+ time =    144.00000 sec.
+
+ time =    156.00000 sec.
+
+ time =    168.00000 sec.
+
+ time =    180.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.98787
+ 
+
+ time =    192.00000 sec.
+
+ time =    204.00000 sec.
+
+ time =    216.00000 sec.
+
+ time =    228.00000 sec.
+
+ time =    240.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.98853
+ 
+
+ time =    252.00000 sec.
+
+ time =    264.00000 sec.
+
+ time =    276.00000 sec.
+
+ time =    288.00000 sec.
+
+ time =    300.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.98933
+ 
+
+ THE STIFFNESS MATRIX HAS BEEN TRIANGULARISED    51 TIMES.
+"STRUCTURAL3DRES.exe creates Postprocessor-File for GID"
+
+Projekt:frame3d
+Opened: frame3d.flavia.msh
+nNodes = 172, nBeam = 84, nShell = 0, nTruss = 0
+number of integration points for beams, NG = 3
+Cosed frame3d.flavia.msh
+PRINTMN found
+PRINTSHELL found
+PRNNXSHELL found
+PRNMXSHELL found
+Opened: frame3d.flavia.res
+Generating output for GiD-PP :    TIME =    60.00000
+Generating output for GiD-PP :    TIME =   120.00000
+Generating output for GiD-PP :    TIME =   180.00000
+Generating output for GiD-PP :    TIME =   240.00000
+Generating output for GiD-PP :    TIME =   300.00000

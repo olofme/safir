@@ -1,0 +1,60 @@
+Safir_Shell_Temperature_Analysis
+Mesh_from_GID-Mesher
+
+     NNODE    14
+      NDIM    2
+   NDDLMAX    1
+      FROM    1   TO    14 STEP    1 NDDL    1
+  END_NDDL
+  TEMPERAT
+      TETA        0.9
+  TINITIAL       20.0
+MAKE.TSH
+   NORENUM
+      NMAT 1
+  ELEMENTS
+     SOLID    6
+        NG    2
+     NVOID    0
+  END_ELEM
+     NODES
+      NODE    1    -0.2000     0.0000
+      NODE    2    -0.1333     0.0000
+      NODE    3    -0.0667     0.0000
+      NODE    4     0.0000     0.0000
+      NODE    5     0.0667     0.0000
+      NODE    6     0.1333     0.0000
+      NODE    7     0.2000     0.0000
+      NODE    8    -0.2000     0.5000
+      NODE    9    -0.1333     0.5000
+      NODE   10    -0.0667     0.5000
+      NODE   11     0.0000     0.5000
+      NODE   12     0.0667     0.5000
+      NODE   13     0.1333     0.5000
+      NODE   14     0.2000     0.5000
+ FIXATIONS
+   END_FIX
+NODOFSOLID
+      ELEM     1     8    9    2    1     1     0.
+      ELEM     2     9   10    3    2     1     0.
+      ELEM     3    10   11    4    3     1     0.
+      ELEM     4    11   12    5    4     1     0.
+      ELEM     5    12   13    6    5     1     0.
+      ELEM     6    13   14    7    6     1     0.
+  FRONTIER
+   F     1 NO NO NO FISO
+   F     6 NO F20 NO NO
+ END_FRONT
+  SYMMETRY
+   END_SYM
+ PRECISION     1.E-3
+ MATERIALS
+SILCONC_EN
+          2400. 0 25 9 0.56 0.5
+      TIME
+        15        600
+  END_TIME
+IMPRESSION
+ TIMEPRINT 
+        60        600
+END_TIMEPR

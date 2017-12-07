@@ -1,0 +1,108 @@
+Safir started .tem-run, IN-file ShA1  
+ SAFIR version 2004x is running.
+ Please type "FILENAME" of "FILENAME.IN" :   SAFIR is allocating memory
+  SAFIR is in subroutine DONNEE
+  SAFIR has finished subroutine DONNEE
+
+ time =     15.00000 sec.
+
+ time =     30.00000 sec.
+
+ time =     45.00000 sec.
+
+ time =     60.00000 sec.
+
+ time =     75.00000 sec.
+
+ time =     90.00000 sec.
+
+ time =    105.00000 sec.
+
+ time =    120.00000 sec.
+
+ time =    135.00000 sec.
+
+ time =    150.00000 sec.
+
+ time =    165.00000 sec.
+
+ time =    180.00000 sec.
+
+ time =    195.00000 sec.
+
+ time =    210.00000 sec.
+
+ time =    225.00000 sec.
+
+ time =    240.00000 sec.
+
+ time =    255.00000 sec.
+
+ time =    270.00000 sec.
+
+ time =    285.00000 sec.
+
+ time =    300.00000 sec.
+
+ time =    315.00000 sec.
+
+ time =    330.00000 sec.
+
+ time =    345.00000 sec.
+
+ time =    360.00000 sec.
+
+ time =    375.00000 sec.
+
+ time =    390.00000 sec.
+
+ time =    405.00000 sec.
+
+ time =    420.00000 sec.
+
+ time =    435.00000 sec.
+
+ time =    450.00000 sec.
+
+ time =    465.00000 sec.
+
+ time =    480.00000 sec.
+
+ time =    495.00000 sec.
+
+ time =    510.00000 sec.
+
+ time =    525.00000 sec.
+
+ time =    540.00000 sec.
+
+ time =    555.00000 sec.
+
+ time =    570.00000 sec.
+
+ time =    585.00000 sec.
+
+ time =    600.00000 sec.
+
+ THE STIFFNESS MATRIX HAS BEEN TRIANGULARISED    80 TIMES.
+
+nNode = 14
+Generating output for GiD-PP :    TIME =    60.00000
+
+Generating output for GiD-PP :    TIME =   120.00000
+
+Generating output for GiD-PP :    TIME =   180.00000
+
+Generating output for GiD-PP :    TIME =   240.00000
+
+Generating output for GiD-PP :    TIME =   300.00000
+
+Generating output for GiD-PP :    TIME =   360.00000
+
+Generating output for GiD-PP :    TIME =   420.00000
+
+Generating output for GiD-PP :    TIME =   480.00000
+
+Generating output for GiD-PP :    TIME =   540.00000
+
+Generating output for GiD-PP :    TIME =   600.00000

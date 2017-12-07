@@ -1,0 +1,19 @@
+BeginZE C:\work\fem\safir2007\GiD2SAFIR2007\examples\frame3d.gid\frame3d.vv
+   x -14.1497 24.1497
+   y 13.4292 -5.42917
+   z -27.9808 23.9808
+   e 8.66025
+   v 0.475535 -0.166522 -0.235296
+   r 0.831128
+   m 0.833813 0.232747 -0.500585 0 -0.549495 0.437005 -0.712097 0 0.0530196 0.868824 0.492274 0 0 0 0 1
+   c 5 4 2
+   pd 0
+   pno 0
+   pfo 0
+   pf 4
+   pv 0
+   NowUse 0
+   DrawingType 0
+   LightVector 4.22365 -15.7377 149.007 0
+EndZE C:\work\fem\safir2007\GiD2SAFIR2007\examples\frame3d.gid\frame3d.vv
+

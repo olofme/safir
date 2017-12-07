@@ -1,0 +1,61 @@
+HASEMI FIRE
+A moving fire is here represented by 4 Hasemi fires.
+This case is academic.
+
+     NFIRE    4
+
+  FIRE_POS   0.5   -3.    0.0
+    HEIGHT   2.
+  DIAMETER
+         0.    1.
+     7200.     1.
+  END_DIAM
+       RHR
+0           0
+600         1.0E6
+1200        0.
+7200        0.
+   END_RHR
+
+  FIRE_POS   1.5   -3.    0.0
+    HEIGHT   3.
+  DIAMETER
+         0.    1.
+     7200.     1.
+  END_DIAM
+       RHR
+0           0
+300.        0.
+900         1.5E6
+1500        0.
+7200        0.
+   END_RHR
+
+  FIRE_POS   2.5   -3.    0.0
+    HEIGHT   3.
+  DIAMETER
+         0.    1.
+     7200.     1.
+  END_DIAM
+       RHR
+0           0
+600.        0.
+1200        2.0E6
+1800        0.
+7200        0.
+    END_RHR
+
+  FIRE_POS   3.5   -3.    0.0
+    HEIGHT   3.
+  DIAMETER
+         0.    1.
+     7200.     1.
+  END_DIAM
+       RHR
+0           0
+900.        0.
+1200        2.5E6
+1800        0.
+7200        0.
+   END_RHR
+      

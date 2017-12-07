@@ -1,0 +1,77 @@
+
+    NPTTOT     3200
+     NNODE   231
+      NDIM    3
+ NDIMMATER    2
+   NDDLMAX    6
+      FROM    1   TO   231 STEP    1 NDDL    6
+  END_NDDL
+   DYNAMIC APPR_NR
+   DAMPING    0.
+     NLOAD    1
+   OBLIQUE    0
+  COMEBACK    0.0001 
+      NMAT    1
+  ELEMENTS
+     SHELL   200    1
+   NGTHICK    4
+    NGAREA    2
+   NREBARS    0
+  END_ELEM
+     NODES
+      NODE     1    2.0000    0.20000   0.0000
+     GNODE     5    2.0000    0.00000   0.0000  1
+     GNODE    11    2.0000    0.00000   0.3000  1
+    REPEAT    11    -0.100    0.00000   0.0000  20
+
+ FIXATIONS
+     BLOCK    1    F0   F0   F0   F0   F0   F0    
+     BLOCK    2    F0   F0   F0   F0   F0   F0
+     BLOCK    3    F0   F0   F0   F0   F0   F0
+     BLOCK    4    F0   F0   F0   F0   F0   F0
+     BLOCK    5    F0   F0   F0   F0   F0   F0
+     BLOCK    6    F0   F0   F0   F0   F0   F0
+     BLOCK    7    F0   F0   F0   F0   F0   F0
+     BLOCK    8    F0   F0   F0   F0   F0   F0
+     BLOCK    9    F0   F0   F0   F0   F0   F0
+     BLOCK    10    F0   F0   F0   F0   F0   F0
+     BLOCK    11    F0   F0   F0   F0   F0   F0
+   END_FIX
+
+NODOFSHELL
+L2.TSH                                                                      
+ TRANSLATE    1    1
+ END_TRANS
+
+      ELEM      1      1      12     13     2   1
+     GELEM     10     10      21     22    11   1  1
+    REPEAT     10     11      19
+
+ PRECISION     1.E-3
+     LOADS
+  FUNCTION        F1
+  NODELOAD    231        0.        0.    -10000.0       0.        0.        0.
+  END_LOAD
+
+     MASS
+   M_SHELL      1     94.320         
+  GM_SHELL    200     94.320      1
+  END_MASS
+  
+ MATERIALS
+STEELEC32D
+    210.E9       0.3   355.0E6   1200.   0.
+      TIME
+                 0.1     2800.    25.6
+  END_TIME
+LARGEDISPL
+     EPSTH
+IMPRESSION
+ TIMEPRINT       
+ 		  10.0      2800.    
+END_TIMEPR
+PRNNXSHELL
+PRNMXSHELL
+
+
+

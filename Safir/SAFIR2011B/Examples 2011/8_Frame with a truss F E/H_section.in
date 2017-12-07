@@ -1,0 +1,372 @@
+Profile: HE 240 B       Type: HE
+Fire curve: ASTME119 - Exposed Faces:1 1 1 0
+Protected with: (None) 0 mm  0 mm  0 mm;
+
+    NPTTOT       188
+     NNODE  146
+      NDIM    2
+ NDIMMATER    1
+   NDDLMAX    1
+      FROM    1   TO  146 STEP    1 NDDL    1
+  END_NDDL
+  TEMPERAT
+      TETA       0.9
+  TINITIAL      20.0
+  MAKE.TEM
+   NORENUM
+H_section.tem
+      NMAT    1
+  ELEMENTS
+     SOLID   94
+        NG    2
+     NVOID    0
+  END_ELEM
+     NODES
+      NODE    1    0.1200   -0.1200
+      NODE    2    0.1200   -0.1073
+      NODE    3    0.1200   -0.0947
+      NODE    4    0.1200   -0.0820
+      NODE    5    0.1200   -0.0694
+      NODE    6    0.1200   -0.0567
+      NODE    7    0.1200   -0.0441
+      NODE    8    0.1200   -0.0314
+      NODE    9    0.1200   -0.0188
+      NODE   10    0.1200   -0.0050
+      NODE   11    0.1200    0.0050
+      NODE   12    0.1200    0.0188
+      NODE   13    0.1200    0.0314
+      NODE   14    0.1200    0.0441
+      NODE   15    0.1200    0.0567
+      NODE   16    0.1200    0.0694
+      NODE   17    0.1200    0.0820
+      NODE   18    0.1200    0.0947
+      NODE   19    0.1200    0.1073
+      NODE   20    0.1200    0.1200
+      NODE   21    0.1115   -0.1200
+      NODE   22    0.1115   -0.1073
+      NODE   23    0.1115   -0.0947
+      NODE   24    0.1115   -0.0820
+      NODE   25    0.1115   -0.0694
+      NODE   26    0.1115   -0.0567
+      NODE   27    0.1115   -0.0441
+      NODE   28    0.1115   -0.0314
+      NODE   29    0.1115   -0.0188
+      NODE   30    0.1115   -0.0050
+      NODE   31    0.1115    0.0050
+      NODE   32    0.1115    0.0188
+      NODE   33    0.1115    0.0314
+      NODE   34    0.1115    0.0441
+      NODE   35    0.1115    0.0567
+      NODE   36    0.1115    0.0694
+      NODE   37    0.1115    0.0820
+      NODE   38    0.1115    0.0947
+      NODE   39    0.1115    0.1073
+      NODE   40    0.1115    0.1200
+      NODE   41    0.1030   -0.1200
+      NODE   42    0.1030   -0.1073
+      NODE   43    0.1030   -0.0947
+      NODE   44    0.1030   -0.0820
+      NODE   45    0.1030   -0.0694
+      NODE   46    0.1030   -0.0567
+      NODE   47    0.1030   -0.0441
+      NODE   48    0.1030   -0.0314
+      NODE   49    0.1030   -0.0188
+      NODE   50    0.1030   -0.0050
+      NODE   51    0.1030    0.0050
+      NODE   52    0.1030    0.0188
+      NODE   53    0.1030    0.0314
+      NODE   54    0.1030    0.0441
+      NODE   55    0.1030    0.0567
+      NODE   56    0.1030    0.0694
+      NODE   57    0.1030    0.0820
+      NODE   58    0.1030    0.0947
+      NODE   59    0.1030    0.1073
+      NODE   60    0.1030    0.1200
+      NODE   61    0.0892   -0.0050
+      NODE   62    0.0892    0.0050
+      NODE   63    0.0744   -0.0050
+      NODE   64    0.0744    0.0050
+      NODE   65    0.0595   -0.0050
+      NODE   66    0.0595    0.0050
+      NODE   67    0.0446   -0.0050
+      NODE   68    0.0446    0.0050
+      NODE   69    0.0297   -0.0050
+      NODE   70    0.0297    0.0050
+      NODE   71    0.0149   -0.0050
+      NODE   72    0.0149    0.0050
+      NODE   73    0.0000   -0.0050
+      NODE   74    0.0000    0.0050
+      NODE   75   -0.0149   -0.0050
+      NODE   76   -0.0149    0.0050
+      NODE   77   -0.0297   -0.0050
+      NODE   78   -0.0297    0.0050
+      NODE   79   -0.0446   -0.0050
+      NODE   80   -0.0446    0.0050
+      NODE   81   -0.0595   -0.0050
+      NODE   82   -0.0595    0.0050
+      NODE   83   -0.0744   -0.0050
+      NODE   84   -0.0744    0.0050
+      NODE   85   -0.0892   -0.0050
+      NODE   86   -0.0892    0.0050
+      NODE   87   -0.1030   -0.1200
+      NODE   88   -0.1030   -0.1073
+      NODE   89   -0.1030   -0.0947
+      NODE   90   -0.1030   -0.0820
+      NODE   91   -0.1030   -0.0694
+      NODE   92   -0.1030   -0.0567
+      NODE   93   -0.1030   -0.0441
+      NODE   94   -0.1030   -0.0314
+      NODE   95   -0.1030   -0.0188
+      NODE   96   -0.1030   -0.0050
+      NODE   97   -0.1030    0.0050
+      NODE   98   -0.1030    0.0188
+      NODE   99   -0.1030    0.0314
+      NODE  100   -0.1030    0.0441
+      NODE  101   -0.1030    0.0567
+      NODE  102   -0.1030    0.0694
+      NODE  103   -0.1030    0.0820
+      NODE  104   -0.1030    0.0947
+      NODE  105   -0.1030    0.1073
+      NODE  106   -0.1030    0.1200
+      NODE  107   -0.1115   -0.1200
+      NODE  108   -0.1115   -0.1073
+      NODE  109   -0.1115   -0.0947
+      NODE  110   -0.1115   -0.0820
+      NODE  111   -0.1115   -0.0694
+      NODE  112   -0.1115   -0.0567
+      NODE  113   -0.1115   -0.0441
+      NODE  114   -0.1115   -0.0314
+      NODE  115   -0.1115   -0.0188
+      NODE  116   -0.1115   -0.0050
+      NODE  117   -0.1115    0.0050
+      NODE  118   -0.1115    0.0188
+      NODE  119   -0.1115    0.0314
+      NODE  120   -0.1115    0.0441
+      NODE  121   -0.1115    0.0567
+      NODE  122   -0.1115    0.0694
+      NODE  123   -0.1115    0.0820
+      NODE  124   -0.1115    0.0947
+      NODE  125   -0.1115    0.1073
+      NODE  126   -0.1115    0.1200
+      NODE  127   -0.1200   -0.1200
+      NODE  128   -0.1200   -0.1073
+      NODE  129   -0.1200   -0.0947
+      NODE  130   -0.1200   -0.0820
+      NODE  131   -0.1200   -0.0694
+      NODE  132   -0.1200   -0.0567
+      NODE  133   -0.1200   -0.0441
+      NODE  134   -0.1200   -0.0314
+      NODE  135   -0.1200   -0.0188
+      NODE  136   -0.1200   -0.0050
+      NODE  137   -0.1200    0.0050
+      NODE  138   -0.1200    0.0188
+      NODE  139   -0.1200    0.0314
+      NODE  140   -0.1200    0.0441
+      NODE  141   -0.1200    0.0567
+      NODE  142   -0.1200    0.0694
+      NODE  143   -0.1200    0.0820
+      NODE  144   -0.1200    0.0947
+      NODE  145   -0.1200    0.1073
+      NODE  146   -0.1200    0.1200
+  NODELINE              0         0
+     YC_ZC              0         0
+ FIXATIONS
+   END_FIX
+NODOFSOLID
+      ELEM    1    1   21   22    2    1   0.
+      ELEM    2    2   22   23    3    1   0.
+      ELEM    3    3   23   24    4    1   0.
+      ELEM    4    4   24   25    5    1   0.
+      ELEM    5    5   25   26    6    1   0.
+      ELEM    6    6   26   27    7    1   0.
+      ELEM    7    7   27   28    8    1   0.
+      ELEM    8    8   28   29    9    1   0.
+      ELEM    9    9   29   30   10    1   0.
+      ELEM   10   10   30   31   11    1   0.
+      ELEM   11   11   31   32   12    1   0.
+      ELEM   12   12   32   33   13    1   0.
+      ELEM   13   13   33   34   14    1   0.
+      ELEM   14   14   34   35   15    1   0.
+      ELEM   15   15   35   36   16    1   0.
+      ELEM   16   16   36   37   17    1   0.
+      ELEM   17   17   37   38   18    1   0.
+      ELEM   18   18   38   39   19    1   0.
+      ELEM   19   19   39   40   20    1   0.
+      ELEM   20   21   41   42   22    1   0.
+      ELEM   21   22   42   43   23    1   0.
+      ELEM   22   23   43   44   24    1   0.
+      ELEM   23   24   44   45   25    1   0.
+      ELEM   24   25   45   46   26    1   0.
+      ELEM   25   26   46   47   27    1   0.
+      ELEM   26   27   47   48   28    1   0.
+      ELEM   27   28   48   49   29    1   0.
+      ELEM   28   29   49   50   30    1   0.
+      ELEM   29   30   50   51   31    1   0.
+      ELEM   30   31   51   52   32    1   0.
+      ELEM   31   32   52   53   33    1   0.
+      ELEM   32   33   53   54   34    1   0.
+      ELEM   33   34   54   55   35    1   0.
+      ELEM   34   35   55   56   36    1   0.
+      ELEM   35   36   56   57   37    1   0.
+      ELEM   36   37   57   58   38    1   0.
+      ELEM   37   38   58   59   39    1   0.
+      ELEM   38   39   59   60   40    1   0.
+      ELEM   39   49   61   50    0    1   0.
+      ELEM   40   50   61   62   51    1   0.
+      ELEM   41   51   62   52    0    1   0.
+      ELEM   42   61   63   64   62    1   0.
+      ELEM   43   63   65   66   64    1   0.
+      ELEM   44   65   67   68   66    1   0.
+      ELEM   45   67   69   70   68    1   0.
+      ELEM   46   69   71   72   70    1   0.
+      ELEM   47   71   73   74   72    1   0.
+      ELEM   48   73   75   76   74    1   0.
+      ELEM   49   75   77   78   76    1   0.
+      ELEM   50   77   79   80   78    1   0.
+      ELEM   51   79   81   82   80    1   0.
+      ELEM   52   81   83   84   82    1   0.
+      ELEM   53   83   85   86   84    1   0.
+      ELEM   54   85   95   96    0    1   0.
+      ELEM   55   85   96   97   86    1   0.
+      ELEM   56   86   97   98    0    1   0.
+      ELEM   57   87  107  108   88    1   0.
+      ELEM   58   88  108  109   89    1   0.
+      ELEM   59   89  109  110   90    1   0.
+      ELEM   60   90  110  111   91    1   0.
+      ELEM   61   91  111  112   92    1   0.
+      ELEM   62   92  112  113   93    1   0.
+      ELEM   63   93  113  114   94    1   0.
+      ELEM   64   94  114  115   95    1   0.
+      ELEM   65   95  115  116   96    1   0.
+      ELEM   66   96  116  117   97    1   0.
+      ELEM   67   97  117  118   98    1   0.
+      ELEM   68   98  118  119   99    1   0.
+      ELEM   69   99  119  120  100    1   0.
+      ELEM   70  100  120  121  101    1   0.
+      ELEM   71  101  121  122  102    1   0.
+      ELEM   72  102  122  123  103    1   0.
+      ELEM   73  103  123  124  104    1   0.
+      ELEM   74  104  124  125  105    1   0.
+      ELEM   75  105  125  126  106    1   0.
+      ELEM   76  107  127  128  108    1   0.
+      ELEM   77  108  128  129  109    1   0.
+      ELEM   78  109  129  130  110    1   0.
+      ELEM   79  110  130  131  111    1   0.
+      ELEM   80  111  131  132  112    1   0.
+      ELEM   81  112  132  133  113    1   0.
+      ELEM   82  113  133  134  114    1   0.
+      ELEM   83  114  134  135  115    1   0.
+      ELEM   84  115  135  136  116    1   0.
+      ELEM   85  116  136  137  117    1   0.
+      ELEM   86  117  137  138  118    1   0.
+      ELEM   87  118  138  139  119    1   0.
+      ELEM   88  119  139  140  120    1   0.
+      ELEM   89  120  140  141  121    1   0.
+      ELEM   90  121  141  142  122    1   0.
+      ELEM   91  122  142  143  123    1   0.
+      ELEM   92  123  143  144  124    1   0.
+      ELEM   93  124  144  145  125    1   0.
+      ELEM   94  125  145  146  126    1   0.
+  FRONTIER
+    F    1  ASTME119          NO          NO          NO
+    F   20  ASTME119          NO          NO          NO
+    F   20          NO  ASTME119          NO          NO
+    F   21          NO  ASTME119          NO          NO
+    F   22          NO  ASTME119          NO          NO
+    F   23          NO  ASTME119          NO          NO
+    F   24          NO  ASTME119          NO          NO
+    F   25          NO  ASTME119          NO          NO
+    F   26          NO  ASTME119          NO          NO
+    F   27          NO  ASTME119          NO          NO
+    F   39  ASTME119          NO          NO          NO
+    F   42  ASTME119          NO          NO          NO
+    F   43  ASTME119          NO          NO          NO
+    F   44  ASTME119          NO          NO          NO
+    F   45  ASTME119          NO          NO          NO
+    F   46  ASTME119          NO          NO          NO
+    F   47  ASTME119          NO          NO          NO
+    F   48  ASTME119          NO          NO          NO
+    F   49  ASTME119          NO          NO          NO
+    F   50  ASTME119          NO          NO          NO
+    F   51  ASTME119          NO          NO          NO
+    F   52  ASTME119          NO          NO          NO
+    F   53  ASTME119          NO          NO          NO
+    F   54  ASTME119          NO          NO          NO
+    F   57          NO          NO          NO  ASTME119
+    F   58          NO          NO          NO  ASTME119
+    F   59          NO          NO          NO  ASTME119
+    F   60          NO          NO          NO  ASTME119
+    F   61          NO          NO          NO  ASTME119
+    F   62          NO          NO          NO  ASTME119
+    F   63          NO          NO          NO  ASTME119
+    F   64          NO          NO          NO  ASTME119
+    F   57  ASTME119          NO          NO          NO
+    F   76  ASTME119          NO          NO          NO
+    F   76          NO  ASTME119          NO          NO
+    F   77          NO  ASTME119          NO          NO
+    F   78          NO  ASTME119          NO          NO
+    F   79          NO  ASTME119          NO          NO
+    F   80          NO  ASTME119          NO          NO
+    F   81          NO  ASTME119          NO          NO
+    F   82          NO  ASTME119          NO          NO
+    F   83          NO  ASTME119          NO          NO
+    F   84          NO  ASTME119          NO          NO
+    F   85          NO  ASTME119          NO          NO
+    F   86          NO  ASTME119          NO          NO
+    F   87          NO  ASTME119          NO          NO
+    F   88          NO  ASTME119          NO          NO
+    F   89          NO  ASTME119          NO          NO
+    F   90          NO  ASTME119          NO          NO
+    F   91          NO  ASTME119          NO          NO
+    F   92          NO  ASTME119          NO          NO
+    F   93          NO  ASTME119          NO          NO
+    F   94          NO  ASTME119          NO          NO
+    F   19          NO          NO  ASTME119          NO
+    F   38          NO          NO  ASTME119          NO
+    F   38          NO  ASTME119          NO          NO
+    F   37          NO  ASTME119          NO          NO
+    F   36          NO  ASTME119          NO          NO
+    F   35          NO  ASTME119          NO          NO
+    F   34          NO  ASTME119          NO          NO
+    F   33          NO  ASTME119          NO          NO
+    F   32          NO  ASTME119          NO          NO
+    F   31          NO  ASTME119          NO          NO
+    F   41          NO  ASTME119          NO          NO
+    F   42          NO          NO  ASTME119          NO
+    F   43          NO          NO  ASTME119          NO
+    F   44          NO          NO  ASTME119          NO
+    F   45          NO          NO  ASTME119          NO
+    F   46          NO          NO  ASTME119          NO
+    F   47          NO          NO  ASTME119          NO
+    F   48          NO          NO  ASTME119          NO
+    F   49          NO          NO  ASTME119          NO
+    F   50          NO          NO  ASTME119          NO
+    F   51          NO          NO  ASTME119          NO
+    F   52          NO          NO  ASTME119          NO
+    F   53          NO          NO  ASTME119          NO
+    F   56          NO          NO  ASTME119          NO
+    F   68          NO          NO          NO  ASTME119
+    F   69          NO          NO          NO  ASTME119
+    F   70          NO          NO          NO  ASTME119
+    F   71          NO          NO          NO  ASTME119
+    F   72          NO          NO          NO  ASTME119
+    F   73          NO          NO          NO  ASTME119
+    F   74          NO          NO          NO  ASTME119
+    F   75          NO          NO          NO  ASTME119
+    F   75          NO          NO  ASTME119          NO
+    F   94          NO          NO  ASTME119          NO
+ END_FRONT
+  SYMMETRY
+   END_SYM
+ PRECISION     1.E-3
+ MATERIALS
+  STEELEC3EN
+                 25.        9.      0.50
+      TIME
+                 12.     7200.
+  END_TIME
+IMPRESSION
+ TIMEPRINT   
+            60.    7200.
+END_TIMEPR            
+

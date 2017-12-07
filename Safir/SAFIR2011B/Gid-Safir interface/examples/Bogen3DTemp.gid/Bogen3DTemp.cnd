@@ -1,0 +1,16 @@
+NUMBER: 1 CONDITION: Frontier_constraints
+CONDTYPE: over surfaces
+QUESTION: Temperature_curve#CB#(FISO,FISO0,ASTME119,HYDROCARB,F1000THPS,F20,USER)
+VALUE: FISO
+DEPENDENCIES: (USER, RESTORE, File_name_of_USER-Temp.curve,#CURRENT#)
+DEPENDENCIES: (FISO, HIDE,File_name_of_USER-Temp.curve,#CURRENT#)
+DEPENDENCIES: (FISO0, HIDE,File_name_of_USER-Temp.curve,#CURRENT#)
+DEPENDENCIES: (ASTME119, HIDE,File_name_of_USER-Temp.curve,#CURRENT#)
+DEPENDENCIES: (HYDROCARB, HIDE,File_name_of_USER-Temp.curve,#CURRENT#)
+DEPENDENCIES: (F1000THPS,HIDE,File_name_of_USER-Temp.curve,#CURRENT#)
+DEPENDENCIES: (F20 ,HIDE,File_name_of_USER-Temp.curve,#CURRENT#)
+QUESTION: File_name_of_USER-Temp.curve
+VALUE: -
+HELP: Filename of user temperature curve. ( max 10 characters !! )
+STATE: hidden
+END CONDITION

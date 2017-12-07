@@ -1,0 +1,64 @@
+A perfectly straight column loaded with an excentricity of 1 cm on both supports (uniform moment on the length))
+   see NODELINE file sect_ext
+   see NODELOAD in this file
+Note: there is a slight difference with c_ext_1 because, here, the dead weight is also applied with a 1 cm excentricity.
+Input file for SAFIR2011
+                                                                                
+     NNODE   21
+      NDIM    2                                                                 
+   NDDLMAX    3                                                                 
+      FROM    1   TO   21 STEP    2 NDDL    3                                   
+      FROM    2   TO   20 STEP    2 NDDL    1                                   
+END_NDDL                                                                                
+    STATIC   PURE_NR                                                                   
+     NLOAD    1                                                                 
+   OBLIQUE    0                                                                 
+  COMEBACK        1.                                                            
+      NMAT    2                                                                 
+  ELEMENTS                                                                      
+      BEAM   10    1                                                            
+        NG    2                                                                 
+    NFIBER  242                                                                 
+END_ELEM                                                                                
+     NODES                                                                      
+      NODE    1   0.00000   0.00000                                             
+     GNODE   21   0.00000   4.00000    1                                        
+ FIXATIONS                                                                      
+     BLOCK    1             F0        F0         NO
+     BLOCK   21             F0        NO         NO
+END_FIX
+ NODOFBEAM                                                                      
+sect_ext.tem                                                                      
+ TRANSLATE    1    1                                                            
+ TRANSLATE    2    2 
+END_TRANS                                                                                
+ELEM     1    1    2    3    1                                                       
+GELEM   10   19   20   21    1    2                                                  
+ PRECISION     1.E-4                                                            
+     LOADS                                                                      
+  FUNCTION     FLOAD
+ DISTRBEAM         1        0.    -2250.		
+GDISTRBEAM        10        0.    -2250.    1               
+  NODELOAD        21        0.  -900000.    0.
+ END_LOAD                                                                               
+ MATERIALS                     
+SILCONC_EN                                                 
+                 0.2     25.E6          0.     0.
+STEELEC3EN                                                                      
+    210.E9       0.3   500.0E6       1200.     0.                                           
+      TIME                                                                      
+                  5.       20.                                                  
+                 12.       32.                                                  
+                 16.     3600.                                                  
+   ENDTIME                                                                      
+     EPSTH                                                                      
+    OUTPUT                                                                      
+ TIMEPRINT     
+            1.    3600.
+END_TIMEPR
+   PRINTMN                                                                      
+PRINTREACT                                                                      
+PRNEPSMBM    5    2
+PRNSIGMABM   5    2
+PRINTET      5    2                 
+

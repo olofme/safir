@@ -1,0 +1,260 @@
+
+Structural3dfix converts .dat-file to .in-file
+
+Nr. of local axes = 13
+Number of nodes with disconnect_Id, iSame = 0
+Number of beams with disconnect_Id, idis = 0
+Number of shells with disconnect_Id, idiss = 0
+**** WARNING: Element 7 , N1 = 19, N2 = 23, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 8 , N1 = 23, N2 = 30, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 9 , N1 = 30, N2 = 39, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 10 , N1 = 39, N2 = 49, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 11 , N1 = 49, N2 = 57, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 12 , N1 = 57, N2 = 66, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 13 , N1 = 66, N2 = 76, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 14 , N1 = 76, N2 = 84, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 15 , N1 = 84, N2 = 94, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 16 , N1 = 94, N2 = 105, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 17 , N1 = 105, N2 = 113, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 18 , N1 = 113, N2 = 123, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 19 , N1 = 100, N2 = 107, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 19 , N1 = 100, N2 = 107, Center of local axes system(1) not on beam axes, dist = 2.500000 !
+**** WARNING: Element 20 , N1 = 107, N2 = 116, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 20 , N1 = 107, N2 = 116, Center of local axes system(1) not on beam axes, dist = 2.500000 !
+**** WARNING: Element 21 , N1 = 116, N2 = 127, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 21 , N1 = 116, N2 = 127, Center of local axes system(1) not on beam axes, dist = 2.500000 !
+**** WARNING: Element 22 , N1 = 71, N2 = 79, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 22 , N1 = 71, N2 = 79, Center of local axes system(1) not on beam axes, dist = 2.500000 !
+**** WARNING: Element 23 , N1 = 79, N2 = 88, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 23 , N1 = 79, N2 = 88, Center of local axes system(1) not on beam axes, dist = 2.500000 !
+**** WARNING: Element 24 , N1 = 88, N2 = 100, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 24 , N1 = 88, N2 = 100, Center of local axes system(1) not on beam axes, dist = 2.500000 !
+**** WARNING: Element 25 , N1 = 48, N2 = 54, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 25 , N1 = 48, N2 = 54, Center of local axes system(1) not on beam axes, dist = 2.500000 !
+**** WARNING: Element 26 , N1 = 54, N2 = 63, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 26 , N1 = 54, N2 = 63, Center of local axes system(1) not on beam axes, dist = 2.500000 !
+**** WARNING: Element 27 , N1 = 63, N2 = 71, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 27 , N1 = 63, N2 = 71, Center of local axes system(1) not on beam axes, dist = 2.500000 !
+**** WARNING: Element 28 , N1 = 33, N2 = 35, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 28 , N1 = 33, N2 = 35, Center of local axes system(1) not on beam axes, dist = 2.500000 !
+**** WARNING: Element 29 , N1 = 35, N2 = 43, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 29 , N1 = 35, N2 = 43, Center of local axes system(1) not on beam axes, dist = 2.500000 !
+**** WARNING: Element 30 , N1 = 43, N2 = 48, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 30 , N1 = 43, N2 = 48, Center of local axes system(1) not on beam axes, dist = 2.500000 !
+**** WARNING: Element 34 , N1 = 66, N2 = 75, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 34 , N1 = 66, N2 = 75, Center of local axes system(1) not on beam axes, dist = 3.841106 !
+**** WARNING: Element 35 , N1 = 75, N2 = 82, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 35 , N1 = 75, N2 = 82, Center of local axes system(1) not on beam axes, dist = 3.841106 !
+**** WARNING: Element 36 , N1 = 82, N2 = 90, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 36 , N1 = 82, N2 = 90, Center of local axes system(1) not on beam axes, dist = 3.841106 !
+**** WARNING: Element 37 , N1 = 90, N2 = 100, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 37 , N1 = 90, N2 = 100, Center of local axes system(1) not on beam axes, dist = 3.841106 !
+**** WARNING: Element 38 , N1 = 100, N2 = 103, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 39 , N1 = 103, N2 = 109, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 40 , N1 = 109, N2 = 115, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 41 , N1 = 115, N2 = 123, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 42 , N1 = 48, N2 = 50, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 42 , N1 = 48, N2 = 50, Center of local axes system(1) not on beam axes, dist = 3.841106 !
+**** WARNING: Element 43 , N1 = 50, N2 = 53, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 43 , N1 = 50, N2 = 53, Center of local axes system(1) not on beam axes, dist = 3.841106 !
+**** WARNING: Element 44 , N1 = 53, N2 = 59, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 44 , N1 = 53, N2 = 59, Center of local axes system(1) not on beam axes, dist = 3.841106 !
+**** WARNING: Element 45 , N1 = 59, N2 = 66, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 45 , N1 = 59, N2 = 66, Center of local axes system(1) not on beam axes, dist = 3.841106 !
+**** WARNING: Element 46 , N1 = 19, N2 = 22, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 46 , N1 = 19, N2 = 22, Center of local axes system(1) not on beam axes, dist = 7.682213 !
+**** WARNING: Element 47 , N1 = 22, N2 = 29, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 47 , N1 = 22, N2 = 29, Center of local axes system(1) not on beam axes, dist = 7.682213 !
+**** WARNING: Element 48 , N1 = 29, N2 = 37, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 48 , N1 = 29, N2 = 37, Center of local axes system(1) not on beam axes, dist = 7.682213 !
+**** WARNING: Element 49 , N1 = 37, N2 = 48, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 49 , N1 = 37, N2 = 48, Center of local axes system(1) not on beam axes, dist = 7.682213 !
+**** WARNING: Element 62 , N1 = 1, N2 = 4, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 62 , N1 = 1, N2 = 4, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 63 , N1 = 4, N2 = 7, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 63 , N1 = 4, N2 = 7, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 64 , N1 = 7, N2 = 13, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 64 , N1 = 7, N2 = 13, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 65 , N1 = 13, N2 = 27, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 65 , N1 = 13, N2 = 27, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 66 , N1 = 27, N2 = 45, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 66 , N1 = 27, N2 = 45, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 67 , N1 = 45, N2 = 55, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 67 , N1 = 45, N2 = 55, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 68 , N1 = 55, N2 = 67, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 68 , N1 = 55, N2 = 67, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 69 , N1 = 67, N2 = 78, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 69 , N1 = 67, N2 = 78, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 70 , N1 = 78, N2 = 86, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 70 , N1 = 78, N2 = 86, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 71 , N1 = 86, N2 = 99, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 71 , N1 = 86, N2 = 99, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 72 , N1 = 99, N2 = 108, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 72 , N1 = 99, N2 = 108, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 73 , N1 = 108, N2 = 117, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 73 , N1 = 108, N2 = 117, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 74 , N1 = 91, N2 = 101, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 74 , N1 = 91, N2 = 101, Center of local axes system(1) not on beam axes, dist = 4.382921 !
+**** WARNING: Element 75 , N1 = 101, N2 = 112, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 75 , N1 = 101, N2 = 112, Center of local axes system(1) not on beam axes, dist = 4.382921 !
+**** WARNING: Element 76 , N1 = 112, N2 = 120, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 76 , N1 = 112, N2 = 120, Center of local axes system(1) not on beam axes, dist = 4.382921 !
+**** WARNING: Element 77 , N1 = 60, N2 = 72, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 77 , N1 = 60, N2 = 72, Center of local axes system(1) not on beam axes, dist = 4.382921 !
+**** WARNING: Element 78 , N1 = 72, N2 = 81, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 78 , N1 = 72, N2 = 81, Center of local axes system(1) not on beam axes, dist = 4.382921 !
+**** WARNING: Element 79 , N1 = 81, N2 = 91, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 79 , N1 = 81, N2 = 91, Center of local axes system(1) not on beam axes, dist = 4.382921 !
+**** WARNING: Element 80 , N1 = 25, N2 = 40, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 80 , N1 = 25, N2 = 40, Center of local axes system(1) not on beam axes, dist = 4.382921 !
+**** WARNING: Element 81 , N1 = 40, N2 = 51, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 81 , N1 = 40, N2 = 51, Center of local axes system(1) not on beam axes, dist = 4.382921 !
+**** WARNING: Element 82 , N1 = 51, N2 = 60, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 82 , N1 = 51, N2 = 60, Center of local axes system(1) not on beam axes, dist = 4.382921 !
+**** WARNING: Element 83 , N1 = 8, N2 = 11, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 83 , N1 = 8, N2 = 11, Center of local axes system(1) not on beam axes, dist = 4.382921 !
+**** WARNING: Element 84 , N1 = 11, N2 = 17, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 84 , N1 = 11, N2 = 17, Center of local axes system(1) not on beam axes, dist = 4.382921 !
+**** WARNING: Element 85 , N1 = 17, N2 = 25, X-Axes of local axes system(1) not parallel to beam axes, alfa = 180.000152 !
+**** WARNING: Element 85 , N1 = 17, N2 = 25, Center of local axes system(1) not on beam axes, dist = 4.382921 !
+**** WARNING: Element 89 , N1 = 55, N2 = 65, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 89 , N1 = 55, N2 = 65, Center of local axes system(1) not on beam axes, dist = 5.264418 !
+**** WARNING: Element 90 , N1 = 65, N2 = 73, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 90 , N1 = 65, N2 = 73, Center of local axes system(1) not on beam axes, dist = 5.264418 !
+**** WARNING: Element 91 , N1 = 73, N2 = 83, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 91 , N1 = 73, N2 = 83, Center of local axes system(1) not on beam axes, dist = 5.264418 !
+**** WARNING: Element 92 , N1 = 83, N2 = 91, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 92 , N1 = 83, N2 = 91, Center of local axes system(1) not on beam axes, dist = 5.264418 !
+**** WARNING: Element 93 , N1 = 91, N2 = 98, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 93 , N1 = 91, N2 = 98, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 94 , N1 = 98, N2 = 104, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 94 , N1 = 98, N2 = 104, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 95 , N1 = 104, N2 = 111, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 95 , N1 = 104, N2 = 111, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 96 , N1 = 111, N2 = 117, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 96 , N1 = 111, N2 = 117, Center of local axes system(1) not on beam axes, dist = 3.600000 !
+**** WARNING: Element 97 , N1 = 25, N2 = 31, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 97 , N1 = 25, N2 = 31, Center of local axes system(1) not on beam axes, dist = 5.264418 !
+**** WARNING: Element 98 , N1 = 31, N2 = 38, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 98 , N1 = 31, N2 = 38, Center of local axes system(1) not on beam axes, dist = 5.264418 !
+**** WARNING: Element 99 , N1 = 38, N2 = 47, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 99 , N1 = 38, N2 = 47, Center of local axes system(1) not on beam axes, dist = 5.264418 !
+**** WARNING: Element 100 , N1 = 47, N2 = 55, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 100 , N1 = 47, N2 = 55, Center of local axes system(1) not on beam axes, dist = 5.264418 !
+**** WARNING: Element 101 , N1 = 1, N2 = 3, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 101 , N1 = 1, N2 = 3, Center of local axes system(1) not on beam axes, dist = 8.483890 !
+**** WARNING: Element 102 , N1 = 3, N2 = 6, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 102 , N1 = 3, N2 = 6, Center of local axes system(1) not on beam axes, dist = 8.483890 !
+**** WARNING: Element 103 , N1 = 6, N2 = 12, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 103 , N1 = 6, N2 = 12, Center of local axes system(1) not on beam axes, dist = 8.483890 !
+**** WARNING: Element 104 , N1 = 12, N2 = 25, X-Axes of local axes system(1) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 104 , N1 = 12, N2 = 25, Center of local axes system(1) not on beam axes, dist = 8.483890 !
+**** WARNING: Element 111 , N1 = 33, N2 = 20, Center of local axes system(2) not on beam axes, dist = 12.000000 !
+**** WARNING: Element 112 , N1 = 20, N2 = 14, Center of local axes system(2) not on beam axes, dist = 12.000000 !
+**** WARNING: Element 113 , N1 = 14, N2 = 9, Center of local axes system(2) not on beam axes, dist = 12.000000 !
+**** WARNING: Element 114 , N1 = 9, N2 = 8, Center of local axes system(2) not on beam axes, dist = 12.000000 !
+**** WARNING: Element 115 , N1 = 48, N2 = 41, Center of local axes system(2) not on beam axes, dist = 9.000000 !
+**** WARNING: Element 116 , N1 = 41, N2 = 32, Center of local axes system(2) not on beam axes, dist = 9.000000 !
+**** WARNING: Element 117 , N1 = 32, N2 = 28, Center of local axes system(2) not on beam axes, dist = 9.000000 !
+**** WARNING: Element 118 , N1 = 28, N2 = 25, Center of local axes system(2) not on beam axes, dist = 9.000000 !
+**** WARNING: Element 119 , N1 = 71, N2 = 68, Center of local axes system(2) not on beam axes, dist = 6.000000 !
+**** WARNING: Element 120 , N1 = 68, N2 = 64, Center of local axes system(2) not on beam axes, dist = 6.000000 !
+**** WARNING: Element 121 , N1 = 64, N2 = 61, Center of local axes system(2) not on beam axes, dist = 6.000000 !
+**** WARNING: Element 122 , N1 = 61, N2 = 60, Center of local axes system(2) not on beam axes, dist = 6.000000 !
+**** WARNING: Element 123 , N1 = 100, N2 = 95, Center of local axes system(2) not on beam axes, dist = 3.000000 !
+**** WARNING: Element 124 , N1 = 95, N2 = 93, Center of local axes system(2) not on beam axes, dist = 3.000000 !
+**** WARNING: Element 125 , N1 = 93, N2 = 92, Center of local axes system(2) not on beam axes, dist = 3.000000 !
+**** WARNING: Element 126 , N1 = 92, N2 = 91, Center of local axes system(2) not on beam axes, dist = 3.000000 !
+**** WARNING: Element 131 , N1 = 8, N2 = 10, X-Axes of local axes system(2) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 131 , N1 = 8, N2 = 10, Center of local axes system(2) not on beam axes, dist = 6.913992 !
+**** WARNING: Element 132 , N1 = 10, N2 = 16, X-Axes of local axes system(2) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 132 , N1 = 10, N2 = 16, Center of local axes system(2) not on beam axes, dist = 6.913992 !
+**** WARNING: Element 133 , N1 = 16, N2 = 24, X-Axes of local axes system(2) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 133 , N1 = 16, N2 = 24, Center of local axes system(2) not on beam axes, dist = 6.913992 !
+**** WARNING: Element 134 , N1 = 24, N2 = 36, X-Axes of local axes system(2) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 134 , N1 = 24, N2 = 36, Center of local axes system(2) not on beam axes, dist = 6.913992 !
+**** WARNING: Element 135 , N1 = 36, N2 = 48, X-Axes of local axes system(2) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 135 , N1 = 36, N2 = 48, Center of local axes system(2) not on beam axes, dist = 6.913992 !
+**** WARNING: Element 136 , N1 = 25, N2 = 34, X-Axes of local axes system(2) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 136 , N1 = 25, N2 = 34, Center of local axes system(2) not on beam axes, dist = 4.609328 !
+**** WARNING: Element 137 , N1 = 34, N2 = 46, X-Axes of local axes system(2) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 137 , N1 = 34, N2 = 46, Center of local axes system(2) not on beam axes, dist = 4.609328 !
+**** WARNING: Element 138 , N1 = 46, N2 = 52, X-Axes of local axes system(2) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 138 , N1 = 46, N2 = 52, Center of local axes system(2) not on beam axes, dist = 4.609328 !
+**** WARNING: Element 139 , N1 = 52, N2 = 62, X-Axes of local axes system(2) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 139 , N1 = 52, N2 = 62, Center of local axes system(2) not on beam axes, dist = 4.609328 !
+**** WARNING: Element 140 , N1 = 62, N2 = 71, X-Axes of local axes system(2) not parallel to beam axes, alfa = 140.194547 !
+**** WARNING: Element 140 , N1 = 62, N2 = 71, Center of local axes system(2) not on beam axes, dist = 4.609328 !
+**** WARNING: Element 141 , N1 = 71, N2 = 74, X-Axes of local axes system(2) not parallel to beam axes, alfa = 39.805605 !
+**** WARNING: Element 141 , N1 = 71, N2 = 74, Center of local axes system(2) not on beam axes, dist = 4.609328 !
+**** WARNING: Element 142 , N1 = 74, N2 = 77, X-Axes of local axes system(2) not parallel to beam axes, alfa = 39.805605 !
+**** WARNING: Element 142 , N1 = 74, N2 = 77, Center of local axes system(2) not on beam axes, dist = 4.609328 !
+**** WARNING: Element 143 , N1 = 77, N2 = 80, X-Axes of local axes system(2) not parallel to beam axes, alfa = 39.805605 !
+**** WARNING: Element 143 , N1 = 77, N2 = 80, Center of local axes system(2) not on beam axes, dist = 4.609328 !
+**** WARNING: Element 144 , N1 = 80, N2 = 85, X-Axes of local axes system(2) not parallel to beam axes, alfa = 39.805605 !
+**** WARNING: Element 144 , N1 = 80, N2 = 85, Center of local axes system(2) not on beam axes, dist = 4.609328 !
+**** WARNING: Element 145 , N1 = 85, N2 = 91, X-Axes of local axes system(2) not parallel to beam axes, alfa = 39.805605 !
+**** WARNING: Element 145 , N1 = 85, N2 = 91, Center of local axes system(2) not on beam axes, dist = 4.609328 !
+**** WARNING: Element 146 , N1 = 100, N2 = 102, X-Axes of local axes system(2) not parallel to beam axes, alfa = 39.805605 !
+**** WARNING: Element 146 , N1 = 100, N2 = 102, Center of local axes system(2) not on beam axes, dist = 2.304664 !
+**** WARNING: Element 147 , N1 = 102, N2 = 106, X-Axes of local axes system(2) not parallel to beam axes, alfa = 39.805605 !
+**** WARNING: Element 147 , N1 = 102, N2 = 106, Center of local axes system(2) not on beam axes, dist = 2.304664 !
+**** WARNING: Element 148 , N1 = 106, N2 = 110, X-Axes of local axes system(2) not parallel to beam axes, alfa = 39.805605 !
+**** WARNING: Element 148 , N1 = 106, N2 = 110, Center of local axes system(2) not on beam axes, dist = 2.304664 !
+**** WARNING: Element 149 , N1 = 110, N2 = 114, X-Axes of local axes system(2) not parallel to beam axes, alfa = 39.805605 !
+**** WARNING: Element 149 , N1 = 110, N2 = 114, Center of local axes system(2) not on beam axes, dist = 2.304664 !
+**** WARNING: Element 150 , N1 = 114, N2 = 120, X-Axes of local axes system(2) not parallel to beam axes, alfa = 39.805605 !
+**** WARNING: Element 150 , N1 = 114, N2 = 120, Center of local axes system(2) not on beam axes, dist = 2.304664 ! 
+ SAFIR version 2004x is running.
+ Please type "FILENAME" of "FILENAME.IN" :   SAFIR is allocating memory
+  SAFIR is in subroutine DONNEE
+  START OF RENUMBERING OF THE EQUATIONS
+              BY THE GEOMETRICAL METHOD.
+  nnodepart =            1
+  the length of the skyline is reduced to       51681
+
+ AFTER GEOMETRICAL PROGRESSION,
+   THE LENGTH OF THE SKYLINE IS     51681.
+ ----------------------------------------------
+  SAFIR has finished subroutine DONNEE
+
+ time =     12.00000 sec.
+
+ time =     24.00000 sec.
+
+ time =     36.00000 sec.
+
+ time =     60.00000 sec.
+ ITER = 2
+
+ time =     84.00000 sec.
+
+ time =    108.00000 sec.
+
+ time =    132.00000 sec.
+ ITER = 2
+
+ time =    156.00000 sec.
+
+ time =    180.00000 sec.
+
+ time =    204.00000 sec.
+ ITER = 2
+
+ time =    228.00000 sec.
+
+ time =    240.00000 sec.
+
+ THE STIFFNESS MATRIX HAS BEEN TRIANGULARISED    24 TIMES.
+"STRUCTURAL3DRES.exe creates Postprocessor-File for GID"
+
+Projekt:3dFachwerk1
+Opened: 3dFachwerk1.flavia.msh
+nNodes = 290, nBeam = 150, nShell = 0, nTruss = 0
+number of integration points for beams, NG = 2
+Cosed 3dFachwerk1.flavia.msh
+PRINTMN found
+Opened: 3dFachwerk1.flavia.res
+Generating output for GiD-PP :    TIME =    60.00000
+Generating output for GiD-PP :    TIME =   132.00000
+Generating output for GiD-PP :    TIME =   204.00000

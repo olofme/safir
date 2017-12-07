@@ -1,0 +1,184 @@
+InputFile created with GiD-SAFIR_2007 Interface
+Safir_Static_2D_Analysis
+Mesh_from_GID-Mesher
+
+     NNODE   59
+      NDIM    2
+   NDDLMAX    3
+EVERY_NODE    3
+      FROM     30   TO      30 STEP    1 NDDL    1
+      FROM     31   TO      31 STEP    1 NDDL    1
+      FROM     32   TO      32 STEP    1 NDDL    1
+      FROM     33   TO      33 STEP    1 NDDL    1
+      FROM     34   TO      34 STEP    1 NDDL    1
+      FROM     35   TO      35 STEP    1 NDDL    1
+      FROM     36   TO      36 STEP    1 NDDL    1
+      FROM     37   TO      37 STEP    1 NDDL    1
+      FROM     38   TO      38 STEP    1 NDDL    1
+      FROM     39   TO      39 STEP    1 NDDL    1
+      FROM     40   TO      40 STEP    1 NDDL    1
+      FROM     41   TO      41 STEP    1 NDDL    1
+      FROM     42   TO      42 STEP    1 NDDL    1
+      FROM     43   TO      43 STEP    1 NDDL    1
+      FROM     44   TO      44 STEP    1 NDDL    1
+      FROM     45   TO      45 STEP    1 NDDL    1
+      FROM     46   TO      46 STEP    1 NDDL    1
+      FROM     47   TO      47 STEP    1 NDDL    1
+      FROM     48   TO      48 STEP    1 NDDL    1
+      FROM     49   TO      49 STEP    1 NDDL    1
+      FROM     50   TO      50 STEP    1 NDDL    1
+      FROM     51   TO      51 STEP    1 NDDL    1
+      FROM     52   TO      52 STEP    1 NDDL    1
+      FROM     53   TO      53 STEP    1 NDDL    1
+      FROM     54   TO      54 STEP    1 NDDL    1
+      FROM     55   TO      55 STEP    1 NDDL    1
+      FROM     56   TO      56 STEP    1 NDDL    1
+      FROM     57   TO      57 STEP    1 NDDL    1
+      FROM     58   TO      58 STEP    1 NDDL    0
+      FROM     59   TO      59 STEP    1 NDDL    3
+  END_NDDL
+    STATIC   PURE_NR
+     NLOAD    1
+   OBLIQUE    1 
+  COMEBACK  1.0
+ RENUMGEO 1
+      NMAT    1
+  ELEMENTS
+      BEAM   28     2
+        NG 3
+    NFIBER 440
+  END_ELEM
+     NODES
+      NODE     1   12.0000    0.0000
+      NODE     2   11.7143    0.5714
+      NODE     3   11.4286    1.1429
+      NODE     4   11.1429    1.7143
+      NODE     5   10.8571    2.2857
+      NODE     6   10.5714    2.8571
+      NODE     7   10.2857    3.4286
+      NODE     8   10.0000    4.0000
+      NODE     9    9.3333    4.0000
+      NODE    10    8.6667    4.0000
+      NODE    11    8.0000    4.0000
+      NODE    12    7.3333    4.0000
+      NODE    13    6.6667    4.0000
+      NODE    14    6.0000    4.0000
+      NODE    15    5.3333    4.0000
+      NODE    16    4.6667    4.0000
+      NODE    17    4.0000    4.0000
+      NODE    18    3.3333    4.0000
+      NODE    19    2.6667    4.0000
+      NODE    20    2.0000    4.0000
+      NODE    21    1.3333    4.0000
+      NODE    22    0.0000    0.0000
+      NODE    23    0.6667    4.0000
+      NODE    24    0.0000    0.6667
+      NODE    25    0.0000    1.3333
+      NODE    26    0.0000    2.0000
+      NODE    27    0.0000    2.6667
+      NODE    28    0.0000    3.3333
+      NODE    29    0.0000    4.0000
+      NODE    30    0.0000    0.3333
+      NODE    31    0.0000    1.0000
+      NODE    32    0.0000    1.6667
+      NODE    33    0.0000    2.3333
+      NODE    34    0.0000    3.0000
+      NODE    35    0.0000    3.6667
+      NODE    36    0.3333    4.0000
+      NODE    37    1.0000    4.0000
+      NODE    38    1.6667    4.0000
+      NODE    39    2.3333    4.0000
+      NODE    40    3.0000    4.0000
+      NODE    41    3.6667    4.0000
+      NODE    42    4.3333    4.0000
+      NODE    43    5.0000    4.0000
+      NODE    44    5.6667    4.0000
+      NODE    45    6.3333    4.0000
+      NODE    46    7.0000    4.0000
+      NODE    47    7.6667    4.0000
+      NODE    48    8.3333    4.0000
+      NODE    49    9.0000    4.0000
+      NODE    50    9.6667    4.0000
+      NODE    51   10.1429    3.7143
+      NODE    52   10.4286    3.1429
+      NODE    53   10.7143    2.5714
+      NODE    54   11.0000    2.0000
+      NODE    55   11.2857    1.4286
+      NODE    56   11.5714    0.8571
+      NODE    57   11.8571    0.2857
+      NODE    58   13.0000    0.3000
+      NODE    59    0.0000    4.0000
+ FIXATIONS
+     BLOCK   22   F0   F0   F0
+  SAME	59 29 YES YES NO
+   END_FIX
+ NODOFBEAM
+HEB220B1.tem
+ TRANSLATE    1    1
+ END_TRANS
+IPE550B1.tem
+ TRANSLATE    1    1
+ END_TRANS
+      ELEM    1   22   30   24    1
+      ELEM    2   24   31   25    1
+      ELEM    3   25   32   26    1
+      ELEM    4   26   33   27    1
+      ELEM    5   27   34   28    1
+      ELEM    6   28   35   29    1
+      ELEM    7   59   36   23    2
+      ELEM    8   23   37   21    2
+      ELEM    9   21   38   20    2
+      ELEM   10   20   39   19    2
+      ELEM   11   19   40   18    2
+      ELEM   12   18   41   17    2
+      ELEM   13   17   42   16    2
+      ELEM   14   16   43   15    2
+      ELEM   15   15   44   14    2
+      ELEM   16   14   45   13    2
+      ELEM   17   13   46   12    2
+      ELEM   18   12   47   11    2
+      ELEM   19   11   48   10    2
+      ELEM   20   10   49    9    2
+      ELEM   21    9   50    8    2
+      ELEM   22    8   51    7    1
+      ELEM   23    7   52    6    1
+      ELEM   24    6   53    5    1
+      ELEM   25    5   54    4    1
+      ELEM   26    4   55    3    1
+      ELEM   27    3   56    2    1
+      ELEM   28    2   57    1    1
+    INCLIN    1   58
+END_INCLIN
+PRECISION 1.0e-3
+     LOADS
+  FUNCTION        F1
+ DISTRBEAM     7 0.000000 -20000.000000
+ DISTRBEAM     8 0.000000 -20000.000000
+ DISTRBEAM     9 0.000000 -20000.000000
+ DISTRBEAM    10 0.000000 -20000.000000
+ DISTRBEAM    11 0.000000 -20000.000000
+ DISTRBEAM    12 0.000000 -20000.000000
+ DISTRBEAM    13 0.000000 -20000.000000
+ DISTRBEAM    14 0.000000 -20000.000000
+ DISTRBEAM    15 0.000000 -20000.000000
+ DISTRBEAM    16 0.000000 -20000.000000
+ DISTRBEAM    17 0.000000 -20000.000000
+ DISTRBEAM    18 0.000000 -20000.000000
+ DISTRBEAM    19 0.000000 -20000.000000
+ DISTRBEAM    20 0.000000 -20000.000000
+ DISTRBEAM    21 0.000000 -20000.000000
+  END_LOAD
+ MATERIALS
+STEELEC3
+           2.10e+11   3.00e-01   2.45e+08  1200.  0.
+      TIME
+      12.0      240.0
+   ENDTIME
+     EPSTH
+IMPRESSION
+ TIMEPRINT
+      60.0      240.0
+END_TIMEPR
+PRINTREACT
+   PRINTMN
+

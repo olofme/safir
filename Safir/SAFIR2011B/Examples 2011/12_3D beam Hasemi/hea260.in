@@ -1,0 +1,302 @@
+Profile: HE 260 A       Type: HE
+Fire curve: HASEMI - Exposed Faces:1 1 1 1
+Protected with: (None) 0 mm  0 mm  0 mm;
+
+     NNODE  102
+      NDIM    2
+   NDDLMAX    1
+      FROM    1   TO  102 STEP    1 NDDL    1
+  END_NDDL
+  TEMPERAT
+      TETA       0.9
+  TINITIAL      20.0
+MAKE.TEMHA
+building.in
+ BEAM_TYPE    1
+   NORENUM
+      NMAT    1
+  ELEMENTS
+     SOLID   54
+        NG    2
+     NVOID    0
+  END_ELEM
+     NODES
+      NODE    1    0.1250   -0.1300
+      NODE    2    0.1250   -0.1162
+      NODE    3    0.1250   -0.1024
+      NODE    4    0.1250   -0.0886
+      NODE    5    0.1250   -0.0747
+      NODE    6    0.1250   -0.0609
+      NODE    7    0.1250   -0.0471
+      NODE    8    0.1250   -0.0333
+      NODE    9    0.1250   -0.0195
+      NODE   10    0.1250   -0.0038
+      NODE   11    0.1250    0.0038
+      NODE   12    0.1250    0.0195
+      NODE   13    0.1250    0.0333
+      NODE   14    0.1250    0.0471
+      NODE   15    0.1250    0.0609
+      NODE   16    0.1250    0.0747
+      NODE   17    0.1250    0.0886
+      NODE   18    0.1250    0.1024
+      NODE   19    0.1250    0.1162
+      NODE   20    0.1250    0.1300
+      NODE   21    0.1125   -0.1300
+      NODE   22    0.1125   -0.1162
+      NODE   23    0.1125   -0.1024
+      NODE   24    0.1125   -0.0886
+      NODE   25    0.1125   -0.0747
+      NODE   26    0.1125   -0.0609
+      NODE   27    0.1125   -0.0471
+      NODE   28    0.1125   -0.0333
+      NODE   29    0.1125   -0.0195
+      NODE   30    0.1125   -0.0038
+      NODE   31    0.1125    0.0038
+      NODE   32    0.1125    0.0195
+      NODE   33    0.1125    0.0333
+      NODE   34    0.1125    0.0471
+      NODE   35    0.1125    0.0609
+      NODE   36    0.1125    0.0747
+      NODE   37    0.1125    0.0886
+      NODE   38    0.1125    0.1024
+      NODE   39    0.1125    0.1162
+      NODE   40    0.1125    0.1300
+      NODE   41    0.0968   -0.0038
+      NODE   42    0.0968    0.0038
+      NODE   43    0.0774   -0.0038
+      NODE   44    0.0774    0.0038
+      NODE   45    0.0581   -0.0038
+      NODE   46    0.0581    0.0038
+      NODE   47    0.0387   -0.0038
+      NODE   48    0.0387    0.0038
+      NODE   49    0.0194   -0.0038
+      NODE   50    0.0194    0.0038
+      NODE   51    0.0000   -0.0038
+      NODE   52    0.0000    0.0038
+      NODE   53   -0.0194   -0.0038
+      NODE   54   -0.0194    0.0038
+      NODE   55   -0.0387   -0.0038
+      NODE   56   -0.0387    0.0038
+      NODE   57   -0.0581   -0.0038
+      NODE   58   -0.0581    0.0038
+      NODE   59   -0.0774   -0.0038
+      NODE   60   -0.0774    0.0038
+      NODE   61   -0.0968   -0.0038
+      NODE   62   -0.0968    0.0038
+      NODE   63   -0.1125   -0.1300
+      NODE   64   -0.1125   -0.1162
+      NODE   65   -0.1125   -0.1024
+      NODE   66   -0.1125   -0.0886
+      NODE   67   -0.1125   -0.0747
+      NODE   68   -0.1125   -0.0609
+      NODE   69   -0.1125   -0.0471
+      NODE   70   -0.1125   -0.0333
+      NODE   71   -0.1125   -0.0195
+      NODE   72   -0.1125   -0.0038
+      NODE   73   -0.1125    0.0038
+      NODE   74   -0.1125    0.0195
+      NODE   75   -0.1125    0.0333
+      NODE   76   -0.1125    0.0471
+      NODE   77   -0.1125    0.0609
+      NODE   78   -0.1125    0.0747
+      NODE   79   -0.1125    0.0886
+      NODE   80   -0.1125    0.1024
+      NODE   81   -0.1125    0.1162
+      NODE   82   -0.1125    0.1300
+      NODE   83   -0.1250   -0.1300
+      NODE   84   -0.1250   -0.1162
+      NODE   85   -0.1250   -0.1024
+      NODE   86   -0.1250   -0.0886
+      NODE   87   -0.1250   -0.0747
+      NODE   88   -0.1250   -0.0609
+      NODE   89   -0.1250   -0.0471
+      NODE   90   -0.1250   -0.0333
+      NODE   91   -0.1250   -0.0195
+      NODE   92   -0.1250   -0.0038
+      NODE   93   -0.1250    0.0038
+      NODE   94   -0.1250    0.0195
+      NODE   95   -0.1250    0.0333
+      NODE   96   -0.1250    0.0471
+      NODE   97   -0.1250    0.0609
+      NODE   98   -0.1250    0.0747
+      NODE   99   -0.1250    0.0886
+      NODE  100   -0.1250    0.1024
+      NODE  101   -0.1250    0.1162
+      NODE  102   -0.1250    0.1300
+  NODELINE              0         0
+     YC_ZC              0         0
+ FIXATIONS
+   END_FIX
+NODOFSOLID
+      ELEM    1    1   21   22    2    1   0.
+      ELEM    2    2   22   23    3    1   0.
+      ELEM    3    3   23   24    4    1   0.
+      ELEM    4    4   24   25    5    1   0.
+      ELEM    5    5   25   26    6    1   0.
+      ELEM    6    6   26   27    7    1   0.
+      ELEM    7    7   27   28    8    1   0.
+      ELEM    8    8   28   29    9    1   0.
+      ELEM    9    9   29   30   10    1   0.
+      ELEM   10   10   30   31   11    1   0.
+      ELEM   11   11   31   32   12    1   0.
+      ELEM   12   12   32   33   13    1   0.
+      ELEM   13   13   33   34   14    1   0.
+      ELEM   14   14   34   35   15    1   0.
+      ELEM   15   15   35   36   16    1   0.
+      ELEM   16   16   36   37   17    1   0.
+      ELEM   17   17   37   38   18    1   0.
+      ELEM   18   18   38   39   19    1   0.
+      ELEM   19   19   39   40   20    1   0.
+      ELEM   20   29   41   30    0    1   0.
+      ELEM   21   30   41   42   31    1   0.
+      ELEM   22   31   42   32    0    1   0.
+      ELEM   23   41   43   44   42    1   0.
+      ELEM   24   43   45   46   44    1   0.
+      ELEM   25   45   47   48   46    1   0.
+      ELEM   26   47   49   50   48    1   0.
+      ELEM   27   49   51   52   50    1   0.
+      ELEM   28   51   53   54   52    1   0.
+      ELEM   29   53   55   56   54    1   0.
+      ELEM   30   55   57   58   56    1   0.
+      ELEM   31   57   59   60   58    1   0.
+      ELEM   32   59   61   62   60    1   0.
+      ELEM   33   61   71   72    0    1   0.
+      ELEM   34   61   72   73   62    1   0.
+      ELEM   35   62   73   74    0    1   0.
+      ELEM   36   63   83   84   64    1   0.
+      ELEM   37   64   84   85   65    1   0.
+      ELEM   38   65   85   86   66    1   0.
+      ELEM   39   66   86   87   67    1   0.
+      ELEM   40   67   87   88   68    1   0.
+      ELEM   41   68   88   89   69    1   0.
+      ELEM   42   69   89   90   70    1   0.
+      ELEM   43   70   90   91   71    1   0.
+      ELEM   44   71   91   92   72    1   0.
+      ELEM   45   72   92   93   73    1   0.
+      ELEM   46   73   93   94   74    1   0.
+      ELEM   47   74   94   95   75    1   0.
+      ELEM   48   75   95   96   76    1   0.
+      ELEM   49   76   96   97   77    1   0.
+      ELEM   50   77   97   98   78    1   0.
+      ELEM   51   78   98   99   79    1   0.
+      ELEM   52   79   99  100   80    1   0.
+      ELEM   53   80  100  101   81    1   0.
+      ELEM   54   81  101  102   82    1   0.
+  FRONTIER
+   FLUX   1      HASEMI          NO          NO          NO
+   FLUX   1          NO      HASEMI          NO          NO
+   FLUX   2          NO      HASEMI          NO          NO
+   FLUX   3          NO      HASEMI          NO          NO
+   FLUX   4          NO      HASEMI          NO          NO
+   FLUX   5          NO      HASEMI          NO          NO
+   FLUX   6          NO      HASEMI          NO          NO
+   FLUX   7          NO      HASEMI          NO          NO
+   FLUX   8          NO      HASEMI          NO          NO
+   FLUX  20      HASEMI          NO          NO          NO
+   FLUX  23      HASEMI          NO          NO          NO
+   FLUX  24      HASEMI          NO          NO          NO
+   FLUX  25      HASEMI          NO          NO          NO
+   FLUX  26      HASEMI          NO          NO          NO
+   FLUX  27      HASEMI          NO          NO          NO
+   FLUX  28      HASEMI          NO          NO          NO
+   FLUX  29      HASEMI          NO          NO          NO
+   FLUX  30      HASEMI          NO          NO          NO
+   FLUX  31      HASEMI          NO          NO          NO
+   FLUX  32      HASEMI          NO          NO          NO
+   FLUX  33      HASEMI          NO          NO          NO
+   FLUX  36          NO          NO          NO      HASEMI
+   FLUX  37          NO          NO          NO      HASEMI
+   FLUX  38          NO          NO          NO      HASEMI
+   FLUX  39          NO          NO          NO      HASEMI
+   FLUX  40          NO          NO          NO      HASEMI
+   FLUX  41          NO          NO          NO      HASEMI
+   FLUX  42          NO          NO          NO      HASEMI
+   FLUX  43          NO          NO          NO      HASEMI
+   FLUX  36      HASEMI          NO          NO          NO
+   FLUX  36          NO      HASEMI          NO          NO
+   FLUX  37          NO      HASEMI          NO          NO
+   FLUX  38          NO      HASEMI          NO          NO
+   FLUX  39          NO      HASEMI          NO          NO
+   FLUX  40          NO      HASEMI          NO          NO
+   FLUX  41          NO      HASEMI          NO          NO
+   FLUX  42          NO      HASEMI          NO          NO
+   FLUX  43          NO      HASEMI          NO          NO
+   FLUX  44          NO      HASEMI          NO          NO
+   FLUX  45          NO      HASEMI          NO          NO
+   FLUX  46          NO      HASEMI          NO          NO
+   FLUX  47          NO      HASEMI          NO          NO
+   FLUX  48          NO      HASEMI          NO          NO
+   FLUX  49          NO      HASEMI          NO          NO
+   FLUX  50          NO      HASEMI          NO          NO
+   FLUX  51          NO      HASEMI          NO          NO
+   FLUX  52          NO      HASEMI          NO          NO
+   FLUX  53          NO      HASEMI          NO          NO
+   FLUX  54          NO      HASEMI          NO          NO
+   FLUX  19          NO          NO      HASEMI          NO
+   FLUX  19          NO      HASEMI          NO          NO
+   FLUX  18          NO      HASEMI          NO          NO
+   FLUX  17          NO      HASEMI          NO          NO
+   FLUX  16          NO      HASEMI          NO          NO
+   FLUX  15          NO      HASEMI          NO          NO
+   FLUX  14          NO      HASEMI          NO          NO
+   FLUX  13          NO      HASEMI          NO          NO
+   FLUX  12          NO      HASEMI          NO          NO
+   FLUX  22          NO      HASEMI          NO          NO
+   FLUX  23          NO          NO      HASEMI          NO
+   FLUX  24          NO          NO      HASEMI          NO
+   FLUX  25          NO          NO      HASEMI          NO
+   FLUX  26          NO          NO      HASEMI          NO
+   FLUX  27          NO          NO      HASEMI          NO
+   FLUX  28          NO          NO      HASEMI          NO
+   FLUX  29          NO          NO      HASEMI          NO
+   FLUX  30          NO          NO      HASEMI          NO
+   FLUX  31          NO          NO      HASEMI          NO
+   FLUX  32          NO          NO      HASEMI          NO
+   FLUX  35          NO          NO      HASEMI          NO
+   FLUX  47          NO          NO          NO      HASEMI
+   FLUX  48          NO          NO          NO      HASEMI
+   FLUX  49          NO          NO          NO      HASEMI
+   FLUX  50          NO          NO          NO      HASEMI
+   FLUX  51          NO          NO          NO      HASEMI
+   FLUX  52          NO          NO          NO      HASEMI
+   FLUX  53          NO          NO          NO      HASEMI
+   FLUX  54          NO          NO          NO      HASEMI
+   FLUX  54          NO          NO      HASEMI          NO
+   FLUX   1          NO          NO          NO      HASEMI
+   FLUX   2          NO          NO          NO      HASEMI
+   FLUX   3          NO          NO          NO      HASEMI
+   FLUX   4          NO          NO          NO      HASEMI
+   FLUX   5          NO          NO          NO      HASEMI
+   FLUX   6          NO          NO          NO      HASEMI
+   FLUX   7          NO          NO          NO      HASEMI
+   FLUX   8          NO          NO          NO      HASEMI
+   FLUX   9          NO          NO          NO      HASEMI
+   FLUX  10          NO          NO          NO      HASEMI
+   FLUX  11          NO          NO          NO      HASEMI
+   FLUX  12          NO          NO          NO      HASEMI
+   FLUX  13          NO          NO          NO      HASEMI
+   FLUX  14          NO          NO          NO      HASEMI
+   FLUX  15          NO          NO          NO      HASEMI
+   FLUX  16          NO          NO          NO      HASEMI
+   FLUX  17          NO          NO          NO      HASEMI
+   FLUX  18          NO          NO          NO      HASEMI
+   FLUX  19          NO          NO          NO      HASEMI
+ END_FRONT
+  SYMMETRY
+   END_SYM
+ PRECISION     1.E-3
+ MATERIALS
+  STEELEC3EN
+                 25.        4.      0.70
+      TIME
+                 12.     1500.
+                 15.     1800.
+                 20.     2700.
+                 30.     3600.
+  END_TIME
+IMPRESSION
+ TIMEPRINT
+                 60.     1800.
+                120.     3600.
+END_TIMEPR
+

@@ -1,0 +1,75 @@
+
+Structural2dfix converts .dat-file to .in-file
+ 
+ SAFIR version 2004x is running.
+ Please type "FILENAME" of "FILENAME.IN" :   SAFIR is allocating memory
+  SAFIR is in subroutine DONNEE
+  START OF RENUMBERING OF THE EQUATIONS
+              BY THE GEOMETRICAL METHOD.
+  nnodepart =            1
+  the length of the skyline is reduced to        4044
+
+ AFTER GEOMETRICAL PROGRESSION,
+   THE LENGTH OF THE SKYLINE IS      4044.
+ ----------------------------------------------
+  SAFIR has finished subroutine DONNEE
+
+ time =     12.00000 sec.
+
+ time =     24.00000 sec.
+
+ time =     36.00000 sec.
+
+ time =     48.00000 sec.
+
+ time =     60.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.99999
+ 
+
+ time =     72.00000 sec.
+
+ time =     84.00000 sec.
+
+ time =     96.00000 sec.
+
+ time =    108.00000 sec.
+
+ time =    120.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.99999
+ 
+
+ time =    132.00000 sec.
+
+ time =    144.00000 sec.
+
+ time =    156.00000 sec.
+
+ time =    168.00000 sec.
+
+ time =    180.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.99999
+ 
+
+ time =    192.00000 sec.
+
+ time =    204.00000 sec.
+
+ time =    216.00000 sec.
+
+ time =    228.00000 sec.
+
+ time =    240.00000 sec.
+ ITER = 2, RELATIVE EIGEN VALUE =  0.99999
+ 
+
+ THE STIFFNESS MATRIX HAS BEEN TRIANGULARISED    40 TIMES.
+
+Creating GiD Postprocessor file: 2dFachwerk.flavia.res
+nNodes = 170, nBeam = 88, nTruss = 0
+Number of integration points for beams, NG = 3
+====================================================
+
+Generating output for GiD-PP :    TIME =    60.00000
+Generating output for GiD-PP :    TIME =   120.00000
+Generating output for GiD-PP :    TIME =   180.00000
+Generating output for GiD-PP :    TIME =   240.00000

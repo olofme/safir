@@ -1,0 +1,43 @@
+cond Point-Constraints
+4
+global
+(cond(2,int)>0)&&(cond(3,int)>0)&&(cond(4,int)>0)
+1
+0
+0
+symbols/apoio-empotrat.geo
+global
+(cond(2,int)>0)&&(cond(3,int)>0)&&(cond(4,int)==0)
+1
+0
+0
+symbols/apoio.geo
+global
+cond(3,int)
+1
+0
+0
+symbols/apoio-rodillo.geo
+global
+cond(2,int)
+0
+1
+0
+symbols/apoio-rodillo.geo
+cond Point-Load
+1
+global
+1
+cond(real,1)
+cond(real,2)
+0
+fletxa.geo
+cond Beam-Load
+1
+global
+1
+cond(real,1)
+cond(real,2)
+0.
+symbols/Normal2.geo
+
